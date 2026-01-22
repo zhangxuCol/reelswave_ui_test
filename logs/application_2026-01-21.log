@@ -1,0 +1,383 @@
+2026-01-21 10:38:17,140 - utils.logger_utils - INFO - ==================================================
+2026-01-21 10:38:17,141 - utils.logger_utils - INFO - 开始个人中心页面遍历测试
+2026-01-21 10:38:17,141 - utils.logger_utils - INFO - ==================================================
+2026-01-21 10:38:17,141 - utils.logger_utils - INFO - 正在打开浏览器...
+2026-01-21 10:38:17,141 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-21 10:38:17,175 - utils.logger_utils - INFO - 端口 9223 未被占用
+2026-01-21 10:38:21,963 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-21 10:38:21,964 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-21 10:38:21,965 - utils.logger_utils - INFO - 导航到个人中心页面...
+2026-01-21 10:38:22,804 - utils.logger_utils - INFO - 等待页面加载...
+2026-01-21 10:38:24,806 - utils.logger_utils - INFO - 页面加载完成
+2026-01-21 10:38:25,587 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/profile
+2026-01-21 10:38:25,588 - utils.logger_utils - INFO - 页面标题: Profile - Short Drama Selection
+2026-01-21 10:38:25,627 - utils.logger_utils - INFO - 页面容器已加载
+2026-01-21 10:38:25,627 - utils.logger_utils - INFO - 创建个人中心遍历测试实例...
+2026-01-21 10:38:25,628 - utils.logger_utils - INFO - 开始遍历个人中心页面元素...
+2026-01-21 10:38:25,628 - utils.logger_utils - INFO - 开始遍历页面元素: Profile
+2026-01-21 10:38:25,628 - utils.logger_utils - INFO - 等待页面加载完成...
+2026-01-21 10:38:27,633 - utils.logger_utils - INFO - 页面加载完成
+2026-01-21 10:38:27,639 - utils.logger_utils - INFO - 页面容器已加载
+2026-01-21 10:38:27,639 - utils.logger_utils - INFO - 保存页面HTML: Profile
+2026-01-21 10:38:27,653 - utils.logger_utils - INFO - HTML内容长度: 23914 字符
+2026-01-21 10:38:27,653 - utils.logger_utils - INFO - HTML已保存到: html_files/profile.html
+2026-01-21 10:38:27,653 - utils.logger_utils - INFO - 开始从HTML文件提取可交互元素: html_files/profile.html
+2026-01-21 10:38:27,653 - utils.logger_utils - INFO - HTML文件大小: 23918 字节
+2026-01-21 10:38:27,653 - utils.logger_utils - INFO - 开始解析HTML文件: html_files/profile.html
+2026-01-21 10:38:27,653 - utils.logger_utils - INFO - 开始解析HTML内容，长度: 23914 字符
+2026-01-21 10:38:27,656 - utils.logger_utils - INFO - HTML中共有 101 个元素
+2026-01-21 10:38:27,657 - utils.logger_utils - INFO - 共找到 58 个可交互元素
+2026-01-21 10:38:27,657 - utils.logger_utils - INFO - 成功提取 58 个可交互元素
+2026-01-21 10:38:27,657 - utils.logger_utils - INFO - 元素 1: 名称=link, CSS路径=[document] > html.dark > head > link:nth-child(1)
+2026-01-21 10:38:27,657 - utils.logger_utils - INFO - 元素 2: 名称=link, CSS路径=[document] > html.dark > head > link:nth-child(2)
+2026-01-21 10:38:27,657 - utils.logger_utils - INFO - 元素 3: 名称=link, CSS路径=[document] > html.dark > head > link:nth-child(3)
+2026-01-21 10:38:27,657 - utils.logger_utils - INFO - 元素 4: 名称=link, CSS路径=[document] > html.dark > head > link:nth-child(4)
+2026-01-21 10:38:27,657 - utils.logger_utils - INFO - 元素 5: 名称=link, CSS路径=[document] > html.dark > head > link:nth-child(5)
+2026-01-21 10:38:27,657 - utils.logger_utils - INFO - 还有 53 个元素...
+2026-01-21 10:38:27,657 - utils.logger_utils - INFO - 找到 58 个可交互元素
+2026-01-21 10:38:27,657 - utils.logger_utils - INFO - 尝试点击元素: link ([document] > html.dark > head > link:nth-child(1))
+2026-01-21 10:38:27,657 - utils.logger_utils - INFO - 返回到主页面: https://video.reelswave.net/profile
+2026-01-21 10:38:27,657 - utils.logger_utils - INFO - 正在导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:38:28,873 - utils.logger_utils - INFO - 成功导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:38:30,878 - utils.logger_utils - INFO - 页面加载完成
+2026-01-21 10:38:40,880 - utils.logger_utils - ERROR - 点击元素 [document] > html.dark > head > link:nth-child(1) 时出错: 
+No element found.
+Method: ele()
+Arguments: {'locator': '[document] > html.dark > head > link:nth-child(1)', 'index': 1, 'timeout': 10}
+Version: 4.1.1.2
+2026-01-21 10:38:40,880 - utils.logger_utils - ERROR - 点击元素 link 时出错: 
+No element found.
+Method: ele()
+Arguments: {'locator': '[document] > html.dark > head > link:nth-child(1)', 'index': 1, 'timeout': 10}
+Version: 4.1.1.2
+2026-01-21 10:38:40,880 - utils.logger_utils - INFO - 返回到主页面: https://video.reelswave.net/profile
+2026-01-21 10:38:40,880 - utils.logger_utils - INFO - 正在导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:38:42,104 - utils.logger_utils - INFO - 成功导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:38:44,106 - utils.logger_utils - INFO - 页面加载完成
+2026-01-21 10:38:44,106 - utils.logger_utils - INFO - 尝试点击元素: link ([document] > html.dark > head > link:nth-child(2))
+2026-01-21 10:38:44,107 - utils.logger_utils - INFO - 返回到主页面: https://video.reelswave.net/profile
+2026-01-21 10:38:44,107 - utils.logger_utils - INFO - 正在导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:38:44,817 - utils.logger_utils - INFO - 成功导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:38:46,818 - utils.logger_utils - INFO - 页面加载完成
+2026-01-21 10:38:56,826 - utils.logger_utils - ERROR - 点击元素 [document] > html.dark > head > link:nth-child(2) 时出错: 
+No element found.
+Method: ele()
+Arguments: {'locator': '[document] > html.dark > head > link:nth-child(2)', 'index': 1, 'timeout': 10}
+Version: 4.1.1.2
+2026-01-21 10:38:56,826 - utils.logger_utils - ERROR - 点击元素 link 时出错: 
+No element found.
+Method: ele()
+Arguments: {'locator': '[document] > html.dark > head > link:nth-child(2)', 'index': 1, 'timeout': 10}
+Version: 4.1.1.2
+2026-01-21 10:38:56,826 - utils.logger_utils - INFO - 返回到主页面: https://video.reelswave.net/profile
+2026-01-21 10:38:56,827 - utils.logger_utils - INFO - 正在导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:38:58,004 - utils.logger_utils - INFO - 成功导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:39:00,009 - utils.logger_utils - INFO - 页面加载完成
+2026-01-21 10:39:00,009 - utils.logger_utils - INFO - 尝试点击元素: link ([document] > html.dark > head > link:nth-child(3))
+2026-01-21 10:39:00,009 - utils.logger_utils - INFO - 返回到主页面: https://video.reelswave.net/profile
+2026-01-21 10:39:00,010 - utils.logger_utils - INFO - 正在导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:39:00,650 - utils.logger_utils - INFO - 成功导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:39:02,655 - utils.logger_utils - INFO - 页面加载完成
+2026-01-21 10:39:12,664 - utils.logger_utils - ERROR - 点击元素 [document] > html.dark > head > link:nth-child(3) 时出错: 
+No element found.
+Method: ele()
+Arguments: {'locator': '[document] > html.dark > head > link:nth-child(3)', 'index': 1, 'timeout': 10}
+Version: 4.1.1.2
+2026-01-21 10:39:12,664 - utils.logger_utils - ERROR - 点击元素 link 时出错: 
+No element found.
+Method: ele()
+Arguments: {'locator': '[document] > html.dark > head > link:nth-child(3)', 'index': 1, 'timeout': 10}
+Version: 4.1.1.2
+2026-01-21 10:39:12,665 - utils.logger_utils - INFO - 返回到主页面: https://video.reelswave.net/profile
+2026-01-21 10:39:12,665 - utils.logger_utils - INFO - 正在导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:39:13,920 - utils.logger_utils - INFO - 成功导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:39:15,925 - utils.logger_utils - INFO - 页面加载完成
+2026-01-21 10:39:15,925 - utils.logger_utils - INFO - 尝试点击元素: link ([document] > html.dark > head > link:nth-child(4))
+2026-01-21 10:39:15,926 - utils.logger_utils - INFO - 返回到主页面: https://video.reelswave.net/profile
+2026-01-21 10:39:15,926 - utils.logger_utils - INFO - 正在导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:39:16,571 - utils.logger_utils - INFO - 成功导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:39:18,574 - utils.logger_utils - INFO - 页面加载完成
+2026-01-21 10:39:28,585 - utils.logger_utils - ERROR - 点击元素 [document] > html.dark > head > link:nth-child(4) 时出错: 
+No element found.
+Method: ele()
+Arguments: {'locator': '[document] > html.dark > head > link:nth-child(4)', 'index': 1, 'timeout': 10}
+Version: 4.1.1.2
+2026-01-21 10:39:28,585 - utils.logger_utils - ERROR - 点击元素 link 时出错: 
+No element found.
+Method: ele()
+Arguments: {'locator': '[document] > html.dark > head > link:nth-child(4)', 'index': 1, 'timeout': 10}
+Version: 4.1.1.2
+2026-01-21 10:39:28,585 - utils.logger_utils - INFO - 返回到主页面: https://video.reelswave.net/profile
+2026-01-21 10:39:28,585 - utils.logger_utils - INFO - 正在导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:39:29,812 - utils.logger_utils - INFO - 成功导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:39:31,815 - utils.logger_utils - INFO - 页面加载完成
+2026-01-21 10:39:31,815 - utils.logger_utils - INFO - 尝试点击元素: link ([document] > html.dark > head > link:nth-child(5))
+2026-01-21 10:39:31,815 - utils.logger_utils - INFO - 返回到主页面: https://video.reelswave.net/profile
+2026-01-21 10:39:31,815 - utils.logger_utils - INFO - 正在导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:39:32,447 - utils.logger_utils - INFO - 成功导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:39:34,451 - utils.logger_utils - INFO - 页面加载完成
+2026-01-21 10:39:44,454 - utils.logger_utils - ERROR - 点击元素 [document] > html.dark > head > link:nth-child(5) 时出错: 
+No element found.
+Method: ele()
+Arguments: {'locator': '[document] > html.dark > head > link:nth-child(5)', 'index': 1, 'timeout': 10}
+Version: 4.1.1.2
+2026-01-21 10:39:44,454 - utils.logger_utils - ERROR - 点击元素 link 时出错: 
+No element found.
+Method: ele()
+Arguments: {'locator': '[document] > html.dark > head > link:nth-child(5)', 'index': 1, 'timeout': 10}
+Version: 4.1.1.2
+2026-01-21 10:39:44,454 - utils.logger_utils - INFO - 返回到主页面: https://video.reelswave.net/profile
+2026-01-21 10:39:44,454 - utils.logger_utils - INFO - 正在导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:39:45,719 - utils.logger_utils - INFO - 成功导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:39:47,723 - utils.logger_utils - INFO - 页面加载完成
+2026-01-21 10:39:47,723 - utils.logger_utils - INFO - 尝试点击元素: link ([document] > html.dark > head > link:nth-child(6))
+2026-01-21 10:39:47,724 - utils.logger_utils - INFO - 返回到主页面: https://video.reelswave.net/profile
+2026-01-21 10:39:47,724 - utils.logger_utils - INFO - 正在导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:39:48,370 - utils.logger_utils - INFO - 成功导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:39:50,373 - utils.logger_utils - INFO - 页面加载完成
+2026-01-21 10:40:00,383 - utils.logger_utils - ERROR - 点击元素 [document] > html.dark > head > link:nth-child(6) 时出错: 
+No element found.
+Method: ele()
+Arguments: {'locator': '[document] > html.dark > head > link:nth-child(6)', 'index': 1, 'timeout': 10}
+Version: 4.1.1.2
+2026-01-21 10:40:00,383 - utils.logger_utils - ERROR - 点击元素 link 时出错: 
+No element found.
+Method: ele()
+Arguments: {'locator': '[document] > html.dark > head > link:nth-child(6)', 'index': 1, 'timeout': 10}
+Version: 4.1.1.2
+2026-01-21 10:40:00,383 - utils.logger_utils - INFO - 返回到主页面: https://video.reelswave.net/profile
+2026-01-21 10:40:00,384 - utils.logger_utils - INFO - 正在导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:40:01,590 - utils.logger_utils - INFO - 成功导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:40:03,593 - utils.logger_utils - INFO - 页面加载完成
+2026-01-21 10:40:03,594 - utils.logger_utils - INFO - 尝试点击元素: link ([document] > html.dark > head > link:nth-child(7))
+2026-01-21 10:40:03,594 - utils.logger_utils - INFO - 返回到主页面: https://video.reelswave.net/profile
+2026-01-21 10:40:03,594 - utils.logger_utils - INFO - 正在导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:40:04,227 - utils.logger_utils - INFO - 成功导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:40:06,232 - utils.logger_utils - INFO - 页面加载完成
+2026-01-21 10:40:16,236 - utils.logger_utils - ERROR - 点击元素 [document] > html.dark > head > link:nth-child(7) 时出错: 
+No element found.
+Method: ele()
+Arguments: {'locator': '[document] > html.dark > head > link:nth-child(7)', 'index': 1, 'timeout': 10}
+Version: 4.1.1.2
+2026-01-21 10:40:16,236 - utils.logger_utils - ERROR - 点击元素 link 时出错: 
+No element found.
+Method: ele()
+Arguments: {'locator': '[document] > html.dark > head > link:nth-child(7)', 'index': 1, 'timeout': 10}
+Version: 4.1.1.2
+2026-01-21 10:40:16,236 - utils.logger_utils - INFO - 返回到主页面: https://video.reelswave.net/profile
+2026-01-21 10:40:16,237 - utils.logger_utils - INFO - 正在导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:40:17,437 - utils.logger_utils - INFO - 成功导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:40:19,443 - utils.logger_utils - INFO - 页面加载完成
+2026-01-21 10:40:19,443 - utils.logger_utils - INFO - 尝试点击元素: link ([document] > html.dark > head > link:nth-child(8))
+2026-01-21 10:40:19,443 - utils.logger_utils - INFO - 返回到主页面: https://video.reelswave.net/profile
+2026-01-21 10:40:19,443 - utils.logger_utils - INFO - 正在导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:40:20,081 - utils.logger_utils - INFO - 成功导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:40:22,087 - utils.logger_utils - INFO - 页面加载完成
+2026-01-21 10:40:32,094 - utils.logger_utils - ERROR - 点击元素 [document] > html.dark > head > link:nth-child(8) 时出错: 
+No element found.
+Method: ele()
+Arguments: {'locator': '[document] > html.dark > head > link:nth-child(8)', 'index': 1, 'timeout': 10}
+Version: 4.1.1.2
+2026-01-21 10:40:32,094 - utils.logger_utils - ERROR - 点击元素 link 时出错: 
+No element found.
+Method: ele()
+Arguments: {'locator': '[document] > html.dark > head > link:nth-child(8)', 'index': 1, 'timeout': 10}
+Version: 4.1.1.2
+2026-01-21 10:40:32,094 - utils.logger_utils - INFO - 返回到主页面: https://video.reelswave.net/profile
+2026-01-21 10:40:32,094 - utils.logger_utils - INFO - 正在导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:40:33,315 - utils.logger_utils - INFO - 成功导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:40:35,320 - utils.logger_utils - INFO - 页面加载完成
+2026-01-21 10:40:35,321 - utils.logger_utils - INFO - 尝试点击元素: link ([document] > html.dark > head > link:nth-child(9))
+2026-01-21 10:40:35,321 - utils.logger_utils - INFO - 返回到主页面: https://video.reelswave.net/profile
+2026-01-21 10:40:35,321 - utils.logger_utils - INFO - 正在导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:40:35,988 - utils.logger_utils - INFO - 成功导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:40:37,990 - utils.logger_utils - INFO - 页面加载完成
+2026-01-21 10:40:48,004 - utils.logger_utils - ERROR - 点击元素 [document] > html.dark > head > link:nth-child(9) 时出错: 
+No element found.
+Method: ele()
+Arguments: {'locator': '[document] > html.dark > head > link:nth-child(9)', 'index': 1, 'timeout': 10}
+Version: 4.1.1.2
+2026-01-21 10:40:48,004 - utils.logger_utils - ERROR - 点击元素 link 时出错: 
+No element found.
+Method: ele()
+Arguments: {'locator': '[document] > html.dark > head > link:nth-child(9)', 'index': 1, 'timeout': 10}
+Version: 4.1.1.2
+2026-01-21 10:40:48,004 - utils.logger_utils - INFO - 返回到主页面: https://video.reelswave.net/profile
+2026-01-21 10:40:48,004 - utils.logger_utils - INFO - 正在导航到URL: https://video.reelswave.net/profile
+2026-01-21 10:40:49,273 - utils.logger_utils - INFO - 成功导航到URL: https://video.reelswave.net/profile
+2026-01-21 11:27:08,925 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-21 11:27:08,960 - utils.logger_utils - INFO - 端口 9223 未被占用
+2026-01-21 11:27:12,790 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-21 11:27:12,823 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-21 11:27:12,824 - utils.logger_utils - INFO - 初始化个人中心页面组件
+2026-01-21 11:28:03,099 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-21 11:28:03,155 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 10121, 名称: Google
+2026-01-21 11:28:03,155 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 10121
+2026-01-21 11:28:07,893 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-21 11:28:07,929 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-21 11:28:07,930 - utils.logger_utils - INFO - 初始化个人中心页面组件
+2026-01-21 11:29:02,411 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-21 11:29:02,453 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 10203, 名称: Google
+2026-01-21 11:29:02,453 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 10203
+2026-01-21 11:29:07,521 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-21 11:29:07,522 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-21 11:29:07,522 - utils.logger_utils - INFO - 初始化个人中心页面组件
+2026-01-21 11:29:27,737 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 11:29:27,738 - utils.logger_utils - INFO - 点击返回按钮
+2026-01-21 11:29:47,950 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 11:29:47,950 - utils.logger_utils - INFO - 点击充值按钮
+2026-01-21 11:30:08,168 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 11:30:08,168 - utils.logger_utils - INFO - 点击返回按钮
+2026-01-21 11:30:28,389 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 11:30:28,390 - utils.logger_utils - INFO - 点击交易历史链接
+2026-01-21 11:30:48,614 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 11:30:48,615 - utils.logger_utils - INFO - 点击返回按钮
+2026-01-21 11:31:08,829 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 11:31:08,831 - utils.logger_utils - INFO - 点击我的列表和历史记录链接
+2026-01-21 11:31:29,042 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 11:31:29,042 - utils.logger_utils - INFO - 点击返回按钮
+2026-01-21 11:31:49,254 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 11:31:49,257 - utils.logger_utils - INFO - 点击联系我们链接
+2026-01-21 11:32:09,467 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 11:32:09,467 - utils.logger_utils - INFO - 点击返回按钮
+2026-01-21 11:32:29,682 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 11:32:29,683 - utils.logger_utils - INFO - 点击设置链接
+2026-01-21 11:32:49,894 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 11:32:49,895 - utils.logger_utils - INFO - 点击返回按钮
+2026-01-21 13:50:49,096 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-21 13:50:49,149 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 10267, 名称: Google
+2026-01-21 13:50:49,150 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 10267
+2026-01-21 13:50:56,403 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-21 13:50:56,405 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-21 13:50:56,406 - utils.logger_utils - INFO - 初始化个人中心页面组件
+2026-01-21 13:50:56,406 - utils.logger_utils - INFO - 正在导航到URL: https://video.reelswave.net/profile
+2026-01-21 13:50:57,092 - utils.logger_utils - INFO - 成功导航到URL: https://video.reelswave.net/profile
+2026-01-21 13:51:17,310 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 13:51:17,312 - utils.logger_utils - INFO - 点击返回按钮
+2026-01-21 13:51:37,535 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 13:51:37,537 - utils.logger_utils - INFO - 点击充值按钮
+2026-01-21 13:51:57,765 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 13:51:57,767 - utils.logger_utils - INFO - 点击返回按钮
+2026-01-21 13:52:17,985 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 13:52:17,987 - utils.logger_utils - INFO - 点击交易历史链接
+2026-01-21 13:52:38,200 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 13:52:38,202 - utils.logger_utils - INFO - 点击返回按钮
+2026-01-21 13:52:58,406 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 13:52:58,407 - utils.logger_utils - INFO - 点击我的列表和历史记录链接
+2026-01-21 13:53:18,638 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 13:53:18,639 - utils.logger_utils - INFO - 点击返回按钮
+2026-01-21 13:53:38,871 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 13:53:38,872 - utils.logger_utils - INFO - 点击联系我们链接
+2026-01-21 13:53:59,097 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 13:53:59,098 - utils.logger_utils - INFO - 点击返回按钮
+2026-01-21 13:54:19,322 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 13:54:19,323 - utils.logger_utils - INFO - 点击设置链接
+2026-01-21 13:54:31,096 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-21 13:54:31,141 - utils.logger_utils - INFO - 端口 9223 未被占用
+2026-01-21 13:54:34,831 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-21 13:54:34,832 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-21 13:54:34,832 - utils.logger_utils - INFO - 初始化个人中心页面组件
+2026-01-21 13:54:34,832 - utils.logger_utils - INFO - 正在导航到URL: https://video.reelswave.net/profile
+2026-01-21 13:54:35,426 - utils.logger_utils - INFO - 成功导航到URL: https://video.reelswave.net/profile
+2026-01-21 13:54:55,637 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 13:54:55,637 - utils.logger_utils - INFO - 点击充值按钮
+2026-01-21 13:55:15,860 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 13:55:15,861 - utils.logger_utils - INFO - 点击返回按钮
+2026-01-21 13:55:36,085 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 13:55:36,087 - utils.logger_utils - INFO - 点击交易历史链接
+2026-01-21 13:55:56,299 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 13:55:56,300 - utils.logger_utils - INFO - 点击返回按钮
+2026-01-21 13:56:16,516 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 13:56:16,516 - utils.logger_utils - INFO - 点击我的列表和历史记录链接
+2026-01-21 13:56:36,725 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 13:56:36,726 - utils.logger_utils - INFO - 点击返回按钮
+2026-01-21 13:56:56,950 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 13:56:56,951 - utils.logger_utils - INFO - 点击联系我们链接
+2026-01-21 13:57:17,167 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 13:57:17,169 - utils.logger_utils - INFO - 点击返回按钮
+2026-01-21 13:57:37,391 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 13:57:37,392 - utils.logger_utils - INFO - 点击设置链接
+2026-01-21 13:57:57,612 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 13:57:57,612 - utils.logger_utils - INFO - 点击返回按钮
+2026-01-21 14:25:30,326 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-21 14:25:30,386 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 13223, 名称: Google
+2026-01-21 14:25:30,386 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 13223
+2026-01-21 14:25:35,730 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-21 14:25:35,732 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-21 14:25:35,732 - utils.logger_utils - INFO - 初始化个人中心页面组件
+2026-01-21 14:25:35,732 - utils.logger_utils - INFO - 正在导航到URL: https://video.reelswave.net/profile
+2026-01-21 14:25:36,364 - utils.logger_utils - INFO - 成功导航到URL: https://video.reelswave.net/profile
+2026-01-21 14:25:56,622 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 14:25:56,623 - utils.logger_utils - INFO - 点击充值按钮
+2026-01-21 14:26:16,844 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 14:26:16,844 - utils.logger_utils - INFO - 点击返回按钮
+2026-01-21 14:26:37,068 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 14:26:37,068 - utils.logger_utils - INFO - 点击交易历史链接
+2026-01-21 14:26:57,284 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 14:26:57,284 - utils.logger_utils - INFO - 点击返回按钮
+2026-01-21 14:27:17,504 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 14:27:17,504 - utils.logger_utils - INFO - 点击我的列表和历史记录链接
+2026-01-21 14:27:37,736 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 14:27:37,737 - utils.logger_utils - INFO - 点击返回按钮
+2026-01-21 14:27:57,946 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 14:27:57,946 - utils.logger_utils - INFO - 点击联系我们链接
+2026-01-21 14:28:18,155 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 14:28:18,156 - utils.logger_utils - INFO - 点击返回按钮
+2026-01-21 14:28:38,379 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 14:28:38,379 - utils.logger_utils - INFO - 点击设置链接
+2026-01-21 14:28:58,585 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 14:28:58,585 - utils.logger_utils - INFO - 点击返回按钮
+2026-01-21 14:34:46,797 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-21 14:34:46,851 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 14102, 名称: Google
+2026-01-21 14:34:46,851 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 14102
+2026-01-21 14:34:53,286 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-21 14:34:53,328 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-21 14:34:53,329 - utils.logger_utils - INFO - 初始化个人中心页面组件
+2026-01-21 14:34:53,330 - utils.logger_utils - INFO - 正在导航到URL: https://video.reelswave.net/profile
+2026-01-21 14:34:54,079 - utils.logger_utils - INFO - 成功导航到URL: https://video.reelswave.net/profile
+2026-01-21 14:34:56,724 - utils.logger_utils - INFO - 成功点击元素: xpath://div[text()='Top UP']
+2026-01-21 14:34:56,724 - utils.logger_utils - INFO - 点击充值按钮
+2026-01-21 14:35:16,947 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 14:35:16,948 - utils.logger_utils - INFO - 点击返回按钮
+2026-01-21 14:35:17,169 - utils.logger_utils - INFO - 成功点击元素: xpath://span[text()='Transaction History']/parent::div
+2026-01-21 14:35:17,169 - utils.logger_utils - INFO - 点击交易历史链接
+2026-01-21 14:35:37,389 - utils.logger_utils - ERROR - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-01-21 14:35:37,389 - utils.logger_utils - INFO - 点击返回按钮
+2026-01-21 14:35:37,614 - utils.logger_utils - INFO - 成功点击元素: xpath://span[text()='My List & History']/parent::div
+2026-01-21 14:35:37,614 - utils.logger_utils - INFO - 点击我的列表和历史记录链接
+2026-01-21 14:37:15,060 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-21 14:37:15,103 - utils.logger_utils - INFO - 端口 9223 未被占用
+2026-01-21 14:37:19,220 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-21 14:37:19,221 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-21 14:37:19,222 - utils.logger_utils - INFO - 初始化个人中心页面组件
+2026-01-21 14:37:19,222 - utils.logger_utils - INFO - 正在导航到URL: https://video.reelswave.net/profile
+2026-01-21 14:37:20,345 - utils.logger_utils - INFO - 成功导航到URL: https://video.reelswave.net/profile
+2026-01-21 14:37:20,986 - utils.logger_utils - INFO - 成功点击元素: xpath://div[text()='Top UP']
+2026-01-21 14:37:20,987 - utils.logger_utils - INFO - 点击充值按钮
+2026-01-21 14:48:55,161 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-21 14:48:55,215 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 14538, 名称: Google
+2026-01-21 14:48:55,216 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 14538
+2026-01-21 14:49:00,316 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-21 14:49:00,317 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-21 14:49:00,317 - utils.logger_utils - INFO - 初始化个人中心页面组件
+2026-01-21 14:49:00,317 - utils.logger_utils - INFO - 正在导航到URL: https://video.reelswave.net/profile
+2026-01-21 14:49:00,906 - utils.logger_utils - INFO - 成功导航到URL: https://video.reelswave.net/profile
+2026-01-21 14:49:00,907 - utils.logger_utils - INFO - 获取充值按钮
+2026-01-21 14:54:20,221 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-21 14:54:20,275 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 14809, 名称: Google
+2026-01-21 14:54:20,275 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 14809
+2026-01-21 14:55:21,270 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-21 14:55:21,272 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-21 14:55:21,272 - utils.logger_utils - INFO - 初始化个人中心页面组件
+2026-01-21 14:55:21,272 - utils.logger_utils - INFO - 正在导航到URL: https://video.reelswave.net/profile
+2026-01-21 14:55:22,006 - utils.logger_utils - INFO - 成功导航到URL: https://video.reelswave.net/profile
+2026-01-21 14:55:22,006 - utils.logger_utils - INFO - 获取充值按钮
+2026-01-21 15:03:38,544 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-21 15:03:38,599 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 14995, 名称: Google
+2026-01-21 15:03:38,599 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 14995
+2026-01-21 15:03:44,327 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-21 15:03:44,375 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-21 15:03:44,376 - utils.logger_utils - INFO - 初始化个人中心页面组件
+2026-01-21 15:03:44,376 - utils.logger_utils - INFO - 正在导航到URL: https://video.reelswave.net/profile
+2026-01-21 15:03:45,072 - utils.logger_utils - INFO - 成功导航到URL: https://video.reelswave.net/profile
+2026-01-21 15:03:45,072 - utils.logger_utils - INFO - 获取充值按钮

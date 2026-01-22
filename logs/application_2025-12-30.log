@@ -1,0 +1,160 @@
+2025-12-30 18:13:48,200 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2025-12-30 18:13:48,201 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2025-12-30 18:13:51,951 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2025-12-30 18:13:51,951 - utils.logger_utils - INFO - 当前轮播图标题: CEO baby
+2025-12-30 18:14:02,193 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2025-12-30 18:14:02,650 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2025-12-30 18:14:02,872 - utils.logger_utils - INFO - 播放器菜单已打开
+2025-12-30 18:14:03,090 - utils.logger_utils - INFO - 执行暂停操作成功
+2025-12-30 18:14:05,324 - utils.logger_utils - INFO - 播放器菜单已打开
+2025-12-30 18:14:05,780 - utils.logger_utils - INFO - 打开首页成功
+2025-12-30 18:14:11,243 - utils.logger_utils - INFO - 退出首页成功
+2025-12-30 18:14:41,262 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2025-12-30 18:14:41,937 - utils.logger_utils - INFO - 播放器菜单已打开
+2025-12-30 18:14:42,393 - utils.logger_utils - INFO - 播放器聚合页打开成功
+2025-12-30 18:22:50,277 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2025-12-30 18:22:50,278 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2025-12-30 18:22:54,707 - utils.logger_utils - INFO - 轮播图标题: ['Wake Up Dad! Wedding Time', 'The Thief Lover', 'CEO baby']
+2025-12-30 18:22:54,707 - utils.logger_utils - INFO - 当前轮播图标题: Wake Up Dad! Wedding Time
+2025-12-30 18:23:09,955 - utils.logger_utils - ERROR - 定位播放器失败：
+没有找到元素。
+方法: ele()
+参数: {'locator': 'css:.prism-player', 'index': 1, 'timeout': 5}
+版本: 4.1.1.2
+2025-12-30 18:23:13,938 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2025-12-30 18:23:13,939 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2025-12-30 18:23:16,761 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2025-12-30 18:23:16,761 - utils.logger_utils - INFO - 当前轮播图标题: CEO baby
+2025-12-30 18:23:27,008 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2025-12-30 18:23:27,465 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2025-12-30 18:23:27,700 - utils.logger_utils - INFO - 播放器菜单已打开
+2025-12-30 18:23:27,942 - utils.logger_utils - INFO - 执行暂停操作成功
+2025-12-30 18:23:30,179 - utils.logger_utils - INFO - 播放器菜单已打开
+2025-12-30 18:23:30,642 - utils.logger_utils - INFO - 打开首页成功
+2025-12-30 18:23:36,108 - utils.logger_utils - INFO - 退出首页成功
+2025-12-30 18:24:06,130 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2025-12-30 18:24:06,805 - utils.logger_utils - INFO - 播放器菜单已打开
+2025-12-30 18:24:07,260 - utils.logger_utils - INFO - 播放器聚合页打开成功
+2025-12-30 18:26:52,806 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2025-12-30 18:26:52,812 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2025-12-30 18:26:58,233 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2025-12-30 18:26:58,233 - utils.logger_utils - INFO - 当前轮播图标题: CEO baby
+2025-12-30 18:27:08,481 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2025-12-30 18:27:08,937 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2025-12-30 18:27:09,160 - utils.logger_utils - INFO - 播放器菜单已打开
+2025-12-30 18:27:09,392 - utils.logger_utils - INFO - 执行暂停操作成功
+2025-12-30 18:27:11,620 - utils.logger_utils - INFO - 播放器菜单已打开
+2025-12-30 18:27:12,069 - utils.logger_utils - INFO - 打开首页成功
+2025-12-30 18:27:17,535 - utils.logger_utils - INFO - 退出首页成功
+2025-12-30 18:27:47,558 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2025-12-30 18:27:48,235 - utils.logger_utils - INFO - 播放器菜单已打开
+2025-12-30 18:27:48,699 - utils.logger_utils - INFO - 播放器聚合页打开成功
+2025-12-30 18:28:31,639 - utils.logger_utils - ERROR - 定位菜单失败（ElementNotFound）：
+没有找到元素。
+方法: ele()
+参数: {'locator': 'css:.flex-1.text-xxl svg.icon-svg.icon[fill]', 'index': 1, 'timeout': 10}
+版本: 4.1.1.2
+2025-12-30 18:31:29,972 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2025-12-30 18:31:29,974 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2025-12-30 18:31:33,397 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2025-12-30 18:31:33,397 - utils.logger_utils - INFO - 开始执行剧首页测试
+2025-12-30 18:31:33,397 - utils.logger_utils - INFO - 开始剧首页测试
+2025-12-30 18:31:36,122 - utils.logger_utils - INFO - 打开剧首页
+2025-12-30 18:31:36,122 - utils.logger_utils - INFO - 测试点击返回按钮
+2025-12-30 18:31:46,054 - utils.logger_utils - ERROR - 元素未找到: div.gap-sm > svg
+2025-12-30 18:31:48,057 - utils.logger_utils - INFO - 测试点击Home按钮
+2025-12-30 18:31:58,065 - utils.logger_utils - ERROR - 元素未找到: svg.filter-drop-shadow-\[0_0_1px_\#000c\] > path
+2025-12-30 18:32:00,071 - utils.logger_utils - INFO - 测试点击个人中心按钮
+2025-12-30 18:32:10,080 - utils.logger_utils - ERROR - 元素未找到: div.gap-sm path:nth-of-type(2)
+2025-12-30 18:32:12,086 - utils.logger_utils - INFO - 回到剧首页
+2025-12-30 18:32:13,852 - utils.logger_utils - ERROR - 无法回到剧首页
+2025-12-30 18:32:15,857 - utils.logger_utils - INFO - 测试点击去看剧按钮
+2025-12-30 18:32:25,871 - utils.logger_utils - ERROR - 元素未找到: div.button-primary
+2025-12-30 18:32:27,876 - utils.logger_utils - INFO - 回到剧首页
+2025-12-30 18:32:28,676 - utils.logger_utils - ERROR - 无法回到剧首页
+2025-12-30 18:32:30,681 - utils.logger_utils - INFO - 测试点击添加收藏按钮
+2025-12-30 18:34:59,077 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2025-12-30 18:34:59,079 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2025-12-30 18:35:01,768 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2025-12-30 18:35:01,768 - utils.logger_utils - INFO - 开始执行剧首页测试
+2025-12-30 18:35:01,768 - utils.logger_utils - INFO - 开始剧首页测试
+2025-12-30 18:35:02,326 - utils.logger_utils - INFO - 打开剧首页
+2025-12-30 18:35:02,327 - utils.logger_utils - INFO - 测试点击返回按钮
+2025-12-30 18:35:12,328 - utils.logger_utils - ERROR - 元素未找到: div.gap-sm > svg
+2025-12-30 18:36:01,728 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2025-12-30 18:36:01,730 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2025-12-30 18:36:04,713 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2025-12-30 18:36:04,713 - utils.logger_utils - INFO - 开始执行剧首页测试
+2025-12-30 18:36:04,713 - utils.logger_utils - INFO - 开始剧首页测试
+2025-12-30 18:36:05,858 - utils.logger_utils - INFO - 打开剧首页
+2025-12-30 18:36:05,858 - utils.logger_utils - INFO - 测试点击返回按钮
+2025-12-30 18:37:17,743 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2025-12-30 18:37:17,745 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2025-12-30 18:37:20,273 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2025-12-30 18:37:20,273 - utils.logger_utils - INFO - 开始执行剧首页测试
+2025-12-30 18:37:20,273 - utils.logger_utils - INFO - 开始剧首页测试
+2025-12-30 18:37:20,834 - utils.logger_utils - INFO - 打开剧首页
+2025-12-30 18:37:34,130 - utils.logger_utils - INFO - 测试点击返回按钮
+2025-12-30 19:08:04,856 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2025-12-30 19:08:04,857 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2025-12-30 19:08:09,545 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2025-12-30 19:08:09,545 - utils.logger_utils - INFO - 开始执行剧首页测试
+2025-12-30 19:08:09,545 - utils.logger_utils - INFO - 开始剧首页测试
+2025-12-30 19:08:11,315 - utils.logger_utils - INFO - 打开剧首页
+2025-12-30 19:08:11,316 - utils.logger_utils - INFO - 测试点击返回按钮
+2025-12-30 19:08:11,986 - utils.logger_utils - ERROR - 元素未找到: div.gap-sm > svg
+2025-12-30 19:08:13,991 - utils.logger_utils - INFO - 测试点击Home按钮
+2025-12-30 19:08:13,999 - utils.logger_utils - ERROR - 元素未找到: svg.filter-drop-shadow-\[0_0_1px_\#000c\] > path
+2025-12-30 19:08:16,002 - utils.logger_utils - INFO - 测试点击个人中心按钮
+2025-12-30 19:08:16,008 - utils.logger_utils - ERROR - 元素未找到: div.gap-sm path:nth-of-type(2)
+2025-12-30 19:08:18,013 - utils.logger_utils - INFO - 回到剧首页
+2025-12-30 19:08:28,817 - utils.logger_utils - ERROR - 无法回到剧首页
+2025-12-30 19:08:30,823 - utils.logger_utils - INFO - 测试点击去看剧按钮
+2025-12-30 19:24:25,257 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2025-12-30 19:24:25,258 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2025-12-30 19:24:29,547 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2025-12-30 19:24:29,547 - utils.logger_utils - INFO - 开始执行剧首页测试
+2025-12-30 19:24:29,547 - utils.logger_utils - INFO - 开始剧首页测试
+2025-12-30 19:24:30,982 - utils.logger_utils - INFO - 打开剧首页
+2025-12-30 19:24:30,982 - utils.logger_utils - INFO - 测试点击返回按钮
+2025-12-30 19:24:31,125 - utils.logger_utils - ERROR - 元素未找到: div.gap-sm > svg
+2025-12-30 19:24:33,129 - utils.logger_utils - INFO - 测试点击Home按钮
+2025-12-30 19:24:33,374 - utils.logger_utils - INFO - 成功点击元素: svg.filter-drop-shadow-\[0_0_1px_\#000c\] > path
+2025-12-30 19:24:35,379 - utils.logger_utils - INFO - 测试点击个人中心按钮
+2025-12-30 19:24:36,996 - utils.logger_utils - ERROR - 点击元素失败: 
+该元素没有位置及大小。
+版本: 4.1.1.2
+2025-12-30 19:24:39,001 - utils.logger_utils - INFO - 回到剧首页
+2025-12-30 19:24:40,088 - utils.logger_utils - ERROR - 无法回到剧首页
+2025-12-30 19:25:10,489 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2025-12-30 19:25:10,490 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2025-12-30 19:25:12,275 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2025-12-30 19:25:12,275 - utils.logger_utils - INFO - 开始执行剧首页测试
+2025-12-30 19:25:12,275 - utils.logger_utils - INFO - 开始剧首页测试
+2025-12-30 19:25:12,814 - utils.logger_utils - INFO - 打开剧首页
+2025-12-30 19:25:12,814 - utils.logger_utils - INFO - 测试点击返回按钮
+2025-12-30 19:25:12,944 - utils.logger_utils - ERROR - 元素未找到: div.gap-sm > svg
+2025-12-30 19:25:30,364 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2025-12-30 19:25:30,365 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2025-12-30 19:25:33,330 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2025-12-30 19:25:33,330 - utils.logger_utils - INFO - 开始执行剧首页测试
+2025-12-30 19:25:33,331 - utils.logger_utils - INFO - 开始剧首页测试
+2025-12-30 19:25:34,268 - utils.logger_utils - INFO - 打开剧首页
+2025-12-30 19:25:34,268 - utils.logger_utils - INFO - 测试点击返回按钮
+2025-12-30 19:25:34,451 - utils.logger_utils - ERROR - 元素未找到: div.gap-sm > svg
+2025-12-30 19:26:05,401 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2025-12-30 19:26:05,403 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2025-12-30 19:26:07,513 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2025-12-30 19:26:07,514 - utils.logger_utils - INFO - 开始执行剧首页测试
+2025-12-30 19:26:07,514 - utils.logger_utils - INFO - 开始剧首页测试
+2025-12-30 19:26:08,058 - utils.logger_utils - INFO - 打开剧首页
+2025-12-30 19:26:38,063 - utils.logger_utils - INFO - 测试点击返回按钮
+2025-12-30 19:26:38,304 - utils.logger_utils - INFO - 成功点击元素: div.gap-sm > svg
+2025-12-30 19:28:32,138 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2025-12-30 19:28:32,140 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2025-12-30 19:28:34,706 - utils.logger_utils - INFO - 轮播图标题: ['Wake Up Dad! Wedding Time', 'The Thief Lover', 'CEO baby']
+2025-12-30 19:28:34,706 - utils.logger_utils - INFO - 开始执行剧首页测试
+2025-12-30 19:28:34,706 - utils.logger_utils - INFO - 开始剧首页测试
+2025-12-30 19:28:35,250 - utils.logger_utils - INFO - 打开剧首页
+2025-12-30 19:29:05,256 - utils.logger_utils - INFO - 测试点击返回按钮
+2025-12-30 19:29:05,718 - utils.logger_utils - INFO - 成功点击元素: div.gap-sm > svg

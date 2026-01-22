@@ -1,0 +1,91 @@
+{
+    "title": "2026/1/21 10:20:31 录制的内容",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1350,
+            "height": 1202,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://video-test.reelswave.net/profile",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://video-test.reelswave.net/profile",
+                    "title": "Profile - Short Drama Selection"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    ""
+                ]
+            ],
+            "offsetY": 21.25,
+            "offsetX": 20.140625
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.px-xl > div:nth-of-type(2) > div"
+                ]
+            ],
+            "offsetY": 46.515625,
+            "offsetX": 79.6875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(1) > span"
+                ]
+            ],
+            "offsetY": 28.125,
+            "offsetX": 174
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.items-stretch > div:nth-of-type(2) > span"
+                ]
+            ],
+            "offsetY": 29.875,
+            "offsetX": 114
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(3) > span"
+                ]
+            ],
+            "offsetY": 29.625,
+            "offsetX": 103
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(4) > span"
+                ]
+            ],
+            "offsetY": 12.375,
+            "offsetX": 62
+        }
+    ]
+}

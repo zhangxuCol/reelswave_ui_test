@@ -1,0 +1,31 @@
+# 忽略上级目录的系统文件
+../.DS_Store
+        ../.gitignore
+        ../InterfaceAutoTest/
+        ../InterfaceTest/
+        ../NFT/
+        ../NFT_zsw/
+        ../djangoprojects/
+        ../exit
+        ../flask_study/
+        ../pyprojects/
+        ../qichacha/
+        ../re_17K/
+        ../readerAppium/
+        PAGE_TRAVERSAL_README.md
+        PROFILE_TRAVERSAL_GUIDE.md
+        components/
+        config/
+        html_files/
+        logs/
+        page/
+        recordjson/
+        retest/
+        utils/
+        ../restart/
+        ../study/
+        ../study_django/
+        ../yexiang.zip
+        ../yexiang/
+
+../*

@@ -1,0 +1,1671 @@
+2026-01-05 10:10:33,158 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 10:10:33,192 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 7537, 名称: Google
+2026-01-05 10:10:33,192 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 7537
+2026-01-05 10:10:42,608 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 10:10:42,610 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 10:10:44,158 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:10:44,158 - utils.logger_utils - ERROR - 等待页面元素加载时出错: 'ChromiumPage' object has no attribute 'wait_for_load_state'
+2026-01-05 10:10:44,159 - utils.logger_utils - INFO - 初始化剧首页测试类
+2026-01-05 10:10:44,159 - utils.logger_utils - INFO - 开始运行所有剧首页测试
+2026-01-05 10:10:44,159 - utils.logger_utils - INFO - 测试点击返回按钮
+2026-01-05 10:10:45,252 - utils.logger_utils - INFO - 成功点击元素: css:div.gap-sm > svg
+2026-01-05 10:10:48,318 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:10:48,318 - utils.logger_utils - ERROR - 等待页面元素加载时出错: 'ChromiumPage' object has no attribute 'wait_for_load_state'
+2026-01-05 10:10:48,318 - utils.logger_utils - INFO - 测试点击Home按钮
+2026-01-05 10:10:49,435 - utils.logger_utils - INFO - 成功点击元素: css:svg.filter-drop-shadow-\[0_0_1px_\#000c\] > path
+2026-01-05 10:10:52,434 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:10:52,434 - utils.logger_utils - ERROR - 等待页面元素加载时出错: 'ChromiumPage' object has no attribute 'wait_for_load_state'
+2026-01-05 10:10:52,435 - utils.logger_utils - INFO - 测试点击个人中心按钮
+2026-01-05 10:10:53,697 - utils.logger_utils - INFO - 成功点击元素: css:div.gap-sm path:nth-of-type(2)
+2026-01-05 10:10:56,650 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:10:56,651 - utils.logger_utils - ERROR - 等待页面元素加载时出错: 'ChromiumPage' object has no attribute 'wait_for_load_state'
+2026-01-05 10:10:56,651 - utils.logger_utils - INFO - 测试点击去看剧按钮
+2026-01-05 10:10:57,804 - utils.logger_utils - INFO - 成功点击元素: css:div.button-primary
+2026-01-05 10:11:01,108 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:11:01,109 - utils.logger_utils - ERROR - 等待页面元素加载时出错: 'ChromiumPage' object has no attribute 'wait_for_load_state'
+2026-01-05 10:11:01,109 - utils.logger_utils - INFO - 测试点击添加收藏按钮
+2026-01-05 10:11:02,267 - utils.logger_utils - INFO - 成功点击元素: css:div.button
+2026-01-05 10:11:05,194 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:11:05,195 - utils.logger_utils - ERROR - 等待页面元素加载时出错: 'ChromiumPage' object has no attribute 'wait_for_load_state'
+2026-01-05 10:11:05,195 - utils.logger_utils - INFO - 测试点击取消收藏按钮
+2026-01-05 10:11:06,335 - utils.logger_utils - INFO - 成功点击元素: css:div.button
+2026-01-05 10:11:09,267 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:11:09,267 - utils.logger_utils - ERROR - 等待页面元素加载时出错: 'ChromiumPage' object has no attribute 'wait_for_load_state'
+2026-01-05 10:11:09,267 - utils.logger_utils - INFO - 测试详情的展开和收起
+2026-01-05 10:11:10,432 - utils.logger_utils - INFO - 获取元素文本: More
+2026-01-05 10:11:10,432 - utils.logger_utils - INFO - 短剧简介初始状态: More
+2026-01-05 10:11:10,669 - utils.logger_utils - INFO - 成功点击短剧简介，切换展开/收起状态
+2026-01-05 10:11:11,685 - utils.logger_utils - INFO - 获取元素文本: Fold
+2026-01-05 10:11:11,686 - utils.logger_utils - INFO - 点击后短剧简介状态: More
+2026-01-05 10:11:11,686 - utils.logger_utils - INFO - 成功验证短剧简介展开/收起功能
+2026-01-05 10:11:11,931 - utils.logger_utils - INFO - 成功点击短剧简介，切换展开/收起状态
+2026-01-05 10:11:11,931 - utils.logger_utils - INFO - 成功验证短剧简介收起功能
+2026-01-05 10:11:12,848 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:11:12,849 - utils.logger_utils - ERROR - 等待页面元素加载时出错: 'ChromiumPage' object has no attribute 'wait_for_load_state'
+2026-01-05 10:11:12,849 - utils.logger_utils - INFO - 测试点击随机一集免费剧集
+2026-01-05 10:11:12,952 - utils.logger_utils - ERROR - 未找到任何免费剧集！
+2026-01-05 10:11:15,907 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:11:15,908 - utils.logger_utils - ERROR - 等待页面元素加载时出错: 'ChromiumPage' object has no attribute 'wait_for_load_state'
+2026-01-05 10:11:15,908 - utils.logger_utils - INFO - 剧首页所有测试完成
+2026-01-05 10:14:24,085 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 10:14:24,120 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 11820, 名称: Google
+2026-01-05 10:14:24,120 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 11820
+2026-01-05 10:14:30,656 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 10:14:30,660 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 10:14:31,771 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:14:31,772 - utils.logger_utils - ERROR - 等待页面元素加载时出错: 'ChromiumPage' object has no attribute 'wait_for_load_state'
+2026-01-05 10:14:31,772 - utils.logger_utils - INFO - 初始化剧首页测试类
+2026-01-05 10:14:31,772 - utils.logger_utils - INFO - 开始运行所有剧首页测试
+2026-01-05 10:14:31,772 - utils.logger_utils - INFO - 测试点击返回按钮
+2026-01-05 10:14:33,001 - utils.logger_utils - INFO - 成功点击元素: css:div.gap-sm > svg
+2026-01-05 10:14:36,770 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:14:36,771 - utils.logger_utils - ERROR - 等待页面元素加载时出错: 'ChromiumPage' object has no attribute 'wait_for_load_state'
+2026-01-05 10:14:36,771 - utils.logger_utils - INFO - 测试点击Home按钮
+2026-01-05 10:14:37,035 - utils.logger_utils - INFO - 成功点击元素: svg.filter-drop-shadow-\[0_0_1px_\#000c\] > path
+2026-01-05 10:14:40,073 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:14:40,074 - utils.logger_utils - ERROR - 等待页面元素加载时出错: 'ChromiumPage' object has no attribute 'wait_for_load_state'
+2026-01-05 10:14:40,074 - utils.logger_utils - INFO - 测试点击个人中心按钮
+2026-01-05 10:14:41,316 - utils.logger_utils - INFO - 成功点击元素: css:div.gap-sm path:nth-of-type(2)
+2026-01-05 10:14:44,286 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:14:44,287 - utils.logger_utils - ERROR - 等待页面元素加载时出错: 'ChromiumPage' object has no attribute 'wait_for_load_state'
+2026-01-05 10:14:44,287 - utils.logger_utils - INFO - 测试点击去看剧按钮
+2026-01-05 10:14:45,410 - utils.logger_utils - INFO - 成功点击元素: css:div.button-primary
+2026-01-05 10:14:48,700 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:14:48,701 - utils.logger_utils - ERROR - 等待页面元素加载时出错: 'ChromiumPage' object has no attribute 'wait_for_load_state'
+2026-01-05 10:14:48,701 - utils.logger_utils - INFO - 测试点击添加收藏按钮
+2026-01-05 10:14:49,844 - utils.logger_utils - INFO - 成功点击元素: css:div.button
+2026-01-05 10:14:52,806 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:14:52,807 - utils.logger_utils - ERROR - 等待页面元素加载时出错: 'ChromiumPage' object has no attribute 'wait_for_load_state'
+2026-01-05 10:14:52,807 - utils.logger_utils - INFO - 测试点击取消收藏按钮
+2026-01-05 10:14:53,928 - utils.logger_utils - INFO - 成功点击元素: css:div.button
+2026-01-05 10:14:56,853 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:14:56,853 - utils.logger_utils - ERROR - 等待页面元素加载时出错: 'ChromiumPage' object has no attribute 'wait_for_load_state'
+2026-01-05 10:14:56,854 - utils.logger_utils - INFO - 测试详情的展开和收起
+2026-01-05 10:14:57,989 - utils.logger_utils - INFO - 获取元素文本: More
+2026-01-05 10:14:57,989 - utils.logger_utils - INFO - 短剧简介初始状态: More
+2026-01-05 10:14:58,225 - utils.logger_utils - INFO - 成功点击短剧简介，切换展开/收起状态
+2026-01-05 10:14:59,244 - utils.logger_utils - INFO - 获取元素文本: Fold
+2026-01-05 10:14:59,244 - utils.logger_utils - INFO - 点击后短剧简介状态: More
+2026-01-05 10:14:59,244 - utils.logger_utils - INFO - 成功验证短剧简介展开/收起功能
+2026-01-05 10:14:59,492 - utils.logger_utils - INFO - 成功点击短剧简介，切换展开/收起状态
+2026-01-05 10:14:59,492 - utils.logger_utils - INFO - 成功验证短剧简介收起功能
+2026-01-05 10:15:00,396 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:15:00,396 - utils.logger_utils - ERROR - 等待页面元素加载时出错: 'ChromiumPage' object has no attribute 'wait_for_load_state'
+2026-01-05 10:15:00,396 - utils.logger_utils - INFO - 测试点击随机一集免费剧集
+2026-01-05 10:15:00,508 - utils.logger_utils - ERROR - 未找到任何免费剧集！
+2026-01-05 10:15:03,434 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:15:03,434 - utils.logger_utils - ERROR - 等待页面元素加载时出错: 'ChromiumPage' object has no attribute 'wait_for_load_state'
+2026-01-05 10:15:03,434 - utils.logger_utils - INFO - 剧首页所有测试完成
+2026-01-05 10:25:29,124 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 10:25:29,158 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 11964, 名称: Google
+2026-01-05 10:25:29,158 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 11964
+2026-01-05 10:25:34,657 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 10:25:34,659 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 10:25:35,643 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:25:36,649 - utils.logger_utils - INFO - 等待页面开始加载
+2026-01-05 10:25:38,682 - utils.logger_utils - INFO - 所有关键元素加载完成
+2026-01-05 10:25:39,684 - utils.logger_utils - INFO - 剧首页所有元素加载完成
+2026-01-05 10:25:39,685 - utils.logger_utils - INFO - 初始化剧首页测试类
+2026-01-05 10:25:39,685 - utils.logger_utils - INFO - 开始运行所有剧首页测试
+2026-01-05 10:25:39,685 - utils.logger_utils - INFO - 测试点击返回按钮
+2026-01-05 10:25:39,940 - utils.logger_utils - INFO - 成功点击元素: div.gap-sm > svg
+2026-01-05 10:25:43,732 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:25:44,738 - utils.logger_utils - INFO - 等待页面开始加载
+2026-01-05 10:25:46,769 - utils.logger_utils - INFO - 所有关键元素加载完成
+2026-01-05 10:25:47,774 - utils.logger_utils - INFO - 剧首页所有元素加载完成
+2026-01-05 10:25:47,775 - utils.logger_utils - INFO - 测试点击Home按钮
+2026-01-05 10:25:48,031 - utils.logger_utils - INFO - 成功点击元素: svg.filter-drop-shadow-\[0_0_1px_\#000c\] > path
+2026-01-05 10:25:51,126 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:25:52,131 - utils.logger_utils - INFO - 等待页面开始加载
+2026-01-05 10:25:54,163 - utils.logger_utils - INFO - 所有关键元素加载完成
+2026-01-05 10:25:55,168 - utils.logger_utils - INFO - 剧首页所有元素加载完成
+2026-01-05 10:25:55,169 - utils.logger_utils - INFO - 测试点击个人中心按钮
+2026-01-05 10:25:55,421 - utils.logger_utils - INFO - 成功点击元素: div.gap-sm path:nth-of-type(2)
+2026-01-05 10:25:58,432 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:25:59,435 - utils.logger_utils - INFO - 等待页面开始加载
+2026-01-05 10:26:01,463 - utils.logger_utils - INFO - 所有关键元素加载完成
+2026-01-05 10:26:02,468 - utils.logger_utils - INFO - 剧首页所有元素加载完成
+2026-01-05 10:26:02,469 - utils.logger_utils - INFO - 测试点击去看剧按钮
+2026-01-05 10:26:02,721 - utils.logger_utils - INFO - 成功点击元素: div.button-primary
+2026-01-05 10:26:05,847 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:26:06,850 - utils.logger_utils - INFO - 等待页面开始加载
+2026-01-05 10:26:08,879 - utils.logger_utils - INFO - 所有关键元素加载完成
+2026-01-05 10:26:09,884 - utils.logger_utils - INFO - 剧首页所有元素加载完成
+2026-01-05 10:26:09,885 - utils.logger_utils - INFO - 测试点击添加收藏按钮
+2026-01-05 10:26:10,131 - utils.logger_utils - INFO - 成功点击元素: div.button
+2026-01-05 10:26:13,072 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:26:14,076 - utils.logger_utils - INFO - 等待页面开始加载
+2026-01-05 10:26:16,098 - utils.logger_utils - INFO - 所有关键元素加载完成
+2026-01-05 10:26:17,105 - utils.logger_utils - INFO - 剧首页所有元素加载完成
+2026-01-05 10:26:17,105 - utils.logger_utils - INFO - 测试点击取消收藏按钮
+2026-01-05 10:26:17,354 - utils.logger_utils - INFO - 成功点击元素: div.button
+2026-01-05 10:26:20,360 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:26:21,362 - utils.logger_utils - INFO - 等待页面开始加载
+2026-01-05 10:26:23,394 - utils.logger_utils - INFO - 所有关键元素加载完成
+2026-01-05 10:26:24,399 - utils.logger_utils - INFO - 剧首页所有元素加载完成
+2026-01-05 10:26:24,399 - utils.logger_utils - INFO - 测试详情的展开和收起
+2026-01-05 10:26:24,415 - utils.logger_utils - INFO - 获取元素文本: More
+2026-01-05 10:26:24,416 - utils.logger_utils - INFO - 短剧简介初始状态: More
+2026-01-05 10:26:24,658 - utils.logger_utils - INFO - 成功点击短剧简介，切换展开/收起状态
+2026-01-05 10:26:25,669 - utils.logger_utils - INFO - 获取元素文本: Fold
+2026-01-05 10:26:25,669 - utils.logger_utils - INFO - 点击后短剧简介状态: More
+2026-01-05 10:26:25,669 - utils.logger_utils - INFO - 成功验证短剧简介展开/收起功能
+2026-01-05 10:26:25,909 - utils.logger_utils - INFO - 成功点击短剧简介，切换展开/收起状态
+2026-01-05 10:26:25,910 - utils.logger_utils - INFO - 成功验证短剧简介收起功能
+2026-01-05 10:26:27,198 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:26:28,202 - utils.logger_utils - INFO - 等待页面开始加载
+2026-01-05 10:26:30,229 - utils.logger_utils - INFO - 所有关键元素加载完成
+2026-01-05 10:26:31,235 - utils.logger_utils - INFO - 剧首页所有元素加载完成
+2026-01-05 10:26:31,235 - utils.logger_utils - INFO - 测试点击随机一集免费剧集
+2026-01-05 10:26:31,501 - utils.logger_utils - INFO - 成功点击免费剧集
+2026-01-05 10:26:34,510 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:26:35,515 - utils.logger_utils - INFO - 等待页面开始加载
+2026-01-05 10:26:37,548 - utils.logger_utils - INFO - 所有关键元素加载完成
+2026-01-05 10:26:38,553 - utils.logger_utils - INFO - 剧首页所有元素加载完成
+2026-01-05 10:26:38,554 - utils.logger_utils - INFO - 剧首页所有测试完成
+2026-01-05 10:28:18,342 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 10:28:18,377 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 12107, 名称: Google
+2026-01-05 10:28:18,377 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 12107
+2026-01-05 10:28:23,828 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 10:28:23,831 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 10:28:24,788 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:28:25,791 - utils.logger_utils - INFO - 等待页面开始加载
+2026-01-05 10:28:27,818 - utils.logger_utils - INFO - 所有关键元素加载完成
+2026-01-05 10:28:28,822 - utils.logger_utils - INFO - 剧首页所有元素加载完成
+2026-01-05 10:28:28,823 - utils.logger_utils - INFO - 初始化剧首页测试类
+2026-01-05 10:28:28,823 - utils.logger_utils - INFO - 开始运行所有剧首页测试
+2026-01-05 10:28:28,823 - utils.logger_utils - INFO - 测试点击返回按钮
+2026-01-05 10:28:29,074 - utils.logger_utils - INFO - 成功点击元素: div.gap-sm > svg
+2026-01-05 10:28:32,768 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:28:33,771 - utils.logger_utils - INFO - 等待页面开始加载
+2026-01-05 10:44:57,176 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 10:44:57,206 - utils.logger_utils - INFO - 端口 9223 未被占用
+2026-01-05 10:45:02,552 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 10:45:02,555 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 10:45:03,531 - utils.logger_utils - INFO - 打开剧首页
+2026-01-05 10:45:04,535 - utils.logger_utils - INFO - 等待页面开始加载
+2026-01-05 10:45:06,552 - utils.logger_utils - WARNING - 关键元素未加载: div.gap-sm > svg
+2026-01-05 10:45:06,563 - utils.logger_utils - WARNING - 关键元素未加载: svg.filter-drop-shadow-\[0_0_1px_\#000c\] > path
+2026-01-05 10:45:06,575 - utils.logger_utils - WARNING - 关键元素未加载: div.gap-sm path:nth-of-type(2)
+2026-01-05 10:45:06,588 - utils.logger_utils - WARNING - 关键元素未加载: div.button-primary
+2026-01-05 10:45:06,589 - utils.logger_utils - WARNING - 部分关键元素未加载，但继续执行
+2026-01-05 10:45:06,589 - utils.logger_utils - INFO - 剧首页所有元素加载完成
+2026-01-05 10:45:06,589 - utils.logger_utils - INFO - 初始化剧首页测试类
+2026-01-05 10:45:06,589 - utils.logger_utils - INFO - 开始运行所有剧首页测试
+2026-01-05 10:45:06,589 - utils.logger_utils - INFO - 测试点击返回按钮
+2026-01-05 10:51:02,880 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 10:51:02,912 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 12408, 名称: Google
+2026-01-05 10:51:02,912 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 12408
+2026-01-05 10:51:08,877 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 10:51:08,930 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 10:51:10,196 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-01-05 10:51:10,197 - utils.logger_utils - INFO - 当前轮播图标题: CEO baby
+2026-01-05 10:51:20,431 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 10:51:20,432 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 10:51:20,432 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 10:51:20,452 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 10:51:20,918 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 10:51:21,146 - utils.logger_utils - INFO - 播放器菜单已打开
+2026-01-05 10:51:21,388 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 10:51:23,632 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 10:51:43,642 - utils.logger_utils - ERROR - 定位菜单失败（ElementNotFound）：
+没有找到元素。
+方法: ele()
+参数: {'locator': 'css:.flex-1.text-xxl svg.icon-svg.icon[fill]', 'index': 1, 'timeout': 10}
+版本: 4.1.1.2
+2026-01-05 10:51:45,128 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 10:51:50,134 - utils.logger_utils - INFO - 测试打开首页功能
+2026-01-05 10:51:50,146 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 10:52:00,612 - utils.logger_utils - ERROR - 定位菜单失败（ElementNotFound）：
+没有找到元素。
+方法: ele()
+参数: {'locator': 'css:.flex-1.text-xxl svg.icon-svg.icon[fill]', 'index': 1, 'timeout': 10}
+版本: 4.1.1.2
+2026-01-05 10:52:00,612 - utils.logger_utils - ERROR - 首页打开失败
+2026-01-05 10:52:00,612 - utils.logger_utils - INFO - 测试打开聚合页-简介功能
+2026-01-05 10:52:00,622 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 10:52:01,310 - utils.logger_utils - INFO - 播放器菜单已打开
+2026-01-05 10:52:01,779 - utils.logger_utils - INFO - 播放器聚合页打开成功
+2026-01-05 10:52:34,631 - utils.logger_utils - INFO - 测试打开聚合页-目录功能
+2026-01-05 10:52:34,639 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 10:52:45,099 - utils.logger_utils - ERROR - 定位菜单失败（ElementNotFound）：
+没有找到元素。
+方法: ele()
+参数: {'locator': 'css:.flex-1.text-xxl svg.icon-svg.icon[fill]', 'index': 1, 'timeout': 10}
+版本: 4.1.1.2
+2026-01-05 10:57:07,191 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 10:57:07,220 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 12524, 名称: Google
+2026-01-05 10:57:07,221 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 12524
+2026-01-05 10:57:14,015 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 10:57:14,017 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 10:57:14,779 - utils.logger_utils - INFO - 轮播图标题: ['Wake Up Dad! Wedding Time', 'The Thief Lover', 'CEO baby']
+2026-01-05 10:57:14,779 - utils.logger_utils - INFO - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-01-05 10:57:25,007 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 10:57:25,008 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 10:57:25,008 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 10:57:25,008 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 10:57:25,013 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 10:57:25,455 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 10:57:25,675 - utils.logger_utils - INFO - 播放器菜单已打开
+2026-01-05 10:57:25,911 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 10:57:28,154 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 10:57:48,159 - utils.logger_utils - ERROR - 定位菜单失败（ElementNotFound）：
+没有找到元素。
+方法: ele()
+参数: {'locator': 'css:.flex-1.text-xxl svg.icon-svg.icon[fill]', 'index': 1, 'timeout': 10}
+版本: 4.1.1.2
+2026-01-05 10:57:49,643 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 10:57:54,649 - utils.logger_utils - INFO - 测试打开首页功能
+2026-01-05 10:57:54,659 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 10:58:05,121 - utils.logger_utils - ERROR - 定位菜单失败（ElementNotFound）：
+没有找到元素。
+方法: ele()
+参数: {'locator': 'css:.flex-1.text-xxl svg.icon-svg.icon[fill]', 'index': 1, 'timeout': 10}
+版本: 4.1.1.2
+2026-01-05 10:58:05,122 - utils.logger_utils - ERROR - 首页打开失败
+2026-01-05 10:58:05,122 - utils.logger_utils - INFO - 测试打开聚合页-简介功能
+2026-01-05 10:58:05,133 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 10:58:05,816 - utils.logger_utils - INFO - 播放器菜单已打开
+2026-01-05 10:58:06,279 - utils.logger_utils - INFO - 播放器聚合页打开成功
+2026-01-05 10:58:39,235 - utils.logger_utils - INFO - 测试打开聚合页-目录功能
+2026-01-05 10:58:39,242 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 10:58:40,161 - utils.logger_utils - INFO - 播放器菜单已打开
+2026-01-05 11:31:00,518 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 11:31:00,551 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 12666, 名称: Google
+2026-01-05 11:31:00,551 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 12666
+2026-01-05 11:31:06,646 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 11:31:06,648 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 11:31:08,760 - utils.logger_utils - INFO - 轮播图标题: ['Wake Up Dad! Wedding Time', 'The Thief Lover', 'CEO baby']
+2026-01-05 11:31:08,760 - utils.logger_utils - INFO - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-01-05 11:31:19,011 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 11:31:19,013 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 11:31:19,015 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 11:31:33,004 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 11:31:38,486 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 11:31:44,981 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 11:32:02,824 - utils.logger_utils - INFO - 播放器菜单已打开
+2026-01-05 11:32:09,655 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 11:32:16,343 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 11:32:41,368 - utils.logger_utils - INFO - 播放器菜单已打开
+2026-01-05 11:33:19,605 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 11:33:19,638 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 13102, 名称: Google
+2026-01-05 11:33:19,638 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 13102
+2026-01-05 11:33:25,075 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 11:33:25,077 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 11:33:27,585 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-01-05 11:33:27,585 - utils.logger_utils - INFO - 当前轮播图标题: CEO baby
+2026-01-05 11:33:37,823 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 11:33:37,824 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 11:33:37,825 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 11:33:37,825 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 11:33:37,843 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 11:33:38,302 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 11:33:38,529 - utils.logger_utils - INFO - 播放器菜单已打开
+2026-01-05 11:33:38,765 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 11:33:40,992 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 11:34:01,001 - utils.logger_utils - ERROR - 定位菜单失败（ElementNotFound）：
+没有找到元素。
+方法: ele()
+参数: {'locator': 'css:.flex-1.text-xxl svg.icon-svg.icon[fill]', 'index': 1, 'timeout': 10}
+版本: 4.1.1.2
+2026-01-05 11:34:02,486 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 11:34:07,490 - utils.logger_utils - INFO - 播放器所有测试完成
+2026-01-05 11:34:12,495 - utils.logger_utils - INFO - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-01-05 14:27:26,283 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 14:27:26,310 - utils.logger_utils - INFO - 端口 9223 未被占用
+2026-01-05 14:27:31,271 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 14:27:31,272 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 14:27:33,368 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-01-05 14:27:33,369 - utils.logger_utils - INFO - 当前轮播图标题: CEO baby
+2026-01-05 14:27:43,600 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 14:27:43,602 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 14:27:43,603 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607441877569536&from=home-swiper&chapterIndex=5&free=1&pay=0
+2026-01-05 14:27:43,603 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 14:27:43,603 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 14:27:43,625 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 14:27:44,085 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 14:27:44,308 - utils.logger_utils - INFO - 播放器菜单已打开
+2026-01-05 14:27:44,545 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 14:27:46,795 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 14:27:56,907 - utils.logger_utils - WARNING - 播放器菜单未打开（元素未找到）
+2026-01-05 14:27:58,381 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 14:28:03,387 - utils.logger_utils - INFO - 播放器所有测试完成
+2026-01-05 14:28:08,393 - utils.logger_utils - INFO - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-01-05 14:29:48,164 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 14:29:48,185 - utils.logger_utils - INFO - 端口 9223 未被占用
+2026-01-05 14:29:51,685 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 14:29:51,686 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 14:29:53,390 - utils.logger_utils - INFO - 轮播图标题: ['Wake Up Dad! Wedding Time', 'The Thief Lover', 'CEO baby']
+2026-01-05 14:29:53,390 - utils.logger_utils - INFO - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-01-05 14:30:03,623 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 14:30:03,623 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 14:30:03,625 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607441877569536&from=home-swiper&chapterIndex=5&free=1&pay=0
+2026-01-05 14:30:03,625 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 14:30:03,625 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 14:30:03,644 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 14:30:04,102 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 14:30:04,330 - utils.logger_utils - INFO - 播放器菜单已打开
+2026-01-05 14:30:04,567 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 14:30:06,808 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 14:30:16,921 - utils.logger_utils - WARNING - 播放器菜单未打开（元素未找到）
+2026-01-05 14:30:18,408 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 14:30:23,413 - utils.logger_utils - INFO - 播放器所有测试完成
+2026-01-05 14:30:28,415 - utils.logger_utils - INFO - 当前轮播图标题: The Thief Lover
+2026-01-05 14:30:58,449 - utils.logger_utils - WARNING - 没有找到标题为 The Thief Lover 的轮播图
+2026-01-05 14:31:08,454 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 14:31:08,455 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 14:31:08,456 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607441877569536&from=home-swiper&chapterIndex=5&free=1&pay=0
+2026-01-05 14:31:08,456 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 14:31:08,456 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 14:31:08,467 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 14:31:08,923 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 14:31:09,036 - utils.logger_utils - WARNING - 播放器菜单未打开（元素未找到）
+2026-01-05 14:31:10,520 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 14:31:15,761 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 14:31:25,874 - utils.logger_utils - WARNING - 播放器菜单未打开（元素未找到）
+2026-01-05 14:31:27,360 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 14:31:32,365 - utils.logger_utils - INFO - 播放器所有测试完成
+2026-01-05 14:31:37,368 - utils.logger_utils - INFO - 当前轮播图标题: CEO baby
+2026-01-05 14:32:07,394 - utils.logger_utils - WARNING - 没有找到标题为 CEO baby 的轮播图
+2026-01-05 14:32:17,397 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 14:32:17,398 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 14:32:17,399 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607441877569536&from=home-swiper&chapterIndex=5&free=1&pay=0
+2026-01-05 14:32:17,400 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 14:32:17,400 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 14:32:17,411 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 14:32:17,870 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 14:32:17,976 - utils.logger_utils - WARNING - 播放器菜单未打开（元素未找到）
+2026-01-05 14:32:19,449 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 14:32:24,694 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 14:48:20,589 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 14:48:20,616 - utils.logger_utils - INFO - 端口 9223 未被占用
+2026-01-05 14:48:25,560 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 14:48:25,562 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 14:48:26,611 - utils.logger_utils - INFO - 轮播图标题: ['Wake Up Dad! Wedding Time', 'The Thief Lover', 'CEO baby']
+2026-01-05 14:48:26,611 - utils.logger_utils - INFO - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-01-05 14:48:36,853 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 14:48:36,853 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 14:48:36,855 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607441877569536&from=home-swiper&chapterIndex=5&free=1&pay=0
+2026-01-05 14:48:36,855 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 14:48:36,855 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 14:48:36,876 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 14:48:37,338 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 14:48:37,575 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 14:48:37,813 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 14:48:40,043 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 14:48:51,750 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 14:48:56,756 - utils.logger_utils - INFO - 测试打开首页功能
+2026-01-05 14:48:56,770 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 14:48:57,443 - utils.logger_utils - ERROR - 首页打开失败
+2026-01-05 14:48:57,443 - utils.logger_utils - INFO - 测试退出播放器功能
+2026-01-05 14:56:23,273 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 14:56:23,302 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 15211, 名称: Google
+2026-01-05 14:56:23,302 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 15211
+2026-01-05 14:56:28,893 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 14:56:28,895 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 14:56:31,433 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-01-05 14:56:31,433 - utils.logger_utils - INFO - 当前轮播图标题: CEO baby
+2026-01-05 14:56:41,669 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 14:56:41,671 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 14:56:41,673 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607441877569536&from=home-swiper&chapterIndex=5&free=1&pay=0
+2026-01-05 14:56:41,673 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 14:56:41,673 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 14:56:41,692 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 14:56:42,149 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 14:56:42,388 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 14:56:42,622 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 14:56:44,847 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 14:56:56,568 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 14:57:01,572 - utils.logger_utils - INFO - 测试打开首页功能
+2026-01-05 14:57:01,588 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 14:57:02,274 - utils.logger_utils - ERROR - 首页打开失败
+2026-01-05 14:57:02,275 - utils.logger_utils - INFO - 测试退出播放器功能
+2026-01-05 14:57:02,497 - utils.logger_utils - INFO - 播放器菜单未打开，先打开菜单
+2026-01-05 14:57:02,508 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 14:57:04,216 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 14:57:04,217 - utils.logger_utils - INFO - 执行退出播放器
+2026-01-05 14:57:04,725 - utils.logger_utils - INFO - 执行退出播放器成功
+2026-01-05 14:57:04,725 - utils.logger_utils - INFO - 播放器所有测试完成
+2026-01-05 14:57:09,731 - utils.logger_utils - INFO - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-01-05 14:57:20,040 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 14:57:20,042 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 14:57:20,043 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286563468966457344?chapterId=286564533375897600&from=home-swiper&chapterIndex=1&free=1&pay=0
+2026-01-05 14:57:20,044 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 14:57:20,044 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 14:57:20,064 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 14:57:20,528 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 14:57:20,877 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 14:57:21,116 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 14:57:23,356 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 14:57:35,054 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 14:57:40,060 - utils.logger_utils - INFO - 测试打开首页功能
+2026-01-05 14:57:40,072 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 14:57:40,740 - utils.logger_utils - ERROR - 首页打开失败
+2026-01-05 14:57:40,740 - utils.logger_utils - INFO - 测试退出播放器功能
+2026-01-05 14:57:41,056 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 14:57:41,056 - utils.logger_utils - INFO - 执行退出播放器
+2026-01-05 14:57:41,581 - utils.logger_utils - INFO - 执行退出播放器成功
+2026-01-05 14:57:41,581 - utils.logger_utils - INFO - 播放器所有测试完成
+2026-01-05 14:59:39,296 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 14:59:39,323 - utils.logger_utils - INFO - 端口 9223 未被占用
+2026-01-05 14:59:44,287 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 14:59:44,288 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 14:59:45,015 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-01-05 14:59:45,016 - utils.logger_utils - INFO - 当前轮播图标题: CEO baby
+2026-01-05 14:59:55,264 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 14:59:55,264 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 14:59:55,265 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607441877569536&from=home-swiper&chapterIndex=5&free=1&pay=0
+2026-01-05 14:59:55,265 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 14:59:55,265 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 14:59:55,271 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 14:59:55,720 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 14:59:55,960 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 14:59:56,197 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 14:59:58,445 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 15:00:10,144 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 15:00:15,150 - utils.logger_utils - INFO - 测试静音和恢复静音功能
+2026-01-05 15:00:15,163 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 15:00:15,838 - utils.logger_utils - INFO - 测试退出播放器功能
+2026-01-05 15:00:16,047 - utils.logger_utils - INFO - 播放器菜单未打开，先打开菜单
+2026-01-05 15:00:16,061 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 15:00:17,771 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:00:17,772 - utils.logger_utils - INFO - 执行退出播放器
+2026-01-05 15:00:18,286 - utils.logger_utils - INFO - 执行退出播放器成功
+2026-01-05 15:00:18,287 - utils.logger_utils - INFO - 播放器所有测试完成
+2026-01-05 15:00:23,292 - utils.logger_utils - INFO - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-01-05 15:00:33,597 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 15:00:33,599 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 15:00:33,600 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286563468966457344?chapterId=286564533375897600&from=home-swiper&chapterIndex=1&free=1&pay=0
+2026-01-05 15:00:33,600 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 15:00:33,600 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 15:00:33,617 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 15:00:34,077 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 15:00:34,424 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:00:34,656 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 15:00:36,894 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 15:00:48,589 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 15:00:53,591 - utils.logger_utils - INFO - 测试静音和恢复静音功能
+2026-01-05 15:00:53,605 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 15:00:54,263 - utils.logger_utils - INFO - 测试退出播放器功能
+2026-01-05 15:00:54,480 - utils.logger_utils - INFO - 播放器菜单未打开，先打开菜单
+2026-01-05 15:00:54,487 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 15:00:56,308 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:00:56,309 - utils.logger_utils - INFO - 执行退出播放器
+2026-01-05 15:00:56,825 - utils.logger_utils - INFO - 执行退出播放器成功
+2026-01-05 15:00:56,825 - utils.logger_utils - INFO - 播放器所有测试完成
+2026-01-05 15:01:01,830 - utils.logger_utils - INFO - 当前轮播图标题: The Thief Lover
+2026-01-05 15:08:35,484 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 15:08:35,513 - utils.logger_utils - INFO - 端口 9223 未被占用
+2026-01-05 15:08:40,362 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 15:08:40,364 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 15:08:41,161 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-01-05 15:08:41,161 - utils.logger_utils - INFO - 当前轮播图标题: CEO baby
+2026-01-05 15:08:51,412 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 15:08:51,414 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 15:08:51,415 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607441877569536&from=home-swiper&chapterIndex=5&free=1&pay=0
+2026-01-05 15:08:51,415 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 15:08:51,415 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 15:08:51,435 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 15:08:51,896 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 15:08:52,136 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:08:52,366 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 15:08:54,613 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 15:09:06,310 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 15:09:11,316 - utils.logger_utils - INFO - 测试静音和恢复静音功能
+2026-01-05 15:09:11,557 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:09:11,557 - utils.logger_utils - INFO - 执行静音操作
+2026-01-05 15:09:12,021 - utils.logger_utils - INFO - 静音成功，等待10秒
+2026-01-05 15:09:22,268 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:09:22,268 - utils.logger_utils - INFO - 执行恢复静音操作
+2026-01-05 15:09:22,732 - utils.logger_utils - INFO - 取消静音成功
+2026-01-05 15:09:22,732 - utils.logger_utils - INFO - 测试退出播放器功能
+2026-01-05 15:09:22,972 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:09:22,973 - utils.logger_utils - INFO - 执行退出播放器
+2026-01-05 15:09:23,492 - utils.logger_utils - INFO - 执行退出播放器成功
+2026-01-05 15:09:23,492 - utils.logger_utils - INFO - 播放器所有测试完成
+2026-01-05 15:09:28,499 - utils.logger_utils - INFO - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-01-05 15:09:38,828 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 15:09:38,829 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 15:09:38,831 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286563468966457344?chapterId=286564533375897600&from=home-swiper&chapterIndex=1&free=1&pay=0
+2026-01-05 15:09:38,831 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 15:09:38,832 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 15:09:38,849 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 15:09:39,314 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 15:09:39,659 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:09:39,895 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 15:09:42,144 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 15:09:53,857 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 15:09:58,861 - utils.logger_utils - INFO - 测试静音和恢复静音功能
+2026-01-05 15:09:59,208 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:09:59,208 - utils.logger_utils - INFO - 执行静音操作
+2026-01-05 15:09:59,426 - utils.logger_utils - ERROR - 未找到静音按钮，静音操作失败
+2026-01-05 15:16:56,642 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 15:16:56,676 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 15605, 名称: Google
+2026-01-05 15:16:56,676 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 15605
+2026-01-05 15:17:02,218 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 15:17:02,220 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 15:17:04,764 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-01-05 15:17:04,765 - utils.logger_utils - INFO - 当前轮播图标题: CEO baby
+2026-01-05 15:17:15,006 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 15:17:15,007 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 15:17:15,008 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607441877569536&from=home-swiper&chapterIndex=5&free=1&pay=0
+2026-01-05 15:17:15,008 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 15:17:15,009 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 15:17:15,027 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 15:17:15,490 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 15:17:15,733 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:17:15,970 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 15:17:18,193 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 15:17:29,896 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 15:17:34,899 - utils.logger_utils - INFO - 测试静音和恢复静音功能
+2026-01-05 15:17:35,143 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:17:35,143 - utils.logger_utils - INFO - 检查当前静音状态
+2026-01-05 15:17:35,470 - utils.logger_utils - INFO - 当前为未静音状态，将先执行静音操作
+2026-01-05 15:17:35,470 - utils.logger_utils - INFO - 执行静音操作
+2026-01-05 15:17:35,708 - utils.logger_utils - INFO - 静音成功，等待5秒
+2026-01-05 15:17:40,948 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:17:40,949 - utils.logger_utils - INFO - 执行取消静音操作
+2026-01-05 15:17:41,410 - utils.logger_utils - INFO - 取消静音成功
+2026-01-05 15:17:41,411 - utils.logger_utils - INFO - 静音功能测试完成
+2026-01-05 15:17:41,411 - utils.logger_utils - INFO - 测试退出播放器功能
+2026-01-05 15:17:41,648 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:17:41,648 - utils.logger_utils - INFO - 执行退出播放器
+2026-01-05 15:17:42,150 - utils.logger_utils - INFO - 执行退出播放器成功
+2026-01-05 15:17:42,150 - utils.logger_utils - INFO - 播放器所有测试完成
+2026-01-05 15:17:47,155 - utils.logger_utils - INFO - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-01-05 15:17:57,481 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 15:17:57,482 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 15:17:57,484 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286563468966457344?chapterId=286564533375897600&from=home-swiper&chapterIndex=1&free=1&pay=0
+2026-01-05 15:17:57,484 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 15:17:57,484 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 15:17:57,499 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 15:17:57,956 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 15:17:58,301 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:17:58,536 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 15:18:00,776 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 15:18:12,460 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 15:18:17,465 - utils.logger_utils - INFO - 测试静音和恢复静音功能
+2026-01-05 15:18:17,817 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:18:17,818 - utils.logger_utils - INFO - 检查当前静音状态
+2026-01-05 15:18:18,150 - utils.logger_utils - INFO - 当前为未静音状态，将先执行静音操作
+2026-01-05 15:18:18,150 - utils.logger_utils - INFO - 执行静音操作
+2026-01-05 15:18:18,387 - utils.logger_utils - INFO - 静音成功，等待5秒
+2026-01-05 15:18:23,736 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:18:23,737 - utils.logger_utils - INFO - 执行取消静音操作
+2026-01-05 15:18:24,193 - utils.logger_utils - INFO - 取消静音成功
+2026-01-05 15:18:24,193 - utils.logger_utils - INFO - 静音功能测试完成
+2026-01-05 15:18:24,194 - utils.logger_utils - INFO - 测试退出播放器功能
+2026-01-05 15:18:24,530 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:18:24,530 - utils.logger_utils - INFO - 执行退出播放器
+2026-01-05 15:18:25,035 - utils.logger_utils - INFO - 执行退出播放器成功
+2026-01-05 15:18:25,036 - utils.logger_utils - INFO - 播放器所有测试完成
+2026-01-05 15:18:30,041 - utils.logger_utils - INFO - 当前轮播图标题: The Thief Lover
+2026-01-05 15:18:40,355 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 15:18:40,357 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 15:18:40,358 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606758050885632?chapterId=286607548316422144&from=home-swiper&chapterIndex=1&free=1&pay=0
+2026-01-05 15:18:40,359 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 15:18:40,359 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 15:18:40,376 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 15:18:40,826 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 15:18:41,166 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:18:41,401 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 15:18:43,641 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 15:18:55,334 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 15:19:00,340 - utils.logger_utils - INFO - 测试静音和恢复静音功能
+2026-01-05 15:19:00,688 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:19:00,689 - utils.logger_utils - INFO - 检查当前静音状态
+2026-01-05 15:19:01,018 - utils.logger_utils - INFO - 当前为未静音状态，将先执行静音操作
+2026-01-05 15:19:01,018 - utils.logger_utils - INFO - 执行静音操作
+2026-01-05 15:19:01,252 - utils.logger_utils - INFO - 静音成功，等待5秒
+2026-01-05 15:19:06,598 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:19:06,599 - utils.logger_utils - INFO - 执行取消静音操作
+2026-01-05 15:19:07,067 - utils.logger_utils - INFO - 取消静音成功
+2026-01-05 15:19:07,067 - utils.logger_utils - INFO - 静音功能测试完成
+2026-01-05 15:19:07,067 - utils.logger_utils - INFO - 测试退出播放器功能
+2026-01-05 15:19:07,409 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:19:07,409 - utils.logger_utils - INFO - 执行退出播放器
+2026-01-05 15:19:07,927 - utils.logger_utils - INFO - 执行退出播放器成功
+2026-01-05 15:19:07,927 - utils.logger_utils - INFO - 播放器所有测试完成
+2026-01-05 15:20:29,115 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 15:20:29,149 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 15735, 名称: Google
+2026-01-05 15:20:29,149 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 15735
+2026-01-05 15:20:34,817 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 15:20:34,819 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 15:20:37,338 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-01-05 15:20:37,339 - utils.logger_utils - INFO - 当前轮播图标题: CEO baby
+2026-01-05 15:20:47,568 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 15:20:47,569 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 15:20:47,571 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607441877569536&from=home-swiper&chapterIndex=5&free=1&pay=0
+2026-01-05 15:20:47,571 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 15:20:47,571 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 15:20:47,587 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 15:20:48,050 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 15:20:48,297 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:20:48,528 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 15:20:50,755 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 15:21:02,465 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 15:21:07,471 - utils.logger_utils - INFO - 测试静音和恢复静音功能
+2026-01-05 15:21:07,715 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:21:07,715 - utils.logger_utils - INFO - 检查当前静音状态
+2026-01-05 15:21:08,048 - utils.logger_utils - INFO - 当前为未静音状态，将先执行静音操作
+2026-01-05 15:21:08,049 - utils.logger_utils - INFO - 执行静音操作
+2026-01-05 15:21:08,291 - utils.logger_utils - INFO - 静音成功，等待5秒
+2026-01-05 15:21:13,533 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:21:13,533 - utils.logger_utils - INFO - 执行取消静音操作
+2026-01-05 15:21:13,995 - utils.logger_utils - INFO - 取消静音成功
+2026-01-05 15:21:13,996 - utils.logger_utils - INFO - 静音功能测试完成
+2026-01-05 15:21:13,996 - utils.logger_utils - INFO - 测试收藏和取消收藏功能
+2026-01-05 15:21:14,236 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:21:14,236 - utils.logger_utils - INFO - 检查当前收藏状态
+2026-01-05 15:21:14,691 - utils.logger_utils - INFO - 当前为未收藏状态，将先执行收藏操作
+2026-01-05 15:21:14,691 - utils.logger_utils - INFO - 执行收藏操作
+2026-01-05 15:21:14,929 - utils.logger_utils - INFO - 收藏成功，等待3秒
+2026-01-05 15:21:18,279 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:21:18,279 - utils.logger_utils - INFO - 执行取消收藏操作
+2026-01-05 15:21:18,385 - utils.logger_utils - ERROR - 未找到取消收藏按钮，取消收藏操作失败
+2026-01-05 15:35:08,696 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 15:35:08,725 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 15843, 名称: Google
+2026-01-05 15:35:08,725 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 15843
+2026-01-05 15:35:14,299 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 15:35:14,303 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 15:35:16,056 - utils.logger_utils - INFO - 轮播图标题: ['Wake Up Dad! Wedding Time', 'The Thief Lover', 'CEO baby']
+2026-01-05 15:35:16,056 - utils.logger_utils - INFO - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-01-05 15:35:26,312 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 15:35:26,314 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 15:35:26,315 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607441877569536&from=home-swiper&chapterIndex=5&free=1&pay=0
+2026-01-05 15:35:26,315 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 15:35:26,315 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 15:35:26,333 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 15:35:26,797 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 15:35:27,134 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:35:27,369 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 15:35:29,615 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 15:35:41,316 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 15:35:46,320 - utils.logger_utils - INFO - 测试静音和恢复静音功能
+2026-01-05 15:35:46,666 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:35:46,666 - utils.logger_utils - INFO - 检查当前静音状态
+2026-01-05 15:35:47,008 - utils.logger_utils - INFO - 当前为未静音状态，将先执行静音操作
+2026-01-05 15:35:47,008 - utils.logger_utils - INFO - 执行静音操作
+2026-01-05 15:35:47,248 - utils.logger_utils - INFO - 静音成功，等待5秒
+2026-01-05 15:35:52,593 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:35:52,594 - utils.logger_utils - INFO - 执行取消静音操作
+2026-01-05 15:35:53,049 - utils.logger_utils - INFO - 取消静音成功
+2026-01-05 15:35:53,049 - utils.logger_utils - INFO - 静音功能测试完成
+2026-01-05 15:35:53,049 - utils.logger_utils - INFO - 测试收藏和取消收藏功能
+2026-01-05 15:35:53,386 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:35:53,387 - utils.logger_utils - INFO - 检查当前收藏状态
+2026-01-05 15:35:53,712 - utils.logger_utils - INFO - 当前为未收藏状态，将先执行收藏操作
+2026-01-05 15:35:53,713 - utils.logger_utils - INFO - 执行收藏操作
+2026-01-05 15:35:53,954 - utils.logger_utils - INFO - 收藏成功，等待3秒
+2026-01-05 15:35:57,193 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:35:57,194 - utils.logger_utils - INFO - 执行取消收藏操作
+2026-01-05 15:35:57,655 - utils.logger_utils - INFO - 取消收藏成功
+2026-01-05 15:35:57,655 - utils.logger_utils - INFO - 收藏功能测试完成
+2026-01-05 15:35:57,655 - utils.logger_utils - INFO - 测试退出播放器功能
+2026-01-05 15:35:57,897 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:35:57,897 - utils.logger_utils - INFO - 执行退出播放器
+2026-01-05 15:35:58,411 - utils.logger_utils - INFO - 执行退出播放器成功
+2026-01-05 15:35:58,411 - utils.logger_utils - INFO - 播放器所有测试完成
+2026-01-05 15:36:03,416 - utils.logger_utils - INFO - 当前轮播图标题: The Thief Lover
+2026-01-05 15:36:13,767 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 15:36:13,768 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 15:36:13,769 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286563468966457344?chapterId=286564533375897600&from=home-swiper&chapterIndex=1&free=1&pay=0
+2026-01-05 15:36:13,770 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 15:36:13,770 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 15:36:13,787 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 15:36:14,245 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 15:36:14,584 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:36:14,818 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 15:36:17,062 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 15:36:28,758 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 15:36:33,761 - utils.logger_utils - INFO - 测试静音和恢复静音功能
+2026-01-05 15:36:34,113 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:36:34,114 - utils.logger_utils - INFO - 检查当前静音状态
+2026-01-05 15:36:34,452 - utils.logger_utils - INFO - 当前为未静音状态，将先执行静音操作
+2026-01-05 15:36:34,452 - utils.logger_utils - INFO - 执行静音操作
+2026-01-05 15:36:34,685 - utils.logger_utils - INFO - 静音成功，等待5秒
+2026-01-05 15:36:40,030 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:36:40,030 - utils.logger_utils - INFO - 执行取消静音操作
+2026-01-05 15:36:40,496 - utils.logger_utils - INFO - 取消静音成功
+2026-01-05 15:36:40,496 - utils.logger_utils - INFO - 静音功能测试完成
+2026-01-05 15:36:40,497 - utils.logger_utils - INFO - 测试收藏和取消收藏功能
+2026-01-05 15:36:40,841 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:36:40,841 - utils.logger_utils - INFO - 检查当前收藏状态
+2026-01-05 15:36:41,173 - utils.logger_utils - INFO - 当前为未收藏状态，将先执行收藏操作
+2026-01-05 15:36:41,173 - utils.logger_utils - INFO - 执行收藏操作
+2026-01-05 15:36:41,411 - utils.logger_utils - INFO - 收藏成功，等待3秒
+2026-01-05 15:36:44,656 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:36:44,656 - utils.logger_utils - INFO - 执行取消收藏操作
+2026-01-05 15:36:45,115 - utils.logger_utils - INFO - 取消收藏成功
+2026-01-05 15:36:45,115 - utils.logger_utils - INFO - 收藏功能测试完成
+2026-01-05 15:36:45,116 - utils.logger_utils - INFO - 测试退出播放器功能
+2026-01-05 15:36:45,343 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:36:45,343 - utils.logger_utils - INFO - 执行退出播放器
+2026-01-05 15:36:45,846 - utils.logger_utils - INFO - 执行退出播放器成功
+2026-01-05 15:36:45,846 - utils.logger_utils - INFO - 播放器所有测试完成
+2026-01-05 15:36:50,851 - utils.logger_utils - INFO - 当前轮播图标题: CEO baby
+2026-01-05 15:37:01,167 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 15:37:01,168 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 15:37:01,170 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606758050885632?chapterId=286607548316422144&from=home-swiper&chapterIndex=1&free=1&pay=0
+2026-01-05 15:37:01,170 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 15:37:01,170 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 15:37:01,186 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 15:37:01,649 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 15:37:02,004 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:37:02,239 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 15:37:04,481 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 15:37:16,169 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 15:37:21,172 - utils.logger_utils - INFO - 测试静音和恢复静音功能
+2026-01-05 15:37:21,383 - utils.logger_utils - INFO - 打开播放器菜单
+2026-01-05 15:37:21,395 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 15:37:23,218 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:37:23,219 - utils.logger_utils - INFO - 检查当前静音状态
+2026-01-05 15:37:23,545 - utils.logger_utils - INFO - 当前为未静音状态，将先执行静音操作
+2026-01-05 15:37:23,545 - utils.logger_utils - INFO - 执行静音操作
+2026-01-05 15:37:23,787 - utils.logger_utils - INFO - 静音成功，等待5秒
+2026-01-05 15:37:29,007 - utils.logger_utils - INFO - 重新打开播放器菜单
+2026-01-05 15:37:29,016 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 15:37:30,825 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:37:30,825 - utils.logger_utils - INFO - 执行取消静音操作
+2026-01-05 15:37:31,297 - utils.logger_utils - INFO - 取消静音成功
+2026-01-05 15:37:31,297 - utils.logger_utils - INFO - 静音功能测试完成
+2026-01-05 15:37:31,297 - utils.logger_utils - INFO - 测试收藏和取消收藏功能
+2026-01-05 15:37:31,649 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 15:37:31,650 - utils.logger_utils - INFO - 检查当前收藏状态
+2026-01-05 15:37:31,975 - utils.logger_utils - INFO - 当前为未收藏状态，将先执行收藏操作
+2026-01-05 15:37:31,975 - utils.logger_utils - INFO - 执行收藏操作
+2026-01-05 15:37:32,215 - utils.logger_utils - INFO - 收藏成功，等待3秒
+2026-01-05 15:37:35,429 - utils.logger_utils - INFO - 重新打开播放器菜单
+2026-01-05 15:37:35,441 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 15:37:37,100 - utils.logger_utils - ERROR - 无法重新打开播放器菜单，取消收藏测试失败
+2026-01-05 16:20:30,716 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 16:20:30,740 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 16045, 名称: Google
+2026-01-05 16:20:30,740 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 16045
+2026-01-05 16:20:38,255 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 16:20:38,257 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 16:20:39,503 - utils.logger_utils - INFO - 轮播图标题: ['Wake Up Dad! Wedding Time', 'The Thief Lover', 'CEO baby']
+2026-01-05 16:20:39,503 - utils.logger_utils - INFO - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-01-05 16:20:49,748 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 16:20:49,748 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 16:20:49,750 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607441877569536&from=home-swiper&chapterIndex=5&free=1&pay=0
+2026-01-05 16:20:49,750 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 16:20:49,750 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 16:20:49,772 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 16:20:50,233 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 16:20:50,578 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:20:50,817 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 16:20:53,065 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 16:21:04,756 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 16:21:09,762 - utils.logger_utils - INFO - 测试静音和恢复静音功能
+2026-01-05 16:21:10,119 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:21:10,120 - utils.logger_utils - INFO - 检查当前静音状态
+2026-01-05 16:21:10,449 - utils.logger_utils - INFO - 当前为未静音状态，将先执行静音操作
+2026-01-05 16:21:10,450 - utils.logger_utils - INFO - 执行静音操作
+2026-01-05 16:21:10,695 - utils.logger_utils - INFO - 静音成功，等待5秒
+2026-01-05 16:21:16,048 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:21:16,048 - utils.logger_utils - INFO - 执行取消静音操作
+2026-01-05 16:21:16,508 - utils.logger_utils - INFO - 取消静音成功
+2026-01-05 16:21:16,508 - utils.logger_utils - INFO - 静音功能测试完成
+2026-01-05 16:21:16,508 - utils.logger_utils - INFO - 测试收藏和取消收藏功能
+2026-01-05 16:21:16,853 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:21:16,853 - utils.logger_utils - INFO - 检查当前收藏状态
+2026-01-05 16:21:17,183 - utils.logger_utils - INFO - 当前为未收藏状态，将先执行收藏操作
+2026-01-05 16:21:17,184 - utils.logger_utils - INFO - 执行收藏操作
+2026-01-05 16:21:17,422 - utils.logger_utils - INFO - 收藏成功，等待3秒
+2026-01-05 16:21:20,665 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:21:20,665 - utils.logger_utils - INFO - 执行取消收藏操作
+2026-01-05 16:21:21,123 - utils.logger_utils - INFO - 取消收藏成功
+2026-01-05 16:21:21,124 - utils.logger_utils - INFO - 收藏功能测试完成
+2026-01-05 16:21:21,124 - utils.logger_utils - INFO - 测试退出播放器功能
+2026-01-05 16:21:21,362 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:21:21,363 - utils.logger_utils - INFO - 执行退出播放器
+2026-01-05 16:21:21,874 - utils.logger_utils - INFO - 执行退出播放器成功
+2026-01-05 16:21:21,874 - utils.logger_utils - INFO - 播放器所有测试完成
+2026-01-05 16:21:26,879 - utils.logger_utils - INFO - 当前轮播图标题: The Thief Lover
+2026-01-05 16:21:37,185 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 16:21:37,187 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 16:21:37,189 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286563468966457344?chapterId=286564533375897600&from=home-swiper&chapterIndex=1&free=1&pay=0
+2026-01-05 16:21:37,190 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 16:21:37,190 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 16:21:37,208 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 16:21:37,668 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 16:21:38,011 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:21:38,249 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 16:21:40,495 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 16:21:52,192 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 16:21:57,195 - utils.logger_utils - INFO - 测试静音和恢复静音功能
+2026-01-05 16:21:57,543 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:21:57,543 - utils.logger_utils - INFO - 检查当前静音状态
+2026-01-05 16:21:57,881 - utils.logger_utils - INFO - 当前为未静音状态，将先执行静音操作
+2026-01-05 16:21:57,881 - utils.logger_utils - INFO - 执行静音操作
+2026-01-05 16:21:58,119 - utils.logger_utils - INFO - 静音成功，等待5秒
+2026-01-05 16:22:03,467 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:22:03,468 - utils.logger_utils - INFO - 执行取消静音操作
+2026-01-05 16:22:03,931 - utils.logger_utils - INFO - 取消静音成功
+2026-01-05 16:22:03,931 - utils.logger_utils - INFO - 静音功能测试完成
+2026-01-05 16:22:03,932 - utils.logger_utils - INFO - 测试收藏和取消收藏功能
+2026-01-05 16:22:04,282 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:22:04,282 - utils.logger_utils - INFO - 检查当前收藏状态
+2026-01-05 16:22:04,616 - utils.logger_utils - INFO - 当前为未收藏状态，将先执行收藏操作
+2026-01-05 16:22:04,617 - utils.logger_utils - INFO - 执行收藏操作
+2026-01-05 16:22:04,853 - utils.logger_utils - INFO - 收藏成功，等待3秒
+2026-01-05 16:22:08,092 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:22:08,092 - utils.logger_utils - INFO - 执行取消收藏操作
+2026-01-05 16:22:08,553 - utils.logger_utils - INFO - 取消收藏成功
+2026-01-05 16:22:08,553 - utils.logger_utils - INFO - 收藏功能测试完成
+2026-01-05 16:22:08,553 - utils.logger_utils - INFO - 测试退出播放器功能
+2026-01-05 16:22:08,785 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:22:08,786 - utils.logger_utils - INFO - 执行退出播放器
+2026-01-05 16:22:09,295 - utils.logger_utils - INFO - 执行退出播放器成功
+2026-01-05 16:22:09,296 - utils.logger_utils - INFO - 播放器所有测试完成
+2026-01-05 16:22:14,301 - utils.logger_utils - INFO - 当前轮播图标题: CEO baby
+2026-01-05 16:22:24,581 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 16:22:24,583 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 16:22:24,584 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606758050885632?chapterId=286607711575511040&from=home-swiper&chapterIndex=6&free=1&pay=0
+2026-01-05 16:22:24,584 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 16:22:24,584 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 16:22:24,599 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 16:22:25,067 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 16:22:25,306 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:22:25,541 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 16:22:27,785 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 16:22:39,491 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 16:22:44,496 - utils.logger_utils - INFO - 测试静音和恢复静音功能
+2026-01-05 16:22:44,738 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:22:44,738 - utils.logger_utils - INFO - 检查当前静音状态
+2026-01-05 16:22:45,064 - utils.logger_utils - INFO - 当前为未静音状态，将先执行静音操作
+2026-01-05 16:22:45,064 - utils.logger_utils - INFO - 执行静音操作
+2026-01-05 16:22:45,302 - utils.logger_utils - INFO - 静音成功，等待5秒
+2026-01-05 16:22:50,548 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:22:50,550 - utils.logger_utils - INFO - 执行取消静音操作
+2026-01-05 16:22:51,010 - utils.logger_utils - INFO - 取消静音成功
+2026-01-05 16:22:51,011 - utils.logger_utils - INFO - 静音功能测试完成
+2026-01-05 16:22:51,011 - utils.logger_utils - INFO - 测试收藏和取消收藏功能
+2026-01-05 16:22:51,252 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:22:51,252 - utils.logger_utils - INFO - 检查当前收藏状态
+2026-01-05 16:22:51,700 - utils.logger_utils - INFO - 当前为未收藏状态，将先执行收藏操作
+2026-01-05 16:22:51,700 - utils.logger_utils - INFO - 执行收藏操作
+2026-01-05 16:22:51,935 - utils.logger_utils - INFO - 收藏成功，等待3秒
+2026-01-05 16:22:55,285 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:22:55,285 - utils.logger_utils - INFO - 执行取消收藏操作
+2026-01-05 16:22:55,389 - utils.logger_utils - ERROR - 未找到取消收藏按钮，取消收藏操作失败
+2026-01-05 16:33:29,104 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 16:33:29,132 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 16544, 名称: Google
+2026-01-05 16:33:29,132 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 16544
+2026-01-05 16:33:34,678 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 16:33:34,680 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 16:33:36,399 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-01-05 16:33:36,399 - utils.logger_utils - INFO - 当前轮播图标题: CEO baby
+2026-01-05 16:33:46,641 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 16:33:46,643 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 16:33:46,644 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607441877569536&from=home-swiper&chapterIndex=5&free=1&pay=0
+2026-01-05 16:33:46,644 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 16:33:46,644 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 16:33:46,664 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 16:33:47,116 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 16:33:47,458 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:33:47,694 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 16:33:49,934 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 16:34:01,640 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 16:34:06,645 - utils.logger_utils - INFO - 测试静音和恢复静音功能
+2026-01-05 16:34:06,991 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:34:06,991 - utils.logger_utils - INFO - 检查当前静音状态
+2026-01-05 16:34:07,323 - utils.logger_utils - INFO - 当前为未静音状态，将先执行静音操作
+2026-01-05 16:34:07,323 - utils.logger_utils - INFO - 执行静音操作
+2026-01-05 16:34:07,563 - utils.logger_utils - INFO - 静音成功，等待5秒
+2026-01-05 16:34:12,915 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:34:12,916 - utils.logger_utils - INFO - 执行取消静音操作
+2026-01-05 16:34:13,383 - utils.logger_utils - INFO - 取消静音成功
+2026-01-05 16:34:13,383 - utils.logger_utils - INFO - 静音功能测试完成
+2026-01-05 16:34:13,383 - utils.logger_utils - INFO - 测试收藏和取消收藏功能
+2026-01-05 16:34:13,723 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:34:13,724 - utils.logger_utils - INFO - 检查当前收藏状态
+2026-01-05 16:34:14,057 - utils.logger_utils - INFO - 当前为未收藏状态，将先执行收藏操作
+2026-01-05 16:34:14,057 - utils.logger_utils - INFO - 执行收藏操作
+2026-01-05 16:34:14,294 - utils.logger_utils - INFO - 收藏成功，等待3秒
+2026-01-05 16:34:17,540 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:34:17,540 - utils.logger_utils - INFO - 执行取消收藏操作
+2026-01-05 16:34:17,993 - utils.logger_utils - INFO - 取消收藏成功
+2026-01-05 16:34:17,993 - utils.logger_utils - INFO - 收藏功能测试完成
+2026-01-05 16:34:17,993 - utils.logger_utils - INFO - 测试退出播放器功能
+2026-01-05 16:34:18,233 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:34:18,233 - utils.logger_utils - INFO - 执行退出播放器
+2026-01-05 16:34:18,744 - utils.logger_utils - INFO - 执行退出播放器成功
+2026-01-05 16:34:18,744 - utils.logger_utils - INFO - 播放器所有测试完成
+2026-01-05 16:35:19,263 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 16:35:19,289 - utils.logger_utils - INFO - 端口 9223 未被占用
+2026-01-05 16:35:24,101 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 16:35:24,102 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 16:35:24,869 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-01-05 16:35:24,869 - utils.logger_utils - INFO - 当前轮播图标题: CEO baby
+2026-01-05 16:35:35,112 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 16:35:35,113 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 16:35:35,114 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607441877569536&from=home-swiper&chapterIndex=5&free=1&pay=0
+2026-01-05 16:35:35,115 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 16:35:35,115 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 16:35:35,134 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 16:35:35,596 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 16:35:35,944 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:35:36,175 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 16:35:38,421 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 16:35:50,129 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 16:35:55,133 - utils.logger_utils - INFO - 测试静音和恢复静音功能
+2026-01-05 16:35:55,478 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:35:55,478 - utils.logger_utils - INFO - 检查当前静音状态
+2026-01-05 16:35:55,807 - utils.logger_utils - INFO - 当前为未静音状态，将先执行静音操作
+2026-01-05 16:35:55,807 - utils.logger_utils - INFO - 执行静音操作
+2026-01-05 16:35:56,053 - utils.logger_utils - INFO - 静音成功，等待5秒
+2026-01-05 16:36:01,400 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:36:01,401 - utils.logger_utils - INFO - 执行取消静音操作
+2026-01-05 16:36:01,864 - utils.logger_utils - INFO - 取消静音成功
+2026-01-05 16:36:01,864 - utils.logger_utils - INFO - 静音功能测试完成
+2026-01-05 16:36:01,865 - utils.logger_utils - INFO - 测试收藏和取消收藏功能
+2026-01-05 16:36:02,217 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:36:02,217 - utils.logger_utils - INFO - 检查当前收藏状态
+2026-01-05 16:36:02,548 - utils.logger_utils - INFO - 当前为未收藏状态，将先执行收藏操作
+2026-01-05 16:36:02,548 - utils.logger_utils - INFO - 执行收藏操作
+2026-01-05 16:36:02,788 - utils.logger_utils - INFO - 收藏成功，等待3秒
+2026-01-05 16:36:06,041 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:36:06,041 - utils.logger_utils - INFO - 执行取消收藏操作
+2026-01-05 16:36:06,496 - utils.logger_utils - INFO - 取消收藏成功
+2026-01-05 16:36:09,500 - utils.logger_utils - INFO - 收藏功能测试完成
+2026-01-05 16:36:09,501 - utils.logger_utils - INFO - 测试退出播放器功能
+2026-01-05 16:36:09,844 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:36:09,844 - utils.logger_utils - INFO - 执行退出播放器
+2026-01-05 16:36:10,350 - utils.logger_utils - INFO - 执行退出播放器成功
+2026-01-05 16:36:10,351 - utils.logger_utils - INFO - 播放器所有测试完成
+2026-01-05 16:36:15,356 - utils.logger_utils - INFO - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-01-05 16:36:25,668 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 16:36:25,670 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 16:36:25,671 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286563468966457344?chapterId=286564533375897600&from=home-swiper&chapterIndex=1&free=1&pay=0
+2026-01-05 16:36:25,671 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 16:36:25,671 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 16:36:25,690 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 16:36:26,148 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 16:36:26,489 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:36:26,727 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 16:36:28,972 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 16:36:40,677 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 16:36:45,683 - utils.logger_utils - INFO - 测试静音和恢复静音功能
+2026-01-05 16:36:46,031 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:36:46,031 - utils.logger_utils - INFO - 检查当前静音状态
+2026-01-05 16:36:46,370 - utils.logger_utils - INFO - 当前为未静音状态，将先执行静音操作
+2026-01-05 16:36:46,371 - utils.logger_utils - INFO - 执行静音操作
+2026-01-05 16:36:46,610 - utils.logger_utils - INFO - 静音成功，等待5秒
+2026-01-05 16:36:51,960 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:36:51,960 - utils.logger_utils - INFO - 执行取消静音操作
+2026-01-05 16:36:52,419 - utils.logger_utils - INFO - 取消静音成功
+2026-01-05 16:36:52,419 - utils.logger_utils - INFO - 静音功能测试完成
+2026-01-05 16:36:52,419 - utils.logger_utils - INFO - 测试收藏和取消收藏功能
+2026-01-05 16:36:52,758 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:36:52,758 - utils.logger_utils - INFO - 检查当前收藏状态
+2026-01-05 16:36:53,088 - utils.logger_utils - INFO - 当前为未收藏状态，将先执行收藏操作
+2026-01-05 16:36:53,089 - utils.logger_utils - INFO - 执行收藏操作
+2026-01-05 16:36:53,328 - utils.logger_utils - INFO - 收藏成功，等待3秒
+2026-01-05 16:36:56,569 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:36:56,570 - utils.logger_utils - INFO - 执行取消收藏操作
+2026-01-05 16:36:57,035 - utils.logger_utils - INFO - 取消收藏成功
+2026-01-05 16:37:00,040 - utils.logger_utils - INFO - 收藏功能测试完成
+2026-01-05 16:37:00,040 - utils.logger_utils - INFO - 测试退出播放器功能
+2026-01-05 16:37:00,380 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:37:00,381 - utils.logger_utils - INFO - 执行退出播放器
+2026-01-05 16:37:00,890 - utils.logger_utils - INFO - 执行退出播放器成功
+2026-01-05 16:37:00,891 - utils.logger_utils - INFO - 播放器所有测试完成
+2026-01-05 16:37:05,896 - utils.logger_utils - INFO - 当前轮播图标题: The Thief Lover
+2026-01-05 16:37:16,200 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 16:37:16,202 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 16:37:16,203 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606758050885632?chapterId=286607711575511040&from=home-swiper&chapterIndex=6&free=1&pay=0
+2026-01-05 16:37:16,203 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 16:37:16,204 - utils.logger_utils - INFO - 测试暂停和播放功能
+2026-01-05 16:37:16,221 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 16:37:16,680 - utils.logger_utils - INFO - 执行唤起播放器菜单操作成功
+2026-01-05 16:37:17,022 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:37:17,261 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 16:37:19,501 - utils.logger_utils - INFO - 继续播放操作成功
+2026-01-05 16:37:31,189 - utils.logger_utils - INFO - 执行暂停操作成功
+2026-01-05 16:37:36,195 - utils.logger_utils - INFO - 测试静音和恢复静音功能
+2026-01-05 16:37:36,540 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:37:36,541 - utils.logger_utils - INFO - 检查当前静音状态
+2026-01-05 16:37:36,872 - utils.logger_utils - INFO - 当前为未静音状态，将先执行静音操作
+2026-01-05 16:37:36,873 - utils.logger_utils - INFO - 执行静音操作
+2026-01-05 16:37:37,111 - utils.logger_utils - INFO - 静音成功，等待5秒
+2026-01-05 16:37:42,461 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:37:42,461 - utils.logger_utils - INFO - 执行取消静音操作
+2026-01-05 16:37:42,924 - utils.logger_utils - INFO - 取消静音成功
+2026-01-05 16:37:42,924 - utils.logger_utils - INFO - 静音功能测试完成
+2026-01-05 16:37:42,924 - utils.logger_utils - INFO - 测试收藏和取消收藏功能
+2026-01-05 16:37:43,263 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:37:43,263 - utils.logger_utils - INFO - 检查当前收藏状态
+2026-01-05 16:37:43,590 - utils.logger_utils - INFO - 当前为未收藏状态，将先执行收藏操作
+2026-01-05 16:37:43,590 - utils.logger_utils - INFO - 执行收藏操作
+2026-01-05 16:37:43,827 - utils.logger_utils - INFO - 收藏成功，等待3秒
+2026-01-05 16:37:47,072 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:37:47,073 - utils.logger_utils - INFO - 执行取消收藏操作
+2026-01-05 16:37:47,530 - utils.logger_utils - INFO - 取消收藏成功
+2026-01-05 16:37:50,531 - utils.logger_utils - INFO - 收藏功能测试完成
+2026-01-05 16:37:50,532 - utils.logger_utils - INFO - 测试退出播放器功能
+2026-01-05 16:37:50,879 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:37:50,879 - utils.logger_utils - INFO - 执行退出播放器
+2026-01-05 16:37:51,396 - utils.logger_utils - INFO - 执行退出播放器成功
+2026-01-05 16:37:51,396 - utils.logger_utils - INFO - 播放器所有测试完成
+2026-01-05 16:40:32,113 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 16:40:32,142 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 16779, 名称: Google
+2026-01-05 16:40:32,142 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 16779
+2026-01-05 16:40:38,698 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 16:40:38,700 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 16:40:39,625 - utils.logger_utils - INFO - 轮播图标题: ['Wake Up Dad! Wedding Time', 'The Thief Lover', 'CEO baby']
+2026-01-05 16:40:39,625 - utils.logger_utils - INFO - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-01-05 16:40:49,850 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 16:40:49,851 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 16:40:49,851 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607441877569536&from=home-swiper&chapterIndex=5&free=1&pay=0
+2026-01-05 16:40:49,851 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 16:40:49,851 - utils.logger_utils - INFO - 测试视频质量和播放速度切换功能
+2026-01-05 16:40:49,862 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 16:40:50,669 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:40:50,892 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 16:40:51,353 - utils.logger_utils - INFO - 打开菜单
+2026-01-05 16:40:52,467 - utils.logger_utils - INFO - 找到 60 个播放质量选项: ['', "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.5\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.5 / EP.80\n Speed\n0.5x\n1.0x\n1.5x\n2.0x\n Quality\n480P\n720P\n1080P", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.5\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.5 / EP.80\n Speed\n0.5x\n1.0x\n1.5x\n2.0x\n Quality\n480P\n720P\n1080P", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.5\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.5 / EP.80\n Speed\n0.5x\n1.0x\n1.5x\n2.0x\n Quality\n480P\n720P\n1080P", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.5\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.5 / EP.80\n Speed\n0.5x\n1.0x\n1.5x\n2.0x\n Quality\n480P\n720P\n1080P", 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', '', 'RefreshDiagnose', 'code: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', 'OKCancel', '', 'OKCancel', '', '', '', '占位图', '', '', '', '占位图', '', '', '', 'EP.5', 'EP.5', 'EP.5', 'EP.5', "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.5 / EP.80", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", 'CEO baby', 'CEO baby', "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.", 'More', '', '', '', 'EP.5 / EP.80', 'EP.5 / EP.80', 'Speed\n0.5x\n1.0x\n1.5x\n2.0x\n Quality\n480P\n720P\n1080P', 'Speed\n0.5x\n1.0x\n1.5x\n2.0x', 'Speed', '0.5x\n1.0x\n1.5x\n2.0x', '0.5x', '1.0x', '1.5x', '2.0x', 'Quality\n480P\n720P\n1080P', 'Quality', '480P\n720P\n1080P', '480P', '720P', '1080P']
+2026-01-05 16:40:52,528 - utils.logger_utils - INFO - 找到 60 个播放速度选项: ['', "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.5\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.5 / EP.80\n Speed\n0.5x\n1.0x\n1.5x\n2.0x\n Quality\n480P\n720P\n1080P", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.5\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.5 / EP.80\n Speed\n0.5x\n1.0x\n1.5x\n2.0x\n Quality\n480P\n720P\n1080P", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.5\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.5 / EP.80\n Speed\n0.5x\n1.0x\n1.5x\n2.0x\n Quality\n480P\n720P\n1080P", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.5\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.5 / EP.80\n Speed\n0.5x\n1.0x\n1.5x\n2.0x\n Quality\n480P\n720P\n1080P", 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', '', 'RefreshDiagnose', 'code: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', 'OKCancel', '', 'OKCancel', '', '', '', '占位图', '', '', '', '占位图', '', '', '', 'EP.5', 'EP.5', 'EP.5', 'EP.5', "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.5 / EP.80", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", 'CEO baby', 'CEO baby', "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.", 'More', '', '', '', 'EP.5 / EP.80', 'EP.5 / EP.80', 'Speed\n0.5x\n1.0x\n1.5x\n2.0x\n Quality\n480P\n720P\n1080P', 'Speed\n0.5x\n1.0x\n1.5x\n2.0x', 'Speed', '0.5x\n1.0x\n1.5x\n2.0x', '0.5x', '1.0x', '1.5x', '2.0x', 'Quality\n480P\n720P\n1080P', 'Quality', '480P\n720P\n1080P', '480P', '720P', '1080P']
+2026-01-05 16:40:52,746 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 16:40:54,314 - utils.logger_utils - ERROR - 无法定位播放器菜单元素
+2026-01-05 16:40:54,314 - utils.logger_utils - ERROR - 播放器菜单元素未找到
+2026-01-05 16:45:37,704 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 16:45:37,736 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 16882, 名称: Google
+2026-01-05 16:45:37,736 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 16882
+2026-01-05 16:45:44,591 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 16:45:44,593 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 16:45:45,466 - utils.logger_utils - INFO - 轮播图标题: ['Wake Up Dad! Wedding Time', 'The Thief Lover', 'CEO baby']
+2026-01-05 16:45:45,466 - utils.logger_utils - INFO - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-01-05 16:45:55,697 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 16:45:55,699 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 16:45:55,700 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607473502621696&from=home-swiper&chapterIndex=6&free=1&pay=0
+2026-01-05 16:45:55,701 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 16:45:55,701 - utils.logger_utils - INFO - 测试视频质量和播放速度切换功能
+2026-01-05 16:45:55,721 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 16:45:56,522 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:45:56,746 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 16:45:57,218 - utils.logger_utils - INFO - 打开菜单
+2026-01-05 16:45:58,330 - utils.logger_utils - INFO - 找到 60 个播放质量选项: ['', "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.6\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.6 / EP.80\n Speed\n0.5x\n1.0x\n1.5x\n2.0x\n Quality\n480P\n720P\n1080P", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.6\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.6 / EP.80\n Speed\n0.5x\n1.0x\n1.5x\n2.0x\n Quality\n480P\n720P\n1080P", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.6\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.6 / EP.80\n Speed\n0.5x\n1.0x\n1.5x\n2.0x\n Quality\n480P\n720P\n1080P", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.6\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.6 / EP.80\n Speed\n0.5x\n1.0x\n1.5x\n2.0x\n Quality\n480P\n720P\n1080P", 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', '', 'RefreshDiagnose', 'code: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', 'OKCancel', '', 'OKCancel', '', '', '', '占位图', '', '', '', '占位图', '', '', '', 'EP.6', 'EP.6', 'EP.6', 'EP.6', "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.6 / EP.80", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", 'CEO baby', 'CEO baby', "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.", 'More', '', '', '', 'EP.6 / EP.80', 'EP.6 / EP.80', 'Speed\n0.5x\n1.0x\n1.5x\n2.0x\n Quality\n480P\n720P\n1080P', 'Speed\n0.5x\n1.0x\n1.5x\n2.0x', 'Speed', '0.5x\n1.0x\n1.5x\n2.0x', '0.5x', '1.0x', '1.5x', '2.0x', 'Quality\n480P\n720P\n1080P', 'Quality', '480P\n720P\n1080P', '480P', '720P', '1080P']
+2026-01-05 16:45:58,390 - utils.logger_utils - INFO - 找到 60 个播放速度选项: ['', "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.6\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.6 / EP.80\n Speed\n0.5x\n1.0x\n1.5x\n2.0x\n Quality\n480P\n720P\n1080P", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.6\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.6 / EP.80\n Speed\n0.5x\n1.0x\n1.5x\n2.0x\n Quality\n480P\n720P\n1080P", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.6\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.6 / EP.80\n Speed\n0.5x\n1.0x\n1.5x\n2.0x\n Quality\n480P\n720P\n1080P", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.6\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.6 / EP.80\n Speed\n0.5x\n1.0x\n1.5x\n2.0x\n Quality\n480P\n720P\n1080P", 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', '', 'RefreshDiagnose', 'code: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', 'OKCancel', '', 'OKCancel', '', '', '', '占位图', '', '', '', '占位图', '', '', '', 'EP.6', 'EP.6', 'EP.6', 'EP.6', "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.6 / EP.80", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", 'CEO baby', 'CEO baby', "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.", 'More', '', '', '', 'EP.6 / EP.80', 'EP.6 / EP.80', 'Speed\n0.5x\n1.0x\n1.5x\n2.0x\n Quality\n480P\n720P\n1080P', 'Speed\n0.5x\n1.0x\n1.5x\n2.0x', 'Speed', '0.5x\n1.0x\n1.5x\n2.0x', '0.5x', '1.0x', '1.5x', '2.0x', 'Quality\n480P\n720P\n1080P', 'Quality', '480P\n720P\n1080P', '480P', '720P', '1080P']
+2026-01-05 16:45:58,623 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 16:46:00,192 - utils.logger_utils - ERROR - 无法定位播放器菜单元素
+2026-01-05 16:46:00,192 - utils.logger_utils - ERROR - 播放器菜单元素未找到
+2026-01-05 16:49:03,417 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 16:49:03,454 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 16997, 名称: Google
+2026-01-05 16:49:03,454 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 16997
+2026-01-05 16:49:09,478 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 16:49:09,549 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 16:49:10,707 - utils.logger_utils - INFO - 轮播图标题: ['Wake Up Dad! Wedding Time', 'The Thief Lover', 'CEO baby']
+2026-01-05 16:49:10,707 - utils.logger_utils - INFO - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-01-05 16:49:20,952 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 16:49:20,952 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 16:49:20,954 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607473502621696&from=home-swiper&chapterIndex=6&free=1&pay=0
+2026-01-05 16:49:20,954 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 16:49:20,954 - utils.logger_utils - INFO - 测试视频质量和播放速度切换功能
+2026-01-05 16:49:20,975 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 16:49:21,775 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:49:21,998 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 16:49:22,460 - utils.logger_utils - INFO - 打开菜单
+2026-01-05 16:49:23,473 - utils.logger_utils - ERROR - 获取播放质量列表时出错: 'ChromiumElement' object is not iterable
+2026-01-05 16:49:23,479 - utils.logger_utils - ERROR - 获取播放速度列表时出错: 'ChromiumElement' object is not iterable
+2026-01-05 16:49:23,715 - utils.logger_utils - INFO - 测试退出播放器功能
+2026-01-05 16:49:24,070 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:49:24,070 - utils.logger_utils - INFO - 执行退出播放器
+2026-01-05 16:49:24,581 - utils.logger_utils - INFO - 执行退出播放器成功
+2026-01-05 16:49:24,581 - utils.logger_utils - INFO - 播放器所有测试完成
+2026-01-05 16:49:29,586 - utils.logger_utils - INFO - 当前轮播图标题: The Thief Lover
+2026-01-05 16:49:39,898 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 16:49:39,900 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 16:49:39,901 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286563468966457344?chapterId=286564533375897600&from=home-swiper&chapterIndex=1&free=1&pay=0
+2026-01-05 16:49:39,901 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 16:49:39,901 - utils.logger_utils - INFO - 测试视频质量和播放速度切换功能
+2026-01-05 16:49:39,921 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 16:49:40,726 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:49:40,953 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 16:49:41,407 - utils.logger_utils - INFO - 打开菜单
+2026-01-05 16:49:42,420 - utils.logger_utils - ERROR - 获取播放质量列表时出错: 'ChromiumElement' object is not iterable
+2026-01-05 16:49:42,426 - utils.logger_utils - ERROR - 获取播放速度列表时出错: 'ChromiumElement' object is not iterable
+2026-01-05 16:49:42,663 - utils.logger_utils - INFO - 测试退出播放器功能
+2026-01-05 16:49:43,020 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:49:43,020 - utils.logger_utils - INFO - 执行退出播放器
+2026-01-05 16:49:43,523 - utils.logger_utils - INFO - 执行退出播放器成功
+2026-01-05 16:49:43,523 - utils.logger_utils - INFO - 播放器所有测试完成
+2026-01-05 16:49:48,529 - utils.logger_utils - INFO - 当前轮播图标题: CEO baby
+2026-01-05 16:49:58,853 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 16:49:58,855 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 16:49:58,856 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606758050885632?chapterId=286607711575511040&from=home-swiper&chapterIndex=6&free=1&pay=0
+2026-01-05 16:49:58,856 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 16:49:58,856 - utils.logger_utils - INFO - 测试视频质量和播放速度切换功能
+2026-01-05 16:49:58,869 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 16:49:59,642 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:49:59,866 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 16:50:00,337 - utils.logger_utils - INFO - 打开菜单
+2026-01-05 16:50:01,346 - utils.logger_utils - ERROR - 获取播放质量列表时出错: 'ChromiumElement' object is not iterable
+2026-01-05 16:50:01,353 - utils.logger_utils - ERROR - 获取播放速度列表时出错: 'ChromiumElement' object is not iterable
+2026-01-05 16:50:01,594 - utils.logger_utils - INFO - 测试退出播放器功能
+2026-01-05 16:50:01,956 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:50:01,957 - utils.logger_utils - INFO - 执行退出播放器
+2026-01-05 16:50:02,426 - utils.logger_utils - INFO - 执行退出播放器成功
+2026-01-05 16:50:02,426 - utils.logger_utils - INFO - 播放器所有测试完成
+2026-01-05 16:50:29,558 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 16:50:29,589 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 17112, 名称: Google
+2026-01-05 16:50:29,589 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 17112
+2026-01-05 16:50:35,083 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 16:50:35,086 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 16:50:36,797 - utils.logger_utils - INFO - 轮播图标题: ['Wake Up Dad! Wedding Time', 'The Thief Lover', 'CEO baby']
+2026-01-05 16:50:36,797 - utils.logger_utils - INFO - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-01-05 16:50:47,108 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 16:50:47,109 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 16:50:47,111 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607473502621696&from=home-swiper&chapterIndex=6&free=1&pay=0
+2026-01-05 16:50:47,111 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 16:50:47,111 - utils.logger_utils - INFO - 测试视频质量和播放速度切换功能
+2026-01-05 16:50:47,131 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 16:50:47,931 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:50:48,153 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 16:50:48,620 - utils.logger_utils - INFO - 打开菜单
+2026-01-05 16:50:49,638 - utils.logger_utils - INFO - 找到 3 个播放质量选项: ['480P', '720P', '1080P']
+2026-01-05 16:50:49,647 - utils.logger_utils - INFO - 找到 4 个播放速度选项: ['0.5x', '1.0x', '1.5x', '2.0x']
+2026-01-05 16:50:49,895 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 16:50:51,463 - utils.logger_utils - ERROR - 无法定位播放器菜单元素
+2026-01-05 16:50:51,463 - utils.logger_utils - ERROR - 播放器菜单元素未找到
+2026-01-05 16:57:20,870 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 16:57:20,902 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 17190, 名称: Google
+2026-01-05 16:57:20,902 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 17190
+2026-01-05 16:57:26,421 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 16:57:26,422 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 16:57:29,921 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-01-05 16:57:29,921 - utils.logger_utils - INFO - 当前轮播图标题: CEO baby
+2026-01-05 16:57:40,156 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 16:57:40,157 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 16:57:40,158 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607473502621696&from=home-swiper&chapterIndex=6&free=1&pay=0
+2026-01-05 16:57:40,159 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 16:57:40,159 - utils.logger_utils - INFO - 测试视频质量和播放速度切换功能
+2026-01-05 16:57:40,177 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 16:57:40,987 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:57:41,214 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 16:57:41,670 - utils.logger_utils - INFO - 打开菜单
+2026-01-05 16:57:42,689 - utils.logger_utils - INFO - 找到 3 个播放质量选项: ['480P', '720P', '1080P']
+2026-01-05 16:57:42,698 - utils.logger_utils - INFO - 找到 4 个播放速度选项: ['0.5x', '1.0x', '1.5x', '2.0x']
+2026-01-05 16:57:42,945 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 16:57:44,620 - utils.logger_utils - INFO - 播放器菜单未打开，先打开菜单
+2026-01-05 16:57:46,225 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:57:46,452 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 16:57:48,025 - utils.logger_utils - INFO - 找到匹配的播放质量: 480P
+2026-01-05 16:57:48,470 - utils.logger_utils - INFO - 切换480P成功等待20秒
+2026-01-05 16:58:08,488 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 16:58:10,304 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:58:10,530 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 16:58:12,097 - utils.logger_utils - INFO - 找到匹配的播放质量: 720P
+2026-01-05 16:58:12,549 - utils.logger_utils - INFO - 切换720P成功等待20秒
+2026-01-05 16:58:32,563 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 16:58:34,385 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:58:34,610 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 16:58:36,183 - utils.logger_utils - INFO - 找到匹配的播放质量: 1080P
+2026-01-05 16:58:36,629 - utils.logger_utils - INFO - 切换1080P成功等待20秒
+2026-01-05 16:58:56,644 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 16:58:58,466 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:58:58,690 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 16:59:00,251 - utils.logger_utils - INFO - 找到匹配的播放速度: 0.5x
+2026-01-05 16:59:00,707 - utils.logger_utils - INFO - 切换0.5x成功等待20秒
+2026-01-05 16:59:20,803 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 16:59:22,585 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:59:22,813 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 16:59:24,384 - utils.logger_utils - INFO - 找到匹配的播放速度: 1.0x
+2026-01-05 16:59:24,835 - utils.logger_utils - INFO - 切换1.0x成功等待20秒
+2026-01-05 16:59:44,853 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 16:59:46,522 - utils.logger_utils - INFO - 播放器菜单未打开，先打开菜单
+2026-01-05 16:59:48,113 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 16:59:48,336 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 16:59:49,903 - utils.logger_utils - INFO - 找到匹配的播放速度: 1.5x
+2026-01-05 16:59:50,358 - utils.logger_utils - INFO - 切换1.5x成功等待20秒
+2026-01-05 17:00:10,376 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:00:12,188 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:00:12,414 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 17:00:13,987 - utils.logger_utils - INFO - 找到匹配的播放速度: 2.0x
+2026-01-05 17:00:14,431 - utils.logger_utils - INFO - 切换2.0x成功等待20秒
+2026-01-05 17:00:34,435 - utils.logger_utils - INFO - 测试退出播放器功能
+2026-01-05 17:00:34,649 - utils.logger_utils - INFO - 播放器菜单未打开，先打开菜单
+2026-01-05 17:00:34,666 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:00:36,480 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:00:36,480 - utils.logger_utils - INFO - 执行退出播放器
+2026-01-05 17:00:36,989 - utils.logger_utils - INFO - 执行退出播放器成功
+2026-01-05 17:00:36,989 - utils.logger_utils - INFO - 播放器所有测试完成
+2026-01-05 17:00:41,995 - utils.logger_utils - INFO - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-01-05 17:00:52,319 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 17:00:52,320 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 17:00:52,321 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286563468966457344?chapterId=286564533375897600&from=home-swiper&chapterIndex=1&free=1&pay=0
+2026-01-05 17:00:52,321 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 17:00:52,321 - utils.logger_utils - INFO - 测试视频质量和播放速度切换功能
+2026-01-05 17:00:52,330 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:00:53,120 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:00:53,347 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 17:00:53,809 - utils.logger_utils - INFO - 打开菜单
+2026-01-05 17:00:54,825 - utils.logger_utils - INFO - 找到 3 个播放质量选项: ['480P', '720P', '1080P']
+2026-01-05 17:00:54,836 - utils.logger_utils - INFO - 找到 4 个播放速度选项: ['0.5x', '1.0x', '1.5x', '2.0x']
+2026-01-05 17:00:55,076 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:00:56,731 - utils.logger_utils - INFO - 播放器菜单未打开，先打开菜单
+2026-01-05 17:00:58,326 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:00:58,554 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 17:01:00,127 - utils.logger_utils - INFO - 找到匹配的播放质量: 480P
+2026-01-05 17:01:00,582 - utils.logger_utils - INFO - 切换480P成功等待20秒
+2026-01-05 17:01:20,598 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:01:22,411 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:01:22,637 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 17:01:24,205 - utils.logger_utils - INFO - 找到匹配的播放质量: 720P
+2026-01-05 17:01:24,653 - utils.logger_utils - INFO - 切换720P成功等待20秒
+2026-01-05 17:01:44,667 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:01:46,476 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:01:46,703 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 17:01:48,271 - utils.logger_utils - INFO - 找到匹配的播放质量: 1080P
+2026-01-05 17:01:48,717 - utils.logger_utils - INFO - 切换1080P成功等待20秒
+2026-01-05 17:02:08,741 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:02:10,552 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:02:10,779 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 17:02:12,353 - utils.logger_utils - INFO - 找到匹配的播放速度: 0.5x
+2026-01-05 17:02:12,806 - utils.logger_utils - INFO - 切换0.5x成功等待20秒
+2026-01-05 17:02:32,823 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:02:34,496 - utils.logger_utils - INFO - 播放器菜单未打开，先打开菜单
+2026-01-05 17:02:36,083 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:02:36,309 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 17:02:37,870 - utils.logger_utils - INFO - 找到匹配的播放速度: 1.0x
+2026-01-05 17:02:38,321 - utils.logger_utils - INFO - 切换1.0x成功等待20秒
+2026-01-05 17:02:58,335 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:03:00,150 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:03:00,379 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 17:03:01,952 - utils.logger_utils - INFO - 找到匹配的播放速度: 1.5x
+2026-01-05 17:03:02,401 - utils.logger_utils - INFO - 切换1.5x成功等待20秒
+2026-01-05 17:03:22,420 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:03:24,235 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:03:24,461 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 17:03:26,024 - utils.logger_utils - INFO - 找到匹配的播放速度: 2.0x
+2026-01-05 17:03:26,470 - utils.logger_utils - INFO - 切换2.0x成功等待20秒
+2026-01-05 17:03:46,475 - utils.logger_utils - INFO - 测试退出播放器功能
+2026-01-05 17:03:46,823 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:03:46,824 - utils.logger_utils - INFO - 执行退出播放器
+2026-01-05 17:03:47,338 - utils.logger_utils - INFO - 执行退出播放器成功
+2026-01-05 17:03:47,338 - utils.logger_utils - INFO - 播放器所有测试完成
+2026-01-05 17:03:52,343 - utils.logger_utils - INFO - 当前轮播图标题: The Thief Lover
+2026-01-05 17:04:02,645 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 17:04:02,646 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 17:04:02,647 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606758050885632?chapterId=286607711575511040&from=home-swiper&chapterIndex=6&free=1&pay=0
+2026-01-05 17:04:02,647 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 17:04:02,647 - utils.logger_utils - INFO - 测试视频质量和播放速度切换功能
+2026-01-05 17:04:02,665 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:04:03,458 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:04:03,679 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 17:04:04,142 - utils.logger_utils - INFO - 打开菜单
+2026-01-05 17:04:05,157 - utils.logger_utils - INFO - 找到 3 个播放质量选项: ['480P', '720P', '1080P']
+2026-01-05 17:04:05,166 - utils.logger_utils - INFO - 找到 4 个播放速度选项: ['0.5x', '1.0x', '1.5x', '2.0x']
+2026-01-05 17:04:05,407 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:04:07,087 - utils.logger_utils - INFO - 播放器菜单未打开，先打开菜单
+2026-01-05 17:04:08,673 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:04:08,897 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 17:04:10,467 - utils.logger_utils - INFO - 找到匹配的播放质量: 480P
+2026-01-05 17:04:10,914 - utils.logger_utils - INFO - 切换480P成功等待20秒
+2026-01-05 17:04:30,931 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:04:32,757 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:04:32,985 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 17:04:34,551 - utils.logger_utils - INFO - 找到匹配的播放质量: 720P
+2026-01-05 17:04:35,000 - utils.logger_utils - INFO - 切换720P成功等待20秒
+2026-01-05 17:04:55,018 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:04:56,838 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:04:57,064 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 17:04:58,641 - utils.logger_utils - INFO - 找到匹配的播放质量: 1080P
+2026-01-05 17:04:59,081 - utils.logger_utils - INFO - 切换1080P成功等待20秒
+2026-01-05 17:05:19,100 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:05:20,918 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:05:21,144 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 17:05:22,714 - utils.logger_utils - INFO - 找到匹配的播放速度: 0.5x
+2026-01-05 17:05:23,165 - utils.logger_utils - INFO - 切换0.5x成功等待20秒
+2026-01-05 17:05:48,189 - utils.logger_utils - ERROR - 定位播放器失败：
+无法定位播放器容器
+版本: 4.1.1.2
+2026-01-05 17:23:17,092 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 17:23:17,123 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 17335, 名称: Google
+2026-01-05 17:23:17,123 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 17335
+2026-01-05 17:23:22,584 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 17:23:22,585 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 17:23:24,337 - utils.logger_utils - INFO - 轮播图标题: ['Wake Up Dad! Wedding Time', 'The Thief Lover', 'CEO baby']
+2026-01-05 17:23:24,338 - utils.logger_utils - INFO - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-01-05 17:23:34,578 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 17:23:34,578 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 17:23:34,580 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=home-swiper&chapterIndex=8&free=1&pay=0
+2026-01-05 17:23:34,580 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 17:23:34,580 - utils.logger_utils - INFO - 测试视频质量和播放速度切换功能
+2026-01-05 17:23:34,602 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:23:35,413 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:23:35,639 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 17:23:36,105 - utils.logger_utils - INFO - 打开菜单
+2026-01-05 17:23:37,123 - utils.logger_utils - INFO - 找到 3 个播放质量选项: ['480P', '720P', '1080P']
+2026-01-05 17:23:37,132 - utils.logger_utils - INFO - 找到 4 个播放速度选项: ['0.5x', '1.0x', '1.5x', '2.0x']
+2026-01-05 17:23:37,383 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:23:39,060 - utils.logger_utils - INFO - 播放器菜单未打开，先打开菜单
+2026-01-05 17:23:40,661 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:23:40,884 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 17:23:42,461 - utils.logger_utils - INFO - 找到匹配的播放质量: 480P
+2026-01-05 17:23:42,915 - utils.logger_utils - INFO - 切换480P成功等待20秒
+2026-01-05 17:24:02,934 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:24:04,730 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:24:04,945 - utils.logger_utils - INFO - 成功定位播放器菜单元素
+2026-01-05 17:24:06,489 - utils.logger_utils - INFO - 找到匹配的播放质量: 720P
+2026-01-05 17:24:06,914 - utils.logger_utils - INFO - 切换720P成功等待20秒
+2026-01-05 17:24:11,132 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 17:24:11,157 - utils.logger_utils - INFO - 端口 9223 未被占用
+2026-01-05 17:24:15,737 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 17:24:15,738 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 17:24:16,465 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-01-05 17:24:16,465 - utils.logger_utils - INFO - 当前轮播图标题: CEO baby
+2026-01-05 17:24:26,705 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 17:24:26,706 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 17:24:26,707 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=home-swiper&chapterIndex=8&free=1&pay=0
+2026-01-05 17:24:26,707 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 17:24:26,708 - utils.logger_utils - INFO - 测试打开聚合页-简介功能
+2026-01-05 17:24:26,914 - utils.logger_utils - INFO - 播放器菜单未打开，先打开菜单
+2026-01-05 17:24:26,930 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:24:28,750 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:24:28,751 - utils.logger_utils - INFO - 尝试打开聚合页-简介
+2026-01-05 17:24:29,210 - utils.logger_utils - INFO - 播放器聚合页打开成功
+2026-01-05 17:24:31,216 - utils.logger_utils - INFO - 检查并处理可能的浮层
+2026-01-05 17:24:31,222 - utils.logger_utils - INFO - 发现浮层，尝试点击关闭
+2026-01-05 17:24:32,458 - utils.logger_utils - INFO - 等待页面加载完成
+2026-01-05 17:25:02,678 - utils.logger_utils - INFO - 播放器菜单已关闭，重新打开菜单
+2026-01-05 17:25:02,691 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:25:04,374 - utils.logger_utils - ERROR - 无法重新打开播放器菜单，关闭聚合页测试失败
+2026-01-05 17:27:11,122 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 17:27:11,154 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 17789, 名称: Google
+2026-01-05 17:27:11,154 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 17789
+2026-01-05 17:27:11,466 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 17:27:11,480 - utils.logger_utils - INFO - 端口 9223 未被占用
+2026-01-05 17:27:17,214 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 17:27:17,215 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 17:27:17,232 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-01-05 17:27:17,232 - utils.logger_utils - INFO - 当前轮播图标题: CEO baby
+2026-01-05 17:27:27,477 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 17:27:27,478 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 17:27:27,479 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=home-swiper&chapterIndex=8&free=1&pay=0
+2026-01-05 17:27:27,479 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 17:27:27,479 - utils.logger_utils - INFO - 测试打开聚合页-简介功能
+2026-01-05 17:27:27,701 - utils.logger_utils - INFO - 播放器菜单未打开，先打开菜单
+2026-01-05 17:27:27,716 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:27:29,527 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:27:29,527 - utils.logger_utils - INFO - 尝试打开聚合页-简介
+2026-01-05 17:27:30,005 - utils.logger_utils - INFO - 播放器聚合页打开成功
+2026-01-05 17:27:32,010 - utils.logger_utils - INFO - 检查并处理可能的浮层
+2026-01-05 17:27:32,019 - utils.logger_utils - INFO - 发现浮层，尝试点击关闭
+2026-01-05 17:27:32,019 - utils.logger_utils - ERROR - 点击浮层顶部位置失败: 'ElementRect' object is not subscriptable，使用默认点击方式
+2026-01-05 17:27:33,258 - utils.logger_utils - INFO - 等待页面加载完成
+2026-01-05 17:28:03,477 - utils.logger_utils - INFO - 播放器菜单已关闭，重新打开菜单
+2026-01-05 17:28:03,491 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:28:05,162 - utils.logger_utils - ERROR - 无法重新打开播放器菜单，关闭聚合页测试失败
+2026-01-05 17:30:33,330 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 17:30:33,358 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 17883, 名称: Google
+2026-01-05 17:30:33,359 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 17883
+2026-01-05 17:30:38,765 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 17:30:38,767 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 17:30:40,615 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-01-05 17:30:40,615 - utils.logger_utils - INFO - 当前轮播图标题: CEO baby
+2026-01-05 17:30:50,845 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 17:30:50,846 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 17:30:50,847 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=home-swiper&chapterIndex=8&free=1&pay=0
+2026-01-05 17:30:50,848 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 17:30:50,848 - utils.logger_utils - INFO - 测试打开聚合页-简介功能
+2026-01-05 17:30:51,061 - utils.logger_utils - INFO - 播放器菜单未打开，先打开菜单
+2026-01-05 17:30:51,082 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:30:52,907 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:30:52,907 - utils.logger_utils - INFO - 尝试打开聚合页-简介
+2026-01-05 17:30:53,362 - utils.logger_utils - INFO - 播放器聚合页打开成功
+2026-01-05 17:30:55,368 - utils.logger_utils - INFO - 检查并处理可能的浮层
+2026-01-05 17:30:55,375 - utils.logger_utils - INFO - 发现浮层，尝试点击关闭
+2026-01-05 17:30:55,375 - utils.logger_utils - ERROR - 点击浮层顶部位置失败: 'ElementRect' object has no attribute 'x'，使用默认点击方式
+2026-01-05 17:30:56,613 - utils.logger_utils - INFO - 等待页面加载完成
+2026-01-05 17:31:26,825 - utils.logger_utils - INFO - 播放器菜单已关闭，重新打开菜单
+2026-01-05 17:31:26,838 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:31:28,496 - utils.logger_utils - ERROR - 无法重新打开播放器菜单，关闭聚合页测试失败
+2026-01-05 17:32:57,547 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 17:32:57,570 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 17971, 名称: Google
+2026-01-05 17:32:57,570 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 17971
+2026-01-05 17:33:03,602 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 17:33:03,604 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 17:33:04,872 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-01-05 17:33:04,873 - utils.logger_utils - INFO - 当前轮播图标题: CEO baby
+2026-01-05 17:33:15,107 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 17:33:15,107 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 17:33:15,109 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607514787155968&from=home-swiper&chapterIndex=9&free=1&pay=0
+2026-01-05 17:33:15,109 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 17:33:15,109 - utils.logger_utils - INFO - 测试打开聚合页-简介功能
+2026-01-05 17:33:15,328 - utils.logger_utils - INFO - 播放器菜单未打开，先打开菜单
+2026-01-05 17:33:15,336 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:33:17,150 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:33:17,151 - utils.logger_utils - INFO - 尝试打开聚合页-简介
+2026-01-05 17:33:17,622 - utils.logger_utils - INFO - 播放器聚合页打开成功
+2026-01-05 17:33:19,624 - utils.logger_utils - INFO - 检查并处理可能的浮层
+2026-01-05 17:33:19,630 - utils.logger_utils - INFO - 发现浮层，尝试点击关闭
+2026-01-05 17:33:19,630 - utils.logger_utils - ERROR - 点击浮层顶部位置失败: 'ChromiumElement' object has no attribute 'location'，使用默认点击方式
+2026-01-05 17:33:20,873 - utils.logger_utils - INFO - 等待页面加载完成
+2026-01-05 17:33:51,231 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:33:51,232 - utils.logger_utils - INFO - 定位标题并关闭聚合页
+2026-01-05 17:33:53,461 - utils.logger_utils - ERROR - 点击标题上方位置失败: 'ElementRect' object is not subscriptable，使用备用方案
+2026-01-05 17:33:58,476 - utils.logger_utils - ERROR - 定位播放器失败：
+无法定位播放器容器
+版本: 4.1.1.2
+2026-01-05 17:34:40,460 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 17:34:40,489 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 18053, 名称: Google
+2026-01-05 17:34:40,489 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 18053
+2026-01-05 17:34:47,243 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 17:34:47,245 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 17:34:48,032 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-01-05 17:34:48,032 - utils.logger_utils - INFO - 当前轮播图标题: CEO baby
+2026-01-05 17:34:58,277 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 17:34:58,278 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 17:34:58,280 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607514787155968&from=home-swiper&chapterIndex=9&free=1&pay=0
+2026-01-05 17:34:58,280 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 17:34:58,280 - utils.logger_utils - INFO - 测试打开聚合页-简介功能
+2026-01-05 17:34:58,493 - utils.logger_utils - INFO - 播放器菜单未打开，先打开菜单
+2026-01-05 17:34:58,511 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:35:00,322 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:35:00,322 - utils.logger_utils - INFO - 尝试打开聚合页-简介
+2026-01-05 17:35:00,782 - utils.logger_utils - INFO - 播放器聚合页打开成功
+2026-01-05 17:35:02,786 - utils.logger_utils - INFO - 检查并处理可能的浮层
+2026-01-05 17:35:02,792 - utils.logger_utils - INFO - 发现浮层，尝试点击关闭
+2026-01-05 17:35:02,792 - utils.logger_utils - ERROR - 点击浮层顶部位置失败: 'ElementRect' object has no attribute 'left'，使用默认点击方式
+2026-01-05 17:35:04,027 - utils.logger_utils - INFO - 等待页面加载完成
+2026-01-05 17:35:34,389 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:35:34,391 - utils.logger_utils - INFO - 定位标题并关闭聚合页
+2026-01-05 17:35:36,612 - utils.logger_utils - ERROR - 点击标题上方位置失败: 'ElementRect' object is not subscriptable，使用备用方案
+2026-01-05 17:35:41,633 - utils.logger_utils - ERROR - 定位播放器失败：
+无法定位播放器容器
+版本: 4.1.1.2
+2026-01-05 17:35:56,481 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 17:35:56,512 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 18150, 名称: Google
+2026-01-05 17:35:56,512 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 18150
+2026-01-05 17:36:02,489 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 17:36:02,490 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 17:36:03,769 - utils.logger_utils - INFO - 轮播图标题: ['Wake Up Dad! Wedding Time', 'The Thief Lover', 'CEO baby']
+2026-01-05 17:36:03,769 - utils.logger_utils - INFO - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-01-05 17:36:14,006 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 17:36:14,007 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 17:36:14,008 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607514787155968&from=home-swiper&chapterIndex=9&free=1&pay=0
+2026-01-05 17:36:14,008 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 17:36:14,008 - utils.logger_utils - INFO - 测试打开聚合页-简介功能
+2026-01-05 17:36:14,216 - utils.logger_utils - INFO - 播放器菜单未打开，先打开菜单
+2026-01-05 17:36:14,225 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:36:16,039 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:36:16,039 - utils.logger_utils - INFO - 尝试打开聚合页-简介
+2026-01-05 17:36:16,508 - utils.logger_utils - INFO - 播放器聚合页打开成功
+2026-01-05 17:36:18,513 - utils.logger_utils - INFO - 检查并处理可能的浮层
+2026-01-05 17:36:18,521 - utils.logger_utils - INFO - 发现浮层，尝试点击关闭
+2026-01-05 17:36:18,523 - utils.logger_utils - ERROR - 点击浮层顶部位置失败: 'ChromiumPage' object has no attribute 'click'，使用默认点击方式
+2026-01-05 17:36:19,759 - utils.logger_utils - INFO - 等待页面加载完成
+2026-01-05 17:36:47,830 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 17:36:47,855 - utils.logger_utils - INFO - 端口 9223 未被占用
+2026-01-05 17:36:51,259 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 17:36:51,262 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 17:36:52,944 - utils.logger_utils - INFO - 轮播图标题: ['Wake Up Dad! Wedding Time', 'The Thief Lover', 'CEO baby']
+2026-01-05 17:36:52,944 - utils.logger_utils - INFO - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-01-05 17:37:03,184 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 17:37:03,184 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 17:37:03,186 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607514787155968&from=home-swiper&chapterIndex=9&free=1&pay=0
+2026-01-05 17:37:03,186 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 17:37:03,187 - utils.logger_utils - INFO - 测试打开聚合页-简介功能
+2026-01-05 17:37:03,400 - utils.logger_utils - INFO - 播放器菜单未打开，先打开菜单
+2026-01-05 17:37:03,411 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:37:05,233 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:37:05,233 - utils.logger_utils - INFO - 尝试打开聚合页-简介
+2026-01-05 17:37:05,692 - utils.logger_utils - INFO - 播放器聚合页打开成功
+2026-01-05 17:37:07,698 - utils.logger_utils - INFO - 检查并处理可能的浮层
+2026-01-05 17:37:07,705 - utils.logger_utils - INFO - 发现浮层，尝试点击关闭
+2026-01-05 17:37:07,707 - utils.logger_utils - ERROR - 点击浮层顶部位置失败: 'ChromiumPage' object has no attribute 'click'，使用默认点击方式
+2026-01-05 17:37:08,945 - utils.logger_utils - INFO - 等待页面加载完成
+2026-01-05 17:37:39,299 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:37:39,300 - utils.logger_utils - INFO - 定位标题并关闭聚合页
+2026-01-05 17:37:41,527 - utils.logger_utils - ERROR - 点击标题上方位置失败: 'ElementRect' object is not subscriptable，使用备用方案
+2026-01-05 17:37:46,536 - utils.logger_utils - ERROR - 定位播放器失败：
+无法定位播放器容器
+版本: 4.1.1.2
+2026-01-05 17:41:20,276 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 17:41:20,308 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 18274, 名称: Google
+2026-01-05 17:41:20,308 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 18274
+2026-01-05 17:41:26,747 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 17:41:26,749 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 17:41:27,508 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-01-05 17:41:27,508 - utils.logger_utils - INFO - 当前轮播图标题: CEO baby
+2026-01-05 17:41:37,754 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 17:41:37,755 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 17:41:37,757 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607514787155968&from=home-swiper&chapterIndex=9&free=1&pay=0
+2026-01-05 17:41:37,757 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 17:41:37,757 - utils.logger_utils - INFO - 测试打开聚合页-简介功能
+2026-01-05 17:41:37,970 - utils.logger_utils - INFO - 播放器菜单未打开，先打开菜单
+2026-01-05 17:41:37,988 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:41:39,809 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:41:39,810 - utils.logger_utils - INFO - 尝试打开聚合页-简介
+2026-01-05 17:41:40,279 - utils.logger_utils - INFO - 播放器聚合页打开成功
+2026-01-05 17:41:42,283 - utils.logger_utils - INFO - 检查并处理可能的浮层
+2026-01-05 17:41:42,290 - utils.logger_utils - INFO - 发现浮层，尝试点击关闭
+2026-01-05 17:41:42,293 - utils.logger_utils - ERROR - 点击浮层顶部位置失败: 'ChromiumPage' object has no attribute 'click'，使用默认点击方式
+2026-01-05 17:41:43,529 - utils.logger_utils - INFO - 等待页面加载完成
+2026-01-05 17:42:13,874 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:42:13,875 - utils.logger_utils - INFO - 定位标题并关闭聚合页
+2026-01-05 17:42:16,107 - utils.logger_utils - ERROR - 点击标题上方位置失败: 'ChromiumPage' object has no attribute 'click'，使用备用方案
+2026-01-05 17:42:21,121 - utils.logger_utils - ERROR - 定位播放器失败：
+无法定位播放器容器
+版本: 4.1.1.2
+2026-01-05 17:42:21,122 - utils.logger_utils - ERROR - 备用方案也失败: 
+无法定位播放器容器
+版本: 4.1.1.2
+2026-01-05 17:43:25,084 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 17:43:25,113 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 18362, 名称: Google
+2026-01-05 17:43:25,113 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 18362
+2026-01-05 17:43:30,839 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 17:43:30,841 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 17:43:32,549 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-01-05 17:43:32,549 - utils.logger_utils - INFO - 当前轮播图标题: CEO baby
+2026-01-05 17:43:42,790 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 17:43:42,790 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 17:43:42,791 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607514787155968&from=home-swiper&chapterIndex=9&free=1&pay=0
+2026-01-05 17:43:42,791 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 17:43:42,791 - utils.logger_utils - INFO - 测试打开聚合页-简介功能
+2026-01-05 17:43:43,010 - utils.logger_utils - INFO - 播放器菜单未打开，先打开菜单
+2026-01-05 17:43:43,025 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 17:43:44,842 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:43:44,842 - utils.logger_utils - INFO - 尝试打开聚合页-简介
+2026-01-05 17:43:45,299 - utils.logger_utils - INFO - 播放器聚合页打开成功
+2026-01-05 17:43:47,304 - utils.logger_utils - INFO - 检查并处理可能的浮层
+2026-01-05 17:43:47,311 - utils.logger_utils - INFO - 发现浮层，尝试点击关闭
+2026-01-05 17:43:47,317 - utils.logger_utils - INFO - 点击浮层顶部向上40像素位置(250, 161.2265625)关闭浮层
+2026-01-05 17:43:48,321 - utils.logger_utils - INFO - 等待页面加载完成
+2026-01-05 17:44:18,683 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 17:44:18,684 - utils.logger_utils - INFO - 定位标题并关闭聚合页
+2026-01-05 17:44:20,791 - utils.logger_utils - WARNING - 未找到标题元素，使用默认点击方式关闭
+2026-01-05 17:44:25,804 - utils.logger_utils - ERROR - 定位播放器失败：
+无法定位视频元素
+版本: 4.1.1.2
+2026-01-05 19:03:54,088 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-01-05 19:03:54,116 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 18440, 名称: Google
+2026-01-05 19:03:54,116 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 18440
+2026-01-05 19:03:59,755 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-01-05 19:03:59,757 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-01-05 19:04:03,164 - utils.logger_utils - INFO - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-01-05 19:04:03,164 - utils.logger_utils - INFO - 当前轮播图标题: CEO baby
+2026-01-05 19:04:13,405 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 19:04:13,406 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 19:04:13,407 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=home-swiper&chapterIndex=8&free=1&pay=0
+2026-01-05 19:04:13,408 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 19:04:13,408 - utils.logger_utils - INFO - 测试打开聚合页-简介功能
+2026-01-05 19:04:13,619 - utils.logger_utils - INFO - 播放器菜单未打开，先打开菜单
+2026-01-05 19:04:13,643 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 19:04:15,463 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 19:04:15,463 - utils.logger_utils - INFO - 尝试打开聚合页-简介
+2026-01-05 19:04:15,918 - utils.logger_utils - INFO - 播放器聚合页打开成功
+2026-01-05 19:04:17,924 - utils.logger_utils - INFO - 检查并处理可能的浮层
+2026-01-05 19:04:17,932 - utils.logger_utils - INFO - 发现浮层，尝试点击关闭
+2026-01-05 19:04:17,939 - utils.logger_utils - INFO - 成功点击坐标(250, 161.2265625)
+2026-01-05 19:04:17,939 - utils.logger_utils - INFO - 点击浮层顶部向上40像素位置(250, 161.2265625)关闭浮层
+2026-01-05 19:04:18,942 - utils.logger_utils - INFO - 等待页面加载完成
+2026-01-05 19:04:49,166 - utils.logger_utils - INFO - 播放器菜单已关闭，重新打开菜单
+2026-01-05 19:04:49,178 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 19:04:50,981 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 19:04:50,981 - utils.logger_utils - INFO - 定位标题并关闭聚合页
+2026-01-05 19:04:53,091 - utils.logger_utils - WARNING - 未找到标题元素，使用默认点击方式关闭
+2026-01-05 19:04:53,103 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 19:04:55,566 - utils.logger_utils - INFO - 使用默认方式关闭聚合页成功
+2026-01-05 19:04:55,566 - utils.logger_utils - INFO - 测试退出播放器功能
+2026-01-05 19:04:55,914 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 19:04:55,914 - utils.logger_utils - INFO - 执行退出播放器
+2026-01-05 19:04:56,419 - utils.logger_utils - INFO - 执行退出播放器成功
+2026-01-05 19:04:56,420 - utils.logger_utils - INFO - 播放器所有测试完成
+2026-01-05 19:05:01,425 - utils.logger_utils - INFO - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-01-05 19:05:11,748 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 19:05:11,748 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 19:05:11,750 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286563468966457344?chapterId=286564597594886144&from=home-swiper&chapterIndex=3&free=1&pay=0
+2026-01-05 19:05:11,751 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 19:05:11,751 - utils.logger_utils - INFO - 测试打开聚合页-简介功能
+2026-01-05 19:05:11,964 - utils.logger_utils - INFO - 播放器菜单未打开，先打开菜单
+2026-01-05 19:05:11,983 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 19:05:13,777 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 19:05:13,777 - utils.logger_utils - INFO - 尝试打开聚合页-简介
+2026-01-05 19:05:14,244 - utils.logger_utils - INFO - 播放器聚合页打开成功
+2026-01-05 19:05:16,249 - utils.logger_utils - INFO - 检查并处理可能的浮层
+2026-01-05 19:05:16,255 - utils.logger_utils - INFO - 发现浮层，尝试点击关闭
+2026-01-05 19:05:16,261 - utils.logger_utils - INFO - 成功点击坐标(250, 161.2265625)
+2026-01-05 19:05:16,261 - utils.logger_utils - INFO - 点击浮层顶部向上40像素位置(250, 161.2265625)关闭浮层
+2026-01-05 19:05:17,262 - utils.logger_utils - INFO - 等待页面加载完成
+2026-01-05 19:05:47,477 - utils.logger_utils - INFO - 播放器菜单已关闭，重新打开菜单
+2026-01-05 19:05:47,491 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 19:05:49,294 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 19:05:49,294 - utils.logger_utils - INFO - 定位标题并关闭聚合页
+2026-01-05 19:05:51,404 - utils.logger_utils - WARNING - 未找到标题元素，使用默认点击方式关闭
+2026-01-05 19:05:51,418 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 19:05:53,882 - utils.logger_utils - INFO - 使用默认方式关闭聚合页成功
+2026-01-05 19:05:53,882 - utils.logger_utils - INFO - 测试退出播放器功能
+2026-01-05 19:05:54,232 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 19:05:54,232 - utils.logger_utils - INFO - 执行退出播放器
+2026-01-05 19:05:54,749 - utils.logger_utils - INFO - 执行退出播放器成功
+2026-01-05 19:05:54,749 - utils.logger_utils - INFO - 播放器所有测试完成
+2026-01-05 19:05:59,754 - utils.logger_utils - INFO - 当前轮播图标题: The Thief Lover
+2026-01-05 19:06:10,070 - utils.logger_utils - INFO - 页面加载完成
+2026-01-05 19:06:10,071 - utils.logger_utils - INFO - 初始化播放器测试类
+2026-01-05 19:06:10,072 - utils.logger_utils - INFO - 当前页面URL: https://video.reelswave.net/player/286606758050885632?chapterId=286607644818968576&from=home-swiper&chapterIndex=4&free=1&pay=0
+2026-01-05 19:06:10,072 - utils.logger_utils - INFO - 开始运行所有播放器测试
+2026-01-05 19:06:10,073 - utils.logger_utils - INFO - 测试打开聚合页-简介功能
+2026-01-05 19:06:10,293 - utils.logger_utils - INFO - 播放器菜单未打开，先打开菜单
+2026-01-05 19:06:10,312 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 19:06:12,130 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 19:06:12,131 - utils.logger_utils - INFO - 尝试打开聚合页-简介
+2026-01-05 19:06:12,605 - utils.logger_utils - INFO - 播放器聚合页打开成功
+2026-01-05 19:06:14,611 - utils.logger_utils - INFO - 检查并处理可能的浮层
+2026-01-05 19:06:14,618 - utils.logger_utils - INFO - 发现浮层，尝试点击关闭
+2026-01-05 19:06:14,625 - utils.logger_utils - INFO - 成功点击坐标(250, 161.2265625)
+2026-01-05 19:06:14,625 - utils.logger_utils - INFO - 点击浮层顶部向上40像素位置(250, 161.2265625)关闭浮层
+2026-01-05 19:06:15,630 - utils.logger_utils - INFO - 等待页面加载完成
+2026-01-05 19:06:45,848 - utils.logger_utils - INFO - 播放器菜单已关闭，重新打开菜单
+2026-01-05 19:06:45,858 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 19:06:47,670 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 19:06:47,671 - utils.logger_utils - INFO - 定位标题并关闭聚合页
+2026-01-05 19:06:49,780 - utils.logger_utils - WARNING - 未找到标题元素，使用默认点击方式关闭
+2026-01-05 19:06:49,789 - utils.logger_utils - INFO - 成功定位当前激活slide的播放器
+2026-01-05 19:06:52,263 - utils.logger_utils - INFO - 使用默认方式关闭聚合页成功
+2026-01-05 19:06:52,263 - utils.logger_utils - INFO - 测试退出播放器功能
+2026-01-05 19:06:52,616 - utils.logger_utils - INFO - 播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）
+2026-01-05 19:06:52,616 - utils.logger_utils - INFO - 执行退出播放器
+2026-01-05 19:06:53,128 - utils.logger_utils - INFO - 执行退出播放器成功
+2026-01-05 19:06:53,128 - utils.logger_utils - INFO - 播放器所有测试完成
