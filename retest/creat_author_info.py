@@ -7,29 +7,30 @@ from urllib3.util.retry import Retry
 
 # -------------------------- 基础配置（可根据实际需求修改）--------------------------
 # 请求URL
-TARGET_URL = "https://xiaoyaoapi-test.col.com/boundless/masterpiece/create"
+# TARGET_URL = "https://xiaoyaoapi-test.col.com/boundless/masterpiece/create"
+TARGET_URL = "https://xiaoyaoapi.col.com/boundless/masterpiece/create"
 # 初始名称前缀（循环时自动拼接数字：资料1、资料2、...）
 NAME_PREFIX = "资料"
 # 循环次数（如需无限循环，可改为 while True 并删除 range 逻辑）
 LOOP_COUNT = 25  # 示例：创建5个项目（资料1-资料5）
 # 固定请求头（根据原curl信息配置）
 HEADERS = {
-    "accept": "application/json, text/plain, */*",
-    "accept-language": "zh-CN,zh;q=0.9",
-    "content-type": "application/json",
-    "language": "zh",
-    "origin": "https://xiaoyao-test.col.com",
-    "priority": "u=1, i",
-    "referer": "https://xiaoyao-test.col.com/",
-    "sec-ch-ua": '"Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"',
-    "sec-ch-ua-mobile": "?0",
-    "sec-ch-ua-platform": '"macOS"',
-    "sec-fetch-dest": "empty",
-    "sec-fetch-mode": "cors",
-    "sec-fetch-site": "same-site",
-    "token": "f0ebd623f0771ab44e1c10f30b14e82a",
-    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
-    "xy_trace_id": "d_xiaoyao_pc_1768819076823_809217"  # 如需每次生成新trace_id，可注释此行并添加生成逻辑
+    'accept': 'application/json, text/plain, */*',
+    'accept-language': 'zh-CN,zh;q=0.9',
+    'content-type': 'application/json',
+    'language': 'zh',
+    'origin': 'https://xiaoyao.col.com',
+    'priority': 'u=1, i',
+    'referer': 'https://xiaoyao.col.com/',
+    'sec-ch-ua': '"Not(A:Brand";v="8", "Chromium";v="144", "Google Chrome";v="144"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"macOS"',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site',
+    'token': '967b1addc7064112173f0abf7c01a402',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36',
+    'xy_trace_id': 'p_xiaoyao_pc_1769743645303_401273'
 }
 # 固定章节内容（从原curl中提取，可根据需求修改）
 CHAPTER_LIST = [
