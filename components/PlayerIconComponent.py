@@ -20,48 +20,22 @@ class IconComponent:
 
     def is_player_menu_open(self):
         """
-        检查播放器菜单是否已打开，通过检查返回按钮、收藏按钮和菜单按钮是否可见
+        快速检查播放器菜单是否已打开，通过检查返回按钮是否可见
+        由于播放器菜单在唤起后2秒内会自动隐藏，所以需要快速检查
+
         :return: 布尔值，True表示菜单已打开，False表示菜单未打开
         """
         try:
-            # 方法1：检查菜单按钮是否可点击
-            menu_element = self.page_actions.find_element(self.locators["player_menu"], "css")
-            if menu_element:
-                try:
-                    # 检查元素是否可点击
-                    if menu_element.wait.clickable(timeout=3):
-                        self.logger.debug("菜单按钮可点击")
-                    else:
-                        self.logger.debug("菜单按钮不可点击")
-                except DrissionPage.errors.WaitTimeoutError:
-                    self.logger.debug("等待菜单按钮可点击超时")
-
-            # 方法2：检查关键元素是否可见（原is_player_menu_open逻辑）
-            # 检查返回按钮是否可见
-            back_button = self.page_actions.find_element(self.locators["player_back_button"], "css")
-            if not back_button:
-                self.logger.debug("返回按钮未找到，播放器菜单可能未打开")
+            # 快速检查返回按钮是否可见（不使用等待，直接检查）
+            back_button = self.page_actions.find_element(self.locators["player_back_button"], selector_type="css")
+            if back_button and back_button.states.is_displayed:
+                self.logger.debug("播放器菜单已打开（检测到返回按钮）")
+                return True
+            else:
+                self.logger.debug("播放器菜单未打开（未检测到返回按钮）")
                 return False
-
-            # 检查收藏按钮是否可见（检查两种状态）
-            favorite_collected = self.page_actions.find_element(self.locators["favorite_collected"], "css")
-            favorite_uncollected = self.page_actions.find_element(self.locators["favorite_uncollected"], "css")
-            if not (favorite_collected or favorite_uncollected):
-                self.logger.debug("收藏按钮未找到，播放器菜单可能未打开")
-                return False
-
-            # 检查菜单按钮是否可见
-            menu_button = self.page_actions.find_element(self.locators["player_menu"], "css")
-            if not menu_button:
-                self.logger.debug("菜单按钮未找到，播放器菜单可能未打开")
-                return False
-
-            # 所有关键元素都可见，认为播放器菜单已打开
-            self.logger.info("播放器菜单已打开（检测到返回按钮、收藏按钮和菜单按钮）")
-            return True
-
         except Exception as e:
-            self.logger.error(f"检查播放器菜单状态时出错: {str(e)}")
+            self.logger.debug(f"检查播放器菜单状态时出错: {str(e)}")
             return False
 
 

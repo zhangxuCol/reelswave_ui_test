@@ -1,5 +1,6 @@
 # utils/decorators.py
 from functools import wraps
+from utils.logger_utils import LoggerUtils
 
 def element_wait_decorator(
     wait_type: str = "clickable",  # 等待类型：clickable/exists（你的版本支持的核心类型）
@@ -13,6 +14,9 @@ def element_wait_decorator(
     def decorator(func):
         @wraps(func)
         def wrapper(self, *args, **kwargs):
+            # 获取日志记录器
+            logger = getattr(self, 'logger', LoggerUtils.get_default_logger())
+
             try:
                 # 1. 特殊处理 click_element、get_element_text 和 wait_for_element 方法
                 if func.__name__ == "click_element":
@@ -35,7 +39,7 @@ def element_wait_decorator(
                             if element:
                                 element.wait.clickable(timeout=timeout)
                         except Exception as e:
-                            print(f"❌ 等待元素可点击失败: {e}")
+                            logger.error(f"等待元素可点击失败: {e}")
                             return None
                     
                     # 执行原始方法，传入已找到的元素
@@ -60,30 +64,53 @@ def element_wait_decorator(
                             # 等待元素出现
                             element = self.page.ele(locator, timeout=timeout)
                         except Exception as e:
-                            print(f"❌ 等待元素存在失败: {e}")
+                            logger.error(f"等待元素存在失败: {e}")
                             return None
                     
                     # 执行原始方法，传入已找到的元素
                     return func(self, locator, selector_type)
                 
+                # 对于其他方法（如 find_element），需要特殊处理
+                # 获取定位器和选择器类型参数
+                locator = args[0] if len(args) > 0 else kwargs.get('locator')
+                selector_type = args[1] if len(args) > 1 else kwargs.get('selector_type')
+
+                # 如果是 find_element 方法，需要等待元素出现
+                if func.__name__ == "find_element":
+                    # 格式化定位器
+                    locator = self._format_locator(locator, selector_type)
+
+                    # 使用 DrissionPage 的等待机制，等待元素出现
+                    try:
+                        logger.debug(f"开始等待元素出现：{locator}，超时：{timeout}秒")
+                        element = self.page.ele(locator, timeout=timeout)
+                        if element:
+                            logger.debug(f"元素等待成功：{locator}")
+                            return element
+                        else:
+                            logger.warning(f"元素等待超时：{locator}")
+                            return None
+                    except Exception as e:
+                        logger.error(f"等待元素出现失败: {e}")
+                        return None
+
                 # 对于其他方法，执行原方法并获取返回值
                 result = func(self, *args, **kwargs)
                 element = result
-                # page = self.page
 
-                # 2. 处理元素为 None 或 False 的情况
+                # 处理元素为 None 或 False 的情况
                 if element is None or element is False:
-                    print(f"⚠️  方法未找到元素，返回 None")
+                    logger.warning("方法未找到元素，返回 None")
                     return None
                     
                 # 2.5 检查元素是否为布尔值或其他非元素对象
                 if isinstance(element, bool):
-                    print(f"⚠️  返回的是布尔值而不是元素对象: {element}")
+                    logger.debug(f"返回的是布尔值而不是元素对象: {element}")
                     return element  # 直接返回布尔值
                     
                 # 确保元素对象有 wait 属性
                 if not hasattr(element, 'wait'):
-                    print(f"⚠️  元素对象没有 wait 属性: {type(element)}")
+                    logger.debug(f"元素对象没有 wait 属性: {type(element)}")
                     return element  # 直接返回元素对象
 
                 # 3. 提取元素信息（用于日志）
@@ -96,9 +123,9 @@ def element_wait_decorator(
                         locator = "未知元素"
                 except Exception as e:
                     # 记录调试信息
-                    print(f"获取元素信息失败: {e}")
+                    logger.debug(f"获取元素信息失败: {e}")
                     locator = "未知元素"
-                print(f"🔍 开始等待元素（{wait_type}）：{locator}，超时：{timeout}秒")
+                logger.debug(f"开始等待元素（{wait_type}）：{locator}，超时：{timeout}秒")
 
                 # 4. 核心：用你的原生链式等待写法（和你手动写的完全一致）
                 try:
@@ -106,21 +133,19 @@ def element_wait_decorator(
                         # 等同于你写的：element.wait.clickable()
                         element.wait.clickable(timeout=timeout)
                     elif wait_type == "exists":
-                        # 对于 exists 类型，使用 DrissionPage 的正确方法
-                        # element.wait.eles_displayed() 或直接检查元素是否存在
-                        # 由于元素已经找到，这里可以跳过等待或使用其他方法
-                        pass
+                        # 对于 exists 类型，等待元素显示
+                        element.wait.displayed(timeout=timeout)
                 except Exception as wait_error:
-                    print(f"❌ 元素等待异常: {wait_error}")
+                    logger.error(f"元素等待异常: {wait_error}")
                     return None
 
                 # 5. 等待成功，返回元素对象
-                print(f"✅ 元素等待成功：{locator}")
+                logger.debug(f"元素等待成功：{locator}")
                 return element
 
             except Exception as e:
-                err_msg = f"❌ 元素等待失败：{str(e)}"
-                print(err_msg)
+                err_msg = f"元素等待失败：{str(e)}"
+                logger.error(err_msg)
                 if raise_err:
                     raise  # 要求报错时抛出异常
                 return None

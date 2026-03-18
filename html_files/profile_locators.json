@@ -1,0 +1,10 @@
+{
+  "profile": {
+    "inline_block_img": ".inline-block.h-34",
+    "top_up_element": "text=Top UP",
+    "transaction_history_element": "text=Transaction History",
+    "my_list_history_element": "text=My List & History",
+    "contact_us_element": "text=Contact Us",
+    "setting_element": "text=Setting"
+  }
+}

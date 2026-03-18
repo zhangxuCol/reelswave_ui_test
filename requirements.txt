@@ -1,0 +1,24 @@
+# Web 自动化测试框架依赖包
+
+# 核心依赖
+DrissionPage>=4.0.0
+
+# 测试框架
+pytest>=7.4.0
+pytest-html>=3.2.0
+pytest-xdist>=3.3.0
+
+# 定时任务
+apscheduler>=3.10.0
+
+# 辅助工具
+psutil>=5.9.0
+
+# HTML 解析（用于脚本工具）
+beautifulsoup4>=4.12.0
+
+# 数据处理
+dataclasses; python_version < "3.7"
+
+# 类型检查（开发依赖）
+typing-extensions>=4.0.0

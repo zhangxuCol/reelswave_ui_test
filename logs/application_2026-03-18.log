@@ -1,0 +1,1474 @@
+2026-03-18 13:42:16,116 - __main__ - INFO - [run_test.py:154] - 测试范围: 所有测试文件
+2026-03-18 13:42:16,117 - __main__ - INFO - [run_test.py:156] - 并发进程数: 4
+2026-03-18 13:42:16,117 - __main__ - INFO - [run_test.py:172] - 执行命令: pytest -n 4 -v -s --tb=short
+2026-03-18 13:42:17,318 - utils.report_dir_manager - INFO - [report_dir_manager.py:38] - 报告目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1342
+2026-03-18 13:42:17,318 - utils.report_dir_manager - INFO - [report_dir_manager.py:39] - 截图目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1342/screenshots
+2026-03-18 13:42:17,910 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-18 13:42:17,911 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-18 13:42:17,912 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-18 13:42:17,912 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-18 13:42:17,958 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-18 13:42:17,959 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-18 13:42:17,959 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-18 13:42:17,959 - page.base - INFO - [base.py:15] - 检查并清理端口 9226...
+2026-03-18 13:42:17,959 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-18 13:42:17,959 - page.base - INFO - [base.py:15] - 检查并清理端口 9224...
+2026-03-18 13:42:17,960 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-18 13:42:17,960 - page.base - INFO - [base.py:15] - 检查并清理端口 9225...
+2026-03-18 13:42:17,997 - page.base - INFO - [base.py:50] - 端口 9225 未被占用
+2026-03-18 13:42:17,998 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-18 13:42:17,998 - page.base - INFO - [base.py:50] - 端口 9224 未被占用
+2026-03-18 13:42:17,998 - page.base - INFO - [base.py:50] - 端口 9226 未被占用
+2026-03-18 13:42:29,909 - components.ProfileComponent - INFO - [ProfileComponent.py:19] - 初始化个人中心页面组件
+2026-03-18 13:42:53,100 - page.player_test - INFO - [player_test.py:33] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:42:55,126 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:42:56,131 - page.player_test - INFO - [player_test.py:38] - 剧首页元素加载完成
+2026-03-18 13:42:56,378 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-18 13:42:56,379 - page.player_test - INFO - [player_test.py:42] - 成功点击'去看剧'按钮，打开播放器
+2026-03-18 13:43:01,383 - page.player_test - INFO - [player_test.py:46] - 播放器加载完成
+2026-03-18 13:43:01,387 - utils.report_dir_manager - INFO - [report_dir_manager.py:38] - 报告目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343
+2026-03-18 13:43:01,387 - utils.report_dir_manager - INFO - [report_dir_manager.py:39] - 截图目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots
+2026-03-18 13:43:01,388 - utils.screenshot_utils - INFO - [screenshot_utils.py:21] - 截图目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots
+2026-03-18 13:43:01,913 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134301_player_loaded.png
+2026-03-18 13:43:01,914 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607514787155968&from=content-detail&chapterIndex=9&free=1&pay=0
+2026-03-18 13:43:01,917 - page.player_test - INFO - [player_test.py:158] - 测试暂停和播放功能
+2026-03-18 13:43:01,923 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:43:02,135 - page.player_test - INFO - [player_test.py:152] - 播放器菜单已打开，跳过唤起播放器菜单操作
+2026-03-18 13:43:02,663 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134302_player_menu_opened.png
+2026-03-18 13:43:02,666 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:43:02,881 - page.player_test - INFO - [player_test.py:152] - 播放器菜单已打开，跳过执行暂停操作操作
+2026-03-18 13:43:08,294 - page.search_test - INFO - [search_test.py:32] - 导航到首页: https://video.reelswave.net/
+2026-03-18 13:43:08,504 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134307_player_paused.png
+2026-03-18 13:43:08,509 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:43:12,768 - page.drama_home_test - INFO - [drama_home_test.py:26] - 导航到首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:43:18,106 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:43:18,928 - page.profile_test - INFO - [profile_test.py:29] - 导航到个人中心页面: https://video.reelswave.net/profile
+2026-03-18 13:43:18,931 - components.ProfileComponent - INFO - [ProfileComponent.py:23] - 等待个人中心页面加载完成...
+2026-03-18 13:43:18,935 - components.ProfileComponent - INFO - [ProfileComponent.py:31] - 个人中心页面加载完成
+2026-03-18 13:43:18,935 - page.profile_test - INFO - [profile_test.py:34] - 个人中心页面加载完成
+2026-03-18 13:43:18,936 - utils.report_dir_manager - INFO - [report_dir_manager.py:38] - 报告目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343
+2026-03-18 13:43:18,936 - utils.report_dir_manager - INFO - [report_dir_manager.py:39] - 截图目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots
+2026-03-18 13:43:18,936 - utils.screenshot_utils - INFO - [screenshot_utils.py:21] - 截图目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots
+2026-03-18 13:43:19,054 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134318_profile_page_loaded.png
+2026-03-18 13:43:19,056 - page.profile_test - INFO - [profile_test.py:47] - 测试充值按钮
+2026-03-18 13:43:19,056 - components.ProfileComponent - INFO - [ProfileComponent.py:67] - 获取充值按钮
+2026-03-18 13:43:19,058 - page.profile_test - INFO - [profile_test.py:50] - 充值按钮存在
+2026-03-18 13:43:19,109 - page.drama_home_test - INFO - [drama_home_test.py:31] - 剧首页所有元素加载完成
+2026-03-18 13:43:19,114 - utils.report_dir_manager - INFO - [report_dir_manager.py:38] - 报告目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343
+2026-03-18 13:43:19,114 - utils.report_dir_manager - INFO - [report_dir_manager.py:39] - 截图目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots
+2026-03-18 13:43:19,114 - utils.screenshot_utils - INFO - [screenshot_utils.py:21] - 截图目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots
+2026-03-18 13:43:19,276 - page.profile_test - INFO - [profile_test.py:52] - 成功点击充值按钮
+2026-03-18 13:43:19,359 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134319_page_loaded.png
+2026-03-18 13:43:19,361 - page.drama_home_test - INFO - [drama_home_test.py:40] - 测试点击返回按钮
+2026-03-18 13:43:19,587 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-18 13:43:19,823 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134319_after_click_back.png
+2026-03-18 13:43:21,465 - page.drama_home_test - INFO - [drama_home_test.py:26] - 导航到首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:43:23,967 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:43:24,607 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134324_top_up_page.png
+2026-03-18 13:43:24,607 - components.ProfileComponent - INFO - [ProfileComponent.py:60] - 点击返回按钮
+2026-03-18 13:43:24,607 - components.ProfileComponent - INFO - [ProfileComponent.py:40] - 获取返回按钮
+2026-03-18 13:43:24,608 - components.ProfileComponent - INFO - [ProfileComponent.py:41] - 当前页面URL: https://video.reelswave.net/payment?from=profile
+2026-03-18 13:43:24,610 - components.ProfileComponent - INFO - [ProfileComponent.py:51] - 成功找到元素，使用定位器: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 13:43:24,829 - components.ProfileComponent - INFO - [ProfileComponent.py:63] - 成功点击返回按钮
+2026-03-18 13:43:24,830 - page.profile_test - INFO - [profile_test.py:61] - 返回上一页
+2026-03-18 13:43:24,969 - page.drama_home_test - INFO - [drama_home_test.py:31] - 剧首页所有元素加载完成
+2026-03-18 13:43:25,201 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134324_page_loaded.png
+2026-03-18 13:43:25,202 - page.drama_home_test - INFO - [drama_home_test.py:49] - 测试点击Home按钮
+2026-03-18 13:43:25,430 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.filter-drop-shadow-\[0_0_1px_\#000c\] > path
+2026-03-18 13:43:25,715 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134325_after_click_home.png
+2026-03-18 13:43:26,536 - page.drama_home_test - INFO - [drama_home_test.py:26] - 导航到首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:43:26,836 - components.ProfileComponent - INFO - [ProfileComponent.py:19] - 初始化个人中心页面组件
+2026-03-18 13:43:28,550 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:43:29,303 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：xpath:div[@data-swiper-slide-index="0"]
+2026-03-18 13:43:29,580 - page.drama_home_test - INFO - [drama_home_test.py:31] - 剧首页所有元素加载完成
+2026-03-18 13:43:29,656 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 13:43:29,886 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134329_page_loaded.png
+2026-03-18 13:43:29,890 - page.drama_home_test - INFO - [drama_home_test.py:57] - 测试点击个人中心按钮
+2026-03-18 13:43:29,900 - page.player_test - INFO - [player_test.py:149] - 继续播放操作操作成功
+2026-03-18 13:43:30,129 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm path:nth-of-type(2)
+2026-03-18 13:43:30,309 - page.search_test - INFO - [search_test.py:37] - 首页轮播图加载完成
+2026-03-18 13:43:30,314 - utils.report_dir_manager - INFO - [report_dir_manager.py:38] - 报告目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343
+2026-03-18 13:43:30,314 - utils.report_dir_manager - INFO - [report_dir_manager.py:39] - 截图目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots
+2026-03-18 13:43:30,314 - utils.screenshot_utils - INFO - [screenshot_utils.py:21] - 截图目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots
+2026-03-18 13:43:30,315 - page.search_test - INFO - [search_test.py:193] - 开始测试搜索功能
+2026-03-18 13:43:30,315 - page.search_test - INFO - [search_test.py:44] - 打开搜索页面
+2026-03-18 13:43:30,372 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134330_after_click_profile.png
+2026-03-18 13:43:30,552 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.text-xxl
+2026-03-18 13:43:30,552 - page.search_test - INFO - [search_test.py:48] - 成功点击搜索图标
+2026-03-18 13:43:33,029 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134332_search_page_opened.png
+2026-03-18 13:43:33,055 - page.search_test - INFO - [search_test.py:205] - 已保存搜索页面 HTML: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/search.html
+2026-03-18 13:43:33,288 - page.search_test - INFO - [search_test.py:216] - 为搜索页面提取到 9 个定位器
+2026-03-18 13:43:33,289 - page.search_test - INFO - [search_test.py:218] -   - script_7d119307: [data-checked-head='true']
+2026-03-18 13:43:33,289 - page.search_test - INFO - [search_test.py:218] -   - 占位图wake_up_dad_wedding_time占位_element: .swiper.swiper-container.swiper-initialized.swiper-horizontal.swiper-ios.w-full.h-390.swiper-backface-hidden
+2026-03-18 13:43:33,289 - page.search_test - INFO - [search_test.py:218] -   - flex_div: .flex.items-center.justify-start.gap-sm.h-50.flex-1
+2026-03-18 13:43:33,289 - page.search_test - INFO - [search_test.py:218] -   - icon_svg_svg: .icon-svg.text-48
+2026-03-18 13:43:33,289 - page.search_test - INFO - [search_test.py:218] -   - overflow_auto_div: .overflow-auto.tabScroll.mt-md.mb-lg
+2026-03-18 13:43:33,289 - page.search_test - INFO - [search_test.py:218] -   - transform_scale_105_img: .transform-scale-105.w-full.h-full.object-cover.block.transition-all-9000
+2026-03-18 13:43:33,289 - page.search_test - INFO - [search_test.py:218] -   - new_element: text=❤️New
+2026-03-18 13:43:33,289 - page.search_test - INFO - [search_test.py:218] -   - adsbygoogle_ins: .adsbygoogle.adsbygoogle-noablate
+2026-03-18 13:43:33,289 - page.search_test - INFO - [search_test.py:218] -   - __w______iframe: [data-google-container-id='a!1']
+2026-03-18 13:43:33,289 - page.search_test - INFO - [search_test.py:126] - 开始测试热门搜索视频元素
+2026-03-18 13:43:33,315 - page.search_test - INFO - [search_test.py:135] - 找到 49 个热门搜索视频条目
+2026-03-18 13:43:33,317 - page.search_test - INFO - [search_test.py:144] - 测试热门搜索视频 1
+2026-03-18 13:43:33,534 - page.search_test - INFO - [search_test.py:148] - 成功点击热门搜索视频 1
+2026-03-18 13:43:40,265 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134339_player_playing.png
+2026-03-18 13:43:41,557 - components.PlayerIconComponent - ERROR - [PlayerIconComponent.py:72] - 定位播放器失败：
+无法定位播放器容器
+版本: 4.1.1.2
+2026-03-18 13:43:41,557 - components.PlayerIconComponent - ERROR - [decorators.py:148] - 元素等待失败：
+无法定位播放器容器
+版本: 4.1.1.2
+2026-03-18 13:43:41,557 - page.search_test - WARNING - [search_test.py:178] - 测试热门搜索视频 1 时出错: 
+无法定位播放器容器
+版本: 4.1.1.2
+2026-03-18 13:43:43,604 - page.search_test - INFO - [search_test.py:144] - 测试热门搜索视频 2
+2026-03-18 13:43:43,866 - page.search_test - INFO - [search_test.py:148] - 成功点击热门搜索视频 2
+2026-03-18 13:43:45,464 - components.PlayerIconComponent - ERROR - [PlayerIconComponent.py:72] - 定位播放器失败：
+无法定位播放器容器
+版本: 4.1.1.2
+2026-03-18 13:43:45,464 - components.PlayerIconComponent - ERROR - [decorators.py:148] - 元素等待失败：
+无法定位播放器容器
+版本: 4.1.1.2
+2026-03-18 13:43:46,050 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134345_failure_test_pause_play.png
+2026-03-18 13:43:51,891 - components.PlayerIconComponent - ERROR - [PlayerIconComponent.py:72] - 定位播放器失败：
+无法定位播放器容器
+版本: 4.1.1.2
+2026-03-18 13:43:51,891 - components.PlayerIconComponent - ERROR - [decorators.py:148] - 元素等待失败：
+无法定位播放器容器
+版本: 4.1.1.2
+2026-03-18 13:43:51,892 - page.search_test - WARNING - [search_test.py:178] - 测试热门搜索视频 2 时出错: 
+无法定位播放器容器
+版本: 4.1.1.2
+2026-03-18 13:43:52,973 - page.player_test - INFO - [player_test.py:33] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:43:53,948 - page.search_test - INFO - [search_test.py:188] - 热门搜索视频元素测试完成
+2026-03-18 13:43:53,948 - page.search_test - INFO - [search_test.py:226] - 搜索 'alibaba'
+2026-03-18 13:43:53,949 - page.search_test - INFO - [search_test.py:76] - 搜索关键词: alibaba
+
+2026-03-18 13:44:13,961 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:input
+2026-03-18 13:44:14,988 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:div.gap-sm > svg
+2026-03-18 13:44:14,989 - components.DramaHomeComponent - WARNING - [DramaHomeComponent.py:169] - 关键元素未加载: div.gap-sm > svg
+2026-03-18 13:44:15,974 - page.profile_test - INFO - [profile_test.py:29] - 导航到个人中心页面: https://video.reelswave.net/profile
+2026-03-18 13:44:15,975 - components.ProfileComponent - INFO - [ProfileComponent.py:23] - 等待个人中心页面加载完成...
+2026-03-18 13:44:15,985 - components.ProfileComponent - INFO - [ProfileComponent.py:31] - 个人中心页面加载完成
+2026-03-18 13:44:15,985 - page.profile_test - INFO - [profile_test.py:34] - 个人中心页面加载完成
+2026-03-18 13:44:16,085 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134415_profile_page_loaded.png
+2026-03-18 13:44:16,086 - page.profile_test - INFO - [profile_test.py:67] - 测试交易历史链接
+2026-03-18 13:44:16,087 - components.ProfileComponent - INFO - [ProfileComponent.py:79] - 获取交易历史链接
+2026-03-18 13:44:16,149 - page.profile_test - INFO - [profile_test.py:70] - 交易历史链接存在
+2026-03-18 13:44:16,367 - page.profile_test - INFO - [profile_test.py:72] - 成功点击交易历史链接
+2026-03-18 13:44:21,433 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134421_transaction_history_page.png
+2026-03-18 13:44:21,433 - components.ProfileComponent - INFO - [ProfileComponent.py:60] - 点击返回按钮
+2026-03-18 13:44:21,433 - components.ProfileComponent - INFO - [ProfileComponent.py:40] - 获取返回按钮
+2026-03-18 13:44:21,433 - components.ProfileComponent - INFO - [ProfileComponent.py:41] - 当前页面URL: https://video.reelswave.net/profile/transaction
+2026-03-18 13:44:21,435 - components.ProfileComponent - INFO - [ProfileComponent.py:51] - 成功找到元素，使用定位器: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 13:44:21,684 - components.ProfileComponent - INFO - [ProfileComponent.py:63] - 成功点击返回按钮
+2026-03-18 13:44:21,684 - page.profile_test - INFO - [profile_test.py:81] - 返回上一页
+2026-03-18 13:44:23,690 - components.ProfileComponent - INFO - [ProfileComponent.py:19] - 初始化个人中心页面组件
+2026-03-18 13:44:24,107 - page.drama_home_test - INFO - [drama_home_test.py:26] - 导航到首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:44:26,130 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:44:27,130 - page.drama_home_test - INFO - [drama_home_test.py:31] - 剧首页所有元素加载完成
+2026-03-18 13:44:27,393 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134427_page_loaded.png
+2026-03-18 13:44:27,396 - page.drama_home_test - INFO - [drama_home_test.py:65] - 测试点击去看剧按钮
+2026-03-18 13:44:27,620 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-18 13:44:27,909 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134427_after_click_watch.png
+2026-03-18 13:44:33,887 - page.profile_test - INFO - [profile_test.py:29] - 导航到个人中心页面: https://video.reelswave.net/profile
+2026-03-18 13:44:33,889 - components.ProfileComponent - INFO - [ProfileComponent.py:23] - 等待个人中心页面加载完成...
+2026-03-18 13:44:33,915 - components.ProfileComponent - INFO - [ProfileComponent.py:31] - 个人中心页面加载完成
+2026-03-18 13:44:33,915 - page.profile_test - INFO - [profile_test.py:34] - 个人中心页面加载完成
+2026-03-18 13:44:34,020 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134433_profile_page_loaded.png
+2026-03-18 13:44:34,022 - page.profile_test - INFO - [profile_test.py:87] - 测试我的列表和历史记录链接
+2026-03-18 13:44:34,022 - components.ProfileComponent - INFO - [ProfileComponent.py:91] - 获取我的列表和历史记录链接
+2026-03-18 13:44:34,067 - page.profile_test - INFO - [profile_test.py:90] - 我的列表和历史记录链接存在
+2026-03-18 13:44:34,291 - page.profile_test - INFO - [profile_test.py:92] - 成功点击我的列表和历史记录链接
+2026-03-18 13:44:34,998 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:svg.filter-drop-shadow-\[0_0_1px_\#000c\] > path
+2026-03-18 13:44:34,999 - components.DramaHomeComponent - WARNING - [DramaHomeComponent.py:169] - 关键元素未加载: svg.filter-drop-shadow-\[0_0_1px_\#000c\] > path
+2026-03-18 13:44:39,359 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134439_my_list_and_history_page.png
+2026-03-18 13:44:39,360 - components.ProfileComponent - INFO - [ProfileComponent.py:60] - 点击返回按钮
+2026-03-18 13:44:39,360 - components.ProfileComponent - INFO - [ProfileComponent.py:40] - 获取返回按钮
+2026-03-18 13:44:39,361 - components.ProfileComponent - INFO - [ProfileComponent.py:41] - 当前页面URL: https://video.reelswave.net/profile/shelf?tabIndex=list
+2026-03-18 13:44:39,365 - components.ProfileComponent - INFO - [ProfileComponent.py:51] - 成功找到元素，使用定位器: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 13:44:39,608 - components.ProfileComponent - INFO - [ProfileComponent.py:63] - 成功点击返回按钮
+2026-03-18 13:44:39,608 - page.profile_test - INFO - [profile_test.py:101] - 返回上一页
+2026-03-18 13:44:41,617 - components.ProfileComponent - INFO - [ProfileComponent.py:19] - 初始化个人中心页面组件
+2026-03-18 13:44:42,626 - page.profile_test - INFO - [profile_test.py:29] - 导航到个人中心页面: https://video.reelswave.net/profile
+2026-03-18 13:44:42,627 - components.ProfileComponent - INFO - [ProfileComponent.py:23] - 等待个人中心页面加载完成...
+2026-03-18 13:44:42,630 - components.ProfileComponent - INFO - [ProfileComponent.py:31] - 个人中心页面加载完成
+2026-03-18 13:44:42,631 - page.profile_test - INFO - [profile_test.py:34] - 个人中心页面加载完成
+2026-03-18 13:44:42,736 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134442_profile_page_loaded.png
+2026-03-18 13:44:42,737 - page.profile_test - INFO - [profile_test.py:107] - 测试联系我们链接
+2026-03-18 13:44:42,737 - components.ProfileComponent - INFO - [ProfileComponent.py:103] - 获取联系我们链接
+2026-03-18 13:44:42,801 - page.profile_test - INFO - [profile_test.py:110] - 联系我们链接存在
+2026-03-18 13:44:43,017 - page.profile_test - INFO - [profile_test.py:112] - 成功点击联系我们链接
+2026-03-18 13:44:48,122 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134448_contact_us_page.png
+2026-03-18 13:44:48,123 - components.ProfileComponent - INFO - [ProfileComponent.py:60] - 点击返回按钮
+2026-03-18 13:44:48,123 - components.ProfileComponent - INFO - [ProfileComponent.py:40] - 获取返回按钮
+2026-03-18 13:44:48,123 - components.ProfileComponent - INFO - [ProfileComponent.py:41] - 当前页面URL: https://video.reelswave.net/profile/contact
+2026-03-18 13:44:48,127 - components.ProfileComponent - INFO - [ProfileComponent.py:51] - 成功找到元素，使用定位器: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 13:44:48,382 - components.ProfileComponent - INFO - [ProfileComponent.py:63] - 成功点击返回按钮
+2026-03-18 13:44:48,382 - page.profile_test - INFO - [profile_test.py:121] - 返回上一页
+2026-03-18 13:44:50,398 - components.ProfileComponent - INFO - [ProfileComponent.py:19] - 初始化个人中心页面组件
+2026-03-18 13:44:53,980 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:input
+2026-03-18 13:44:53,981 - utils.page_actions - ERROR - [page_actions.py:116] - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-03-18 13:44:53,981 - page.search_test - ERROR - [search_test.py:108] - 点击搜索输入框失败
+2026-03-18 13:44:54,248 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134454_failure_test_search_functionality.png
+2026-03-18 13:44:55,012 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:div.gap-sm path:nth-of-type(2)
+2026-03-18 13:44:55,014 - components.DramaHomeComponent - WARNING - [DramaHomeComponent.py:169] - 关键元素未加载: div.gap-sm path:nth-of-type(2)
+2026-03-18 13:45:18,123 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:div.button-primary
+2026-03-18 13:45:18,124 - components.DramaHomeComponent - WARNING - [DramaHomeComponent.py:169] - 关键元素未加载: div.button-primary
+2026-03-18 13:45:18,124 - components.DramaHomeComponent - WARNING - [DramaHomeComponent.py:178] - 部分关键元素未加载，但继续执行
+2026-03-18 13:45:18,125 - page.player_test - INFO - [player_test.py:38] - 剧首页元素加载完成
+2026-03-18 13:45:18,968 - page.profile_test - INFO - [profile_test.py:29] - 导航到个人中心页面: https://video.reelswave.net/profile
+2026-03-18 13:45:18,969 - components.ProfileComponent - INFO - [ProfileComponent.py:23] - 等待个人中心页面加载完成...
+2026-03-18 13:45:20,370 - page.drama_home_test - INFO - [drama_home_test.py:26] - 导航到首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:45:37,682 - page.search_test - INFO - [search_test.py:32] - 导航到首页: https://video.reelswave.net/
+2026-03-18 13:45:38,972 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：text=Top UP
+2026-03-18 13:45:38,975 - page.profile_test - ERROR - [profile_test.py:41] - 等待个人中心页面加载时出错: 个人中心页面加载超时或'Top UP'按钮未找到
+2026-03-18 13:45:39,084 - components.ProfileComponent - INFO - [ProfileComponent.py:19] - 初始化个人中心页面组件
+2026-03-18 13:45:42,380 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:div.gap-sm > svg
+2026-03-18 13:45:42,381 - components.DramaHomeComponent - WARNING - [DramaHomeComponent.py:169] - 关键元素未加载: div.gap-sm > svg
+2026-03-18 13:45:44,122 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:div.button-primary
+2026-03-18 13:45:49,469 - page.profile_test - INFO - [profile_test.py:29] - 导航到个人中心页面: https://video.reelswave.net/profile
+2026-03-18 13:45:49,470 - components.ProfileComponent - INFO - [ProfileComponent.py:23] - 等待个人中心页面加载完成...
+2026-03-18 13:45:56,899 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: css:div.button-primary
+2026-03-18 13:45:56,900 - page.player_test - INFO - [player_test.py:42] - 成功点击'去看剧'按钮，打开播放器
+2026-03-18 13:45:58,691 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：xpath:div[@data-swiper-slide-index="0"]
+2026-03-18 13:45:59,695 - page.search_test - INFO - [search_test.py:37] - 首页轮播图加载完成
+2026-03-18 13:45:59,698 - page.search_test - INFO - [search_test.py:263] - 测试搜索无结果场景
+2026-03-18 13:45:59,699 - page.search_test - INFO - [search_test.py:44] - 打开搜索页面
+2026-03-18 13:46:01,902 - page.player_test - INFO - [player_test.py:46] - 播放器加载完成
+2026-03-18 13:46:01,985 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134601_player_loaded.png
+2026-03-18 13:46:01,986 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607514787155968&from=content-detail&chapterIndex=0
+2026-03-18 13:46:01,987 - page.player_test - INFO - [player_test.py:219] - 测试打开首页功能
+2026-03-18 13:46:02,383 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:svg.filter-drop-shadow-\[0_0_1px_\#000c\] > path
+2026-03-18 13:46:02,383 - components.DramaHomeComponent - WARNING - [DramaHomeComponent.py:169] - 关键元素未加载: svg.filter-drop-shadow-\[0_0_1px_\#000c\] > path
+2026-03-18 13:46:06,998 - components.PlayerIconComponent - ERROR - [PlayerIconComponent.py:72] - 定位播放器失败：
+无法定位播放器容器
+版本: 4.1.1.2
+2026-03-18 13:46:06,998 - components.PlayerIconComponent - ERROR - [decorators.py:148] - 元素等待失败：
+无法定位播放器容器
+版本: 4.1.1.2
+2026-03-18 13:46:07,132 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134607_failure_test_home_page.png
+2026-03-18 13:46:09,482 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：text=Top UP
+2026-03-18 13:46:09,484 - page.profile_test - ERROR - [profile_test.py:41] - 等待个人中心页面加载时出错: 个人中心页面加载超时或'Top UP'按钮未找到
+2026-03-18 13:46:10,567 - page.base - INFO - [base.py:15] - 检查并清理端口 9225...
+2026-03-18 13:46:10,611 - page.base - INFO - [base.py:50] - 端口 9225 未被占用
+2026-03-18 13:46:19,701 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:svg.text-xxl
+2026-03-18 13:46:22,386 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:div.gap-sm path:nth-of-type(2)
+2026-03-18 13:46:22,387 - components.DramaHomeComponent - WARNING - [DramaHomeComponent.py:169] - 关键元素未加载: div.gap-sm path:nth-of-type(2)
+2026-03-18 13:46:42,393 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:div.button-primary
+2026-03-18 13:46:42,394 - components.DramaHomeComponent - WARNING - [DramaHomeComponent.py:169] - 关键元素未加载: div.button-primary
+2026-03-18 13:46:42,395 - components.DramaHomeComponent - WARNING - [DramaHomeComponent.py:178] - 部分关键元素未加载，但继续执行
+2026-03-18 13:46:42,396 - page.drama_home_test - INFO - [drama_home_test.py:31] - 剧首页所有元素加载完成
+2026-03-18 13:46:42,508 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134642_page_loaded.png
+2026-03-18 13:46:42,509 - page.drama_home_test - INFO - [drama_home_test.py:73] - 测试点击添加收藏按钮
+2026-03-18 13:46:56,432 - page.home_test - INFO - [home_test.py:32] - 导航到首页: https://video.reelswave.net/
+2026-03-18 13:46:59,065 - page.player_test - INFO - [player_test.py:33] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:46:59,719 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:svg.text-xxl
+2026-03-18 13:46:59,720 - utils.page_actions - ERROR - [page_actions.py:116] - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-03-18 13:46:59,720 - page.search_test - ERROR - [search_test.py:57] - 点击搜索图标失败
+2026-03-18 13:46:59,794 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134659_failure_test_search_no_results.png
+2026-03-18 13:47:01,115 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:47:02,121 - page.player_test - INFO - [player_test.py:38] - 剧首页元素加载完成
+2026-03-18 13:47:02,355 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-18 13:47:02,355 - page.player_test - INFO - [player_test.py:42] - 成功点击'去看剧'按钮，打开播放器
+2026-03-18 13:47:02,520 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:div.button
+2026-03-18 13:47:07,360 - page.player_test - INFO - [player_test.py:46] - 播放器加载完成
+2026-03-18 13:47:07,542 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134707_player_loaded.png
+2026-03-18 13:47:07,543 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607514787155968&from=content-detail&chapterIndex=9&free=1&pay=0
+2026-03-18 13:47:07,545 - page.player_test - INFO - [player_test.py:268] - 测试打开聚合页-简介功能
+2026-03-18 13:47:07,937 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134707_player_menu_opened.png
+2026-03-18 13:47:07,937 - page.player_test - INFO - [player_test.py:278] - 尝试打开聚合页-简介
+2026-03-18 13:47:11,607 - page.player_test - INFO - [player_test.py:291] - 播放器聚合页打开成功
+2026-03-18 13:47:11,895 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134711_introduction_page_opened.png
+2026-03-18 13:47:14,271 - page.search_test - INFO - [search_test.py:32] - 导航到首页: https://video.reelswave.net/
+2026-03-18 13:47:17,448 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：xpath:div[@data-swiper-slide-index="0"]
+2026-03-18 13:47:18,451 - page.home_test - INFO - [home_test.py:37] - 首页轮播图加载完成
+2026-03-18 13:47:18,540 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134718_home_page_loaded.png
+2026-03-18 13:47:18,542 - page.home_test - INFO - [home_test.py:132] - 测试首页 banner 轮播图
+2026-03-18 13:47:18,735 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134718_failure_test_banner_carousel.png
+2026-03-18 13:47:29,100 - page.home_test - INFO - [home_test.py:32] - 导航到首页: https://video.reelswave.net/
+2026-03-18 13:47:31,904 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 13:47:31,905 - page.player_test - INFO - [player_test.py:86] - 播放器菜单未打开，尝试打开菜单
+2026-03-18 13:47:31,920 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:47:32,355 - page.player_test - INFO - [player_test.py:90] - 播放器菜单打开成功
+2026-03-18 13:47:32,355 - page.player_test - INFO - [player_test.py:301] - 定位标题并关闭聚合页/浮层
+2026-03-18 13:47:34,585 - utils.page_actions - INFO - [page_actions.py:194] - 成功点击坐标(274.99609375, 196.7890625)
+2026-03-18 13:47:34,585 - utils.page_actions - INFO - [page_actions.py:225] - 点击浮层顶部向上30像素位置(274.99609375, 196.7890625)关闭浮层
+2026-03-18 13:47:34,585 - page.player_test - INFO - [player_test.py:312] - 使用 close_float_layer 方法关闭聚合页成功
+2026-03-18 13:47:34,803 - components.PlayerIconComponent - ERROR - [decorators.py:139] - 元素等待异常: 
+元素对象已失效。可能是页面整体刷新，或js局部刷新把元素替换或去除了。
+版本: 4.1.1.2
+2026-03-18 13:47:34,803 - page.player_test - INFO - [player_test.py:335] - 聚合页/浮层关闭成功
+2026-03-18 13:47:34,803 - page.player_test - INFO - [player_test.py:337] - 简介功能测试完成
+2026-03-18 13:47:35,280 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：xpath:div[@data-swiper-slide-index="0"]
+2026-03-18 13:47:36,286 - page.search_test - INFO - [search_test.py:37] - 首页轮播图加载完成
+2026-03-18 13:47:36,291 - page.search_test - INFO - [search_test.py:294] - 测试搜索有结果场景
+2026-03-18 13:47:36,292 - page.search_test - INFO - [search_test.py:44] - 打开搜索页面
+2026-03-18 13:47:36,532 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.text-xxl
+2026-03-18 13:47:36,533 - page.search_test - INFO - [search_test.py:48] - 成功点击搜索图标
+2026-03-18 13:47:38,540 - page.player_test - INFO - [player_test.py:33] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:47:38,605 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134738_search_page_opened.png
+2026-03-18 13:47:38,605 - page.search_test - INFO - [search_test.py:76] - 搜索关键词: love
+
+2026-03-18 13:47:38,826 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: input
+2026-03-18 13:47:38,826 - page.search_test - INFO - [search_test.py:80] - 成功点击搜索输入框
+2026-03-18 13:47:38,834 - page.search_test - INFO - [search_test.py:90] - 已输入关键词: love
+
+2026-03-18 13:47:40,564 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:47:41,569 - page.player_test - INFO - [player_test.py:38] - 剧首页元素加载完成
+2026-03-18 13:47:41,840 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-18 13:47:41,841 - page.player_test - INFO - [player_test.py:42] - 成功点击'去看剧'按钮，打开播放器
+2026-03-18 13:47:41,939 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134741_search_result_love
+.png
+2026-03-18 13:47:41,940 - page.search_test - INFO - [search_test.py:101] - 当前 URL: https://video.reelswave.net/search?keyword=love
+2026-03-18 13:47:42,535 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:div.button
+2026-03-18 13:47:42,536 - utils.page_actions - ERROR - [page_actions.py:116] - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-03-18 13:47:42,637 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134742_after_add_to_list.png
+2026-03-18 13:47:42,763 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134742_failure_test_add_to_list.png
+2026-03-18 13:47:43,945 - page.search_test - INFO - [search_test.py:126] - 开始测试热门搜索视频元素
+2026-03-18 13:47:43,956 - page.search_test - INFO - [search_test.py:135] - 找到 2 个热门搜索视频条目
+2026-03-18 13:47:43,960 - page.search_test - INFO - [search_test.py:144] - 测试热门搜索视频 1
+2026-03-18 13:47:44,185 - page.search_test - INFO - [search_test.py:148] - 成功点击热门搜索视频 1
+2026-03-18 13:47:46,847 - page.player_test - INFO - [player_test.py:46] - 播放器加载完成
+2026-03-18 13:47:47,197 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:47:47,355 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134746_player_loaded.png
+2026-03-18 13:47:47,355 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607514787155968&from=content-detail&chapterIndex=9&free=1&pay=0
+2026-03-18 13:47:47,357 - page.player_test - INFO - [player_test.py:342] - 测试打开聚合页-目录功能
+2026-03-18 13:47:47,364 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:47:47,408 - page.search_test - INFO - [search_test.py:156] - 成功进入播放器页面 (点击热门搜索视频 1 后)
+2026-03-18 13:47:48,313 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134747_player_menu_opened.png
+2026-03-18 13:47:48,749 - page.player_test - INFO - [player_test.py:360] - 目录打开成功
+2026-03-18 13:47:49,262 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134748_catalog_page_opened.png
+2026-03-18 13:47:49,879 - page.player_test - INFO - [player_test.py:375] - 目录标签: ['', "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\nEP.9\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.9 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\nEP.9\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.9 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\nEP.9\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.9 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\nEP.9\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.9 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', '', 'RefreshDiagnose', 'code: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', 'OKCancel', '', 'OKCancel', '', '', '', '', '', '', '', '', '', 'EP.9', 'EP.9', 'EP.9', 'EP.9', "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.9 / EP.80", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", 'CEO baby', 'CEO baby', "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.", 'More', '', '', '', 'EP.9 / EP.80', 'EP.9 / EP.80', 'CEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', 'CEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', 'CEO baby\nAll 80 Episodes', '', '', '', 'CEO baby\nAll 80 Episodes', 'CEO baby', 'CEO baby', 'All 80 Episodes', 'Introduction\nEpisodes', 'Introduction', 'Episodes', '1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1-30\n31-60\n61-80', '1-30', '31-60', '61-80', '1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1', '1', '2', '2', '3', '3', '4', '4', '5', '5', '6', '6', '7', '7', '8', '8', '9', '9', '10', '10', '11', '11', '12', '12', '13', '13', '14', '14', '15', '15', '16', '16', '17', '17', '18', '18', '19', '19', '20', '20', '21', '21', '22', '22', '23', '23', '24', '24', '25', '25', '26', '26', '27', '27', '28', '28', '29', '29', '30', '30']
+2026-03-18 13:47:49,882 - page.player_test - INFO - [player_test.py:376] - 目录内容: ['', "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\nEP.9\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.9 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\nEP.9\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.9 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\nEP.9\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.9 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\nEP.9\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.9 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', '', 'RefreshDiagnose', 'code: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', 'OKCancel', '', 'OKCancel', '', '', '', '', '', '', '', '', '', 'EP.9', 'EP.9', 'EP.9', 'EP.9', "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.9 / EP.80", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", 'CEO baby', 'CEO baby', "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.", 'More', '', '', '', 'EP.9 / EP.80', 'EP.9 / EP.80', 'CEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', 'CEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', 'CEO baby\nAll 80 Episodes', '', '', '', 'CEO baby\nAll 80 Episodes', 'CEO baby', 'CEO baby', 'All 80 Episodes', 'Introduction\nEpisodes', 'Introduction', 'Episodes', '1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1-30\n31-60\n61-80', '1-30', '31-60', '61-80', '1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1', '1', '2', '2', '3', '3', '4', '4', '5', '5', '6', '6', '7', '7', '8', '8', '9', '9', '10', '10', '11', '11', '12', '12', '13', '13', '14', '14', '15', '15', '16', '16', '17', '17', '18', '18', '19', '19', '20', '20', '21', '21', '22', '22', '23', '23', '24', '24', '25', '25', '26', '26', '27', '27', '28', '28', '29', '29', '30', '30']
+2026-03-18 13:47:49,902 - page.player_test - INFO - [player_test.py:110] - 发现浮层，尝试使用 close_float_layer 方法关闭
+2026-03-18 13:47:49,904 - utils.page_actions - INFO - [page_actions.py:194] - 成功点击坐标(250, 161.2265625)
+2026-03-18 13:47:49,904 - utils.page_actions - INFO - [page_actions.py:225] - 点击浮层顶部向上40像素位置(250, 161.2265625)关闭浮层
+2026-03-18 13:47:49,904 - page.player_test - INFO - [player_test.py:112] - 使用 close_float_layer 方法关闭浮层成功
+2026-03-18 13:47:50,109 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：xpath:div[@data-swiper-slide-index="0"]
+2026-03-18 13:47:50,925 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 13:47:50,926 - page.search_test - INFO - [search_test.py:165] - 从播放器返回到搜索页面
+2026-03-18 13:47:51,115 - page.home_test - INFO - [home_test.py:37] - 首页轮播图加载完成
+2026-03-18 13:47:51,200 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134751_home_page_loaded.png
+2026-03-18 13:47:51,201 - page.home_test - INFO - [home_test.py:181] - 开始测试首页所有定位器
+2026-03-18 13:47:51,201 - page.home_test - INFO - [home_test.py:189] - 测试定位器: continue_watching_first_drama, 值: div:nth-of-type(4) .gap-md > div:first-child img
+2026-03-18 13:47:51,201 - page.home_test - INFO - [home_test.py:196] - 定位器 continue_watching_first_drama 不是 more 入口，跳过
+2026-03-18 13:47:51,201 - page.home_test - INFO - [home_test.py:189] - 测试定位器: continue_watching_more, 值: div:nth-of-type(4) span
+2026-03-18 13:47:53,564 - page.drama_home_test - INFO - [drama_home_test.py:26] - 导航到首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:47:54,909 - page.player_test - INFO - [player_test.py:381] - 目录关闭成功
+2026-03-18 13:47:55,517 - page.player_test - INFO - [player_test.py:33] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:47:55,589 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:47:56,591 - page.drama_home_test - INFO - [drama_home_test.py:31] - 剧首页所有元素加载完成
+2026-03-18 13:47:56,864 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134756_page_loaded.png
+2026-03-18 13:47:56,870 - page.drama_home_test - INFO - [drama_home_test.py:81] - 测试点击取消收藏按钮
+2026-03-18 13:47:57,094 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button
+2026-03-18 13:47:57,361 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134757_after_remove_from_list.png
+2026-03-18 13:47:57,533 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:47:57,925 - page.drama_home_test - INFO - [drama_home_test.py:26] - 导航到首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:47:58,538 - page.player_test - INFO - [player_test.py:38] - 剧首页元素加载完成
+2026-03-18 13:47:58,782 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-18 13:47:58,783 - page.player_test - INFO - [player_test.py:42] - 成功点击'去看剧'按钮，打开播放器
+2026-03-18 13:47:59,942 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:48:00,946 - page.drama_home_test - INFO - [drama_home_test.py:31] - 剧首页所有元素加载完成
+2026-03-18 13:48:01,024 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134800_page_loaded.png
+2026-03-18 13:48:01,025 - page.drama_home_test - INFO - [drama_home_test.py:89] - 测试详情的展开和收起
+2026-03-18 13:48:02,938 - page.search_test - INFO - [search_test.py:188] - 热门搜索视频元素测试完成
+2026-03-18 13:48:02,939 - page.search_test - INFO - [search_test.py:113] - 清空搜索内容
+2026-03-18 13:48:03,237 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.color-\#6C6E6F > path
+2026-03-18 13:48:03,237 - page.search_test - INFO - [search_test.py:117] - 成功点击清空按钮
+2026-03-18 13:48:03,785 - page.player_test - INFO - [player_test.py:46] - 播放器加载完成
+2026-03-18 13:48:04,071 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134803_player_loaded.png
+2026-03-18 13:48:04,072 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:48:04,073 - page.player_test - INFO - [player_test.py:386] - 测试静音和恢复静音功能
+2026-03-18 13:48:04,241 - page.search_test - INFO - [search_test.py:62] - 关闭搜索页面
+2026-03-18 13:48:04,314 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134804_player_menu_opened.png
+2026-03-18 13:48:04,491 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: #app > div > div > div > div.justify-between > div.text-lg
+2026-03-18 13:48:04,491 - page.search_test - INFO - [search_test.py:66] - 成功点击取消按钮
+2026-03-18 13:48:11,214 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:div:nth-of-type(4) span
+2026-03-18 13:48:21,031 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:span
+2026-03-18 13:48:24,317 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.swiper-slide-active
+2026-03-18 13:48:24,318 - components.PlayerIconComponent - ERROR - [PlayerIconComponent.py:72] - 定位播放器失败：
+无法定位当前激活的slide
+版本: 4.1.1.2
+2026-03-18 13:48:24,318 - components.PlayerIconComponent - ERROR - [decorators.py:148] - 元素等待失败：
+无法定位当前激活的slide
+版本: 4.1.1.2
+2026-03-18 13:48:24,593 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134824_failure_test_mute_function.png
+2026-03-18 13:48:27,514 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：xpath:div[@data-swiper-slide-index="0"]
+2026-03-18 13:48:28,520 - page.search_test - INFO - [search_test.py:312] - 搜索有结果场景测试完成
+2026-03-18 13:48:29,568 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-18 13:48:29,617 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 9474, 名称: Python
+2026-03-18 13:48:29,618 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 9474
+2026-03-18 13:48:30,565 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-18 13:48:30,602 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 9513, 名称: Google
+2026-03-18 13:48:30,602 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 9513
+2026-03-18 13:48:31,623 - page.base - INFO - [base.py:42] - 进程 PID 9474 仍在运行，强制终止
+2026-03-18 13:48:31,623 - page.base - INFO - [base.py:44] - 已发送SIGKILL信号给进程 PID 9474
+2026-03-18 13:48:31,623 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 9474, 名称: Python
+2026-03-18 13:48:31,623 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 9474
+2026-03-18 13:48:32,608 - page.base - INFO - [base.py:15] - 检查并清理端口 9227...
+2026-03-18 13:48:32,658 - page.base - INFO - [base.py:50] - 端口 9227 未被占用
+2026-03-18 13:48:33,625 - page.base - INFO - [base.py:42] - 进程 PID 9474 仍在运行，强制终止
+2026-03-18 13:48:33,625 - page.base - INFO - [base.py:44] - 已发送SIGKILL信号给进程 PID 9474
+2026-03-18 13:48:33,625 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 9513, 名称: Google
+2026-03-18 13:48:33,625 - page.base - INFO - [base.py:46] - 进程 PID 9513 已不存在
+2026-03-18 13:48:33,626 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 9513, 名称: Google
+2026-03-18 13:48:33,626 - page.base - INFO - [base.py:46] - 进程 PID 9513 已不存在
+2026-03-18 13:48:33,626 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 9513, 名称: Google
+2026-03-18 13:48:33,626 - page.base - INFO - [base.py:46] - 进程 PID 9513 已不存在
+2026-03-18 13:48:34,745 - page.player_test - INFO - [player_test.py:33] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:48:36,769 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:48:37,774 - page.player_test - INFO - [player_test.py:38] - 剧首页元素加载完成
+2026-03-18 13:48:37,995 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-18 13:48:37,996 - page.player_test - INFO - [player_test.py:42] - 成功点击'去看剧'按钮，打开播放器
+2026-03-18 13:48:43,001 - page.player_test - INFO - [player_test.py:46] - 播放器加载完成
+2026-03-18 13:48:43,229 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134843_player_loaded.png
+2026-03-18 13:48:43,230 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607514787155968&from=content-detail&chapterIndex=9&free=1&pay=0
+2026-03-18 13:48:43,231 - page.player_test - INFO - [player_test.py:473] - 测试收藏和取消收藏功能
+2026-03-18 13:48:43,480 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134843_player_menu_opened.png
+2026-03-18 13:48:43,484 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:48:43,932 - page.player_test - INFO - [player_test.py:487] - 检查当前收藏状态
+2026-03-18 13:48:51,223 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:div:nth-of-type(4) span
+2026-03-18 13:48:51,223 - utils.page_actions - ERROR - [page_actions.py:116] - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-03-18 13:48:51,324 - page.home_test - ERROR - [home_test.py:264] - 点击定位器 continue_watching_more 失败，已截图: /Users/zhangxu/work/script-test/reelswave_web_test/screenshots/locator_failed_continue_watching_more.png
+2026-03-18 13:48:51,431 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134851_failure_test_home_page_locators.png
+2026-03-18 13:48:52,455 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-18 13:48:52,497 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-18 13:49:04,169 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.flex-1.text-xxl svg.icon-svg.color-primary:not(.icon)[fill]
+2026-03-18 13:49:04,171 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-03-18 13:49:04,171 - page.player_test - INFO - [player_test.py:497] - 当前为未收藏状态，将先执行收藏操作
+2026-03-18 13:49:04,171 - page.player_test - INFO - [player_test.py:529] - 执行收藏操作
+2026-03-18 13:49:04,405 - page.player_test - INFO - [player_test.py:531] - 收藏成功，等待3秒
+2026-03-18 13:49:05,237 - page.player_test - INFO - [player_test.py:543] - 执行取消收藏操作
+2026-03-18 13:49:05,688 - page.player_test - INFO - [player_test.py:547] - 取消收藏成功
+2026-03-18 13:49:09,046 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134908_unfavorited.png
+2026-03-18 13:49:09,260 - page.player_test - INFO - [player_test.py:562] - 收藏功能测试完成
+2026-03-18 13:49:19,454 - page.player_test - INFO - [player_test.py:33] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:49:21,477 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:49:22,482 - page.player_test - INFO - [player_test.py:38] - 剧首页元素加载完成
+2026-03-18 13:49:22,720 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-18 13:49:22,720 - page.player_test - INFO - [player_test.py:42] - 成功点击'去看剧'按钮，打开播放器
+2026-03-18 13:49:27,726 - page.player_test - INFO - [player_test.py:46] - 播放器加载完成
+2026-03-18 13:49:27,989 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134927_player_loaded.png
+2026-03-18 13:49:27,989 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607514787155968&from=content-detail&chapterIndex=9&free=1&pay=0
+2026-03-18 13:49:27,990 - page.player_test - INFO - [player_test.py:567] - 测试视频质量和播放速度切换功能
+2026-03-18 13:49:27,995 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:49:28,827 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134928_player_menu_opened.png
+2026-03-18 13:49:29,040 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:125] - 成功定位播放器菜单元素
+2026-03-18 13:49:29,479 - page.player_test - INFO - [player_test.py:585] - 打开菜单
+2026-03-18 13:49:29,483 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:214] - 找到 3 个播放质量选项: ['480P', '720P', '1080P']
+2026-03-18 13:49:29,486 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:214] - 找到 3 个播放质量选项: ['480P', '720P', '1080P']
+2026-03-18 13:49:29,488 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:174] - 找到 4 个播放速度选项: ['0.5x', '1.0x', '1.5x', '2.0x']
+2026-03-18 13:49:29,887 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_134929_quality_speed_menu_opened.png
+2026-03-18 13:49:30,114 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:49:30,441 - page.drama_home_test - INFO - [drama_home_test.py:26] - 导航到首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:49:30,772 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:125] - 成功定位播放器菜单元素
+2026-03-18 13:49:31,274 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:196] - 找到匹配的播放质量: 480P
+2026-03-18 13:49:31,689 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:196] - 找到匹配的播放质量: 480P
+2026-03-18 13:49:32,140 - page.player_test - INFO - [player_test.py:632] - 切换480P成功
+2026-03-18 13:49:32,468 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:49:33,471 - page.drama_home_test - INFO - [drama_home_test.py:31] - 剧首页所有元素加载完成
+2026-03-18 13:49:33,473 - utils.report_dir_manager - INFO - [report_dir_manager.py:38] - 报告目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1349
+2026-03-18 13:49:33,473 - utils.report_dir_manager - INFO - [report_dir_manager.py:39] - 截图目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1349/screenshots
+2026-03-18 13:49:33,473 - utils.screenshot_utils - INFO - [screenshot_utils.py:21] - 截图目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1349/screenshots
+2026-03-18 13:49:33,726 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1349/screenshots/20260318_134933_page_loaded.png
+2026-03-18 13:49:33,727 - page.drama_home_test - INFO - [drama_home_test.py:89] - 测试详情的展开和收起
+2026-03-18 13:49:33,731 - utils.page_actions - INFO - [page_actions.py:134] - 获取元素文本: More
+2026-03-18 13:49:33,731 - page.drama_home_test - INFO - [drama_home_test.py:93] - 短剧简介初始状态: More
+2026-03-18 13:49:33,966 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1349/screenshots/20260318_134933_description_initial.png
+2026-03-18 13:49:34,197 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:75] - 成功点击短剧简介，切换展开/收起状态
+2026-03-18 13:49:34,485 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1349/screenshots/20260318_134934_after_toggle_description.png
+2026-03-18 13:49:34,488 - utils.page_actions - INFO - [page_actions.py:134] - 获取元素文本: Fold
+2026-03-18 13:49:34,488 - page.drama_home_test - INFO - [drama_home_test.py:103] - 点击后短剧简介状态: More
+2026-03-18 13:49:34,707 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:75] - 成功点击短剧简介，切换展开/收起状态
+2026-03-18 13:49:34,967 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1349/screenshots/20260318_134934_description_toggled_back.png
+2026-03-18 13:49:34,967 - page.drama_home_test - INFO - [drama_home_test.py:109] - 成功验证短剧简介收起功能
+2026-03-18 13:49:35,146 - page.player_test - INFO - [player_test.py:635] - 切换480P成功等待20秒
+2026-03-18 13:49:35,529 - page.drama_home_test - INFO - [drama_home_test.py:26] - 导航到首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:49:37,552 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:49:38,556 - page.drama_home_test - INFO - [drama_home_test.py:31] - 剧首页所有元素加载完成
+2026-03-18 13:49:38,788 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1349/screenshots/20260318_134938_page_loaded.png
+2026-03-18 13:49:38,789 - page.drama_home_test - INFO - [drama_home_test.py:114] - 测试点击随机一集免费剧集
+2026-03-18 13:49:39,011 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:58] - 成功点击免费剧集
+2026-03-18 13:49:39,253 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1349/screenshots/20260318_134939_after_click_free_episode.png
+2026-03-18 13:49:40,290 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-18 13:49:40,339 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-18 13:49:55,167 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:49:55,839 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:125] - 成功定位播放器菜单元素
+2026-03-18 13:49:56,358 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:196] - 找到匹配的播放质量: 720P
+2026-03-18 13:49:56,756 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:196] - 找到匹配的播放质量: 720P
+2026-03-18 13:49:57,200 - page.player_test - INFO - [player_test.py:632] - 切换720P成功
+2026-03-18 13:50:00,206 - page.player_test - INFO - [player_test.py:635] - 切换720P成功等待20秒
+2026-03-18 13:50:40,212 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.swiper-slide-active
+2026-03-18 13:50:40,212 - components.PlayerIconComponent - ERROR - [PlayerIconComponent.py:72] - 定位播放器失败：
+无法定位当前激活的slide
+版本: 4.1.1.2
+2026-03-18 13:50:40,213 - components.PlayerIconComponent - ERROR - [decorators.py:148] - 元素等待失败：
+无法定位当前激活的slide
+版本: 4.1.1.2
+2026-03-18 13:50:40,326 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_135040_failure_test_quality_and_speed.png
+2026-03-18 13:50:41,138 - page.player_test - INFO - [player_test.py:33] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:50:43,164 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:50:44,169 - page.player_test - INFO - [player_test.py:38] - 剧首页元素加载完成
+2026-03-18 13:50:44,414 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-18 13:50:44,415 - page.player_test - INFO - [player_test.py:42] - 成功点击'去看剧'按钮，打开播放器
+2026-03-18 13:50:49,421 - page.player_test - INFO - [player_test.py:46] - 播放器加载完成
+2026-03-18 13:50:49,826 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_135049_player_loaded.png
+2026-03-18 13:50:49,826 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607514787155968&from=content-detail&chapterIndex=9&free=1&pay=0
+2026-03-18 13:50:49,828 - page.player_test - INFO - [player_test.py:679] - 测试退出播放器功能
+2026-03-18 13:50:50,254 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_135049_player_menu_opened.png
+2026-03-18 13:50:50,254 - page.player_test - INFO - [player_test.py:689] - 执行退出播放器
+2026-03-18 13:50:51,165 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1343/screenshots/20260318_135050_failure_test_exit_player.png
+2026-03-18 13:50:52,179 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-18 13:50:52,222 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-18 13:50:52,770 - __main__ - WARNING - [run_test.py:195] - 未找到测试报告
+2026-03-18 13:50:52,772 - __main__ - ERROR - [run_test.py:205] - 测试执行失败，返回码: 1
+2026-03-18 13:53:10,486 - __main__ - INFO - [run_test.py:154] - 测试范围: 所有测试文件
+2026-03-18 13:53:10,486 - __main__ - INFO - [run_test.py:156] - 并发进程数: 4
+2026-03-18 13:53:10,486 - __main__ - INFO - [run_test.py:172] - 执行命令: pytest -n 4 -v -s --tb=short
+2026-03-18 13:53:11,108 - utils.report_dir_manager - INFO - [report_dir_manager.py:38] - 报告目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353
+2026-03-18 13:53:11,108 - utils.report_dir_manager - INFO - [report_dir_manager.py:39] - 截图目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots
+2026-03-18 13:53:11,733 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-18 13:53:11,733 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-18 13:53:11,733 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-18 13:53:11,733 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-18 13:53:11,775 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-18 13:53:11,775 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-18 13:53:11,775 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-18 13:53:11,775 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-18 13:53:11,776 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-18 13:53:11,776 - page.base - INFO - [base.py:15] - 检查并清理端口 9225...
+2026-03-18 13:53:11,776 - page.base - INFO - [base.py:15] - 检查并清理端口 9224...
+2026-03-18 13:53:11,776 - page.base - INFO - [base.py:15] - 检查并清理端口 9226...
+2026-03-18 13:53:11,807 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-18 13:53:11,807 - page.base - INFO - [base.py:50] - 端口 9226 未被占用
+2026-03-18 13:53:11,807 - page.base - INFO - [base.py:50] - 端口 9224 未被占用
+2026-03-18 13:53:11,807 - page.base - INFO - [base.py:50] - 端口 9225 未被占用
+2026-03-18 13:53:14,475 - components.ProfileComponent - INFO - [ProfileComponent.py:19] - 初始化个人中心页面组件
+2026-03-18 13:53:15,967 - page.player_test - INFO - [player_test.py:33] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:53:16,001 - page.profile_test - INFO - [profile_test.py:29] - 导航到个人中心页面: https://video.reelswave.net/profile
+2026-03-18 13:53:16,001 - components.ProfileComponent - INFO - [ProfileComponent.py:23] - 等待个人中心页面加载完成...
+2026-03-18 13:53:16,254 - components.ProfileComponent - INFO - [ProfileComponent.py:31] - 个人中心页面加载完成
+2026-03-18 13:53:16,254 - page.profile_test - INFO - [profile_test.py:34] - 个人中心页面加载完成
+2026-03-18 13:53:16,256 - utils.report_dir_manager - INFO - [report_dir_manager.py:38] - 报告目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353
+2026-03-18 13:53:16,256 - utils.report_dir_manager - INFO - [report_dir_manager.py:39] - 截图目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots
+2026-03-18 13:53:16,256 - utils.screenshot_utils - INFO - [screenshot_utils.py:21] - 截图目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots
+2026-03-18 13:53:16,374 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135316_profile_page_loaded.png
+2026-03-18 13:53:16,377 - page.profile_test - INFO - [profile_test.py:47] - 测试充值按钮
+2026-03-18 13:53:16,377 - components.ProfileComponent - INFO - [ProfileComponent.py:67] - 获取充值按钮
+2026-03-18 13:53:16,380 - page.profile_test - INFO - [profile_test.py:50] - 充值按钮存在
+2026-03-18 13:53:16,615 - page.profile_test - INFO - [profile_test.py:52] - 成功点击充值按钮
+2026-03-18 13:53:16,852 - page.drama_home_test - INFO - [drama_home_test.py:26] - 导航到首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:53:16,933 - page.search_test - INFO - [search_test.py:32] - 导航到首页: https://video.reelswave.net/
+2026-03-18 13:53:18,716 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:53:19,142 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:53:19,722 - page.player_test - INFO - [player_test.py:38] - 剧首页元素加载完成
+2026-03-18 13:53:19,957 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-18 13:53:19,958 - page.player_test - INFO - [player_test.py:42] - 成功点击'去看剧'按钮，打开播放器
+2026-03-18 13:53:20,148 - page.drama_home_test - INFO - [drama_home_test.py:31] - 剧首页所有元素加载完成
+2026-03-18 13:53:20,156 - utils.report_dir_manager - INFO - [report_dir_manager.py:38] - 报告目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353
+2026-03-18 13:53:20,157 - utils.report_dir_manager - INFO - [report_dir_manager.py:39] - 截图目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots
+2026-03-18 13:53:20,157 - utils.screenshot_utils - INFO - [screenshot_utils.py:21] - 截图目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots
+2026-03-18 13:53:20,398 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135320_page_loaded.png
+2026-03-18 13:53:20,402 - page.drama_home_test - INFO - [drama_home_test.py:40] - 测试点击返回按钮
+2026-03-18 13:53:20,624 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-18 13:53:20,905 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135320_after_click_back.png
+2026-03-18 13:53:21,756 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135321_top_up_page.png
+2026-03-18 13:53:21,756 - components.ProfileComponent - INFO - [ProfileComponent.py:60] - 点击返回按钮
+2026-03-18 13:53:21,756 - components.ProfileComponent - INFO - [ProfileComponent.py:40] - 获取返回按钮
+2026-03-18 13:53:21,757 - components.ProfileComponent - INFO - [ProfileComponent.py:41] - 当前页面URL: https://video.reelswave.net/payment?from=profile
+2026-03-18 13:53:21,759 - components.ProfileComponent - INFO - [ProfileComponent.py:51] - 成功找到元素，使用定位器: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 13:53:21,975 - components.ProfileComponent - INFO - [ProfileComponent.py:63] - 成功点击返回按钮
+2026-03-18 13:53:21,975 - page.profile_test - INFO - [profile_test.py:61] - 返回上一页
+2026-03-18 13:53:22,462 - page.drama_home_test - INFO - [drama_home_test.py:26] - 导航到首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:53:23,987 - components.ProfileComponent - INFO - [ProfileComponent.py:19] - 初始化个人中心页面组件
+2026-03-18 13:53:24,479 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:53:24,963 - page.player_test - INFO - [player_test.py:46] - 播放器加载完成
+2026-03-18 13:53:24,966 - utils.report_dir_manager - INFO - [report_dir_manager.py:38] - 报告目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353
+2026-03-18 13:53:24,967 - utils.report_dir_manager - INFO - [report_dir_manager.py:39] - 截图目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots
+2026-03-18 13:53:24,967 - utils.screenshot_utils - INFO - [screenshot_utils.py:21] - 截图目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots
+2026-03-18 13:53:25,366 - page.profile_test - INFO - [profile_test.py:29] - 导航到个人中心页面: https://video.reelswave.net/profile
+2026-03-18 13:53:25,367 - components.ProfileComponent - INFO - [ProfileComponent.py:23] - 等待个人中心页面加载完成...
+2026-03-18 13:53:25,369 - components.ProfileComponent - INFO - [ProfileComponent.py:31] - 个人中心页面加载完成
+2026-03-18 13:53:25,369 - page.profile_test - INFO - [profile_test.py:34] - 个人中心页面加载完成
+2026-03-18 13:53:25,480 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135325_profile_page_loaded.png
+2026-03-18 13:53:25,480 - page.profile_test - INFO - [profile_test.py:67] - 测试交易历史链接
+2026-03-18 13:53:25,480 - components.ProfileComponent - INFO - [ProfileComponent.py:79] - 获取交易历史链接
+2026-03-18 13:53:25,482 - page.profile_test - INFO - [profile_test.py:70] - 交易历史链接存在
+2026-03-18 13:53:25,484 - page.drama_home_test - INFO - [drama_home_test.py:31] - 剧首页所有元素加载完成
+2026-03-18 13:53:25,486 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135324_player_loaded.png
+2026-03-18 13:53:25,486 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607514787155968&from=content-detail&chapterIndex=9&free=1&pay=0
+2026-03-18 13:53:25,487 - page.player_test - INFO - [player_test.py:158] - 测试暂停和播放功能
+2026-03-18 13:53:25,493 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:53:25,701 - page.profile_test - INFO - [profile_test.py:72] - 成功点击交易历史链接
+2026-03-18 13:53:25,704 - page.player_test - INFO - [player_test.py:152] - 播放器菜单已打开，跳过唤起播放器菜单操作
+2026-03-18 13:53:25,721 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135325_page_loaded.png
+2026-03-18 13:53:25,721 - page.drama_home_test - INFO - [drama_home_test.py:49] - 测试点击Home按钮
+2026-03-18 13:53:25,919 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135325_player_menu_opened.png
+2026-03-18 13:53:25,923 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:53:25,945 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.filter-drop-shadow-\[0_0_1px_\#000c\] > path
+2026-03-18 13:53:26,140 - page.player_test - INFO - [player_test.py:152] - 播放器菜单已打开，跳过执行暂停操作操作
+2026-03-18 13:53:26,249 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135325_after_click_home.png
+2026-03-18 13:53:27,453 - page.drama_home_test - INFO - [drama_home_test.py:26] - 导航到首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:53:29,466 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:53:30,472 - page.drama_home_test - INFO - [drama_home_test.py:31] - 剧首页所有元素加载完成
+2026-03-18 13:53:30,744 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135330_page_loaded.png
+2026-03-18 13:53:30,747 - page.drama_home_test - INFO - [drama_home_test.py:57] - 测试点击个人中心按钮
+2026-03-18 13:53:30,760 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135330_transaction_history_page.png
+2026-03-18 13:53:30,760 - components.ProfileComponent - INFO - [ProfileComponent.py:60] - 点击返回按钮
+2026-03-18 13:53:30,760 - components.ProfileComponent - INFO - [ProfileComponent.py:40] - 获取返回按钮
+2026-03-18 13:53:30,761 - components.ProfileComponent - INFO - [ProfileComponent.py:41] - 当前页面URL: https://video.reelswave.net/profile/transaction
+2026-03-18 13:53:30,765 - components.ProfileComponent - INFO - [ProfileComponent.py:51] - 成功找到元素，使用定位器: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 13:53:30,975 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm path:nth-of-type(2)
+2026-03-18 13:53:30,984 - components.ProfileComponent - INFO - [ProfileComponent.py:63] - 成功点击返回按钮
+2026-03-18 13:53:30,985 - page.profile_test - INFO - [profile_test.py:81] - 返回上一页
+2026-03-18 13:53:31,337 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135330_after_click_profile.png
+2026-03-18 13:53:31,620 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135331_player_paused.png
+2026-03-18 13:53:31,629 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:53:32,295 - page.drama_home_test - INFO - [drama_home_test.py:26] - 导航到首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:53:32,994 - components.ProfileComponent - INFO - [ProfileComponent.py:19] - 初始化个人中心页面组件
+2026-03-18 13:53:33,943 - page.profile_test - INFO - [profile_test.py:29] - 导航到个人中心页面: https://video.reelswave.net/profile
+2026-03-18 13:53:33,943 - components.ProfileComponent - INFO - [ProfileComponent.py:23] - 等待个人中心页面加载完成...
+2026-03-18 13:53:34,047 - components.ProfileComponent - INFO - [ProfileComponent.py:31] - 个人中心页面加载完成
+2026-03-18 13:53:34,047 - page.profile_test - INFO - [profile_test.py:34] - 个人中心页面加载完成
+2026-03-18 13:53:34,181 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135334_profile_page_loaded.png
+2026-03-18 13:53:34,182 - page.profile_test - INFO - [profile_test.py:87] - 测试我的列表和历史记录链接
+2026-03-18 13:53:34,182 - components.ProfileComponent - INFO - [ProfileComponent.py:91] - 获取我的列表和历史记录链接
+2026-03-18 13:53:34,220 - page.profile_test - INFO - [profile_test.py:90] - 我的列表和历史记录链接存在
+2026-03-18 13:53:34,303 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:53:34,436 - page.profile_test - INFO - [profile_test.py:92] - 成功点击我的列表和历史记录链接
+2026-03-18 13:53:35,308 - page.drama_home_test - INFO - [drama_home_test.py:31] - 剧首页所有元素加载完成
+2026-03-18 13:53:35,585 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135335_page_loaded.png
+2026-03-18 13:53:35,586 - page.drama_home_test - INFO - [drama_home_test.py:65] - 测试点击去看剧按钮
+2026-03-18 13:53:35,811 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-18 13:53:36,085 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135335_after_click_watch.png
+2026-03-18 13:53:36,998 - page.drama_home_test - INFO - [drama_home_test.py:26] - 导航到首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:53:37,957 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：xpath:div[@data-swiper-slide-index="0"]
+2026-03-18 13:53:38,963 - page.search_test - INFO - [search_test.py:37] - 首页轮播图加载完成
+2026-03-18 13:53:38,969 - utils.report_dir_manager - INFO - [report_dir_manager.py:38] - 报告目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353
+2026-03-18 13:53:38,970 - utils.report_dir_manager - INFO - [report_dir_manager.py:39] - 截图目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots
+2026-03-18 13:53:38,970 - utils.screenshot_utils - INFO - [screenshot_utils.py:21] - 截图目录: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots
+2026-03-18 13:53:38,970 - page.search_test - INFO - [search_test.py:193] - 开始测试搜索功能
+2026-03-18 13:53:38,970 - page.search_test - INFO - [search_test.py:44] - 打开搜索页面
+2026-03-18 13:53:39,033 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:53:39,218 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.text-xxl
+2026-03-18 13:53:39,218 - page.search_test - INFO - [search_test.py:48] - 成功点击搜索图标
+2026-03-18 13:53:39,511 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135339_my_list_and_history_page.png
+2026-03-18 13:53:39,511 - components.ProfileComponent - INFO - [ProfileComponent.py:60] - 点击返回按钮
+2026-03-18 13:53:39,511 - components.ProfileComponent - INFO - [ProfileComponent.py:40] - 获取返回按钮
+2026-03-18 13:53:39,512 - components.ProfileComponent - INFO - [ProfileComponent.py:41] - 当前页面URL: https://video.reelswave.net/profile/shelf?tabIndex=list
+2026-03-18 13:53:39,517 - components.ProfileComponent - INFO - [ProfileComponent.py:51] - 成功找到元素，使用定位器: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 13:53:39,735 - components.ProfileComponent - INFO - [ProfileComponent.py:63] - 成功点击返回按钮
+2026-03-18 13:53:39,735 - page.profile_test - INFO - [profile_test.py:101] - 返回上一页
+2026-03-18 13:53:40,036 - page.drama_home_test - INFO - [drama_home_test.py:31] - 剧首页所有元素加载完成
+2026-03-18 13:53:40,325 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135340_page_loaded.png
+2026-03-18 13:53:40,326 - page.drama_home_test - INFO - [drama_home_test.py:73] - 测试点击添加收藏按钮
+2026-03-18 13:53:40,558 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button
+2026-03-18 13:53:40,887 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135340_after_add_to_list.png
+2026-03-18 13:53:41,380 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135341_search_page_opened.png
+2026-03-18 13:53:41,384 - page.search_test - INFO - [search_test.py:205] - 已保存搜索页面 HTML: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/search.html
+2026-03-18 13:53:41,418 - page.search_test - INFO - [search_test.py:216] - 为搜索页面提取到 10 个定位器
+2026-03-18 13:53:41,418 - page.search_test - INFO - [search_test.py:218] -   - script_7d119307: [data-checked-head='true']
+2026-03-18 13:53:41,418 - page.search_test - INFO - [search_test.py:218] -   - adsbygoogle_ins: .adsbygoogle.adsbygoogle-noablate
+2026-03-18 13:53:41,418 - page.search_test - INFO - [search_test.py:218] -   - __w______iframe: [data-google-container-id='a!1']
+2026-03-18 13:53:41,418 - page.search_test - INFO - [search_test.py:218] -   - cancelsearch_historylovealibab_element: .flex.justify-start.flex-col.items-stretch.gap-xl.box-border.float-box.pt-xl
+2026-03-18 13:53:41,418 - page.search_test - INFO - [search_test.py:218] -   - cancel_element: text=Cancel
+2026-03-18 13:53:41,418 - page.search_test - INFO - [search_test.py:218] -   - flex_div: .flex.justify-start.items-center.box-border.bg-bgoverlay.gap-xxs.px-lg.b-none.h-64.flex-1.flex-1.rd-xl
+2026-03-18 13:53:41,418 - page.search_test - INFO - [search_test.py:218] -   - icon_svg_svg: .icon-svg.color-placeholder
+2026-03-18 13:53:41,418 - page.search_test - INFO - [search_test.py:218] -   - search_input: .color-info.b-none.w-full.bg-transparent.block.appearance-none.p-0.text-md
+2026-03-18 13:53:41,418 - page.search_test - INFO - [search_test.py:218] -   - search_historylovealibabahot_s_element: .flex.flex-col.justify-start.items-stretch.gap-xl.p-xl.mt-lg
+2026-03-18 13:53:41,418 - page.search_test - INFO - [search_test.py:218] -   - lovealibaba_element: .flex.justify-start.gap-lg.flex-wrap.mt-xl
+2026-03-18 13:53:41,418 - page.search_test - INFO - [search_test.py:126] - 开始测试热门搜索视频元素
+2026-03-18 13:53:41,430 - page.search_test - INFO - [search_test.py:135] - 找到 10 个热门搜索视频条目
+2026-03-18 13:53:41,432 - page.search_test - INFO - [search_test.py:144] - 测试热门搜索视频 1
+2026-03-18 13:53:41,650 - page.search_test - INFO - [search_test.py:148] - 成功点击热门搜索视频 1
+2026-03-18 13:53:41,742 - components.ProfileComponent - INFO - [ProfileComponent.py:19] - 初始化个人中心页面组件
+2026-03-18 13:53:42,008 - page.drama_home_test - INFO - [drama_home_test.py:26] - 导航到首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:53:42,424 - page.profile_test - INFO - [profile_test.py:29] - 导航到个人中心页面: https://video.reelswave.net/profile
+2026-03-18 13:53:42,425 - components.ProfileComponent - INFO - [ProfileComponent.py:23] - 等待个人中心页面加载完成...
+2026-03-18 13:53:42,428 - components.ProfileComponent - INFO - [ProfileComponent.py:31] - 个人中心页面加载完成
+2026-03-18 13:53:42,428 - page.profile_test - INFO - [profile_test.py:34] - 个人中心页面加载完成
+2026-03-18 13:53:42,534 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135342_profile_page_loaded.png
+2026-03-18 13:53:42,534 - page.profile_test - INFO - [profile_test.py:107] - 测试联系我们链接
+2026-03-18 13:53:42,534 - components.ProfileComponent - INFO - [ProfileComponent.py:103] - 获取联系我们链接
+2026-03-18 13:53:42,536 - page.profile_test - INFO - [profile_test.py:110] - 联系我们链接存在
+2026-03-18 13:53:42,753 - page.profile_test - INFO - [profile_test.py:112] - 成功点击联系我们链接
+2026-03-18 13:53:44,051 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:53:44,659 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:53:44,869 - page.search_test - INFO - [search_test.py:156] - 成功进入播放器页面 (点击热门搜索视频 1 后)
+2026-03-18 13:53:45,056 - page.drama_home_test - INFO - [drama_home_test.py:31] - 剧首页所有元素加载完成
+2026-03-18 13:53:45,313 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135345_page_loaded.png
+2026-03-18 13:53:45,314 - page.drama_home_test - INFO - [drama_home_test.py:81] - 测试点击取消收藏按钮
+2026-03-18 13:53:45,573 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button
+2026-03-18 13:53:45,834 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135345_after_remove_from_list.png
+2026-03-18 13:53:46,792 - page.drama_home_test - INFO - [drama_home_test.py:26] - 导航到首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:53:47,868 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135347_contact_us_page.png
+2026-03-18 13:53:47,870 - components.ProfileComponent - INFO - [ProfileComponent.py:60] - 点击返回按钮
+2026-03-18 13:53:47,870 - components.ProfileComponent - INFO - [ProfileComponent.py:40] - 获取返回按钮
+2026-03-18 13:53:47,871 - components.ProfileComponent - INFO - [ProfileComponent.py:41] - 当前页面URL: https://video.reelswave.net/profile/contact
+2026-03-18 13:53:47,881 - components.ProfileComponent - INFO - [ProfileComponent.py:51] - 成功找到元素，使用定位器: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 13:53:48,102 - components.ProfileComponent - INFO - [ProfileComponent.py:63] - 成功点击返回按钮
+2026-03-18 13:53:48,102 - page.profile_test - INFO - [profile_test.py:121] - 返回上一页
+2026-03-18 13:53:48,399 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 13:53:48,399 - page.search_test - INFO - [search_test.py:165] - 从播放器返回到搜索页面
+2026-03-18 13:53:48,804 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:53:49,807 - page.drama_home_test - INFO - [drama_home_test.py:31] - 剧首页所有元素加载完成
+2026-03-18 13:53:50,064 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135349_page_loaded.png
+2026-03-18 13:53:50,064 - page.drama_home_test - INFO - [drama_home_test.py:89] - 测试详情的展开和收起
+2026-03-18 13:53:50,077 - utils.page_actions - INFO - [page_actions.py:134] - 获取元素文本: More
+2026-03-18 13:53:50,077 - page.drama_home_test - INFO - [drama_home_test.py:93] - 短剧简介初始状态: More
+2026-03-18 13:53:50,111 - components.ProfileComponent - INFO - [ProfileComponent.py:19] - 初始化个人中心页面组件
+2026-03-18 13:53:50,325 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135350_description_initial.png
+2026-03-18 13:53:50,549 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:75] - 成功点击短剧简介，切换展开/收起状态
+2026-03-18 13:53:50,855 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135350_after_toggle_description.png
+2026-03-18 13:53:50,858 - utils.page_actions - INFO - [page_actions.py:134] - 获取元素文本: Fold
+2026-03-18 13:53:50,858 - page.drama_home_test - INFO - [drama_home_test.py:103] - 点击后短剧简介状态: More
+2026-03-18 13:53:51,077 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:75] - 成功点击短剧简介，切换展开/收起状态
+2026-03-18 13:53:51,332 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135351_description_toggled_back.png
+2026-03-18 13:53:51,332 - page.drama_home_test - INFO - [drama_home_test.py:109] - 成功验证短剧简介收起功能
+2026-03-18 13:53:51,648 - page.profile_test - INFO - [profile_test.py:29] - 导航到个人中心页面: https://video.reelswave.net/profile
+2026-03-18 13:53:51,649 - components.ProfileComponent - INFO - [ProfileComponent.py:23] - 等待个人中心页面加载完成...
+2026-03-18 13:53:51,651 - components.ProfileComponent - INFO - [ProfileComponent.py:31] - 个人中心页面加载完成
+2026-03-18 13:53:51,651 - page.profile_test - INFO - [profile_test.py:34] - 个人中心页面加载完成
+2026-03-18 13:53:51,768 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135351_profile_page_loaded.png
+2026-03-18 13:53:51,769 - page.profile_test - INFO - [profile_test.py:127] - 测试设置链接
+2026-03-18 13:53:51,769 - components.ProfileComponent - INFO - [ProfileComponent.py:115] - 获取设置链接
+2026-03-18 13:53:51,770 - page.profile_test - INFO - [profile_test.py:130] - 设置链接存在
+2026-03-18 13:53:51,848 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 13:53:51,972 - page.drama_home_test - INFO - [drama_home_test.py:26] - 导航到首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:53:51,991 - page.profile_test - INFO - [profile_test.py:132] - 成功点击设置链接
+2026-03-18 13:53:52,084 - page.player_test - INFO - [player_test.py:149] - 继续播放操作操作成功
+2026-03-18 13:53:53,997 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:53:55,002 - page.drama_home_test - INFO - [drama_home_test.py:31] - 剧首页所有元素加载完成
+2026-03-18 13:53:55,245 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135355_page_loaded.png
+2026-03-18 13:53:55,246 - page.drama_home_test - INFO - [drama_home_test.py:114] - 测试点击随机一集免费剧集
+2026-03-18 13:53:55,474 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:58] - 成功点击免费剧集
+2026-03-18 13:53:55,710 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135355_after_click_free_episode.png
+2026-03-18 13:53:56,683 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-18 13:53:56,721 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-18 13:53:57,041 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135356_settings_page.png
+2026-03-18 13:53:57,041 - components.ProfileComponent - INFO - [ProfileComponent.py:60] - 点击返回按钮
+2026-03-18 13:53:57,041 - components.ProfileComponent - INFO - [ProfileComponent.py:40] - 获取返回按钮
+2026-03-18 13:53:57,041 - components.ProfileComponent - INFO - [ProfileComponent.py:41] - 当前页面URL: https://video.reelswave.net/profile/setting
+2026-03-18 13:53:57,043 - components.ProfileComponent - INFO - [ProfileComponent.py:51] - 成功找到元素，使用定位器: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 13:53:57,303 - components.ProfileComponent - INFO - [ProfileComponent.py:63] - 成功点击返回按钮
+2026-03-18 13:53:57,303 - page.profile_test - INFO - [profile_test.py:141] - 返回上一页
+2026-03-18 13:53:59,312 - components.ProfileComponent - INFO - [ProfileComponent.py:19] - 初始化个人中心页面组件
+2026-03-18 13:53:59,993 - page.home_test - INFO - [home_test.py:32] - 导航到首页: https://video.reelswave.net/
+2026-03-18 13:54:00,410 - page.search_test - INFO - [search_test.py:188] - 热门搜索视频元素测试完成
+2026-03-18 13:54:00,411 - page.search_test - INFO - [search_test.py:226] - 搜索 'alibaba'
+2026-03-18 13:54:00,416 - page.search_test - INFO - [search_test.py:76] - 搜索关键词: alibaba
+
+2026-03-18 13:54:00,570 - page.profile_test - INFO - [profile_test.py:29] - 导航到个人中心页面: https://video.reelswave.net/profile
+2026-03-18 13:54:00,570 - components.ProfileComponent - INFO - [ProfileComponent.py:23] - 等待个人中心页面加载完成...
+2026-03-18 13:54:00,578 - components.ProfileComponent - INFO - [ProfileComponent.py:31] - 个人中心页面加载完成
+2026-03-18 13:54:00,581 - page.profile_test - INFO - [profile_test.py:34] - 个人中心页面加载完成
+2026-03-18 13:54:00,741 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: input
+2026-03-18 13:54:00,741 - page.search_test - INFO - [search_test.py:80] - 成功点击搜索输入框
+2026-03-18 13:54:00,816 - page.search_test - INFO - [search_test.py:90] - 已输入关键词: alibaba
+
+2026-03-18 13:54:00,900 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135400_profile_page_loaded.png
+2026-03-18 13:54:00,918 - page.profile_test - INFO - [profile_test.py:147] - 测试VIP状态
+2026-03-18 13:54:00,918 - components.ProfileComponent - INFO - [ProfileComponent.py:127] - 获取VIP头像
+2026-03-18 13:54:00,933 - page.profile_test - INFO - [profile_test.py:150] - VIP头像存在
+2026-03-18 13:54:01,155 - page.profile_test - INFO - [profile_test.py:152] - 成功点击VIP头像
+2026-03-18 13:54:02,490 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135402_player_playing.png
+2026-03-18 13:54:04,015 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135403_search_result_alibaba
+.png
+2026-03-18 13:54:04,021 - page.search_test - INFO - [search_test.py:101] - 当前 URL: https://video.reelswave.net/search
+2026-03-18 13:54:06,035 - page.search_test - INFO - [search_test.py:236] - 找到 'No results found' 提示，搜索功能正常
+2026-03-18 13:54:06,298 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135406_vip_page.png
+2026-03-18 13:54:06,299 - components.ProfileComponent - INFO - [ProfileComponent.py:60] - 点击返回按钮
+2026-03-18 13:54:06,299 - components.ProfileComponent - INFO - [ProfileComponent.py:40] - 获取返回按钮
+2026-03-18 13:54:06,299 - components.ProfileComponent - INFO - [ProfileComponent.py:41] - 当前页面URL: https://video.reelswave.net/payment?from=profile-vip
+2026-03-18 13:54:06,302 - components.ProfileComponent - INFO - [ProfileComponent.py:51] - 成功找到元素，使用定位器: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 13:54:06,514 - components.ProfileComponent - INFO - [ProfileComponent.py:63] - 成功点击返回按钮
+2026-03-18 13:54:06,514 - page.profile_test - INFO - [profile_test.py:161] - 返回上一页
+2026-03-18 13:54:07,039 - page.search_test - INFO - [search_test.py:244] - 搜索 'love'
+2026-03-18 13:54:07,039 - page.search_test - INFO - [search_test.py:76] - 搜索关键词: love
+
+2026-03-18 13:54:07,279 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: input
+2026-03-18 13:54:07,279 - page.search_test - INFO - [search_test.py:80] - 成功点击搜索输入框
+2026-03-18 13:54:07,305 - page.search_test - INFO - [search_test.py:90] - 已输入关键词: love
+
+2026-03-18 13:54:08,271 - components.PlayerIconComponent - ERROR - [PlayerIconComponent.py:72] - 定位播放器失败：
+无法定位播放器容器
+版本: 4.1.1.2
+2026-03-18 13:54:08,272 - components.PlayerIconComponent - ERROR - [decorators.py:148] - 元素等待失败：
+无法定位播放器容器
+版本: 4.1.1.2
+2026-03-18 13:54:08,628 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135408_failure_test_pause_play.png
+2026-03-18 13:54:09,521 - page.player_test - INFO - [player_test.py:33] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:54:09,565 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-18 13:54:09,642 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 10468, 名称: Python
+2026-03-18 13:54:09,643 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 10468
+2026-03-18 13:54:10,440 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135410_search_result_love
+.png
+2026-03-18 13:54:10,441 - page.search_test - INFO - [search_test.py:101] - 当前 URL: https://video.reelswave.net/search?keyword=love
+2026-03-18 13:54:11,533 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:54:11,648 - page.base - INFO - [base.py:42] - 进程 PID 10468 仍在运行，强制终止
+2026-03-18 13:54:11,649 - page.base - INFO - [base.py:44] - 已发送SIGKILL信号给进程 PID 10468
+2026-03-18 13:54:11,649 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 10468, 名称: Python
+2026-03-18 13:54:11,649 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 10468
+2026-03-18 13:54:12,446 - page.search_test - INFO - [search_test.py:126] - 开始测试热门搜索视频元素
+2026-03-18 13:54:12,456 - page.search_test - INFO - [search_test.py:135] - 找到 2 个热门搜索视频条目
+2026-03-18 13:54:12,460 - page.search_test - INFO - [search_test.py:144] - 测试热门搜索视频 1
+2026-03-18 13:54:12,538 - page.player_test - INFO - [player_test.py:38] - 剧首页元素加载完成
+2026-03-18 13:54:12,744 - page.search_test - INFO - [search_test.py:148] - 成功点击热门搜索视频 1
+2026-03-18 13:54:12,770 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-18 13:54:12,771 - page.player_test - INFO - [player_test.py:42] - 成功点击'去看剧'按钮，打开播放器
+2026-03-18 13:54:13,654 - page.base - INFO - [base.py:42] - 进程 PID 10468 仍在运行，强制终止
+2026-03-18 13:54:13,654 - page.base - INFO - [base.py:44] - 已发送SIGKILL信号给进程 PID 10468
+2026-03-18 13:54:13,654 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 10740, 名称: Google
+2026-03-18 13:54:13,655 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 10740
+2026-03-18 13:54:15,655 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 10740, 名称: Google
+2026-03-18 13:54:15,655 - page.base - INFO - [base.py:46] - 进程 PID 10740 已不存在
+2026-03-18 13:54:15,655 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 10740, 名称: Google
+2026-03-18 13:54:15,655 - page.base - INFO - [base.py:46] - 进程 PID 10740 已不存在
+2026-03-18 13:54:15,751 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:54:15,964 - page.search_test - INFO - [search_test.py:156] - 成功进入播放器页面 (点击热门搜索视频 1 后)
+2026-03-18 13:54:17,777 - page.player_test - INFO - [player_test.py:46] - 播放器加载完成
+2026-03-18 13:54:18,014 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135417_player_loaded.png
+2026-03-18 13:54:18,015 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607514787155968&from=content-detail&chapterIndex=9&free=1&pay=0
+2026-03-18 13:54:18,016 - page.player_test - INFO - [player_test.py:219] - 测试打开首页功能
+2026-03-18 13:54:18,021 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:54:19,461 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 13:54:19,463 - page.search_test - INFO - [search_test.py:165] - 从播放器返回到搜索页面
+2026-03-18 13:54:26,800 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135426_player_menu_opened.png
+2026-03-18 13:54:27,278 - page.player_test - INFO - [player_test.py:239] - 打开首页成功
+2026-03-18 13:54:30,524 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135430_home_page_opened.png
+2026-03-18 13:54:31,348 - components.PlayerIconComponent - ERROR - [decorators.py:139] - 元素等待异常: 
+元素对象已失效。可能是页面整体刷新，或js局部刷新把元素替换或去除了。
+版本: 4.1.1.2
+2026-03-18 13:54:31,348 - page.player_test - INFO - [player_test.py:263] - 退出首页成功
+2026-03-18 13:54:31,480 - page.search_test - INFO - [search_test.py:188] - 热门搜索视频元素测试完成
+2026-03-18 13:54:31,480 - page.search_test - INFO - [search_test.py:113] - 清空搜索内容
+2026-03-18 13:54:31,746 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.color-\#6C6E6F > path
+2026-03-18 13:54:31,748 - page.search_test - INFO - [search_test.py:117] - 成功点击清空按钮
+2026-03-18 13:54:32,260 - page.player_test - INFO - [player_test.py:33] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:54:33,759 - page.search_test - INFO - [search_test.py:62] - 关闭搜索页面
+2026-03-18 13:54:33,991 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: #app > div > div > div > div.justify-between > div.text-lg
+2026-03-18 13:54:33,991 - page.search_test - INFO - [search_test.py:66] - 成功点击取消按钮
+2026-03-18 13:54:34,269 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:54:35,272 - page.player_test - INFO - [player_test.py:38] - 剧首页元素加载完成
+2026-03-18 13:54:35,488 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-18 13:54:35,489 - page.player_test - INFO - [player_test.py:42] - 成功点击'去看剧'按钮，打开播放器
+2026-03-18 13:54:40,492 - page.player_test - INFO - [player_test.py:46] - 播放器加载完成
+2026-03-18 13:54:40,719 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135440_player_loaded.png
+2026-03-18 13:54:40,719 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607514787155968&from=content-detail&chapterIndex=9&free=1&pay=0
+2026-03-18 13:54:40,720 - page.player_test - INFO - [player_test.py:268] - 测试打开聚合页-简介功能
+2026-03-18 13:54:40,964 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135440_player_menu_opened.png
+2026-03-18 13:54:40,964 - page.player_test - INFO - [player_test.py:278] - 尝试打开聚合页-简介
+2026-03-18 13:54:44,623 - page.player_test - INFO - [player_test.py:291] - 播放器聚合页打开成功
+2026-03-18 13:54:44,899 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135444_introduction_page_opened.png
+2026-03-18 13:54:56,999 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：xpath:div[@data-swiper-slide-index="0"]
+2026-03-18 13:54:58,005 - page.search_test - INFO - [search_test.py:258] - 搜索功能测试完成
+2026-03-18 13:54:58,701 - page.search_test - INFO - [search_test.py:32] - 导航到首页: https://video.reelswave.net/
+2026-03-18 13:55:04,902 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 13:55:04,902 - page.player_test - INFO - [player_test.py:86] - 播放器菜单未打开，尝试打开菜单
+2026-03-18 13:55:04,915 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:55:05,363 - page.player_test - INFO - [player_test.py:90] - 播放器菜单打开成功
+2026-03-18 13:55:05,363 - page.player_test - INFO - [player_test.py:301] - 定位标题并关闭聚合页/浮层
+2026-03-18 13:55:07,591 - utils.page_actions - INFO - [page_actions.py:194] - 成功点击坐标(274.99609375, 196.7890625)
+2026-03-18 13:55:07,591 - utils.page_actions - INFO - [page_actions.py:225] - 点击浮层顶部向上30像素位置(274.99609375, 196.7890625)关闭浮层
+2026-03-18 13:55:07,591 - page.player_test - INFO - [player_test.py:312] - 使用 close_float_layer 方法关闭聚合页成功
+2026-03-18 13:55:07,806 - components.PlayerIconComponent - ERROR - [decorators.py:139] - 元素等待异常: 
+元素对象已失效。可能是页面整体刷新，或js局部刷新把元素替换或去除了。
+版本: 4.1.1.2
+2026-03-18 13:55:07,806 - page.player_test - INFO - [player_test.py:335] - 聚合页/浮层关闭成功
+2026-03-18 13:55:07,806 - page.player_test - INFO - [player_test.py:337] - 简介功能测试完成
+2026-03-18 13:55:09,463 - page.player_test - INFO - [player_test.py:33] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:55:11,486 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:55:12,491 - page.player_test - INFO - [player_test.py:38] - 剧首页元素加载完成
+2026-03-18 13:55:12,729 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-18 13:55:12,730 - page.player_test - INFO - [player_test.py:42] - 成功点击'去看剧'按钮，打开播放器
+2026-03-18 13:55:17,735 - page.player_test - INFO - [player_test.py:46] - 播放器加载完成
+2026-03-18 13:55:18,123 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135517_player_loaded.png
+2026-03-18 13:55:18,123 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607514787155968&from=content-detail&chapterIndex=9&free=1&pay=0
+2026-03-18 13:55:18,123 - page.player_test - INFO - [player_test.py:342] - 测试打开聚合页-目录功能
+2026-03-18 13:55:18,128 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:55:18,950 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135518_player_menu_opened.png
+2026-03-18 13:55:19,391 - page.player_test - INFO - [player_test.py:360] - 目录打开成功
+2026-03-18 13:55:19,710 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：xpath:div[@data-swiper-slide-index="0"]
+2026-03-18 13:55:19,867 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135519_catalog_page_opened.png
+2026-03-18 13:55:20,560 - page.player_test - INFO - [player_test.py:375] - 目录标签: ['', "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.9\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.9 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.9\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.9 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.9\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.9 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.9\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.9 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80", 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', '', 'RefreshDiagnose', 'code: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', 'OKCancel', '', 'OKCancel', '', '', '', '占位图', '', '', '', '占位图', '', '', '', 'EP.9', 'EP.9', 'EP.9', 'EP.9', "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.9 / EP.80", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", 'CEO baby', 'CEO baby', "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.", 'More', '', '', '', 'EP.9 / EP.80', 'EP.9 / EP.80', 'CEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80', 'CEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80', 'CEO baby\nAll 80 Episodes', '', '', '', 'CEO baby\nAll 80 Episodes', 'CEO baby', 'CEO baby', 'All 80 Episodes', 'Introduction\nEpisodes', 'Introduction', 'Episodes', '1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1-30\n31-60\n61-80', '1-30', '31-60', '61-80', '1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '']
+2026-03-18 13:55:20,563 - page.player_test - INFO - [player_test.py:376] - 目录内容: ['', "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.9\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.9 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.9\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.9 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.9\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.9 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.9\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.9 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', '', 'RefreshDiagnose', 'code: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', 'OKCancel', '', 'OKCancel', '', '', '', '占位图', '', '', '', '占位图', '', '', '', 'EP.9', 'EP.9', 'EP.9', 'EP.9', "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.9 / EP.80", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", 'CEO baby', 'CEO baby', "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.", 'More', '', '', '', 'EP.9 / EP.80', 'EP.9 / EP.80', 'CEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', 'CEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', 'CEO baby\nAll 80 Episodes', '', '', '', 'CEO baby\nAll 80 Episodes', 'CEO baby', 'CEO baby', 'All 80 Episodes', 'Introduction\nEpisodes', 'Introduction', 'Episodes', '1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1-30\n31-60\n61-80', '1-30', '31-60', '61-80', '1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1', '1', '2', '2', '3', '3', '4', '4', '5', '5', '6', '6', '7', '7', '8', '8', '9', '9', '10', '10', '11', '11', '12', '12', '13', '13', '14', '14', '15', '15', '16', '16', '17', '17', '18', '18', '19', '19', '20', '20', '21', '21', '22', '22', '23', '23', '24', '24', '25', '25', '26', '26', '27', '27', '28', '28', '29', '29', '30', '30']
+2026-03-18 13:55:20,567 - page.player_test - INFO - [player_test.py:110] - 发现浮层，尝试使用 close_float_layer 方法关闭
+2026-03-18 13:55:20,568 - utils.page_actions - INFO - [page_actions.py:194] - 成功点击坐标(250, 161.2265625)
+2026-03-18 13:55:20,569 - utils.page_actions - INFO - [page_actions.py:225] - 点击浮层顶部向上40像素位置(250, 161.2265625)关闭浮层
+2026-03-18 13:55:20,569 - page.player_test - INFO - [player_test.py:112] - 使用 close_float_layer 方法关闭浮层成功
+2026-03-18 13:55:20,713 - page.search_test - INFO - [search_test.py:37] - 首页轮播图加载完成
+2026-03-18 13:55:20,714 - page.search_test - INFO - [search_test.py:263] - 测试搜索无结果场景
+2026-03-18 13:55:20,714 - page.search_test - INFO - [search_test.py:44] - 打开搜索页面
+2026-03-18 13:55:20,944 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.text-xxl
+2026-03-18 13:55:20,944 - page.search_test - INFO - [search_test.py:48] - 成功点击搜索图标
+2026-03-18 13:55:23,116 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135522_search_page_opened.png
+2026-03-18 13:55:23,116 - page.search_test - INFO - [search_test.py:76] - 搜索关键词: alibaba
+
+2026-03-18 13:55:23,341 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: input
+2026-03-18 13:55:23,341 - page.search_test - INFO - [search_test.py:80] - 成功点击搜索输入框
+2026-03-18 13:55:23,347 - page.search_test - INFO - [search_test.py:90] - 已输入关键词: alibaba
+
+2026-03-18 13:55:25,569 - page.player_test - INFO - [player_test.py:381] - 目录关闭成功
+2026-03-18 13:55:26,250 - page.player_test - INFO - [player_test.py:33] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:55:26,506 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135526_search_result_alibaba
+.png
+2026-03-18 13:55:26,507 - page.search_test - INFO - [search_test.py:101] - 当前 URL: https://video.reelswave.net/search
+2026-03-18 13:55:28,268 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:55:28,519 - page.search_test - INFO - [search_test.py:281] - 无结果提示文本: No results found
+2026-03-18 13:55:28,519 - page.search_test - INFO - [search_test.py:113] - 清空搜索内容
+2026-03-18 13:55:28,804 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.color-\#6C6E6F > path
+2026-03-18 13:55:28,805 - page.search_test - INFO - [search_test.py:117] - 成功点击清空按钮
+2026-03-18 13:55:29,274 - page.player_test - INFO - [player_test.py:38] - 剧首页元素加载完成
+2026-03-18 13:55:29,509 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-18 13:55:29,509 - page.player_test - INFO - [player_test.py:42] - 成功点击'去看剧'按钮，打开播放器
+2026-03-18 13:55:29,810 - page.search_test - INFO - [search_test.py:62] - 关闭搜索页面
+2026-03-18 13:55:30,066 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: #app > div > div > div > div.justify-between > div.text-lg
+2026-03-18 13:55:30,066 - page.search_test - INFO - [search_test.py:66] - 成功点击取消按钮
+2026-03-18 13:55:34,514 - page.player_test - INFO - [player_test.py:46] - 播放器加载完成
+2026-03-18 13:55:34,770 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135534_player_loaded.png
+2026-03-18 13:55:34,772 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607514787155968&from=content-detail&chapterIndex=9&free=1&pay=0
+2026-03-18 13:55:34,773 - page.player_test - INFO - [player_test.py:386] - 测试静音和恢复静音功能
+2026-03-18 13:55:35,278 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135534_player_menu_opened.png
+2026-03-18 13:55:35,296 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:55:35,736 - page.player_test - INFO - [player_test.py:400] - 检查当前静音状态
+2026-03-18 13:55:53,085 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：xpath:div[@data-swiper-slide-index="0"]
+2026-03-18 13:55:54,088 - page.search_test - INFO - [search_test.py:289] - 搜索无结果场景测试完成
+2026-03-18 13:55:55,110 - page.search_test - INFO - [search_test.py:32] - 导航到首页: https://video.reelswave.net/
+2026-03-18 13:55:55,970 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.flex-1.text-xxl .icon-svg.color-danger
+2026-03-18 13:55:55,973 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-03-18 13:55:55,973 - page.player_test - INFO - [player_test.py:410] - 当前为未静音状态，将先执行静音操作
+2026-03-18 13:55:55,973 - page.player_test - INFO - [player_test.py:440] - 执行静音操作
+2026-03-18 13:55:56,208 - page.player_test - INFO - [player_test.py:442] - 静音成功，等待5秒
+2026-03-18 13:55:56,456 - page.player_test - INFO - [player_test.py:454] - 执行取消静音操作
+2026-03-18 13:56:01,921 - page.player_test - INFO - [player_test.py:460] - 取消静音成功
+2026-03-18 13:56:05,347 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135604_unmuted.png
+2026-03-18 13:56:05,348 - page.player_test - INFO - [player_test.py:468] - 静音功能测试完成
+2026-03-18 13:56:06,513 - page.player_test - INFO - [player_test.py:33] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:56:08,523 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:56:09,528 - page.player_test - INFO - [player_test.py:38] - 剧首页元素加载完成
+2026-03-18 13:56:09,768 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-18 13:56:09,768 - page.player_test - INFO - [player_test.py:42] - 成功点击'去看剧'按钮，打开播放器
+2026-03-18 13:56:14,772 - page.player_test - INFO - [player_test.py:46] - 播放器加载完成
+2026-03-18 13:56:14,983 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135614_player_loaded.png
+2026-03-18 13:56:14,984 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607514787155968&from=content-detail&chapterIndex=9&free=1&pay=0
+2026-03-18 13:56:14,984 - page.player_test - INFO - [player_test.py:473] - 测试收藏和取消收藏功能
+2026-03-18 13:56:15,266 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135614_player_menu_opened.png
+2026-03-18 13:56:15,270 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:56:15,707 - page.player_test - INFO - [player_test.py:487] - 检查当前收藏状态
+2026-03-18 13:56:16,118 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：xpath:div[@data-swiper-slide-index="0"]
+2026-03-18 13:56:17,124 - page.search_test - INFO - [search_test.py:37] - 首页轮播图加载完成
+2026-03-18 13:56:17,130 - page.search_test - INFO - [search_test.py:294] - 测试搜索有结果场景
+2026-03-18 13:56:17,130 - page.search_test - INFO - [search_test.py:44] - 打开搜索页面
+2026-03-18 13:56:17,409 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.text-xxl
+2026-03-18 13:56:17,409 - page.search_test - INFO - [search_test.py:48] - 成功点击搜索图标
+2026-03-18 13:56:19,567 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135619_search_page_opened.png
+2026-03-18 13:56:19,567 - page.search_test - INFO - [search_test.py:76] - 搜索关键词: love
+
+2026-03-18 13:56:19,797 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: input
+2026-03-18 13:56:19,798 - page.search_test - INFO - [search_test.py:80] - 成功点击搜索输入框
+2026-03-18 13:56:19,810 - page.search_test - INFO - [search_test.py:90] - 已输入关键词: love
+
+2026-03-18 13:56:22,902 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135622_search_result_love
+.png
+2026-03-18 13:56:22,902 - page.search_test - INFO - [search_test.py:101] - 当前 URL: https://video.reelswave.net/search?keyword=love
+2026-03-18 13:56:24,904 - page.search_test - INFO - [search_test.py:126] - 开始测试热门搜索视频元素
+2026-03-18 13:56:24,966 - page.search_test - INFO - [search_test.py:135] - 找到 2 个热门搜索视频条目
+2026-03-18 13:56:24,999 - page.search_test - INFO - [search_test.py:144] - 测试热门搜索视频 1
+2026-03-18 13:56:25,246 - page.search_test - INFO - [search_test.py:148] - 成功点击热门搜索视频 1
+2026-03-18 13:56:28,262 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:56:28,480 - page.search_test - INFO - [search_test.py:156] - 成功进入播放器页面 (点击热门搜索视频 1 后)
+2026-03-18 13:56:31,978 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 13:56:31,979 - page.search_test - INFO - [search_test.py:165] - 从播放器返回到搜索页面
+2026-03-18 13:56:35,946 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.flex-1.text-xxl svg.icon-svg.color-primary:not(.icon)[fill]
+2026-03-18 13:56:35,946 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-03-18 13:56:35,947 - page.player_test - INFO - [player_test.py:497] - 当前为未收藏状态，将先执行收藏操作
+2026-03-18 13:56:35,947 - page.player_test - INFO - [player_test.py:529] - 执行收藏操作
+2026-03-18 13:56:36,190 - page.player_test - INFO - [player_test.py:531] - 收藏成功，等待3秒
+2026-03-18 13:56:37,267 - page.player_test - INFO - [player_test.py:543] - 执行取消收藏操作
+2026-03-18 13:56:37,720 - page.player_test - INFO - [player_test.py:547] - 取消收藏成功
+2026-03-18 13:56:41,100 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135640_unfavorited.png
+2026-03-18 13:56:41,316 - page.player_test - INFO - [player_test.py:562] - 收藏功能测试完成
+2026-03-18 13:56:43,004 - page.player_test - INFO - [player_test.py:33] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:56:43,999 - page.search_test - INFO - [search_test.py:188] - 热门搜索视频元素测试完成
+2026-03-18 13:56:44,000 - page.search_test - INFO - [search_test.py:113] - 清空搜索内容
+2026-03-18 13:56:44,317 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.color-\#6C6E6F > path
+2026-03-18 13:56:44,318 - page.search_test - INFO - [search_test.py:117] - 成功点击清空按钮
+2026-03-18 13:56:45,027 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:56:45,323 - page.search_test - INFO - [search_test.py:62] - 关闭搜索页面
+2026-03-18 13:56:45,558 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: #app > div > div > div > div.justify-between > div.text-lg
+2026-03-18 13:56:45,559 - page.search_test - INFO - [search_test.py:66] - 成功点击取消按钮
+2026-03-18 13:56:46,032 - page.player_test - INFO - [player_test.py:38] - 剧首页元素加载完成
+2026-03-18 13:56:46,274 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-18 13:56:46,275 - page.player_test - INFO - [player_test.py:42] - 成功点击'去看剧'按钮，打开播放器
+2026-03-18 13:56:51,280 - page.player_test - INFO - [player_test.py:46] - 播放器加载完成
+2026-03-18 13:56:51,760 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135651_player_loaded.png
+2026-03-18 13:56:51,761 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607514787155968&from=content-detail&chapterIndex=9&free=1&pay=0
+2026-03-18 13:56:51,767 - page.player_test - INFO - [player_test.py:567] - 测试视频质量和播放速度切换功能
+2026-03-18 13:56:51,772 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:56:52,618 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135652_player_menu_opened.png
+2026-03-18 13:56:52,835 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:125] - 成功定位播放器菜单元素
+2026-03-18 13:56:53,294 - page.player_test - INFO - [player_test.py:585] - 打开菜单
+2026-03-18 13:56:53,306 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:214] - 找到 3 个播放质量选项: ['480P', '720P', '1080P']
+2026-03-18 13:56:53,309 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:214] - 找到 3 个播放质量选项: ['480P', '720P', '1080P']
+2026-03-18 13:56:53,312 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:174] - 找到 4 个播放速度选项: ['0.5x', '1.0x', '1.5x', '2.0x']
+2026-03-18 13:56:53,690 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135653_quality_speed_menu_opened.png
+2026-03-18 13:56:53,918 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:56:54,585 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:125] - 成功定位播放器菜单元素
+2026-03-18 13:56:55,102 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:196] - 找到匹配的播放质量: 480P
+2026-03-18 13:56:55,515 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:196] - 找到匹配的播放质量: 480P
+2026-03-18 13:56:55,963 - page.player_test - INFO - [player_test.py:632] - 切换480P成功
+2026-03-18 13:56:58,969 - page.player_test - INFO - [player_test.py:635] - 切换480P成功等待20秒
+2026-03-18 13:57:08,570 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：xpath:div[@data-swiper-slide-index="0"]
+2026-03-18 13:57:09,575 - page.search_test - INFO - [search_test.py:312] - 搜索有结果场景测试完成
+2026-03-18 13:57:10,621 - page.base - INFO - [base.py:15] - 检查并清理端口 9226...
+2026-03-18 13:57:10,663 - page.base - INFO - [base.py:50] - 端口 9226 未被占用
+2026-03-18 13:57:13,442 - page.home_test - INFO - [home_test.py:32] - 导航到首页: https://video.reelswave.net/
+2026-03-18 13:57:18,987 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:57:19,663 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:125] - 成功定位播放器菜单元素
+2026-03-18 13:57:20,188 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:196] - 找到匹配的播放质量: 720P
+2026-03-18 13:57:20,593 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:196] - 找到匹配的播放质量: 720P
+2026-03-18 13:57:21,040 - page.player_test - INFO - [player_test.py:632] - 切换720P成功
+2026-03-18 13:57:24,044 - page.player_test - INFO - [player_test.py:635] - 切换720P成功等待20秒
+2026-03-18 13:57:34,462 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：xpath:div[@data-swiper-slide-index="0"]
+2026-03-18 13:57:35,467 - page.home_test - INFO - [home_test.py:37] - 首页轮播图加载完成
+2026-03-18 13:57:35,928 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135735_home_page_loaded.png
+2026-03-18 13:57:35,929 - page.home_test - INFO - [home_test.py:132] - 测试首页 banner 轮播图
+2026-03-18 13:57:35,940 - page.home_test - INFO - [home_test.py:136] - 轮播图标题: ['Wake Up Dad! Wedding Time', 'Wake Up Dad! Wedding Time', 'Wake Up Dad! Wedding Time']
+2026-03-18 13:57:35,940 - page.home_test - INFO - [home_test.py:139] - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-03-18 13:57:35,947 - components.HomeComponent - INFO - [HomeComponent.py:25] - 当前页面共有 3 个轮播图
+2026-03-18 13:57:35,947 - components.HomeComponent - INFO - [HomeComponent.py:31] - 找到目标轮播图，索引: 0，标题: Wake Up Dad! Wedding Time
+2026-03-18 13:57:36,959 - components.HomeComponent - INFO - [HomeComponent.py:41] - 滚动后轮播图标题: Wake Up Dad! Wedding Time
+2026-03-18 13:57:39,310 - components.HomeComponent - INFO - [HomeComponent.py:59] - 成功点击轮播图标题: Wake Up Dad! Wedding Time
+2026-03-18 13:57:39,310 - page.home_test - INFO - [home_test.py:142] - 成功点击轮播图: Wake Up Dad! Wedding Time
+2026-03-18 13:57:44,767 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135744_banner_carousel_0.png
+2026-03-18 13:57:49,072 - components.PlayerIconComponent - ERROR - [PlayerIconComponent.py:72] - 定位播放器失败：
+无法定位播放器容器
+版本: 4.1.1.2
+2026-03-18 13:57:49,073 - components.PlayerIconComponent - ERROR - [decorators.py:148] - 元素等待失败：
+无法定位播放器容器
+版本: 4.1.1.2
+2026-03-18 13:57:49,327 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135749_failure_test_quality_and_speed.png
+2026-03-18 13:57:49,774 - components.PlayerIconComponent - ERROR - [PlayerIconComponent.py:72] - 定位播放器失败：
+无法定位播放器容器
+版本: 4.1.1.2
+2026-03-18 13:57:49,774 - components.PlayerIconComponent - ERROR - [decorators.py:148] - 元素等待失败：
+无法定位播放器容器
+版本: 4.1.1.2
+2026-03-18 13:57:50,212 - page.player_test - INFO - [player_test.py:33] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-18 13:57:50,376 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135749_failure_test_banner_carousel.png
+2026-03-18 13:57:51,424 - page.home_test - INFO - [home_test.py:32] - 导航到首页: https://video.reelswave.net/
+2026-03-18 13:57:52,225 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-18 13:57:53,287 - page.player_test - INFO - [player_test.py:38] - 剧首页元素加载完成
+2026-03-18 13:57:53,594 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-18 13:57:53,595 - page.player_test - INFO - [player_test.py:42] - 成功点击'去看剧'按钮，打开播放器
+2026-03-18 13:57:58,597 - page.player_test - INFO - [player_test.py:46] - 播放器加载完成
+2026-03-18 13:57:58,806 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135758_player_loaded.png
+2026-03-18 13:57:58,807 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607514787155968&from=content-detail&chapterIndex=9&free=1&pay=0
+2026-03-18 13:57:58,808 - page.player_test - INFO - [player_test.py:679] - 测试退出播放器功能
+2026-03-18 13:57:59,026 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135758_player_menu_opened.png
+2026-03-18 13:57:59,026 - page.player_test - INFO - [player_test.py:689] - 执行退出播放器
+2026-03-18 13:57:59,589 - components.PlayerIconComponent - ERROR - [decorators.py:139] - 元素等待异常: 
+元素对象已失效。可能是页面整体刷新，或js局部刷新把元素替换或去除了。
+版本: 4.1.1.2
+2026-03-18 13:57:59,589 - page.player_test - INFO - [player_test.py:699] - 退出播放器成功
+2026-03-18 13:58:00,597 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-18 13:58:00,646 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-18 13:58:12,442 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：xpath:div[@data-swiper-slide-index="0"]
+2026-03-18 13:58:13,448 - page.home_test - INFO - [home_test.py:37] - 首页轮播图加载完成
+2026-03-18 13:58:13,897 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135813_home_page_loaded.png
+2026-03-18 13:58:13,899 - page.home_test - INFO - [home_test.py:181] - 开始测试首页所有定位器
+2026-03-18 13:58:13,899 - page.home_test - INFO - [home_test.py:189] - 测试定位器: continue_watching_first_drama, 值: div:nth-of-type(4) .gap-md > div:first-child img
+2026-03-18 13:58:13,899 - page.home_test - INFO - [home_test.py:196] - 定位器 continue_watching_first_drama 不是 more 入口，跳过
+2026-03-18 13:58:13,899 - page.home_test - INFO - [home_test.py:189] - 测试定位器: continue_watching_more, 值: div:nth-of-type(4) span
+2026-03-18 13:58:14,132 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(4) span
+2026-03-18 13:58:14,132 - page.home_test - INFO - [home_test.py:201] - 成功点击定位器: continue_watching_more
+2026-03-18 13:58:17,542 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135817_home_locator_continue_watching_more.png
+2026-03-18 13:58:17,542 - page.home_test - INFO - [home_test.py:212] - 等待 continue_watching_more 页面完全打开
+2026-03-18 13:58:19,559 - page.home_test - INFO - [home_test.py:225] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/continue_watching.html
+2026-03-18 13:58:19,560 - page.home_test - INFO - [home_test.py:49] - 开始测试 MORE 页面元素: continue_watching
+2026-03-18 13:58:19,569 - page.home_test - INFO - [home_test.py:58] - 找到 8 个剧集条目
+2026-03-18 13:58:19,570 - page.home_test - INFO - [home_test.py:67] - 测试剧集 1
+2026-03-18 13:58:19,803 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 1
+2026-03-18 13:58:22,829 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:58:23,052 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 1 后)
+2026-03-18 13:58:26,571 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 13:58:26,571 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 13:58:28,587 - page.home_test - INFO - [home_test.py:67] - 测试剧集 2
+2026-03-18 13:58:28,845 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 2
+2026-03-18 13:58:31,865 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:58:32,086 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 2 后)
+2026-03-18 13:58:35,588 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 13:58:35,588 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 13:58:37,602 - page.home_test - INFO - [home_test.py:67] - 测试剧集 3
+2026-03-18 13:58:37,862 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 3
+2026-03-18 13:58:40,883 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:58:41,102 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 3 后)
+2026-03-18 13:58:44,616 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 13:58:44,616 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 13:58:46,625 - page.home_test - INFO - [home_test.py:67] - 测试剧集 4
+2026-03-18 13:58:46,888 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 4
+2026-03-18 13:58:49,909 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:58:50,123 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 4 后)
+2026-03-18 13:58:53,609 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 13:58:53,610 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 13:58:55,623 - page.home_test - INFO - [home_test.py:67] - 测试剧集 5
+2026-03-18 13:58:55,887 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 5
+2026-03-18 13:58:58,909 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:58:59,128 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 5 后)
+2026-03-18 13:59:02,630 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 13:59:02,630 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 13:59:04,641 - page.home_test - INFO - [home_test.py:67] - 测试剧集 6
+2026-03-18 13:59:04,921 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 6
+2026-03-18 13:59:07,939 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:59:08,157 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 6 后)
+2026-03-18 13:59:11,660 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 13:59:11,660 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 13:59:13,673 - page.home_test - INFO - [home_test.py:67] - 测试剧集 7
+2026-03-18 13:59:13,931 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 7
+2026-03-18 13:59:16,945 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:59:17,162 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 7 后)
+2026-03-18 13:59:20,658 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 13:59:20,658 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 13:59:22,671 - page.home_test - INFO - [home_test.py:67] - 测试剧集 8
+2026-03-18 13:59:22,933 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 8
+2026-03-18 13:59:25,948 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 13:59:26,160 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 8 后)
+2026-03-18 13:59:29,670 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 13:59:29,670 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 13:59:31,675 - page.home_test - INFO - [home_test.py:111] - MORE 页面元素测试完成: continue_watching
+2026-03-18 13:59:31,676 - page.home_test - INFO - [home_test.py:115] - 从 MORE 页面返回首页
+2026-03-18 13:59:31,954 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-18 13:59:31,954 - page.home_test - INFO - [home_test.py:120] - 成功通过返回按钮返回首页
+2026-03-18 13:59:52,970 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：xpath:div[@data-swiper-slide-index="0"]
+2026-03-18 13:59:53,973 - page.home_test - INFO - [home_test.py:189] - 测试定位器: best_first_drama, 值: div:nth-of-type(5) .gap-md > div:first-child img
+2026-03-18 13:59:53,973 - page.home_test - INFO - [home_test.py:196] - 定位器 best_first_drama 不是 more 入口，跳过
+2026-03-18 13:59:53,973 - page.home_test - INFO - [home_test.py:189] - 测试定位器: eastern_legends_first_drama, 值: div:nth-of-type(6) .gap-md > div:first-child img
+2026-03-18 13:59:53,974 - page.home_test - INFO - [home_test.py:196] - 定位器 eastern_legends_first_drama 不是 more 入口，跳过
+2026-03-18 13:59:53,974 - page.home_test - INFO - [home_test.py:189] - 测试定位器: eastern_legends_more, 值: div:nth-of-type(6) span
+2026-03-18 13:59:54,282 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(6) span
+2026-03-18 13:59:54,283 - page.home_test - INFO - [home_test.py:201] - 成功点击定位器: eastern_legends_more
+2026-03-18 13:59:57,761 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_135957_home_locator_eastern_legends_more.png
+2026-03-18 13:59:57,761 - page.home_test - INFO - [home_test.py:212] - 等待 eastern_legends_more 页面完全打开
+2026-03-18 13:59:59,778 - page.home_test - INFO - [home_test.py:225] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/eastern_legends.html
+2026-03-18 13:59:59,778 - page.home_test - INFO - [home_test.py:49] - 开始测试 MORE 页面元素: eastern_legends
+2026-03-18 13:59:59,787 - page.home_test - INFO - [home_test.py:58] - 找到 12 个剧集条目
+2026-03-18 13:59:59,790 - page.home_test - INFO - [home_test.py:67] - 测试剧集 1
+2026-03-18 14:00:00,051 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 1
+2026-03-18 14:00:03,067 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:00:03,285 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 1 后)
+2026-03-18 14:00:06,783 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:00:06,783 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:00:08,794 - page.home_test - INFO - [home_test.py:67] - 测试剧集 2
+2026-03-18 14:00:09,055 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 2
+2026-03-18 14:00:12,065 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:00:12,286 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 2 后)
+2026-03-18 14:00:15,794 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:00:15,794 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:00:17,808 - page.home_test - INFO - [home_test.py:67] - 测试剧集 3
+2026-03-18 14:00:18,069 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 3
+2026-03-18 14:00:21,090 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:00:21,309 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 3 后)
+2026-03-18 14:00:24,782 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:00:24,782 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:00:26,795 - page.home_test - INFO - [home_test.py:67] - 测试剧集 4
+2026-03-18 14:00:27,056 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 4
+2026-03-18 14:00:30,077 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:00:30,295 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 4 后)
+2026-03-18 14:00:33,796 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:00:33,796 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:00:35,808 - page.home_test - INFO - [home_test.py:67] - 测试剧集 5
+2026-03-18 14:00:36,067 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 5
+2026-03-18 14:00:39,086 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:00:39,312 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 5 后)
+2026-03-18 14:00:42,791 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:00:42,791 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:00:44,806 - page.home_test - INFO - [home_test.py:67] - 测试剧集 6
+2026-03-18 14:00:45,066 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 6
+2026-03-18 14:00:48,084 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:00:48,300 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 6 后)
+2026-03-18 14:00:51,796 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:00:51,796 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:00:53,810 - page.home_test - INFO - [home_test.py:67] - 测试剧集 7
+2026-03-18 14:00:54,071 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 7
+2026-03-18 14:00:57,091 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:00:57,309 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 7 后)
+2026-03-18 14:01:00,818 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:01:00,819 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:01:02,831 - page.home_test - INFO - [home_test.py:67] - 测试剧集 8
+2026-03-18 14:01:03,096 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 8
+2026-03-18 14:01:06,115 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:01:06,334 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 8 后)
+2026-03-18 14:01:09,855 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:01:09,856 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:01:11,871 - page.home_test - INFO - [home_test.py:67] - 测试剧集 9
+2026-03-18 14:01:12,155 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 9
+2026-03-18 14:01:15,177 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:01:15,395 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 9 后)
+2026-03-18 14:01:18,905 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:01:18,906 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:01:20,921 - page.home_test - INFO - [home_test.py:67] - 测试剧集 10
+2026-03-18 14:01:21,203 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 10
+2026-03-18 14:01:24,226 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:01:24,479 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 10 后)
+2026-03-18 14:01:27,981 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:01:27,981 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:01:29,993 - page.home_test - INFO - [home_test.py:67] - 测试剧集 11
+2026-03-18 14:01:30,246 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 11
+2026-03-18 14:01:33,266 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:01:33,485 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 11 后)
+2026-03-18 14:01:37,002 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:01:37,003 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:01:39,018 - page.home_test - INFO - [home_test.py:67] - 测试剧集 12
+2026-03-18 14:01:39,289 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 12
+2026-03-18 14:01:42,310 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:01:42,529 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 12 后)
+2026-03-18 14:01:46,026 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:01:46,026 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:01:48,031 - page.home_test - INFO - [home_test.py:111] - MORE 页面元素测试完成: eastern_legends
+2026-03-18 14:01:48,032 - page.home_test - INFO - [home_test.py:115] - 从 MORE 页面返回首页
+2026-03-18 14:01:48,268 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-18 14:01:48,269 - page.home_test - INFO - [home_test.py:120] - 成功通过返回按钮返回首页
+2026-03-18 14:02:09,280 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：xpath:div[@data-swiper-slide-index="0"]
+2026-03-18 14:02:10,284 - page.home_test - INFO - [home_test.py:189] - 测试定位器: queens_revenge_first_drama, 值: div:nth-of-type(7) .gap-md > div:first-child img
+2026-03-18 14:02:10,285 - page.home_test - INFO - [home_test.py:196] - 定位器 queens_revenge_first_drama 不是 more 入口，跳过
+2026-03-18 14:02:10,285 - page.home_test - INFO - [home_test.py:189] - 测试定位器: queens_revenge_more, 值: div:nth-of-type(7) span
+2026-03-18 14:02:10,599 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(7) span
+2026-03-18 14:02:10,600 - page.home_test - INFO - [home_test.py:201] - 成功点击定位器: queens_revenge_more
+2026-03-18 14:02:14,025 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_140213_home_locator_queens_revenge_more.png
+2026-03-18 14:02:14,025 - page.home_test - INFO - [home_test.py:212] - 等待 queens_revenge_more 页面完全打开
+2026-03-18 14:02:16,039 - page.home_test - INFO - [home_test.py:225] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/queens_revenge.html
+2026-03-18 14:02:16,039 - page.home_test - INFO - [home_test.py:49] - 开始测试 MORE 页面元素: queens_revenge
+2026-03-18 14:02:16,051 - page.home_test - INFO - [home_test.py:58] - 找到 8 个剧集条目
+2026-03-18 14:02:16,053 - page.home_test - INFO - [home_test.py:67] - 测试剧集 1
+2026-03-18 14:02:16,320 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 1
+2026-03-18 14:02:19,336 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:02:19,555 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 1 后)
+2026-03-18 14:02:23,053 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:02:23,053 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:02:25,066 - page.home_test - INFO - [home_test.py:67] - 测试剧集 2
+2026-03-18 14:02:25,332 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 2
+2026-03-18 14:02:28,356 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:02:28,573 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 2 后)
+2026-03-18 14:02:32,093 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:02:32,094 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:02:34,111 - page.home_test - INFO - [home_test.py:67] - 测试剧集 3
+2026-03-18 14:02:34,413 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 3
+2026-03-18 14:02:37,433 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:02:37,652 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 3 后)
+2026-03-18 14:02:41,162 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:02:41,162 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:02:43,176 - page.home_test - INFO - [home_test.py:67] - 测试剧集 4
+2026-03-18 14:02:43,441 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 4
+2026-03-18 14:02:46,460 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:02:46,676 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 4 后)
+2026-03-18 14:02:50,188 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:02:50,189 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:02:52,202 - page.home_test - INFO - [home_test.py:67] - 测试剧集 5
+2026-03-18 14:02:52,476 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 5
+2026-03-18 14:02:55,497 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:02:55,714 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 5 后)
+2026-03-18 14:02:59,219 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:02:59,220 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:03:01,233 - page.home_test - INFO - [home_test.py:67] - 测试剧集 6
+2026-03-18 14:03:01,494 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 6
+2026-03-18 14:03:04,517 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:03:04,735 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 6 后)
+2026-03-18 14:03:08,235 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:03:08,235 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:03:10,249 - page.home_test - INFO - [home_test.py:67] - 测试剧集 7
+2026-03-18 14:03:10,516 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 7
+2026-03-18 14:03:13,535 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:03:13,752 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 7 后)
+2026-03-18 14:03:17,272 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:03:17,273 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:03:19,286 - page.home_test - INFO - [home_test.py:67] - 测试剧集 8
+2026-03-18 14:03:19,558 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 8
+2026-03-18 14:03:22,580 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:03:22,800 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 8 后)
+2026-03-18 14:03:26,321 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:03:26,321 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:03:28,326 - page.home_test - INFO - [home_test.py:111] - MORE 页面元素测试完成: queens_revenge
+2026-03-18 14:03:28,327 - page.home_test - INFO - [home_test.py:115] - 从 MORE 页面返回首页
+2026-03-18 14:03:28,605 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-18 14:03:28,605 - page.home_test - INFO - [home_test.py:120] - 成功通过返回按钮返回首页
+2026-03-18 14:03:49,621 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：xpath:div[@data-swiper-slide-index="0"]
+2026-03-18 14:03:50,626 - page.home_test - INFO - [home_test.py:189] - 测试定位器: bossy_ceo_first_drama, 值: div:nth-of-type(8) .gap-md > div:first-child img
+2026-03-18 14:03:50,627 - page.home_test - INFO - [home_test.py:196] - 定位器 bossy_ceo_first_drama 不是 more 入口，跳过
+2026-03-18 14:03:50,627 - page.home_test - INFO - [home_test.py:189] - 测试定位器: bossy_ceo_more, 值: div:nth-of-type(8) span
+2026-03-18 14:03:50,980 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(8) span
+2026-03-18 14:03:50,981 - page.home_test - INFO - [home_test.py:201] - 成功点击定位器: bossy_ceo_more
+2026-03-18 14:03:54,466 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_140353_home_locator_bossy_ceo_more.png
+2026-03-18 14:03:54,467 - page.home_test - INFO - [home_test.py:212] - 等待 bossy_ceo_more 页面完全打开
+2026-03-18 14:03:56,488 - page.home_test - INFO - [home_test.py:225] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/bossy_ceo.html
+2026-03-18 14:03:56,488 - page.home_test - INFO - [home_test.py:49] - 开始测试 MORE 页面元素: bossy_ceo
+2026-03-18 14:03:56,497 - page.home_test - INFO - [home_test.py:58] - 找到 12 个剧集条目
+2026-03-18 14:03:56,499 - page.home_test - INFO - [home_test.py:67] - 测试剧集 1
+2026-03-18 14:03:56,780 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 1
+2026-03-18 14:03:59,803 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:04:00,023 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 1 后)
+2026-03-18 14:04:03,486 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:04:03,486 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:04:05,500 - page.home_test - INFO - [home_test.py:67] - 测试剧集 2
+2026-03-18 14:04:05,785 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 2
+2026-03-18 14:04:08,806 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:04:09,027 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 2 后)
+2026-03-18 14:04:12,527 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:04:12,527 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:04:14,540 - page.home_test - INFO - [home_test.py:67] - 测试剧集 3
+2026-03-18 14:04:14,797 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 3
+2026-03-18 14:04:17,805 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:04:18,020 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 3 后)
+2026-03-18 14:04:21,521 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:04:21,522 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:04:23,537 - page.home_test - INFO - [home_test.py:67] - 测试剧集 4
+2026-03-18 14:04:23,804 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 4
+2026-03-18 14:04:26,822 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:04:27,038 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 4 后)
+2026-03-18 14:04:30,552 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:04:30,552 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:04:32,557 - page.home_test - INFO - [home_test.py:67] - 测试剧集 5
+2026-03-18 14:04:32,816 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 5
+2026-03-18 14:04:35,838 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:04:36,054 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 5 后)
+2026-03-18 14:04:39,556 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:04:39,556 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:04:41,571 - page.home_test - INFO - [home_test.py:67] - 测试剧集 6
+2026-03-18 14:04:41,831 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 6
+2026-03-18 14:04:44,849 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:04:45,064 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 6 后)
+2026-03-18 14:04:48,583 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:04:48,584 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:04:50,597 - page.home_test - INFO - [home_test.py:67] - 测试剧集 7
+2026-03-18 14:04:50,855 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 7
+2026-03-18 14:04:53,876 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:04:54,097 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 7 后)
+2026-03-18 14:04:57,607 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:04:57,607 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:04:59,621 - page.home_test - INFO - [home_test.py:67] - 测试剧集 8
+2026-03-18 14:04:59,882 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 8
+2026-03-18 14:05:02,900 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:05:03,115 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 8 后)
+2026-03-18 14:05:06,619 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:05:06,620 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:05:08,639 - page.home_test - INFO - [home_test.py:67] - 测试剧集 9
+2026-03-18 14:05:09,357 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 9
+2026-03-18 14:05:12,378 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:05:12,592 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 9 后)
+2026-03-18 14:05:16,105 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:05:16,106 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:05:18,120 - page.home_test - INFO - [home_test.py:67] - 测试剧集 10
+2026-03-18 14:05:18,432 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 10
+2026-03-18 14:05:21,451 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:05:21,668 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 10 后)
+2026-03-18 14:05:25,192 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:05:25,193 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:05:27,209 - page.home_test - INFO - [home_test.py:67] - 测试剧集 11
+2026-03-18 14:05:27,472 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 11
+2026-03-18 14:05:30,493 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:05:30,708 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 11 后)
+2026-03-18 14:05:34,222 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:05:34,222 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:05:36,234 - page.home_test - INFO - [home_test.py:67] - 测试剧集 12
+2026-03-18 14:05:36,496 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 12
+2026-03-18 14:05:39,514 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:05:39,733 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 12 后)
+2026-03-18 14:05:43,228 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:05:43,229 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:05:45,234 - page.home_test - INFO - [home_test.py:111] - MORE 页面元素测试完成: bossy_ceo
+2026-03-18 14:05:45,234 - page.home_test - INFO - [home_test.py:115] - 从 MORE 页面返回首页
+2026-03-18 14:05:45,463 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-18 14:05:45,464 - page.home_test - INFO - [home_test.py:120] - 成功通过返回按钮返回首页
+2026-03-18 14:06:06,480 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：xpath:div[@data-swiper-slide-index="0"]
+2026-03-18 14:06:07,484 - page.home_test - INFO - [home_test.py:189] - 测试定位器: return_of_god_of_war_first_drama, 值: div:nth-of-type(9) .gap-md > div:first-child img
+2026-03-18 14:06:07,485 - page.home_test - INFO - [home_test.py:196] - 定位器 return_of_god_of_war_first_drama 不是 more 入口，跳过
+2026-03-18 14:06:07,485 - page.home_test - INFO - [home_test.py:189] - 测试定位器: return_of_god_of_war_more, 值: div:nth-of-type(9) span
+2026-03-18 14:06:07,851 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(9) span
+2026-03-18 14:06:07,851 - page.home_test - INFO - [home_test.py:201] - 成功点击定位器: return_of_god_of_war_more
+2026-03-18 14:06:11,312 - utils.screenshot_utils - INFO - [screenshot_utils.py:43] - 截图已保存: /Users/zhangxu/work/script-test/reelswave_web_test/reports/20260318_1353/screenshots/20260318_140610_home_locator_return_of_god_of_war_more.png
+2026-03-18 14:06:11,312 - page.home_test - INFO - [home_test.py:212] - 等待 return_of_god_of_war_more 页面完全打开
+2026-03-18 14:06:13,331 - page.home_test - INFO - [home_test.py:225] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/return_of_god_of_war.html
+2026-03-18 14:06:13,331 - page.home_test - INFO - [home_test.py:49] - 开始测试 MORE 页面元素: return_of_god_of_war
+2026-03-18 14:06:13,339 - page.home_test - INFO - [home_test.py:58] - 找到 12 个剧集条目
+2026-03-18 14:06:13,340 - page.home_test - INFO - [home_test.py:67] - 测试剧集 1
+2026-03-18 14:06:13,614 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 1
+2026-03-18 14:06:16,633 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:06:16,853 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 1 后)
+2026-03-18 14:06:20,354 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:06:20,354 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:06:22,364 - page.home_test - INFO - [home_test.py:67] - 测试剧集 2
+2026-03-18 14:06:22,626 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 2
+2026-03-18 14:06:25,646 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:06:25,866 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 2 后)
+2026-03-18 14:06:29,397 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:06:29,398 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:06:31,412 - page.home_test - INFO - [home_test.py:67] - 测试剧集 3
+2026-03-18 14:06:31,700 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 3
+2026-03-18 14:06:34,718 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:06:34,936 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 3 后)
+2026-03-18 14:06:38,422 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:06:38,423 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:06:40,434 - page.home_test - INFO - [home_test.py:67] - 测试剧集 4
+2026-03-18 14:06:40,697 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 4
+2026-03-18 14:06:43,714 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:06:43,930 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 4 后)
+2026-03-18 14:06:47,457 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:06:47,457 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:06:49,471 - page.home_test - INFO - [home_test.py:67] - 测试剧集 5
+2026-03-18 14:06:49,750 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 5
+2026-03-18 14:06:52,771 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:06:52,990 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 5 后)
+2026-03-18 14:06:56,460 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:06:56,460 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:06:58,475 - page.home_test - INFO - [home_test.py:67] - 测试剧集 6
+2026-03-18 14:06:58,766 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 6
+2026-03-18 14:07:01,781 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:07:01,999 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 6 后)
+2026-03-18 14:07:05,494 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:07:05,494 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:07:07,509 - page.home_test - INFO - [home_test.py:67] - 测试剧集 7
+2026-03-18 14:07:07,777 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 7
+2026-03-18 14:07:10,798 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:07:11,018 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 7 后)
+2026-03-18 14:07:14,559 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:07:14,559 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:07:16,573 - page.home_test - INFO - [home_test.py:67] - 测试剧集 8
+2026-03-18 14:07:16,849 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 8
+2026-03-18 14:07:19,871 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:07:20,083 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 8 后)
+2026-03-18 14:07:23,573 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:07:23,573 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:07:25,586 - page.home_test - INFO - [home_test.py:67] - 测试剧集 9
+2026-03-18 14:07:25,856 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 9
+2026-03-18 14:07:28,879 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:07:29,099 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 9 后)
+2026-03-18 14:07:32,604 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:07:32,605 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:07:34,613 - page.home_test - INFO - [home_test.py:67] - 测试剧集 10
+2026-03-18 14:07:34,898 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 10
+2026-03-18 14:07:37,916 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:07:38,135 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 10 后)
+2026-03-18 14:07:41,658 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:07:41,658 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:07:43,675 - page.home_test - INFO - [home_test.py:67] - 测试剧集 11
+2026-03-18 14:07:43,952 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 11
+2026-03-18 14:07:46,974 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:07:47,195 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 11 后)
+2026-03-18 14:07:50,710 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:07:50,710 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:07:52,725 - page.home_test - INFO - [home_test.py:67] - 测试剧集 12
+2026-03-18 14:07:52,989 - page.home_test - INFO - [home_test.py:71] - 成功点击剧集 12
+2026-03-18 14:07:56,006 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-18 14:07:56,222 - page.home_test - INFO - [home_test.py:79] - 成功进入播放器页面 (点击剧集 12 后)
+2026-03-18 14:07:59,741 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-18 14:07:59,741 - page.home_test - INFO - [home_test.py:88] - 从播放器返回到 MORE 页面
+2026-03-18 14:08:01,743 - page.home_test - INFO - [home_test.py:111] - MORE 页面元素测试完成: return_of_god_of_war
+2026-03-18 14:08:01,744 - page.home_test - INFO - [home_test.py:115] - 从 MORE 页面返回首页
+2026-03-18 14:08:01,979 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-18 14:08:01,979 - page.home_test - INFO - [home_test.py:120] - 成功通过返回按钮返回首页
+2026-03-18 14:08:22,986 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：xpath:div[@data-swiper-slide-index="0"]
+2026-03-18 14:08:23,992 - page.home_test - INFO - [home_test.py:269] - 首页所有定位器测试完成
+2026-03-18 14:08:25,040 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-18 14:08:25,082 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-18 14:08:25,808 - __main__ - WARNING - [run_test.py:195] - 未找到测试报告
+2026-03-18 14:08:25,813 - __main__ - ERROR - [run_test.py:205] - 测试执行失败，返回码: 1

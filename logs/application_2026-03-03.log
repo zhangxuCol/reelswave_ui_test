@@ -1,0 +1,1832 @@
+2026-03-03 09:56:39,650 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 09:56:39,689 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 8255, 名称: Google
+2026-03-03 09:56:39,689 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 8255
+2026-03-03 09:56:41,696 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 09:56:41,729 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 09:56:44,824 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 09:56:44,825 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 09:56:45,325 - page.home_test - INFO - [home_test.py:29] - 导航到首页: https://video.reelswave.net/
+2026-03-03 09:56:49,408 - page.home_test - INFO - [home_test.py:34] - 首页轮播图加载完成
+2026-03-03 09:56:49,409 - page.home_test - INFO - [home_test.py:42] - 测试首页 banner 轮播图
+2026-03-03 09:56:49,420 - page.home_test - INFO - [home_test.py:47] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-03 09:56:49,420 - page.home_test - INFO - [home_test.py:51] - 当前轮播图标题: CEO baby
+2026-03-03 09:56:49,660 - page.home_test - INFO - [home_test.py:55] - 成功点击轮播图: CEO baby
+2026-03-03 09:56:53,777 - page.home_test - INFO - [home_test.py:63] - 返回首页，准备测试下一个轮播图
+2026-03-03 09:56:57,647 - page.home_test - INFO - [home_test.py:51] - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 09:56:57,891 - page.home_test - INFO - [home_test.py:55] - 成功点击轮播图: Wake Up Dad! Wedding Time
+2026-03-03 09:57:01,606 - page.home_test - INFO - [home_test.py:63] - 返回首页，准备测试下一个轮播图
+2026-03-03 09:57:05,410 - page.home_test - INFO - [home_test.py:51] - 当前轮播图标题: The Thief Lover
+2026-03-03 09:57:05,662 - page.home_test - INFO - [home_test.py:55] - 成功点击轮播图: The Thief Lover
+2026-03-03 09:57:08,668 - page.home_test - INFO - [home_test.py:66] - 首页 banner 轮播图测试完成
+2026-03-03 09:57:08,696 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 09:57:08,757 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 12715, 名称: Python
+2026-03-03 09:57:17,371 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 09:57:17,396 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 12724, 名称: Google
+2026-03-03 09:57:17,397 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 12724
+2026-03-03 09:57:19,403 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 09:57:19,438 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 09:57:21,651 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 09:57:21,651 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 09:57:22,391 - page.home_test - INFO - [home_test.py:29] - 导航到首页: https://video.reelswave.net/
+2026-03-03 09:57:27,709 - page.home_test - INFO - [home_test.py:34] - 首页轮播图加载完成
+2026-03-03 09:57:27,710 - page.home_test - INFO - [home_test.py:42] - 测试首页 banner 轮播图
+2026-03-03 09:57:27,724 - page.home_test - INFO - [home_test.py:47] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-03 09:57:27,725 - page.home_test - INFO - [home_test.py:51] - 当前轮播图标题: CEO baby
+2026-03-03 09:57:27,965 - page.home_test - INFO - [home_test.py:55] - 成功点击轮播图: CEO baby
+2026-03-03 09:57:32,471 - page.home_test - INFO - [home_test.py:63] - 返回首页，准备测试下一个轮播图
+2026-03-03 09:57:41,169 - page.home_test - INFO - [home_test.py:51] - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 09:57:41,420 - page.home_test - INFO - [home_test.py:55] - 成功点击轮播图: Wake Up Dad! Wedding Time
+2026-03-03 09:57:45,147 - page.home_test - INFO - [home_test.py:63] - 返回首页，准备测试下一个轮播图
+2026-03-03 09:57:49,206 - page.home_test - INFO - [home_test.py:51] - 当前轮播图标题: The Thief Lover
+2026-03-03 09:57:49,458 - page.home_test - INFO - [home_test.py:55] - 成功点击轮播图: The Thief Lover
+2026-03-03 09:57:52,461 - page.home_test - INFO - [home_test.py:66] - 首页 banner 轮播图测试完成
+2026-03-03 09:57:52,491 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 09:57:52,542 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 12803, 名称: Python
+2026-03-03 10:06:25,295 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:06:25,330 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 12812, 名称: Google
+2026-03-03 10:06:25,330 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 12812
+2026-03-03 10:06:27,338 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:06:27,371 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 10:06:30,557 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 10:06:30,557 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 10:06:31,222 - page.home_test - INFO - [home_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-03 10:06:38,867 - page.home_test - INFO - [home_test.py:36] - 首页轮播图加载完成
+2026-03-03 10:06:38,870 - page.home_test - INFO - [home_test.py:44] - 测试首页 banner 轮播图
+2026-03-03 10:06:38,888 - page.home_test - INFO - [home_test.py:49] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-03 10:06:38,888 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: CEO baby
+2026-03-03 10:06:39,131 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: CEO baby
+2026-03-03 10:06:44,153 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:06:44,375 - page.home_test - INFO - [home_test.py:65] - 成功进入播放器页面
+2026-03-03 10:06:48,390 - page.home_test - INFO - [home_test.py:73] - 返回首页，准备测试下一个轮播图
+2026-03-03 10:06:51,726 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 10:06:51,981 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: Wake Up Dad! Wedding Time
+2026-03-03 10:06:57,003 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:06:57,221 - page.home_test - INFO - [home_test.py:65] - 成功进入播放器页面
+2026-03-03 10:07:01,380 - page.home_test - INFO - [home_test.py:73] - 返回首页，准备测试下一个轮播图
+2026-03-03 10:07:05,900 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: The Thief Lover
+2026-03-03 10:07:06,150 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: The Thief Lover
+2026-03-03 10:07:11,171 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:07:11,389 - page.home_test - INFO - [home_test.py:65] - 成功进入播放器页面
+2026-03-03 10:07:15,089 - page.home_test - INFO - [home_test.py:73] - 返回首页，准备测试下一个轮播图
+2026-03-03 10:07:19,080 - page.home_test - INFO - [home_test.py:76] - 首页 banner 轮播图测试完成
+2026-03-03 10:07:19,107 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:07:19,154 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 13009, 名称: Python
+2026-03-03 10:10:09,797 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:10:09,829 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 13022, 名称: Google
+2026-03-03 10:10:09,829 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 13022
+2026-03-03 10:10:11,838 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:10:11,870 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 10:10:14,161 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 10:10:14,163 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 10:10:14,540 - page.home_test - INFO - [home_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-03 10:10:18,517 - page.home_test - INFO - [home_test.py:36] - 首页轮播图加载完成
+2026-03-03 10:10:18,519 - page.home_test - INFO - [home_test.py:44] - 测试首页 banner 轮播图
+2026-03-03 10:10:18,534 - page.home_test - INFO - [home_test.py:49] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-03 10:10:18,534 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: CEO baby
+2026-03-03 10:10:19,791 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: CEO baby
+2026-03-03 10:10:24,812 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:10:25,028 - page.home_test - INFO - [home_test.py:65] - 成功进入播放器页面
+2026-03-03 10:10:28,620 - page.home_test - INFO - [home_test.py:73] - 返回首页，准备测试下一个轮播图
+2026-03-03 10:10:31,941 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 10:10:33,204 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: Wake Up Dad! Wedding Time
+2026-03-03 10:10:38,227 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:10:38,450 - page.home_test - INFO - [home_test.py:65] - 成功进入播放器页面
+2026-03-03 10:10:42,046 - page.home_test - INFO - [home_test.py:73] - 返回首页，准备测试下一个轮播图
+2026-03-03 10:10:45,408 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: The Thief Lover
+2026-03-03 10:10:46,671 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: The Thief Lover
+2026-03-03 10:10:51,690 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:10:51,905 - page.home_test - INFO - [home_test.py:65] - 成功进入播放器页面
+2026-03-03 10:10:55,488 - page.home_test - INFO - [home_test.py:73] - 返回首页，准备测试下一个轮播图
+2026-03-03 10:10:59,468 - page.home_test - INFO - [home_test.py:76] - 首页 banner 轮播图测试完成
+2026-03-03 10:10:59,485 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:10:59,531 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 13167, 名称: Python
+2026-03-03 10:18:54,097 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:18:54,131 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 13176, 名称: Google
+2026-03-03 10:18:54,131 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 13176
+2026-03-03 10:18:56,134 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:18:56,166 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 10:18:59,261 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 10:18:59,264 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 10:18:59,619 - page.home_test - INFO - [home_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-03 10:19:03,109 - page.home_test - INFO - [home_test.py:36] - 首页轮播图加载完成
+2026-03-03 10:19:03,111 - page.home_test - INFO - [home_test.py:44] - 测试首页 banner 轮播图
+2026-03-03 10:19:03,127 - page.home_test - INFO - [home_test.py:49] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-03 10:19:03,127 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: CEO baby
+2026-03-03 10:19:04,389 - components.HomeComponent - INFO - [HomeComponent.py:33] - 成功点击轮播图标题: CEO baby
+2026-03-03 10:19:04,389 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: CEO baby
+2026-03-03 10:19:09,407 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:19:09,623 - page.home_test - INFO - [home_test.py:65] - 成功进入播放器页面
+2026-03-03 10:19:13,790 - page.home_test - INFO - [home_test.py:73] - 返回首页，准备测试下一个轮播图
+2026-03-03 10:19:16,564 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 10:19:17,836 - components.HomeComponent - INFO - [HomeComponent.py:33] - 成功点击轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 10:19:17,836 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: Wake Up Dad! Wedding Time
+2026-03-03 10:19:22,849 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:19:23,064 - page.home_test - INFO - [home_test.py:65] - 成功进入播放器页面
+2026-03-03 10:19:26,641 - page.home_test - INFO - [home_test.py:73] - 返回首页，准备测试下一个轮播图
+2026-03-03 10:19:27,719 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:19:27,750 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 13376, 名称: Python
+2026-03-03 10:20:55,384 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:20:55,425 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 13385, 名称: Google
+2026-03-03 10:20:55,425 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 13385
+2026-03-03 10:20:57,432 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:20:57,463 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 10:21:00,132 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 10:21:00,132 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 10:21:00,676 - page.home_test - INFO - [home_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-03 10:21:05,240 - page.home_test - INFO - [home_test.py:36] - 首页轮播图加载完成
+2026-03-03 10:21:05,241 - page.home_test - INFO - [home_test.py:44] - 测试首页 banner 轮播图
+2026-03-03 10:21:05,254 - page.home_test - INFO - [home_test.py:49] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-03 10:21:05,254 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: CEO baby
+2026-03-03 10:21:08,522 - components.HomeComponent - INFO - [HomeComponent.py:33] - 成功点击轮播图标题: CEO baby
+2026-03-03 10:21:08,523 - page.home_test - INFO - [home_test.py:58] - 成功点击轮播图: CEO baby
+2026-03-03 10:21:13,542 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:21:13,758 - page.home_test - INFO - [home_test.py:66] - 成功进入播放器页面
+2026-03-03 10:21:17,841 - page.home_test - INFO - [home_test.py:74] - 返回首页，准备测试下一个轮播图
+2026-03-03 10:21:21,385 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 10:21:24,651 - components.HomeComponent - INFO - [HomeComponent.py:33] - 成功点击轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 10:21:24,652 - page.home_test - INFO - [home_test.py:58] - 成功点击轮播图: Wake Up Dad! Wedding Time
+2026-03-03 10:21:29,669 - utils.page_actions - ERROR - [decorators.py:94] - 等待元素出现失败: 
+The connection to the page has been disconnected.
+Version: 4.1.1.2
+2026-03-03 10:21:29,669 - components.PlayerIconComponent - ERROR - [PlayerIconComponent.py:72] - 定位播放器失败：
+无法定位当前激活的slide
+Version: 4.1.1.2
+2026-03-03 10:21:29,669 - components.PlayerIconComponent - ERROR - [decorators.py:148] - 元素等待失败：
+无法定位当前激活的slide
+Version: 4.1.1.2
+2026-03-03 10:21:29,731 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:21:29,762 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 13471, 名称: Python
+2026-03-03 10:23:29,321 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:23:29,357 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 13480, 名称: Google
+2026-03-03 10:23:29,357 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 13480
+2026-03-03 10:23:31,364 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:23:31,397 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 10:23:34,337 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 10:23:34,337 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 10:23:34,831 - page.home_test - INFO - [home_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-03 10:23:38,964 - page.home_test - INFO - [home_test.py:36] - 首页轮播图加载完成
+2026-03-03 10:23:38,966 - page.home_test - INFO - [home_test.py:44] - 测试首页 banner 轮播图
+2026-03-03 10:23:38,979 - page.home_test - INFO - [home_test.py:49] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-03 10:23:38,980 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: CEO baby
+2026-03-03 10:23:42,237 - components.HomeComponent - INFO - [HomeComponent.py:33] - 成功点击轮播图标题: CEO baby
+2026-03-03 10:23:42,238 - page.home_test - INFO - [home_test.py:58] - 成功点击轮播图: CEO baby
+2026-03-03 10:23:47,258 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:23:47,477 - page.home_test - INFO - [home_test.py:66] - 成功进入播放器页面
+2026-03-03 10:23:51,880 - page.home_test - INFO - [home_test.py:74] - 返回首页，准备测试下一个轮播图
+2026-03-03 10:23:54,843 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 10:23:58,116 - components.HomeComponent - INFO - [HomeComponent.py:33] - 成功点击轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 10:23:58,116 - page.home_test - INFO - [home_test.py:58] - 成功点击轮播图: Wake Up Dad! Wedding Time
+2026-03-03 10:24:03,128 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:24:03,342 - page.home_test - INFO - [home_test.py:66] - 成功进入播放器页面
+2026-03-03 10:24:06,419 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:24:06,456 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 13547, 名称: Python
+2026-03-03 10:30:44,863 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:30:44,904 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 13556, 名称: Google
+2026-03-03 10:30:44,904 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 13556
+2026-03-03 10:30:46,912 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:30:46,945 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 10:30:49,921 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 10:30:49,921 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 10:30:50,426 - page.home_test - INFO - [home_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-03 10:30:54,392 - page.home_test - INFO - [home_test.py:36] - 首页轮播图加载完成
+2026-03-03 10:30:54,394 - page.home_test - INFO - [home_test.py:44] - 测试首页 banner 轮播图
+2026-03-03 10:30:54,407 - page.home_test - INFO - [home_test.py:49] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-03 10:30:54,407 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: CEO baby
+2026-03-03 10:30:57,657 - components.HomeComponent - INFO - [HomeComponent.py:33] - 成功点击轮播图标题: CEO baby
+2026-03-03 10:30:57,658 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: CEO baby
+2026-03-03 10:31:02,681 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:31:02,898 - page.home_test - INFO - [home_test.py:65] - 成功进入播放器页面
+2026-03-03 10:31:06,638 - page.home_test - INFO - [home_test.py:73] - 返回首页，准备测试下一个轮播图
+2026-03-03 10:31:10,446 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 10:31:13,714 - components.HomeComponent - INFO - [HomeComponent.py:33] - 成功点击轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 10:31:13,714 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: Wake Up Dad! Wedding Time
+2026-03-03 10:31:18,735 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:31:18,956 - page.home_test - INFO - [home_test.py:65] - 成功进入播放器页面
+2026-03-03 10:31:22,695 - page.home_test - INFO - [home_test.py:73] - 返回首页，准备测试下一个轮播图
+2026-03-03 10:31:26,275 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: The Thief Lover
+2026-03-03 10:31:30,905 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:31:30,950 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 13747, 名称: Python
+2026-03-03 10:32:55,511 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:32:55,555 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 13756, 名称: Google
+2026-03-03 10:32:55,555 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 13756
+2026-03-03 10:32:57,558 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:32:57,594 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 10:33:00,384 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 10:33:00,387 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 10:33:00,942 - page.home_test - INFO - [home_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-03 10:33:05,050 - page.home_test - INFO - [home_test.py:36] - 首页轮播图加载完成
+2026-03-03 10:33:05,051 - page.home_test - INFO - [home_test.py:44] - 测试首页 banner 轮播图
+2026-03-03 10:33:05,062 - page.home_test - INFO - [home_test.py:49] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-03 10:33:05,062 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: CEO baby
+2026-03-03 10:33:08,316 - components.HomeComponent - INFO - [HomeComponent.py:33] - 成功点击轮播图标题: CEO baby
+2026-03-03 10:33:08,317 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: CEO baby
+2026-03-03 10:33:13,337 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:33:13,554 - page.home_test - INFO - [home_test.py:65] - 成功进入播放器页面
+2026-03-03 10:33:17,584 - page.home_test - INFO - [home_test.py:73] - 返回首页，准备测试下一个轮播图
+2026-03-03 10:33:21,040 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 10:33:22,509 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:33:22,530 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 10:33:45,072 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:33:45,093 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 10:33:45,093 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:33:45,110 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 10:33:47,956 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 10:33:47,958 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 10:33:48,457 - page.home_test - INFO - [home_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-03 10:33:53,454 - page.home_test - INFO - [home_test.py:36] - 首页轮播图加载完成
+2026-03-03 10:33:53,460 - page.home_test - INFO - [home_test.py:44] - 测试首页 banner 轮播图
+2026-03-03 10:33:53,483 - page.home_test - INFO - [home_test.py:49] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-03 10:33:53,483 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: CEO baby
+2026-03-03 10:34:53,673 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:34:53,701 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 10:34:56,309 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:34:56,327 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 10:34:56,328 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:34:56,344 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 10:34:58,758 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 10:34:58,758 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 10:35:00,343 - page.home_test - INFO - [home_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-03 10:35:05,938 - page.home_test - INFO - [home_test.py:36] - 首页轮播图加载完成
+2026-03-03 10:35:05,940 - page.home_test - INFO - [home_test.py:44] - 测试首页 banner 轮播图
+2026-03-03 10:35:05,948 - page.home_test - INFO - [home_test.py:49] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-03 10:35:05,948 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: CEO baby
+2026-03-03 10:35:11,203 - components.HomeComponent - INFO - [HomeComponent.py:33] - 成功点击轮播图标题: CEO baby
+2026-03-03 10:35:11,203 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: CEO baby
+2026-03-03 10:35:21,214 - components.PlayerIconComponent - ERROR - [PlayerIconComponent.py:72] - 定位播放器失败：
+无法定位播放器容器
+Version: 4.1.1.2
+2026-03-03 10:35:21,215 - components.PlayerIconComponent - ERROR - [decorators.py:148] - 元素等待失败：
+无法定位播放器容器
+Version: 4.1.1.2
+2026-03-03 10:35:21,288 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:35:21,339 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 13990, 名称: Python
+2026-03-03 10:35:29,199 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:35:29,225 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 13998, 名称: Google
+2026-03-03 10:35:29,225 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 13998
+2026-03-03 10:35:31,233 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:35:31,268 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 10:35:34,321 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 10:35:34,323 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 10:35:34,848 - page.home_test - INFO - [home_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-03 10:35:38,949 - page.home_test - INFO - [home_test.py:36] - 首页轮播图加载完成
+2026-03-03 10:35:38,951 - page.home_test - INFO - [home_test.py:44] - 测试首页 banner 轮播图
+2026-03-03 10:35:38,968 - page.home_test - INFO - [home_test.py:49] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-03 10:35:38,968 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: CEO baby
+2026-03-03 10:35:44,220 - components.HomeComponent - INFO - [HomeComponent.py:33] - 成功点击轮播图标题: CEO baby
+2026-03-03 10:35:44,220 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: CEO baby
+2026-03-03 10:35:54,238 - components.PlayerIconComponent - ERROR - [PlayerIconComponent.py:72] - 定位播放器失败：
+无法定位播放器容器
+Version: 4.1.1.2
+2026-03-03 10:35:54,239 - components.PlayerIconComponent - ERROR - [decorators.py:148] - 元素等待失败：
+无法定位播放器容器
+Version: 4.1.1.2
+2026-03-03 10:35:54,310 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:35:54,359 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 14054, 名称: Python
+2026-03-03 10:36:04,965 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:36:04,990 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 14063, 名称: Google
+2026-03-03 10:36:04,990 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 14063
+2026-03-03 10:36:07,000 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:36:07,035 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 10:36:10,273 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 10:36:10,274 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 10:36:10,654 - page.home_test - INFO - [home_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-03 10:36:14,290 - page.home_test - INFO - [home_test.py:36] - 首页轮播图加载完成
+2026-03-03 10:36:14,291 - page.home_test - INFO - [home_test.py:44] - 测试首页 banner 轮播图
+2026-03-03 10:36:14,304 - page.home_test - INFO - [home_test.py:49] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-03 10:36:14,305 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: CEO baby
+2026-03-03 10:36:18,553 - components.HomeComponent - INFO - [HomeComponent.py:33] - 成功点击轮播图标题: CEO baby
+2026-03-03 10:36:18,553 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: CEO baby
+2026-03-03 10:36:23,578 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:36:23,797 - page.home_test - INFO - [home_test.py:65] - 成功进入播放器页面
+2026-03-03 10:36:28,062 - page.home_test - INFO - [home_test.py:73] - 返回首页，准备测试下一个轮播图
+2026-03-03 10:36:31,164 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 10:36:35,422 - components.HomeComponent - INFO - [HomeComponent.py:33] - 成功点击轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 10:36:35,422 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: Wake Up Dad! Wedding Time
+2026-03-03 10:36:40,444 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:36:40,662 - page.home_test - INFO - [home_test.py:65] - 成功进入播放器页面
+2026-03-03 10:36:43,745 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:36:43,774 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 14124, 名称: Python
+2026-03-03 10:43:22,649 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:43:22,688 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 14142, 名称: Google
+2026-03-03 10:43:22,688 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 14142
+2026-03-03 10:43:24,691 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:43:24,726 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 10:43:28,719 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 10:43:28,721 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 10:43:29,461 - page.home_test - INFO - [home_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-03 10:43:33,645 - page.home_test - INFO - [home_test.py:36] - 首页轮播图加载完成
+2026-03-03 10:43:33,649 - page.home_test - INFO - [home_test.py:44] - 测试首页 banner 轮播图
+2026-03-03 10:43:33,666 - page.home_test - INFO - [home_test.py:49] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-03 10:43:33,666 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: CEO baby
+2026-03-03 10:43:37,907 - components.HomeComponent - INFO - [HomeComponent.py:33] - 成功点击轮播图标题: CEO baby
+2026-03-03 10:43:37,907 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: CEO baby
+2026-03-03 10:43:42,932 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:43:43,152 - page.home_test - INFO - [home_test.py:65] - 成功进入播放器页面
+2026-03-03 10:43:57,058 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 10:43:57,059 - page.home_test - INFO - [home_test.py:79] - 通过后退按钮返回首页
+2026-03-03 10:43:59,083 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 10:44:03,380 - components.HomeComponent - INFO - [HomeComponent.py:33] - 成功点击轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 10:44:03,380 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: Wake Up Dad! Wedding Time
+2026-03-03 10:44:08,402 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:44:08,622 - page.home_test - INFO - [home_test.py:65] - 成功进入播放器页面
+2026-03-03 10:44:31,634 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 10:45:11,651 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 10:45:11,652 - utils.page_actions - ERROR - [page_actions.py:116] - 点击元素失败: 'NoneType' object has no attribute 'click'
+2026-03-03 10:45:12,384 - page.home_test - INFO - [home_test.py:84] - 重新加载首页
+2026-03-03 10:45:16,268 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: The Thief Lover
+2026-03-03 10:45:20,515 - components.HomeComponent - INFO - [HomeComponent.py:33] - 成功点击轮播图标题: The Thief Lover
+2026-03-03 10:45:20,516 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: The Thief Lover
+2026-03-03 10:45:25,539 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:45:25,759 - page.home_test - INFO - [home_test.py:65] - 成功进入播放器页面
+2026-03-03 10:45:28,764 - page.home_test - INFO - [home_test.py:87] - 首页 banner 轮播图测试完成
+2026-03-03 10:45:28,791 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:45:28,835 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 14348, 名称: Python
+2026-03-03 10:46:50,559 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:46:50,597 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 14360, 名称: Google
+2026-03-03 10:46:50,597 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 14360
+2026-03-03 10:46:52,604 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:46:52,639 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 10:46:55,254 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 10:46:55,254 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 10:46:55,770 - page.home_test - INFO - [home_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-03 10:46:59,871 - page.home_test - INFO - [home_test.py:36] - 首页轮播图加载完成
+2026-03-03 10:46:59,873 - page.home_test - INFO - [home_test.py:44] - 测试首页 banner 轮播图
+2026-03-03 10:46:59,892 - page.home_test - INFO - [home_test.py:49] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-03 10:46:59,892 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: CEO baby
+2026-03-03 10:47:04,151 - components.HomeComponent - INFO - [HomeComponent.py:33] - 成功点击轮播图标题: CEO baby
+2026-03-03 10:47:04,152 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: CEO baby
+2026-03-03 10:47:09,174 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:47:09,394 - page.home_test - INFO - [home_test.py:65] - 成功进入播放器页面
+2026-03-03 10:47:12,403 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:47:13,119 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 10:47:13,119 - page.home_test - INFO - [home_test.py:81] - 通过后退按钮返回首页
+2026-03-03 10:47:15,147 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 10:47:19,441 - components.HomeComponent - INFO - [HomeComponent.py:33] - 成功点击轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 10:47:19,441 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: Wake Up Dad! Wedding Time
+2026-03-03 10:47:29,461 - components.PlayerIconComponent - ERROR - [PlayerIconComponent.py:72] - 定位播放器失败：
+无法定位播放器容器
+Version: 4.1.1.2
+2026-03-03 10:47:29,461 - components.PlayerIconComponent - ERROR - [decorators.py:148] - 元素等待失败：
+无法定位播放器容器
+Version: 4.1.1.2
+2026-03-03 10:47:29,532 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:47:29,572 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 14493, 名称: Python
+2026-03-03 10:48:26,140 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:48:26,175 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 14502, 名称: Google
+2026-03-03 10:48:26,175 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 14502
+2026-03-03 10:48:28,183 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:48:28,219 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 10:48:31,867 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 10:48:31,869 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 10:48:34,234 - page.home_test - INFO - [home_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-03 10:48:40,253 - page.home_test - INFO - [home_test.py:36] - 首页轮播图加载完成
+2026-03-03 10:48:40,254 - page.home_test - INFO - [home_test.py:44] - 测试首页 banner 轮播图
+2026-03-03 10:48:40,268 - page.home_test - INFO - [home_test.py:49] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-03 10:48:40,268 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: CEO baby
+2026-03-03 10:48:47,520 - components.HomeComponent - INFO - [HomeComponent.py:33] - 成功点击轮播图标题: CEO baby
+2026-03-03 10:48:47,520 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: CEO baby
+2026-03-03 10:48:57,535 - components.PlayerIconComponent - ERROR - [PlayerIconComponent.py:72] - 定位播放器失败：
+无法定位播放器容器
+Version: 4.1.1.2
+2026-03-03 10:48:57,536 - components.PlayerIconComponent - ERROR - [decorators.py:148] - 元素等待失败：
+无法定位播放器容器
+Version: 4.1.1.2
+2026-03-03 10:48:57,609 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:48:57,649 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 14586, 名称: Python
+2026-03-03 10:49:00,664 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:49:00,690 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 14598, 名称: Google
+2026-03-03 10:49:00,691 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 14598
+2026-03-03 10:49:02,698 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:49:02,731 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 10:49:09,455 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 10:49:09,456 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 10:49:10,599 - page.home_test - INFO - [home_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-03 10:49:16,863 - page.home_test - INFO - [home_test.py:36] - 首页轮播图加载完成
+2026-03-03 10:49:16,864 - page.home_test - INFO - [home_test.py:44] - 测试首页 banner 轮播图
+2026-03-03 10:49:16,875 - page.home_test - INFO - [home_test.py:49] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-03 10:49:16,875 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: CEO baby
+2026-03-03 10:49:24,125 - components.HomeComponent - INFO - [HomeComponent.py:33] - 成功点击轮播图标题: CEO baby
+2026-03-03 10:49:24,125 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: CEO baby
+2026-03-03 10:49:34,146 - components.PlayerIconComponent - ERROR - [PlayerIconComponent.py:72] - 定位播放器失败：
+无法定位播放器容器
+Version: 4.1.1.2
+2026-03-03 10:49:34,146 - components.PlayerIconComponent - ERROR - [decorators.py:148] - 元素等待失败：
+无法定位播放器容器
+Version: 4.1.1.2
+2026-03-03 10:49:34,212 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:49:34,264 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 14646, 名称: Python
+2026-03-03 10:49:42,965 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:49:42,992 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 14660, 名称: Google
+2026-03-03 10:49:42,993 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 14660
+2026-03-03 10:49:44,998 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:49:45,030 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 10:49:47,803 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 10:49:47,804 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 10:49:48,348 - page.home_test - INFO - [home_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-03 10:49:52,079 - page.home_test - INFO - [home_test.py:36] - 首页轮播图加载完成
+2026-03-03 10:49:52,079 - page.home_test - INFO - [home_test.py:44] - 测试首页 banner 轮播图
+2026-03-03 10:49:52,091 - page.home_test - INFO - [home_test.py:49] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-03 10:49:52,091 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: CEO baby
+2026-03-03 10:49:57,330 - components.HomeComponent - INFO - [HomeComponent.py:33] - 成功点击轮播图标题: CEO baby
+2026-03-03 10:49:57,330 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: CEO baby
+2026-03-03 10:50:07,344 - components.PlayerIconComponent - ERROR - [PlayerIconComponent.py:72] - 定位播放器失败：
+无法定位播放器容器
+Version: 4.1.1.2
+2026-03-03 10:50:07,344 - components.PlayerIconComponent - ERROR - [decorators.py:148] - 元素等待失败：
+无法定位播放器容器
+Version: 4.1.1.2
+2026-03-03 10:50:07,412 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:50:07,467 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 14729, 名称: Python
+2026-03-03 10:50:18,314 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:50:18,339 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 14742, 名称: Google
+2026-03-03 10:50:18,339 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 14742
+2026-03-03 10:50:20,345 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:50:20,392 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 10:50:23,528 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 10:50:23,529 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 10:50:24,170 - page.home_test - INFO - [home_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-03 10:50:28,161 - page.home_test - INFO - [home_test.py:36] - 首页轮播图加载完成
+2026-03-03 10:50:28,162 - page.home_test - INFO - [home_test.py:44] - 测试首页 banner 轮播图
+2026-03-03 10:50:28,184 - page.home_test - INFO - [home_test.py:49] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-03 10:50:28,184 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: CEO baby
+2026-03-03 10:50:31,437 - components.HomeComponent - INFO - [HomeComponent.py:33] - 成功点击轮播图标题: CEO baby
+2026-03-03 10:50:31,438 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: CEO baby
+2026-03-03 10:50:36,457 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:50:36,677 - page.home_test - INFO - [home_test.py:65] - 成功进入播放器页面
+2026-03-03 10:50:39,690 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:50:40,407 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 10:50:40,407 - page.home_test - INFO - [home_test.py:81] - 通过后退按钮返回首页
+2026-03-03 10:50:42,437 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 10:50:45,750 - components.HomeComponent - INFO - [HomeComponent.py:33] - 成功点击轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 10:50:45,750 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: Wake Up Dad! Wedding Time
+2026-03-03 10:50:50,769 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:50:50,982 - page.home_test - INFO - [home_test.py:65] - 成功进入播放器页面
+2026-03-03 10:50:53,997 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:50:54,691 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 10:50:54,691 - page.home_test - INFO - [home_test.py:81] - 通过后退按钮返回首页
+2026-03-03 10:50:56,714 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: The Thief Lover
+2026-03-03 10:51:00,018 - components.HomeComponent - INFO - [HomeComponent.py:33] - 成功点击轮播图标题: The Thief Lover
+2026-03-03 10:51:00,018 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: The Thief Lover
+2026-03-03 10:51:05,038 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:51:05,260 - page.home_test - INFO - [home_test.py:65] - 成功进入播放器页面
+2026-03-03 10:51:08,263 - page.home_test - INFO - [home_test.py:89] - 首页 banner 轮播图测试完成
+2026-03-03 10:51:08,295 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:51:08,365 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 14803, 名称: Python
+2026-03-03 10:53:43,262 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:53:43,303 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 14813, 名称: Google
+2026-03-03 10:53:43,303 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 14813
+2026-03-03 10:53:45,309 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:53:45,345 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 10:53:48,983 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 10:53:48,984 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 10:53:49,479 - page.home_test - INFO - [home_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-03 10:53:55,490 - page.home_test - INFO - [home_test.py:36] - 首页轮播图加载完成
+2026-03-03 10:53:55,492 - page.home_test - INFO - [home_test.py:44] - 测试首页 banner 轮播图
+2026-03-03 10:53:55,513 - page.home_test - INFO - [home_test.py:49] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-03 10:53:55,513 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: CEO baby
+2026-03-03 10:53:58,770 - components.HomeComponent - INFO - [HomeComponent.py:35] - 成功点击轮播图标题: CEO baby
+2026-03-03 10:53:58,770 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: CEO baby
+2026-03-03 10:54:03,794 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:54:04,009 - page.home_test - INFO - [home_test.py:65] - 成功进入播放器页面
+2026-03-03 10:54:07,022 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:54:07,759 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 10:54:07,760 - page.home_test - INFO - [home_test.py:81] - 通过后退按钮返回首页
+2026-03-03 10:54:09,786 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 10:54:13,085 - components.HomeComponent - INFO - [HomeComponent.py:35] - 成功点击轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 10:54:13,085 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: Wake Up Dad! Wedding Time
+2026-03-03 10:54:18,108 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:54:18,326 - page.home_test - INFO - [home_test.py:65] - 成功进入播放器页面
+2026-03-03 10:54:21,340 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:54:22,074 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 10:54:22,074 - page.home_test - INFO - [home_test.py:81] - 通过后退按钮返回首页
+2026-03-03 10:54:24,098 - page.home_test - INFO - [home_test.py:53] - 当前轮播图标题: The Thief Lover
+2026-03-03 10:54:27,402 - components.HomeComponent - INFO - [HomeComponent.py:35] - 成功点击轮播图标题: The Thief Lover
+2026-03-03 10:54:27,402 - page.home_test - INFO - [home_test.py:57] - 成功点击轮播图: The Thief Lover
+2026-03-03 10:54:32,418 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:54:32,641 - page.home_test - INFO - [home_test.py:65] - 成功进入播放器页面
+2026-03-03 10:54:35,646 - page.home_test - INFO - [home_test.py:89] - 首页 banner 轮播图测试完成
+2026-03-03 10:54:35,677 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:54:35,746 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 14891, 名称: Python
+2026-03-03 10:58:50,988 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:58:51,023 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 14901, 名称: Google
+2026-03-03 10:58:51,023 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 14901
+2026-03-03 10:58:53,033 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:58:53,067 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 10:58:56,188 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 10:58:56,189 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 10:58:56,739 - page.home_test - INFO - [home_test.py:32] - 导航到首页: https://video.reelswave.net/
+2026-03-03 10:59:00,646 - page.home_test - INFO - [home_test.py:37] - 首页轮播图加载完成
+2026-03-03 10:59:00,649 - page.home_test - INFO - [home_test.py:45] - 测试首页 banner 轮播图
+2026-03-03 10:59:00,668 - page.home_test - INFO - [home_test.py:50] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-03 10:59:00,668 - page.home_test - INFO - [home_test.py:54] - 当前轮播图标题: CEO baby
+2026-03-03 10:59:03,924 - components.HomeComponent - INFO - [HomeComponent.py:35] - 成功点击轮播图标题: CEO baby
+2026-03-03 10:59:03,924 - page.home_test - INFO - [home_test.py:58] - 成功点击轮播图: CEO baby
+2026-03-03 10:59:08,938 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:59:09,161 - page.home_test - INFO - [home_test.py:66] - 成功进入播放器页面
+2026-03-03 10:59:12,173 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:59:12,869 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 10:59:12,870 - page.home_test - INFO - [home_test.py:85] - 通过后退按钮返回首页
+2026-03-03 10:59:14,888 - page.home_test - INFO - [home_test.py:54] - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 10:59:18,199 - components.HomeComponent - INFO - [HomeComponent.py:35] - 成功点击轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 10:59:18,199 - page.home_test - INFO - [home_test.py:58] - 成功点击轮播图: Wake Up Dad! Wedding Time
+2026-03-03 10:59:23,221 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:59:23,443 - page.home_test - INFO - [home_test.py:66] - 成功进入播放器页面
+2026-03-03 10:59:26,456 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:59:27,188 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 10:59:27,188 - page.home_test - INFO - [home_test.py:85] - 通过后退按钮返回首页
+2026-03-03 10:59:29,214 - page.home_test - INFO - [home_test.py:54] - 当前轮播图标题: The Thief Lover
+2026-03-03 10:59:32,526 - components.HomeComponent - INFO - [HomeComponent.py:35] - 成功点击轮播图标题: The Thief Lover
+2026-03-03 10:59:32,527 - page.home_test - INFO - [home_test.py:58] - 成功点击轮播图: The Thief Lover
+2026-03-03 10:59:37,549 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 10:59:37,766 - page.home_test - INFO - [home_test.py:66] - 成功进入播放器页面
+2026-03-03 10:59:40,772 - page.home_test - INFO - [home_test.py:98] - 首页 banner 轮播图测试完成
+2026-03-03 10:59:40,800 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 10:59:40,877 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 14995, 名称: Python
+2026-03-03 11:01:57,985 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 11:01:58,041 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 15004, 名称: Google
+2026-03-03 11:01:58,041 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 15004
+2026-03-03 11:02:00,048 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 11:02:00,082 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 11:02:03,179 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 11:02:03,179 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 11:02:04,281 - page.home_test - INFO - [home_test.py:32] - 导航到首页: https://video.reelswave.net/
+2026-03-03 11:02:07,951 - page.home_test - INFO - [home_test.py:37] - 首页轮播图加载完成
+2026-03-03 11:02:07,954 - page.home_test - INFO - [home_test.py:45] - 测试首页 banner 轮播图
+2026-03-03 11:02:07,965 - page.home_test - INFO - [home_test.py:50] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-03 11:02:07,965 - page.home_test - INFO - [home_test.py:54] - 当前轮播图标题: CEO baby
+2026-03-03 11:02:07,971 - components.HomeComponent - INFO - [HomeComponent.py:23] - 当前页面共有 3 个轮播图
+2026-03-03 11:02:07,971 - components.HomeComponent - INFO - [HomeComponent.py:29] - 找到目标轮播图，索引: 0，标题: CEO baby
+2026-03-03 11:02:08,982 - components.HomeComponent - INFO - [HomeComponent.py:39] - 滚动后轮播图标题: CEO baby
+2026-03-03 11:02:11,228 - components.HomeComponent - INFO - [HomeComponent.py:57] - 成功点击轮播图标题: CEO baby
+2026-03-03 11:02:11,229 - page.home_test - INFO - [home_test.py:58] - 成功点击轮播图: CEO baby
+2026-03-03 11:02:16,250 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 11:02:16,466 - page.home_test - INFO - [home_test.py:66] - 成功进入播放器页面
+2026-03-03 11:02:19,478 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 11:02:20,190 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 11:02:20,190 - page.home_test - INFO - [home_test.py:85] - 通过后退按钮返回首页
+2026-03-03 11:02:22,215 - page.home_test - INFO - [home_test.py:54] - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 11:02:22,235 - components.HomeComponent - INFO - [HomeComponent.py:23] - 当前页面共有 3 个轮播图
+2026-03-03 11:02:22,235 - components.HomeComponent - INFO - [HomeComponent.py:29] - 找到目标轮播图，索引: 2，标题: Wake Up Dad! Wedding Time
+2026-03-03 11:02:23,244 - components.HomeComponent - INFO - [HomeComponent.py:39] - 滚动后轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 11:02:25,529 - components.HomeComponent - INFO - [HomeComponent.py:57] - 成功点击轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 11:02:25,530 - page.home_test - INFO - [home_test.py:58] - 成功点击轮播图: Wake Up Dad! Wedding Time
+2026-03-03 11:02:30,551 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 11:02:30,768 - page.home_test - INFO - [home_test.py:66] - 成功进入播放器页面
+2026-03-03 11:02:33,781 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 11:02:34,502 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 11:02:34,502 - page.home_test - INFO - [home_test.py:85] - 通过后退按钮返回首页
+2026-03-03 11:02:36,534 - page.home_test - INFO - [home_test.py:54] - 当前轮播图标题: The Thief Lover
+2026-03-03 11:02:36,549 - components.HomeComponent - INFO - [HomeComponent.py:23] - 当前页面共有 3 个轮播图
+2026-03-03 11:02:36,549 - components.HomeComponent - INFO - [HomeComponent.py:29] - 找到目标轮播图，索引: 1，标题: The Thief Lover
+2026-03-03 11:02:37,558 - components.HomeComponent - INFO - [HomeComponent.py:39] - 滚动后轮播图标题: The Thief Lover
+2026-03-03 11:02:39,847 - components.HomeComponent - INFO - [HomeComponent.py:57] - 成功点击轮播图标题: The Thief Lover
+2026-03-03 11:02:39,847 - page.home_test - INFO - [home_test.py:58] - 成功点击轮播图: The Thief Lover
+2026-03-03 11:02:44,869 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 11:02:45,090 - page.home_test - INFO - [home_test.py:66] - 成功进入播放器页面
+2026-03-03 11:02:48,095 - page.home_test - INFO - [home_test.py:98] - 首页 banner 轮播图测试完成
+2026-03-03 11:02:48,127 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 11:02:48,194 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 15121, 名称: Python
+2026-03-03 11:02:55,113 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 11:02:55,138 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 15130, 名称: Google
+2026-03-03 11:02:55,138 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 15130
+2026-03-03 11:02:57,146 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 11:02:57,181 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 11:02:59,924 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 11:02:59,925 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 11:03:00,414 - page.home_test - INFO - [home_test.py:32] - 导航到首页: https://video.reelswave.net/
+2026-03-03 11:03:04,456 - page.home_test - INFO - [home_test.py:37] - 首页轮播图加载完成
+2026-03-03 11:03:04,458 - page.home_test - INFO - [home_test.py:45] - 测试首页 banner 轮播图
+2026-03-03 11:03:04,478 - page.home_test - INFO - [home_test.py:50] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-03 11:03:04,478 - page.home_test - INFO - [home_test.py:54] - 当前轮播图标题: CEO baby
+2026-03-03 11:03:04,487 - components.HomeComponent - INFO - [HomeComponent.py:23] - 当前页面共有 3 个轮播图
+2026-03-03 11:03:04,487 - components.HomeComponent - INFO - [HomeComponent.py:29] - 找到目标轮播图，索引: 0，标题: CEO baby
+2026-03-03 11:03:05,492 - components.HomeComponent - INFO - [HomeComponent.py:39] - 滚动后轮播图标题: CEO baby
+2026-03-03 11:03:07,747 - components.HomeComponent - INFO - [HomeComponent.py:57] - 成功点击轮播图标题: CEO baby
+2026-03-03 11:03:07,749 - page.home_test - INFO - [home_test.py:58] - 成功点击轮播图: CEO baby
+2026-03-03 11:03:12,770 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 11:03:12,986 - page.home_test - INFO - [home_test.py:66] - 成功进入播放器页面
+2026-03-03 11:03:15,998 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 11:03:16,710 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 11:03:16,710 - page.home_test - INFO - [home_test.py:85] - 通过后退按钮返回首页
+2026-03-03 11:03:18,735 - page.home_test - INFO - [home_test.py:54] - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 11:03:18,755 - components.HomeComponent - INFO - [HomeComponent.py:23] - 当前页面共有 3 个轮播图
+2026-03-03 11:03:18,755 - components.HomeComponent - INFO - [HomeComponent.py:29] - 找到目标轮播图，索引: 2，标题: Wake Up Dad! Wedding Time
+2026-03-03 11:03:19,766 - components.HomeComponent - INFO - [HomeComponent.py:39] - 滚动后轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 11:03:22,049 - components.HomeComponent - INFO - [HomeComponent.py:57] - 成功点击轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 11:03:22,049 - page.home_test - INFO - [home_test.py:58] - 成功点击轮播图: Wake Up Dad! Wedding Time
+2026-03-03 11:03:27,071 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 11:03:27,292 - page.home_test - INFO - [home_test.py:66] - 成功进入播放器页面
+2026-03-03 11:03:30,306 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 11:03:31,036 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 11:03:31,037 - page.home_test - INFO - [home_test.py:85] - 通过后退按钮返回首页
+2026-03-03 11:03:33,060 - page.home_test - INFO - [home_test.py:54] - 当前轮播图标题: The Thief Lover
+2026-03-03 11:03:33,078 - components.HomeComponent - INFO - [HomeComponent.py:23] - 当前页面共有 3 个轮播图
+2026-03-03 11:03:33,078 - components.HomeComponent - INFO - [HomeComponent.py:29] - 找到目标轮播图，索引: 1，标题: The Thief Lover
+2026-03-03 11:03:34,086 - components.HomeComponent - INFO - [HomeComponent.py:39] - 滚动后轮播图标题: The Thief Lover
+2026-03-03 11:03:36,370 - components.HomeComponent - INFO - [HomeComponent.py:57] - 成功点击轮播图标题: The Thief Lover
+2026-03-03 11:03:36,370 - page.home_test - INFO - [home_test.py:58] - 成功点击轮播图: The Thief Lover
+2026-03-03 11:03:41,383 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 11:03:41,600 - page.home_test - INFO - [home_test.py:66] - 成功进入播放器页面
+2026-03-03 11:03:44,605 - page.home_test - INFO - [home_test.py:98] - 首页 banner 轮播图测试完成
+2026-03-03 11:03:44,632 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 11:03:44,677 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 15200, 名称: Python
+2026-03-03 11:06:02,588 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 11:06:02,621 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 15210, 名称: Google
+2026-03-03 11:06:02,621 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 15210
+2026-03-03 11:06:04,628 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 11:06:04,660 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 11:06:07,531 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 11:06:07,532 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 11:06:08,027 - page.home_test - INFO - [home_test.py:32] - 导航到首页: https://video.reelswave.net/
+2026-03-03 11:06:11,749 - page.home_test - INFO - [home_test.py:37] - 首页轮播图加载完成
+2026-03-03 11:06:11,753 - page.home_test - INFO - [home_test.py:45] - 测试首页 banner 轮播图
+2026-03-03 11:06:11,768 - page.home_test - INFO - [home_test.py:50] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-03 11:06:11,768 - page.home_test - INFO - [home_test.py:54] - 当前轮播图标题: CEO baby
+2026-03-03 11:06:11,775 - components.HomeComponent - INFO - [HomeComponent.py:23] - 当前页面共有 3 个轮播图
+2026-03-03 11:06:11,775 - components.HomeComponent - INFO - [HomeComponent.py:29] - 找到目标轮播图，索引: 0，标题: CEO baby
+2026-03-03 11:06:11,775 - components.HomeComponent - INFO - [HomeComponent.py:33] - 轮播图是否激活: True
+2026-03-03 11:06:12,782 - components.HomeComponent - INFO - [HomeComponent.py:61] - 滚动后轮播图标题: CEO baby
+2026-03-03 11:06:15,033 - components.HomeComponent - INFO - [HomeComponent.py:79] - 成功点击轮播图标题: CEO baby
+2026-03-03 11:06:15,033 - page.home_test - INFO - [home_test.py:58] - 成功点击轮播图: CEO baby
+2026-03-03 11:06:20,055 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 11:06:20,277 - page.home_test - INFO - [home_test.py:66] - 成功进入播放器页面
+2026-03-03 11:06:23,292 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 11:06:24,029 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 11:06:24,029 - page.home_test - INFO - [home_test.py:85] - 通过后退按钮返回首页
+2026-03-03 11:06:26,057 - page.home_test - INFO - [home_test.py:54] - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 11:06:26,077 - components.HomeComponent - INFO - [HomeComponent.py:23] - 当前页面共有 3 个轮播图
+2026-03-03 11:06:26,077 - components.HomeComponent - INFO - [HomeComponent.py:29] - 找到目标轮播图，索引: 2，标题: Wake Up Dad! Wedding Time
+2026-03-03 11:06:26,077 - components.HomeComponent - INFO - [HomeComponent.py:33] - 轮播图是否激活: False
+2026-03-03 11:06:26,077 - components.HomeComponent - INFO - [HomeComponent.py:37] - 轮播图未激活，先点击使其激活
+2026-03-03 11:06:58,376 - components.HomeComponent - INFO - [HomeComponent.py:51] - 点击后轮播图是否激活: True
+2026-03-03 11:06:59,388 - components.HomeComponent - INFO - [HomeComponent.py:61] - 滚动后轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 11:07:02,986 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 11:07:03,048 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 15319, 名称: Python
+2026-03-03 11:07:11,757 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 11:07:11,781 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 15328, 名称: Google
+2026-03-03 11:07:11,782 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 15328
+2026-03-03 11:07:13,788 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 11:07:13,826 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 11:07:16,427 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 11:07:16,427 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 11:07:16,960 - page.home_test - INFO - [home_test.py:32] - 导航到首页: https://video.reelswave.net/
+2026-03-03 11:07:20,982 - page.home_test - INFO - [home_test.py:37] - 首页轮播图加载完成
+2026-03-03 11:07:20,984 - page.home_test - INFO - [home_test.py:45] - 测试首页 banner 轮播图
+2026-03-03 11:07:21,002 - page.home_test - INFO - [home_test.py:50] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-03 11:07:21,003 - page.home_test - INFO - [home_test.py:54] - 当前轮播图标题: CEO baby
+2026-03-03 11:07:21,009 - components.HomeComponent - INFO - [HomeComponent.py:23] - 当前页面共有 3 个轮播图
+2026-03-03 11:07:21,009 - components.HomeComponent - INFO - [HomeComponent.py:29] - 找到目标轮播图，索引: 0，标题: CEO baby
+2026-03-03 11:07:21,009 - components.HomeComponent - INFO - [HomeComponent.py:33] - 轮播图是否激活: True
+2026-03-03 11:07:22,019 - components.HomeComponent - INFO - [HomeComponent.py:61] - 滚动后轮播图标题: CEO baby
+2026-03-03 11:07:24,269 - components.HomeComponent - INFO - [HomeComponent.py:79] - 成功点击轮播图标题: CEO baby
+2026-03-03 11:07:24,269 - page.home_test - INFO - [home_test.py:58] - 成功点击轮播图: CEO baby
+2026-03-03 11:07:29,292 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 11:07:29,513 - page.home_test - INFO - [home_test.py:66] - 成功进入播放器页面
+2026-03-03 11:07:32,526 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 11:07:33,254 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 11:07:33,255 - page.home_test - INFO - [home_test.py:85] - 通过后退按钮返回首页
+2026-03-03 11:07:35,279 - page.home_test - INFO - [home_test.py:54] - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 11:07:35,297 - components.HomeComponent - INFO - [HomeComponent.py:23] - 当前页面共有 3 个轮播图
+2026-03-03 11:07:35,297 - components.HomeComponent - INFO - [HomeComponent.py:29] - 找到目标轮播图，索引: 2，标题: Wake Up Dad! Wedding Time
+2026-03-03 11:07:35,298 - components.HomeComponent - INFO - [HomeComponent.py:33] - 轮播图是否激活: False
+2026-03-03 11:07:35,298 - components.HomeComponent - INFO - [HomeComponent.py:37] - 轮播图未激活，先点击使其激活
+2026-03-03 11:08:07,590 - components.HomeComponent - INFO - [HomeComponent.py:51] - 点击后轮播图是否激活: True
+2026-03-03 11:08:08,604 - components.HomeComponent - INFO - [HomeComponent.py:61] - 滚动后轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 11:08:12,210 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 11:08:12,303 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 15417, 名称: Python
+2026-03-03 11:11:56,006 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 11:11:56,046 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 15426, 名称: Google
+2026-03-03 11:11:56,046 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 15426
+2026-03-03 11:11:58,053 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 11:11:58,087 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 11:12:01,258 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 11:12:01,260 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 11:12:01,768 - page.home_test - INFO - [home_test.py:32] - 导航到首页: https://video.reelswave.net/
+2026-03-03 11:12:07,597 - page.home_test - INFO - [home_test.py:37] - 首页轮播图加载完成
+2026-03-03 11:12:07,599 - page.home_test - INFO - [home_test.py:45] - 测试首页 banner 轮播图
+2026-03-03 11:12:07,616 - page.home_test - INFO - [home_test.py:50] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-03 11:12:07,616 - page.home_test - INFO - [home_test.py:54] - 当前轮播图标题: CEO baby
+2026-03-03 11:12:07,623 - components.HomeComponent - INFO - [HomeComponent.py:23] - 当前页面共有 3 个轮播图
+2026-03-03 11:12:07,623 - components.HomeComponent - INFO - [HomeComponent.py:29] - 找到目标轮播图，索引: 0，标题: CEO baby
+2026-03-03 11:12:08,628 - components.HomeComponent - INFO - [HomeComponent.py:39] - 滚动后轮播图标题: CEO baby
+2026-03-03 11:12:10,865 - components.HomeComponent - INFO - [HomeComponent.py:57] - 成功点击轮播图标题: CEO baby
+2026-03-03 11:12:10,866 - page.home_test - INFO - [home_test.py:58] - 成功点击轮播图: CEO baby
+2026-03-03 11:12:15,892 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 11:12:16,112 - page.home_test - INFO - [home_test.py:66] - 成功进入播放器页面
+2026-03-03 11:12:19,128 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 11:12:19,864 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 11:12:19,864 - page.home_test - INFO - [home_test.py:85] - 通过后退按钮返回首页
+2026-03-03 11:12:21,890 - page.home_test - INFO - [home_test.py:54] - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 11:12:21,912 - components.HomeComponent - INFO - [HomeComponent.py:23] - 当前页面共有 3 个轮播图
+2026-03-03 11:12:21,912 - components.HomeComponent - INFO - [HomeComponent.py:29] - 找到目标轮播图，索引: 2，标题: Wake Up Dad! Wedding Time
+2026-03-03 11:12:22,924 - components.HomeComponent - INFO - [HomeComponent.py:39] - 滚动后轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 11:12:25,222 - components.HomeComponent - INFO - [HomeComponent.py:57] - 成功点击轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 11:12:25,222 - page.home_test - INFO - [home_test.py:58] - 成功点击轮播图: Wake Up Dad! Wedding Time
+2026-03-03 11:12:30,234 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 11:12:30,448 - page.home_test - INFO - [home_test.py:66] - 成功进入播放器页面
+2026-03-03 11:12:33,460 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 11:12:34,194 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 11:12:34,194 - page.home_test - INFO - [home_test.py:85] - 通过后退按钮返回首页
+2026-03-03 11:12:36,217 - page.home_test - INFO - [home_test.py:54] - 当前轮播图标题: The Thief Lover
+2026-03-03 11:12:36,235 - components.HomeComponent - INFO - [HomeComponent.py:23] - 当前页面共有 3 个轮播图
+2026-03-03 11:12:36,236 - components.HomeComponent - INFO - [HomeComponent.py:29] - 找到目标轮播图，索引: 1，标题: The Thief Lover
+2026-03-03 11:12:37,240 - components.HomeComponent - INFO - [HomeComponent.py:39] - 滚动后轮播图标题: The Thief Lover
+2026-03-03 11:12:39,531 - components.HomeComponent - INFO - [HomeComponent.py:57] - 成功点击轮播图标题: The Thief Lover
+2026-03-03 11:12:39,531 - page.home_test - INFO - [home_test.py:58] - 成功点击轮播图: The Thief Lover
+2026-03-03 11:12:44,546 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 11:12:44,767 - page.home_test - INFO - [home_test.py:66] - 成功进入播放器页面
+2026-03-03 11:12:47,771 - page.home_test - INFO - [home_test.py:98] - 首页 banner 轮播图测试完成
+2026-03-03 11:12:47,834 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 11:12:47,895 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 15584, 名称: Python
+2026-03-03 14:45:23,633 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 14:45:23,661 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 14:45:23,662 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 14:45:23,679 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 14:45:27,974 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 14:45:27,974 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 14:45:28,493 - page.home_test - INFO - [home_test.py:32] - 导航到首页: https://video.reelswave.net/
+2026-03-03 14:45:32,554 - page.home_test - INFO - [home_test.py:37] - 首页轮播图加载完成
+2026-03-03 14:45:32,557 - page.home_test - INFO - [home_test.py:103] - 开始测试首页所有定位器
+2026-03-03 14:45:32,557 - page.home_test - INFO - [home_test.py:107] - 测试定位器: continue_watching_drama_grid, 值: div:nth-of-type(4) .gap-md
+2026-03-03 14:45:32,798 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(4) .gap-md
+2026-03-03 14:45:32,798 - page.home_test - INFO - [home_test.py:114] - 成功点击定位器: continue_watching_drama_grid
+2026-03-03 14:45:35,821 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 14:45:36,032 - page.home_test - INFO - [home_test.py:138] - 成功进入播放器页面
+2026-03-03 14:45:39,557 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 14:45:39,557 - page.home_test - INFO - [home_test.py:148] - 通过后退按钮返回首页
+2026-03-03 14:45:41,581 - page.home_test - INFO - [home_test.py:107] - 测试定位器: continue_watching_first_drama, 值: div:nth-of-type(4) .gap-md > div:first-child img
+2026-03-03 14:45:41,871 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(4) .gap-md > div:first-child img
+2026-03-03 14:45:41,871 - page.home_test - INFO - [home_test.py:114] - 成功点击定位器: continue_watching_first_drama
+2026-03-03 14:45:44,889 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 14:45:45,100 - page.home_test - INFO - [home_test.py:138] - 成功进入播放器页面
+2026-03-03 14:45:48,622 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 14:45:48,623 - page.home_test - INFO - [home_test.py:148] - 通过后退按钮返回首页
+2026-03-03 14:45:50,642 - page.home_test - INFO - [home_test.py:107] - 测试定位器: continue_watching_more, 值: div:nth-of-type(4) span
+2026-03-03 14:45:50,881 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(4) span
+2026-03-03 14:45:50,881 - page.home_test - INFO - [home_test.py:114] - 成功点击定位器: continue_watching_more
+2026-03-03 14:45:53,887 - page.home_test - INFO - [home_test.py:121] - 等待 continue_watching_more 页面完全打开
+2026-03-03 14:45:56,170 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-03 14:45:56,170 - page.home_test - INFO - [home_test.py:127] - 成功通过返回按钮从 continue_watching_more 返回首页
+2026-03-03 14:45:58,188 - page.home_test - INFO - [home_test.py:107] - 测试定位器: best_drama_grid, 值: div:nth-of-type(5) .gap-md
+2026-03-03 14:45:58,492 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(5) .gap-md
+2026-03-03 14:45:58,493 - page.home_test - INFO - [home_test.py:114] - 成功点击定位器: best_drama_grid
+2026-03-03 14:46:01,607 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 14:46:01,820 - page.home_test - INFO - [home_test.py:138] - 成功进入播放器页面
+2026-03-03 14:46:05,335 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 14:46:05,335 - page.home_test - INFO - [home_test.py:148] - 通过后退按钮返回首页
+2026-03-03 14:46:07,359 - page.home_test - INFO - [home_test.py:107] - 测试定位器: best_first_drama, 值: div:nth-of-type(5) .gap-md > div:first-child img
+2026-03-03 14:46:07,643 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(5) .gap-md > div:first-child img
+2026-03-03 14:46:07,644 - page.home_test - INFO - [home_test.py:114] - 成功点击定位器: best_first_drama
+2026-03-03 14:46:10,664 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 14:46:10,882 - page.home_test - INFO - [home_test.py:138] - 成功进入播放器页面
+2026-03-03 14:46:14,413 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 14:46:14,413 - page.home_test - INFO - [home_test.py:148] - 通过后退按钮返回首页
+2026-03-03 14:46:16,438 - page.home_test - INFO - [home_test.py:107] - 测试定位器: eastern_legends_drama_grid, 值: div:nth-of-type(6) .gap-md
+2026-03-03 14:46:16,676 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(6) .gap-md
+2026-03-03 14:46:16,676 - page.home_test - INFO - [home_test.py:114] - 成功点击定位器: eastern_legends_drama_grid
+2026-03-03 14:46:24,686 - components.PlayerIconComponent - ERROR - [PlayerIconComponent.py:72] - 定位播放器失败：
+无法定位播放器容器
+Version: 4.1.1.2
+2026-03-03 14:46:24,688 - components.PlayerIconComponent - ERROR - [decorators.py:148] - 元素等待失败：
+无法定位播放器容器
+Version: 4.1.1.2
+2026-03-03 14:46:24,771 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 14:46:24,825 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 23497, 名称: Python
+2026-03-03 14:57:41,340 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 14:57:41,376 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 23505, 名称: Google
+2026-03-03 14:57:41,376 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 23505
+2026-03-03 14:57:43,378 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 14:57:43,404 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 14:57:46,395 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 14:57:46,396 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 14:57:46,889 - page.home_test - INFO - [home_test.py:32] - 导航到首页: https://video.reelswave.net/
+2026-03-03 14:57:50,902 - page.home_test - INFO - [home_test.py:37] - 首页轮播图加载完成
+2026-03-03 14:57:50,904 - page.home_test - INFO - [home_test.py:103] - 开始测试首页所有定位器
+2026-03-03 14:57:50,904 - page.home_test - INFO - [home_test.py:107] - 测试定位器: continue_watching_drama_grid, 值: div:nth-of-type(4) .gap-md
+2026-03-03 14:57:52,913 - page.home_test - WARNING - [home_test.py:175] - 未找到定位器: continue_watching_drama_grid
+2026-03-03 14:58:01,112 - page.home_test - INFO - [home_test.py:107] - 测试定位器: continue_watching_first_drama, 值: div:nth-of-type(4) .gap-md > div:first-child img
+2026-03-03 14:58:03,121 - page.home_test - WARNING - [home_test.py:175] - 未找到定位器: continue_watching_first_drama
+2026-03-03 14:58:08,079 - page.home_test - INFO - [home_test.py:107] - 测试定位器: continue_watching_more, 值: div:nth-of-type(4) span
+2026-03-03 14:58:10,083 - page.home_test - WARNING - [home_test.py:175] - 未找到定位器: continue_watching_more
+2026-03-03 14:58:15,114 - page.home_test - INFO - [home_test.py:107] - 测试定位器: best_drama_grid, 值: div:nth-of-type(5) .gap-md
+2026-03-03 14:58:17,126 - page.home_test - WARNING - [home_test.py:175] - 未找到定位器: best_drama_grid
+2026-03-03 14:58:22,370 - page.home_test - INFO - [home_test.py:107] - 测试定位器: best_first_drama, 值: div:nth-of-type(5) .gap-md > div:first-child img
+2026-03-03 14:58:24,377 - page.home_test - WARNING - [home_test.py:175] - 未找到定位器: best_first_drama
+2026-03-03 14:58:29,176 - page.home_test - INFO - [home_test.py:107] - 测试定位器: eastern_legends_drama_grid, 值: div:nth-of-type(6) .gap-md
+2026-03-03 14:58:31,178 - page.home_test - WARNING - [home_test.py:175] - 未找到定位器: eastern_legends_drama_grid
+2026-03-03 14:58:35,202 - page.home_test - INFO - [home_test.py:107] - 测试定位器: eastern_legends_first_drama, 值: div:nth-of-type(6) .gap-md > div:first-child img
+2026-03-03 14:58:37,212 - page.home_test - WARNING - [home_test.py:175] - 未找到定位器: eastern_legends_first_drama
+2026-03-03 14:58:41,273 - page.home_test - INFO - [home_test.py:107] - 测试定位器: eastern_legends_more, 值: div:nth-of-type(6) span
+2026-03-03 14:58:43,274 - page.home_test - WARNING - [home_test.py:175] - 未找到定位器: eastern_legends_more
+2026-03-03 14:58:50,365 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 14:58:50,391 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 15:04:54,883 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 15:04:54,911 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 15:04:54,912 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 15:04:54,928 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 15:04:58,934 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 15:04:58,935 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 15:05:00,475 - page.home_test - INFO - [home_test.py:32] - 导航到首页: https://video.reelswave.net/
+2026-03-03 15:05:05,314 - page.home_test - INFO - [home_test.py:37] - 首页轮播图加载完成
+2026-03-03 15:05:05,316 - page.home_test - INFO - [home_test.py:103] - 开始测试首页所有定位器
+2026-03-03 15:05:05,316 - page.home_test - INFO - [home_test.py:107] - 测试定位器: continue_watching_drama_grid, 值: div:nth-of-type(4) .gap-md
+2026-03-03 15:05:07,321 - page.home_test - INFO - [home_test.py:114] - 尝试获取元素: continue_watching_drama_grid, 结果: 未找到
+2026-03-03 15:05:07,321 - page.home_test - WARNING - [home_test.py:189] - 未找到定位器: continue_watching_drama_grid
+2026-03-03 15:05:15,067 - page.home_test - INFO - [home_test.py:107] - 测试定位器: continue_watching_first_drama, 值: div:nth-of-type(4) .gap-md > div:first-child img
+2026-03-03 15:05:17,074 - page.home_test - INFO - [home_test.py:114] - 尝试获取元素: continue_watching_first_drama, 结果: 未找到
+2026-03-03 15:05:17,074 - page.home_test - WARNING - [home_test.py:189] - 未找到定位器: continue_watching_first_drama
+2026-03-03 15:05:18,239 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 15:05:18,260 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 15:12:31,388 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 15:12:31,413 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 15:12:31,414 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 15:12:31,430 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 15:12:40,281 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 15:12:40,283 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 15:12:40,867 - page.home_test - INFO - [home_test.py:32] - 导航到首页: https://video.reelswave.net/
+2026-03-03 15:12:44,848 - page.home_test - INFO - [home_test.py:37] - 首页轮播图加载完成
+2026-03-03 15:12:44,850 - page.home_test - INFO - [home_test.py:103] - 开始测试首页所有定位器
+2026-03-03 15:12:44,851 - page.home_test - INFO - [home_test.py:107] - 测试定位器: continue_watching_drama_grid, 值: div:nth-of-type(4) .gap-md
+2026-03-03 15:12:45,107 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(4) .gap-md
+2026-03-03 15:12:45,107 - page.home_test - INFO - [home_test.py:114] - 成功点击定位器: continue_watching_drama_grid
+2026-03-03 15:12:48,126 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 15:12:48,343 - page.home_test - INFO - [home_test.py:138] - 成功进入播放器页面
+2026-03-03 15:12:51,873 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 15:12:51,873 - page.home_test - INFO - [home_test.py:148] - 通过后退按钮返回首页
+2026-03-03 15:12:53,897 - page.home_test - INFO - [home_test.py:107] - 测试定位器: continue_watching_first_drama, 值: div:nth-of-type(4) .gap-md > div:first-child img
+2026-03-03 15:12:54,185 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(4) .gap-md > div:first-child img
+2026-03-03 15:12:54,186 - page.home_test - INFO - [home_test.py:114] - 成功点击定位器: continue_watching_first_drama
+2026-03-03 15:12:57,206 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 15:12:57,427 - page.home_test - INFO - [home_test.py:138] - 成功进入播放器页面
+2026-03-03 15:13:00,936 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 15:13:00,937 - page.home_test - INFO - [home_test.py:148] - 通过后退按钮返回首页
+2026-03-03 15:13:02,960 - page.home_test - INFO - [home_test.py:107] - 测试定位器: continue_watching_more, 值: div:nth-of-type(4) span
+2026-03-03 15:13:03,203 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(4) span
+2026-03-03 15:13:03,204 - page.home_test - INFO - [home_test.py:114] - 成功点击定位器: continue_watching_more
+2026-03-03 15:13:06,209 - page.home_test - INFO - [home_test.py:121] - 等待 continue_watching_more 页面完全打开
+2026-03-03 15:13:08,455 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-03 15:13:08,456 - page.home_test - INFO - [home_test.py:127] - 成功通过返回按钮从 continue_watching_more 返回首页
+2026-03-03 15:13:10,478 - page.home_test - INFO - [home_test.py:107] - 测试定位器: best_drama_grid, 值: div:nth-of-type(5) .gap-md
+2026-03-03 15:13:10,764 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(5) .gap-md
+2026-03-03 15:13:10,765 - page.home_test - INFO - [home_test.py:114] - 成功点击定位器: best_drama_grid
+2026-03-03 15:13:13,782 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 15:13:14,005 - page.home_test - INFO - [home_test.py:138] - 成功进入播放器页面
+2026-03-03 15:13:17,509 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 15:13:17,509 - page.home_test - INFO - [home_test.py:148] - 通过后退按钮返回首页
+2026-03-03 15:13:19,532 - page.home_test - INFO - [home_test.py:107] - 测试定位器: best_first_drama, 值: div:nth-of-type(5) .gap-md > div:first-child img
+2026-03-03 15:13:19,826 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(5) .gap-md > div:first-child img
+2026-03-03 15:13:19,826 - page.home_test - INFO - [home_test.py:114] - 成功点击定位器: best_first_drama
+2026-03-03 15:13:22,847 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 15:13:23,065 - page.home_test - INFO - [home_test.py:138] - 成功进入播放器页面
+2026-03-03 15:13:26,584 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 15:13:26,584 - page.home_test - INFO - [home_test.py:148] - 通过后退按钮返回首页
+2026-03-03 15:13:28,608 - page.home_test - INFO - [home_test.py:107] - 测试定位器: eastern_legends_drama_grid, 值: div:nth-of-type(6) .gap-md
+2026-03-03 15:13:28,847 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(6) .gap-md
+2026-03-03 15:13:28,847 - page.home_test - INFO - [home_test.py:114] - 成功点击定位器: eastern_legends_drama_grid
+2026-03-03 15:13:36,869 - components.PlayerIconComponent - ERROR - [PlayerIconComponent.py:72] - 定位播放器失败：
+无法定位播放器容器
+Version: 4.1.1.2
+2026-03-03 15:13:36,870 - components.PlayerIconComponent - ERROR - [decorators.py:148] - 元素等待失败：
+无法定位播放器容器
+Version: 4.1.1.2
+2026-03-03 15:13:36,971 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 15:13:37,050 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 24148, 名称: Python
+2026-03-03 15:20:27,293 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 15:20:27,322 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 24156, 名称: Google
+2026-03-03 15:20:27,322 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 24156
+2026-03-03 15:20:29,326 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 15:20:29,362 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 15:20:33,626 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 15:20:33,627 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 15:20:34,480 - page.home_test - INFO - [home_test.py:32] - 导航到首页: https://video.reelswave.net/
+2026-03-03 15:20:38,097 - page.home_test - INFO - [home_test.py:37] - 首页轮播图加载完成
+2026-03-03 15:20:38,099 - page.home_test - INFO - [home_test.py:103] - 开始测试首页所有定位器
+2026-03-03 15:20:38,099 - page.home_test - INFO - [home_test.py:107] - 测试定位器: continue_watching_first_drama, 值: div:nth-of-type(4) .gap-md > div:first-child img
+2026-03-03 15:20:38,346 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(4) .gap-md > div:first-child img
+2026-03-03 15:20:38,346 - page.home_test - INFO - [home_test.py:114] - 成功点击定位器: continue_watching_first_drama
+2026-03-03 15:20:41,370 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 15:20:41,583 - page.home_test - INFO - [home_test.py:139] - 成功进入播放器页面
+2026-03-03 15:20:45,106 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 15:20:45,106 - page.home_test - INFO - [home_test.py:149] - 通过后退按钮返回首页
+2026-03-03 15:20:47,130 - page.home_test - INFO - [home_test.py:107] - 测试定位器: continue_watching_more, 值: div:nth-of-type(4) span
+2026-03-03 15:20:47,376 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(4) span
+2026-03-03 15:20:47,376 - page.home_test - INFO - [home_test.py:114] - 成功点击定位器: continue_watching_more
+2026-03-03 15:20:50,378 - page.home_test - INFO - [home_test.py:121] - 等待 continue_watching_more 页面完全打开
+2026-03-03 15:20:52,662 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-03 15:20:52,662 - page.home_test - INFO - [home_test.py:127] - 成功通过返回按钮从 continue_watching_more 返回首页
+2026-03-03 15:20:54,686 - page.home_test - INFO - [home_test.py:107] - 测试定位器: best_first_drama, 值: div:nth-of-type(5) .gap-md > div:first-child img
+2026-03-03 15:20:54,983 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(5) .gap-md > div:first-child img
+2026-03-03 15:20:54,983 - page.home_test - INFO - [home_test.py:114] - 成功点击定位器: best_first_drama
+2026-03-03 15:20:58,005 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 15:20:58,223 - page.home_test - INFO - [home_test.py:139] - 成功进入播放器页面
+2026-03-03 15:21:01,722 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 15:21:01,722 - page.home_test - INFO - [home_test.py:149] - 通过后退按钮返回首页
+2026-03-03 15:21:03,746 - page.home_test - INFO - [home_test.py:107] - 测试定位器: eastern_legends_first_drama, 值: div:nth-of-type(6) .gap-md > div:first-child img
+2026-03-03 15:21:04,025 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(6) .gap-md > div:first-child img
+2026-03-03 15:21:04,026 - page.home_test - INFO - [home_test.py:114] - 成功点击定位器: eastern_legends_first_drama
+2026-03-03 15:21:07,047 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 15:21:07,263 - page.home_test - INFO - [home_test.py:139] - 成功进入播放器页面
+2026-03-03 15:21:10,765 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 15:21:10,766 - page.home_test - INFO - [home_test.py:149] - 通过后退按钮返回首页
+2026-03-03 15:21:12,786 - page.home_test - INFO - [home_test.py:107] - 测试定位器: eastern_legends_more, 值: div:nth-of-type(6) span
+2026-03-03 15:21:13,072 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(6) span
+2026-03-03 15:21:13,072 - page.home_test - INFO - [home_test.py:114] - 成功点击定位器: eastern_legends_more
+2026-03-03 15:21:16,077 - page.home_test - INFO - [home_test.py:121] - 等待 eastern_legends_more 页面完全打开
+2026-03-03 15:21:18,364 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-03 15:21:18,364 - page.home_test - INFO - [home_test.py:127] - 成功通过返回按钮从 eastern_legends_more 返回首页
+2026-03-03 15:21:20,389 - page.home_test - INFO - [home_test.py:107] - 测试定位器: queens_revenge_first_drama, 值: div:nth-of-type(7) .gap-md > div:first-child img
+2026-03-03 15:21:20,685 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(7) .gap-md > div:first-child img
+2026-03-03 15:21:20,685 - page.home_test - INFO - [home_test.py:114] - 成功点击定位器: queens_revenge_first_drama
+2026-03-03 15:21:23,695 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 15:21:23,911 - page.home_test - INFO - [home_test.py:139] - 成功进入播放器页面
+2026-03-03 15:21:27,431 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 15:21:27,431 - page.home_test - INFO - [home_test.py:149] - 通过后退按钮返回首页
+2026-03-03 15:21:29,456 - page.home_test - INFO - [home_test.py:107] - 测试定位器: queens_revenge_more, 值: div:nth-of-type(7) span
+2026-03-03 15:21:29,731 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(7) span
+2026-03-03 15:21:29,732 - page.home_test - INFO - [home_test.py:114] - 成功点击定位器: queens_revenge_more
+2026-03-03 15:21:32,737 - page.home_test - INFO - [home_test.py:121] - 等待 queens_revenge_more 页面完全打开
+2026-03-03 15:21:35,024 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-03 15:21:35,024 - page.home_test - INFO - [home_test.py:127] - 成功通过返回按钮从 queens_revenge_more 返回首页
+2026-03-03 15:21:37,048 - page.home_test - INFO - [home_test.py:107] - 测试定位器: bossy_ceo_first_drama, 值: div:nth-of-type(8) .gap-md > div:first-child img
+2026-03-03 15:21:37,342 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(8) .gap-md > div:first-child img
+2026-03-03 15:21:37,342 - page.home_test - INFO - [home_test.py:114] - 成功点击定位器: bossy_ceo_first_drama
+2026-03-03 15:21:40,357 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 15:21:40,575 - page.home_test - INFO - [home_test.py:139] - 成功进入播放器页面
+2026-03-03 15:21:44,100 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 15:21:44,100 - page.home_test - INFO - [home_test.py:149] - 通过后退按钮返回首页
+2026-03-03 15:21:46,123 - page.home_test - INFO - [home_test.py:107] - 测试定位器: bossy_ceo_more, 值: div:nth-of-type(8) span
+2026-03-03 15:21:46,415 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(8) span
+2026-03-03 15:21:46,415 - page.home_test - INFO - [home_test.py:114] - 成功点击定位器: bossy_ceo_more
+2026-03-03 15:21:49,420 - page.home_test - INFO - [home_test.py:121] - 等待 bossy_ceo_more 页面完全打开
+2026-03-03 15:21:51,712 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-03 15:21:51,712 - page.home_test - INFO - [home_test.py:127] - 成功通过返回按钮从 bossy_ceo_more 返回首页
+2026-03-03 15:21:53,736 - page.home_test - INFO - [home_test.py:107] - 测试定位器: return_of_god_of_war_first_drama, 值: div:nth-of-type(9) .gap-md > div:first-child img
+2026-03-03 15:21:54,038 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(9) .gap-md > div:first-child img
+2026-03-03 15:21:54,039 - page.home_test - INFO - [home_test.py:114] - 成功点击定位器: return_of_god_of_war_first_drama
+2026-03-03 15:21:57,057 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 15:21:57,271 - page.home_test - INFO - [home_test.py:139] - 成功进入播放器页面
+2026-03-03 15:22:00,801 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 15:22:00,802 - page.home_test - INFO - [home_test.py:149] - 通过后退按钮返回首页
+2026-03-03 15:22:02,826 - page.home_test - INFO - [home_test.py:107] - 测试定位器: return_of_god_of_war_more, 值: div:nth-of-type(9) span
+2026-03-03 15:22:03,111 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(9) span
+2026-03-03 15:22:03,112 - page.home_test - INFO - [home_test.py:114] - 成功点击定位器: return_of_god_of_war_more
+2026-03-03 15:22:06,117 - page.home_test - INFO - [home_test.py:121] - 等待 return_of_god_of_war_more 页面完全打开
+2026-03-03 15:22:08,404 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-03 15:22:08,405 - page.home_test - INFO - [home_test.py:127] - 成功通过返回按钮从 return_of_god_of_war_more 返回首页
+2026-03-03 15:22:10,429 - page.home_test - INFO - [home_test.py:172] - 首页所有定位器测试完成
+2026-03-03 15:22:10,459 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 15:22:10,525 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 24361, 名称: Python
+2026-03-03 16:09:37,689 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 16:09:37,720 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 24371, 名称: Google
+2026-03-03 16:09:37,721 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 24371
+2026-03-03 16:09:39,728 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 16:09:39,767 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 16:09:45,419 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 16:09:45,421 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 16:09:45,931 - page.home_test - INFO - [home_test.py:33] - 导航到首页: https://video.reelswave.net/
+2026-03-03 16:09:50,365 - page.home_test - INFO - [home_test.py:38] - 首页轮播图加载完成
+2026-03-03 16:09:50,367 - page.home_test - INFO - [home_test.py:104] - 开始测试首页所有定位器
+2026-03-03 16:09:50,368 - page.home_test - INFO - [home_test.py:120] - 测试定位器: continue_watching_first_drama, 值: div:nth-of-type(4) .gap-md > div:first-child img
+2026-03-03 16:09:50,622 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(4) .gap-md > div:first-child img
+2026-03-03 16:09:50,622 - page.home_test - INFO - [home_test.py:127] - 成功点击定位器: continue_watching_first_drama
+2026-03-03 16:09:55,295 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 16:09:55,507 - page.home_test - INFO - [home_test.py:205] - 成功进入播放器页面
+2026-03-03 16:09:59,026 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 16:09:59,026 - page.home_test - INFO - [home_test.py:215] - 通过后退按钮返回首页
+2026-03-03 16:10:01,054 - page.home_test - INFO - [home_test.py:120] - 测试定位器: continue_watching_more, 值: div:nth-of-type(4) span
+2026-03-03 16:10:01,299 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(4) span
+2026-03-03 16:10:01,299 - page.home_test - INFO - [home_test.py:127] - 成功点击定位器: continue_watching_more
+2026-03-03 16:10:04,304 - page.home_test - INFO - [home_test.py:134] - 等待 continue_watching_more 页面完全打开
+2026-03-03 16:10:06,321 - page.home_test - INFO - [home_test.py:148] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/page/html_files/continue_watching.html
+2026-03-03 16:10:06,602 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-03 16:10:06,602 - page.home_test - INFO - [home_test.py:193] - 成功通过返回按钮从 continue_watching_more 返回首页
+2026-03-03 16:10:08,612 - page.home_test - INFO - [home_test.py:120] - 测试定位器: best_first_drama, 值: div:nth-of-type(5) .gap-md > div:first-child img
+2026-03-03 16:10:08,910 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(5) .gap-md > div:first-child img
+2026-03-03 16:10:08,910 - page.home_test - INFO - [home_test.py:127] - 成功点击定位器: best_first_drama
+2026-03-03 16:10:11,920 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 16:10:12,137 - page.home_test - INFO - [home_test.py:205] - 成功进入播放器页面
+2026-03-03 16:10:15,666 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 16:10:15,667 - page.home_test - INFO - [home_test.py:215] - 通过后退按钮返回首页
+2026-03-03 16:10:17,690 - page.home_test - INFO - [home_test.py:120] - 测试定位器: eastern_legends_first_drama, 值: div:nth-of-type(6) .gap-md > div:first-child img
+2026-03-03 16:10:17,979 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(6) .gap-md > div:first-child img
+2026-03-03 16:10:17,979 - page.home_test - INFO - [home_test.py:127] - 成功点击定位器: eastern_legends_first_drama
+2026-03-03 16:10:21,000 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 16:10:21,222 - page.home_test - INFO - [home_test.py:205] - 成功进入播放器页面
+2026-03-03 16:10:24,753 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 16:10:24,753 - page.home_test - INFO - [home_test.py:215] - 通过后退按钮返回首页
+2026-03-03 16:10:26,777 - page.home_test - INFO - [home_test.py:120] - 测试定位器: eastern_legends_more, 值: div:nth-of-type(6) span
+2026-03-03 16:10:27,076 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(6) span
+2026-03-03 16:10:27,077 - page.home_test - INFO - [home_test.py:127] - 成功点击定位器: eastern_legends_more
+2026-03-03 16:10:30,080 - page.home_test - INFO - [home_test.py:134] - 等待 eastern_legends_more 页面完全打开
+2026-03-03 16:10:32,095 - page.home_test - INFO - [home_test.py:148] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/page/html_files/eastern_legends.html
+2026-03-03 16:10:32,338 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-03 16:10:32,339 - page.home_test - INFO - [home_test.py:193] - 成功通过返回按钮从 eastern_legends_more 返回首页
+2026-03-03 16:10:34,365 - page.home_test - INFO - [home_test.py:120] - 测试定位器: queens_revenge_first_drama, 值: div:nth-of-type(7) .gap-md > div:first-child img
+2026-03-03 16:10:34,658 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(7) .gap-md > div:first-child img
+2026-03-03 16:10:34,659 - page.home_test - INFO - [home_test.py:127] - 成功点击定位器: queens_revenge_first_drama
+2026-03-03 16:10:37,670 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 16:10:37,893 - page.home_test - INFO - [home_test.py:205] - 成功进入播放器页面
+2026-03-03 16:10:41,411 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 16:10:41,411 - page.home_test - INFO - [home_test.py:215] - 通过后退按钮返回首页
+2026-03-03 16:10:43,430 - page.home_test - INFO - [home_test.py:120] - 测试定位器: queens_revenge_more, 值: div:nth-of-type(7) span
+2026-03-03 16:10:43,725 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(7) span
+2026-03-03 16:10:43,725 - page.home_test - INFO - [home_test.py:127] - 成功点击定位器: queens_revenge_more
+2026-03-03 16:10:46,730 - page.home_test - INFO - [home_test.py:134] - 等待 queens_revenge_more 页面完全打开
+2026-03-03 16:10:48,747 - page.home_test - INFO - [home_test.py:148] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/page/html_files/queens_revenge.html
+2026-03-03 16:10:48,986 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-03 16:10:48,987 - page.home_test - INFO - [home_test.py:193] - 成功通过返回按钮从 queens_revenge_more 返回首页
+2026-03-03 16:10:51,012 - page.home_test - INFO - [home_test.py:120] - 测试定位器: bossy_ceo_first_drama, 值: div:nth-of-type(8) .gap-md > div:first-child img
+2026-03-03 16:10:51,306 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(8) .gap-md > div:first-child img
+2026-03-03 16:10:51,306 - page.home_test - INFO - [home_test.py:127] - 成功点击定位器: bossy_ceo_first_drama
+2026-03-03 16:10:54,327 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 16:10:54,546 - page.home_test - INFO - [home_test.py:205] - 成功进入播放器页面
+2026-03-03 16:10:58,092 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 16:10:58,093 - page.home_test - INFO - [home_test.py:215] - 通过后退按钮返回首页
+2026-03-03 16:11:00,123 - page.home_test - INFO - [home_test.py:120] - 测试定位器: bossy_ceo_more, 值: div:nth-of-type(8) span
+2026-03-03 16:11:00,407 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(8) span
+2026-03-03 16:11:00,407 - page.home_test - INFO - [home_test.py:127] - 成功点击定位器: bossy_ceo_more
+2026-03-03 16:11:03,412 - page.home_test - INFO - [home_test.py:134] - 等待 bossy_ceo_more 页面完全打开
+2026-03-03 16:11:05,430 - page.home_test - INFO - [home_test.py:148] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/page/html_files/bossy_ceo.html
+2026-03-03 16:11:05,716 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-03 16:11:05,716 - page.home_test - INFO - [home_test.py:193] - 成功通过返回按钮从 bossy_ceo_more 返回首页
+2026-03-03 16:11:07,736 - page.home_test - INFO - [home_test.py:120] - 测试定位器: return_of_god_of_war_first_drama, 值: div:nth-of-type(9) .gap-md > div:first-child img
+2026-03-03 16:11:08,039 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(9) .gap-md > div:first-child img
+2026-03-03 16:11:08,040 - page.home_test - INFO - [home_test.py:127] - 成功点击定位器: return_of_god_of_war_first_drama
+2026-03-03 16:11:11,060 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 16:11:11,279 - page.home_test - INFO - [home_test.py:205] - 成功进入播放器页面
+2026-03-03 16:11:14,787 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 16:11:14,788 - page.home_test - INFO - [home_test.py:215] - 通过后退按钮返回首页
+2026-03-03 16:11:16,809 - page.home_test - INFO - [home_test.py:120] - 测试定位器: return_of_god_of_war_more, 值: div:nth-of-type(9) span
+2026-03-03 16:11:17,094 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(9) span
+2026-03-03 16:11:17,094 - page.home_test - INFO - [home_test.py:127] - 成功点击定位器: return_of_god_of_war_more
+2026-03-03 16:11:20,099 - page.home_test - INFO - [home_test.py:134] - 等待 return_of_god_of_war_more 页面完全打开
+2026-03-03 16:11:22,119 - page.home_test - INFO - [home_test.py:148] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/page/html_files/return_of_god_of_war.html
+2026-03-03 16:11:22,402 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-03 16:11:22,402 - page.home_test - INFO - [home_test.py:193] - 成功通过返回按钮从 return_of_god_of_war_more 返回首页
+2026-03-03 16:11:24,419 - page.home_test - INFO - [home_test.py:238] - 首页所有定位器测试完成
+2026-03-03 16:11:24,448 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 16:11:24,494 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 25180, 名称: Python
+2026-03-03 17:59:17,279 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 17:59:17,315 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 25201, 名称: Google
+2026-03-03 17:59:17,315 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 25201
+2026-03-03 17:59:19,321 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 17:59:19,358 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 17:59:24,363 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 17:59:24,365 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 17:59:25,333 - page.home_test - INFO - [home_test.py:33] - 导航到首页: https://video.reelswave.net/
+2026-03-03 17:59:30,745 - page.home_test - INFO - [home_test.py:38] - 首页轮播图加载完成
+2026-03-03 17:59:30,757 - page.home_test - INFO - [home_test.py:46] - 测试首页 banner 轮播图
+2026-03-03 17:59:30,782 - page.home_test - INFO - [home_test.py:51] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-03 17:59:30,782 - page.home_test - INFO - [home_test.py:55] - 当前轮播图标题: CEO baby
+2026-03-03 17:59:30,789 - components.HomeComponent - INFO - [HomeComponent.py:23] - 当前页面共有 3 个轮播图
+2026-03-03 17:59:30,789 - components.HomeComponent - INFO - [HomeComponent.py:29] - 找到目标轮播图，索引: 0，标题: CEO baby
+2026-03-03 17:59:31,797 - components.HomeComponent - INFO - [HomeComponent.py:39] - 滚动后轮播图标题: CEO baby
+2026-03-03 17:59:34,046 - components.HomeComponent - INFO - [HomeComponent.py:57] - 成功点击轮播图标题: CEO baby
+2026-03-03 17:59:34,046 - page.home_test - INFO - [home_test.py:59] - 成功点击轮播图: CEO baby
+2026-03-03 17:59:39,058 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 17:59:39,268 - page.home_test - INFO - [home_test.py:67] - 成功进入播放器页面
+2026-03-03 17:59:42,281 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 17:59:43,012 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 17:59:43,012 - page.home_test - INFO - [home_test.py:86] - 通过后退按钮返回首页
+2026-03-03 17:59:45,038 - page.home_test - INFO - [home_test.py:55] - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 17:59:45,052 - components.HomeComponent - INFO - [HomeComponent.py:23] - 当前页面共有 3 个轮播图
+2026-03-03 17:59:45,053 - components.HomeComponent - INFO - [HomeComponent.py:29] - 找到目标轮播图，索引: 2，标题: Wake Up Dad! Wedding Time
+2026-03-03 17:59:46,064 - components.HomeComponent - INFO - [HomeComponent.py:39] - 滚动后轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 17:59:48,348 - components.HomeComponent - INFO - [HomeComponent.py:57] - 成功点击轮播图标题: Wake Up Dad! Wedding Time
+2026-03-03 17:59:48,348 - page.home_test - INFO - [home_test.py:59] - 成功点击轮播图: Wake Up Dad! Wedding Time
+2026-03-03 17:59:53,371 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 17:59:53,587 - page.home_test - INFO - [home_test.py:67] - 成功进入播放器页面
+2026-03-03 17:59:56,600 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 17:59:57,334 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 17:59:57,334 - page.home_test - INFO - [home_test.py:86] - 通过后退按钮返回首页
+2026-03-03 17:59:59,350 - page.home_test - INFO - [home_test.py:55] - 当前轮播图标题: The Thief Lover
+2026-03-03 17:59:59,365 - components.HomeComponent - INFO - [HomeComponent.py:23] - 当前页面共有 3 个轮播图
+2026-03-03 17:59:59,366 - components.HomeComponent - INFO - [HomeComponent.py:29] - 找到目标轮播图，索引: 1，标题: The Thief Lover
+2026-03-03 18:00:00,374 - components.HomeComponent - INFO - [HomeComponent.py:39] - 滚动后轮播图标题: The Thief Lover
+2026-03-03 18:00:02,666 - components.HomeComponent - INFO - [HomeComponent.py:57] - 成功点击轮播图标题: The Thief Lover
+2026-03-03 18:00:02,667 - page.home_test - INFO - [home_test.py:59] - 成功点击轮播图: The Thief Lover
+2026-03-03 18:00:07,687 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:00:07,908 - page.home_test - INFO - [home_test.py:67] - 成功进入播放器页面
+2026-03-03 18:00:10,912 - page.home_test - INFO - [home_test.py:99] - 首页 banner 轮播图测试完成
+2026-03-03 18:00:10,942 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 18:00:11,000 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 27073, 名称: Python
+2026-03-03 18:02:31,762 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 18:02:31,802 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 27082, 名称: Google
+2026-03-03 18:02:31,802 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 27082
+2026-03-03 18:02:33,808 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 18:02:33,844 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 18:02:36,747 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 18:02:36,749 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 18:02:37,258 - page.home_test - INFO - [home_test.py:33] - 导航到首页: https://video.reelswave.net/
+2026-03-03 18:02:42,378 - page.home_test - INFO - [home_test.py:38] - 首页轮播图加载完成
+2026-03-03 18:02:42,382 - page.home_test - INFO - [home_test.py:104] - 开始测试首页所有定位器
+2026-03-03 18:02:42,382 - page.home_test - INFO - [home_test.py:120] - 测试定位器: continue_watching_first_drama, 值: div:nth-of-type(4) .gap-md > div:first-child img
+2026-03-03 18:02:42,634 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(4) .gap-md > div:first-child img
+2026-03-03 18:02:42,634 - page.home_test - INFO - [home_test.py:127] - 成功点击定位器: continue_watching_first_drama
+2026-03-03 18:02:45,655 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:02:45,872 - page.home_test - INFO - [home_test.py:205] - 成功进入播放器页面
+2026-03-03 18:02:49,395 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:02:49,395 - page.home_test - INFO - [home_test.py:215] - 通过后退按钮返回首页
+2026-03-03 18:02:51,423 - page.home_test - INFO - [home_test.py:120] - 测试定位器: continue_watching_more, 值: div:nth-of-type(4) span
+2026-03-03 18:02:51,665 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(4) span
+2026-03-03 18:02:51,665 - page.home_test - INFO - [home_test.py:127] - 成功点击定位器: continue_watching_more
+2026-03-03 18:02:54,669 - page.home_test - INFO - [home_test.py:134] - 等待 continue_watching_more 页面完全打开
+2026-03-03 18:02:56,686 - page.home_test - INFO - [home_test.py:148] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/continue_watching.html
+2026-03-03 18:02:56,965 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-03 18:02:56,965 - page.home_test - INFO - [home_test.py:193] - 成功通过返回按钮从 continue_watching_more 返回首页
+2026-03-03 18:02:58,985 - page.home_test - INFO - [home_test.py:120] - 测试定位器: best_first_drama, 值: div:nth-of-type(5) .gap-md > div:first-child img
+2026-03-03 18:02:59,276 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(5) .gap-md > div:first-child img
+2026-03-03 18:02:59,276 - page.home_test - INFO - [home_test.py:127] - 成功点击定位器: best_first_drama
+2026-03-03 18:03:02,296 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:03:02,517 - page.home_test - INFO - [home_test.py:205] - 成功进入播放器页面
+2026-03-03 18:03:06,010 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:03:06,010 - page.home_test - INFO - [home_test.py:215] - 通过后退按钮返回首页
+2026-03-03 18:03:08,032 - page.home_test - INFO - [home_test.py:120] - 测试定位器: eastern_legends_first_drama, 值: div:nth-of-type(6) .gap-md > div:first-child img
+2026-03-03 18:03:08,317 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(6) .gap-md > div:first-child img
+2026-03-03 18:03:08,317 - page.home_test - INFO - [home_test.py:127] - 成功点击定位器: eastern_legends_first_drama
+2026-03-03 18:03:11,337 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:03:11,551 - page.home_test - INFO - [home_test.py:205] - 成功进入播放器页面
+2026-03-03 18:03:15,060 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:03:15,060 - page.home_test - INFO - [home_test.py:215] - 通过后退按钮返回首页
+2026-03-03 18:03:17,083 - page.home_test - INFO - [home_test.py:120] - 测试定位器: eastern_legends_more, 值: div:nth-of-type(6) span
+2026-03-03 18:03:17,372 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(6) span
+2026-03-03 18:03:17,373 - page.home_test - INFO - [home_test.py:127] - 成功点击定位器: eastern_legends_more
+2026-03-03 18:03:20,378 - page.home_test - INFO - [home_test.py:134] - 等待 eastern_legends_more 页面完全打开
+2026-03-03 18:03:22,394 - page.home_test - INFO - [home_test.py:148] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/eastern_legends.html
+2026-03-03 18:03:22,677 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-03 18:03:22,677 - page.home_test - INFO - [home_test.py:193] - 成功通过返回按钮从 eastern_legends_more 返回首页
+2026-03-03 18:03:24,701 - page.home_test - INFO - [home_test.py:120] - 测试定位器: queens_revenge_first_drama, 值: div:nth-of-type(7) .gap-md > div:first-child img
+2026-03-03 18:03:24,991 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(7) .gap-md > div:first-child img
+2026-03-03 18:03:24,991 - page.home_test - INFO - [home_test.py:127] - 成功点击定位器: queens_revenge_first_drama
+2026-03-03 18:03:28,009 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:03:28,229 - page.home_test - INFO - [home_test.py:205] - 成功进入播放器页面
+2026-03-03 18:03:31,740 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:03:31,740 - page.home_test - INFO - [home_test.py:215] - 通过后退按钮返回首页
+2026-03-03 18:03:33,761 - page.home_test - INFO - [home_test.py:120] - 测试定位器: queens_revenge_more, 值: div:nth-of-type(7) span
+2026-03-03 18:03:34,051 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(7) span
+2026-03-03 18:03:34,051 - page.home_test - INFO - [home_test.py:127] - 成功点击定位器: queens_revenge_more
+2026-03-03 18:03:37,056 - page.home_test - INFO - [home_test.py:134] - 等待 queens_revenge_more 页面完全打开
+2026-03-03 18:03:39,074 - page.home_test - INFO - [home_test.py:148] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/queens_revenge.html
+2026-03-03 18:03:39,315 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-03 18:03:39,315 - page.home_test - INFO - [home_test.py:193] - 成功通过返回按钮从 queens_revenge_more 返回首页
+2026-03-03 18:03:41,338 - page.home_test - INFO - [home_test.py:120] - 测试定位器: bossy_ceo_first_drama, 值: div:nth-of-type(8) .gap-md > div:first-child img
+2026-03-03 18:03:41,624 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(8) .gap-md > div:first-child img
+2026-03-03 18:03:41,624 - page.home_test - INFO - [home_test.py:127] - 成功点击定位器: bossy_ceo_first_drama
+2026-03-03 18:03:44,642 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:03:44,863 - page.home_test - INFO - [home_test.py:205] - 成功进入播放器页面
+2026-03-03 18:03:48,391 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:03:48,391 - page.home_test - INFO - [home_test.py:215] - 通过后退按钮返回首页
+2026-03-03 18:03:50,422 - page.home_test - INFO - [home_test.py:120] - 测试定位器: bossy_ceo_more, 值: div:nth-of-type(8) span
+2026-03-03 18:03:50,685 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(8) span
+2026-03-03 18:03:50,686 - page.home_test - INFO - [home_test.py:127] - 成功点击定位器: bossy_ceo_more
+2026-03-03 18:03:53,691 - page.home_test - INFO - [home_test.py:134] - 等待 bossy_ceo_more 页面完全打开
+2026-03-03 18:03:55,706 - page.home_test - INFO - [home_test.py:148] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/bossy_ceo.html
+2026-03-03 18:03:55,984 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-03 18:03:55,985 - page.home_test - INFO - [home_test.py:193] - 成功通过返回按钮从 bossy_ceo_more 返回首页
+2026-03-03 18:03:58,008 - page.home_test - INFO - [home_test.py:120] - 测试定位器: return_of_god_of_war_first_drama, 值: div:nth-of-type(9) .gap-md > div:first-child img
+2026-03-03 18:03:58,300 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(9) .gap-md > div:first-child img
+2026-03-03 18:03:58,300 - page.home_test - INFO - [home_test.py:127] - 成功点击定位器: return_of_god_of_war_first_drama
+2026-03-03 18:04:01,321 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:04:01,537 - page.home_test - INFO - [home_test.py:205] - 成功进入播放器页面
+2026-03-03 18:04:05,030 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:04:05,030 - page.home_test - INFO - [home_test.py:215] - 通过后退按钮返回首页
+2026-03-03 18:04:07,055 - page.home_test - INFO - [home_test.py:120] - 测试定位器: return_of_god_of_war_more, 值: div:nth-of-type(9) span
+2026-03-03 18:04:07,344 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(9) span
+2026-03-03 18:04:07,344 - page.home_test - INFO - [home_test.py:127] - 成功点击定位器: return_of_god_of_war_more
+2026-03-03 18:04:10,349 - page.home_test - INFO - [home_test.py:134] - 等待 return_of_god_of_war_more 页面完全打开
+2026-03-03 18:04:12,367 - page.home_test - INFO - [home_test.py:148] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/return_of_god_of_war.html
+2026-03-03 18:04:12,645 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-03 18:04:12,645 - page.home_test - INFO - [home_test.py:193] - 成功通过返回按钮从 return_of_god_of_war_more 返回首页
+2026-03-03 18:04:14,670 - page.home_test - INFO - [home_test.py:238] - 首页所有定位器测试完成
+2026-03-03 18:04:14,698 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 18:04:14,767 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 27185, 名称: Python
+2026-03-03 18:33:30,715 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 18:33:30,749 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 27194, 名称: Google
+2026-03-03 18:33:30,749 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 27194
+2026-03-03 18:33:32,757 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 18:33:32,791 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 18:33:36,820 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 18:33:36,822 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 18:33:37,643 - page.home_test - INFO - [home_test.py:36] - 导航到首页: https://video.reelswave.net/
+2026-03-03 18:33:41,919 - page.home_test - INFO - [home_test.py:41] - 首页轮播图加载完成
+2026-03-03 18:33:41,922 - page.home_test - INFO - [home_test.py:231] - 开始测试首页所有定位器
+2026-03-03 18:33:41,922 - page.home_test - INFO - [home_test.py:247] - 测试定位器: continue_watching_first_drama, 值: div:nth-of-type(4) .gap-md > div:first-child img
+2026-03-03 18:33:42,168 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(4) .gap-md > div:first-child img
+2026-03-03 18:33:42,169 - page.home_test - INFO - [home_test.py:254] - 成功点击定位器: continue_watching_first_drama
+2026-03-03 18:33:45,188 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:33:45,405 - page.home_test - INFO - [home_test.py:329] - 成功进入播放器页面
+2026-03-03 18:33:48,915 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:33:48,915 - page.home_test - INFO - [home_test.py:339] - 通过后退按钮返回首页
+2026-03-03 18:33:50,943 - page.home_test - INFO - [home_test.py:247] - 测试定位器: continue_watching_more, 值: div:nth-of-type(4) span
+2026-03-03 18:33:51,185 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(4) span
+2026-03-03 18:33:51,185 - page.home_test - INFO - [home_test.py:254] - 成功点击定位器: continue_watching_more
+2026-03-03 18:33:54,191 - page.home_test - INFO - [home_test.py:261] - 等待 continue_watching_more 页面完全打开
+2026-03-03 18:33:56,208 - page.home_test - INFO - [home_test.py:275] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/continue_watching.html
+2026-03-03 18:33:56,234 - page.home_test - INFO - [home_test.py:284] - 为 continue_watching 提取到 4 个定位器
+2026-03-03 18:33:56,234 - page.home_test - INFO - [home_test.py:287] -   - script_7d119307: [data-checked-head='true']
+2026-03-03 18:33:56,234 - page.home_test - INFO - [home_test.py:287] -   - adsbygoogle_ins: .adsbygoogle.adsbygoogle-noablate
+2026-03-03 18:33:56,234 - page.home_test - INFO - [home_test.py:287] -   - __w______iframe: [data-google-container-id='a!1']
+2026-03-03 18:33:56,234 - page.home_test - INFO - [home_test.py:287] -   - continue_watchingbeware_miss_y_element: [data-v-app='']
+2026-03-03 18:33:56,234 - page.home_test - INFO - [home_test.py:310] - 已将 continue_watching 的定位器添加到 locators.py
+2026-03-03 18:33:56,234 - page.home_test - INFO - [home_test.py:156] - 从 MORE 页面返回首页
+2026-03-03 18:33:56,458 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-03 18:33:56,458 - page.home_test - INFO - [home_test.py:161] - 成功通过返回按钮返回首页
+2026-03-03 18:33:58,484 - page.home_test - INFO - [home_test.py:247] - 测试定位器: best_first_drama, 值: div:nth-of-type(5) .gap-md > div:first-child img
+2026-03-03 18:33:58,781 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(5) .gap-md > div:first-child img
+2026-03-03 18:33:58,781 - page.home_test - INFO - [home_test.py:254] - 成功点击定位器: best_first_drama
+2026-03-03 18:34:01,803 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:34:02,023 - page.home_test - INFO - [home_test.py:329] - 成功进入播放器页面
+2026-03-03 18:34:05,545 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:34:05,545 - page.home_test - INFO - [home_test.py:339] - 通过后退按钮返回首页
+2026-03-03 18:34:07,568 - page.home_test - INFO - [home_test.py:247] - 测试定位器: eastern_legends_first_drama, 值: div:nth-of-type(6) .gap-md > div:first-child img
+2026-03-03 18:34:07,855 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(6) .gap-md > div:first-child img
+2026-03-03 18:34:07,855 - page.home_test - INFO - [home_test.py:254] - 成功点击定位器: eastern_legends_first_drama
+2026-03-03 18:34:10,873 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:34:11,091 - page.home_test - INFO - [home_test.py:329] - 成功进入播放器页面
+2026-03-03 18:34:14,619 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:34:14,619 - page.home_test - INFO - [home_test.py:339] - 通过后退按钮返回首页
+2026-03-03 18:34:16,639 - page.home_test - INFO - [home_test.py:247] - 测试定位器: eastern_legends_more, 值: div:nth-of-type(6) span
+2026-03-03 18:34:16,917 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(6) span
+2026-03-03 18:34:16,917 - page.home_test - INFO - [home_test.py:254] - 成功点击定位器: eastern_legends_more
+2026-03-03 18:34:19,918 - page.home_test - INFO - [home_test.py:261] - 等待 eastern_legends_more 页面完全打开
+2026-03-03 18:34:21,936 - page.home_test - INFO - [home_test.py:275] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/eastern_legends.html
+2026-03-03 18:34:21,960 - page.home_test - INFO - [home_test.py:284] - 为 eastern_legends 提取到 4 个定位器
+2026-03-03 18:34:21,960 - page.home_test - INFO - [home_test.py:287] -   - script_7d119307: [data-checked-head='true']
+2026-03-03 18:34:21,960 - page.home_test - INFO - [home_test.py:287] -   - adsbygoogle_ins: .adsbygoogle.adsbygoogle-noablate
+2026-03-03 18:34:21,960 - page.home_test - INFO - [home_test.py:287] -   - __w______iframe: [data-google-container-id='a!1']
+2026-03-03 18:34:21,960 - page.home_test - INFO - [home_test.py:287] -   - eastern_legendslove_in_mansion_element: [data-v-app='']
+2026-03-03 18:34:21,960 - page.home_test - INFO - [home_test.py:310] - 已将 eastern_legends 的定位器添加到 locators.py
+2026-03-03 18:34:21,960 - page.home_test - INFO - [home_test.py:156] - 从 MORE 页面返回首页
+2026-03-03 18:34:22,187 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-03 18:34:22,187 - page.home_test - INFO - [home_test.py:161] - 成功通过返回按钮返回首页
+2026-03-03 18:34:24,211 - page.home_test - INFO - [home_test.py:247] - 测试定位器: queens_revenge_first_drama, 值: div:nth-of-type(7) .gap-md > div:first-child img
+2026-03-03 18:34:24,490 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(7) .gap-md > div:first-child img
+2026-03-03 18:34:24,490 - page.home_test - INFO - [home_test.py:254] - 成功点击定位器: queens_revenge_first_drama
+2026-03-03 18:34:27,510 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:34:27,730 - page.home_test - INFO - [home_test.py:329] - 成功进入播放器页面
+2026-03-03 18:34:31,248 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:34:31,248 - page.home_test - INFO - [home_test.py:339] - 通过后退按钮返回首页
+2026-03-03 18:34:33,274 - page.home_test - INFO - [home_test.py:247] - 测试定位器: queens_revenge_more, 值: div:nth-of-type(7) span
+2026-03-03 18:34:33,561 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(7) span
+2026-03-03 18:34:33,561 - page.home_test - INFO - [home_test.py:254] - 成功点击定位器: queens_revenge_more
+2026-03-03 18:34:36,565 - page.home_test - INFO - [home_test.py:261] - 等待 queens_revenge_more 页面完全打开
+2026-03-03 18:34:38,584 - page.home_test - INFO - [home_test.py:275] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/queens_revenge.html
+2026-03-03 18:34:38,604 - page.home_test - INFO - [home_test.py:284] - 为 queens_revenge 提取到 4 个定位器
+2026-03-03 18:34:38,604 - page.home_test - INFO - [home_test.py:287] -   - script_7d119307: [data-checked-head='true']
+2026-03-03 18:34:38,604 - page.home_test - INFO - [home_test.py:287] -   - adsbygoogle_ins: .adsbygoogle.adsbygoogle-noablate
+2026-03-03 18:34:38,604 - page.home_test - INFO - [home_test.py:287] -   - __w______iframe: [data-google-container-id='a!1']
+2026-03-03 18:34:38,604 - page.home_test - INFO - [home_test.py:287] -   - queens_revengethe_madams_com_element: [data-v-app='']
+2026-03-03 18:34:38,605 - page.home_test - INFO - [home_test.py:310] - 已将 queens_revenge 的定位器添加到 locators.py
+2026-03-03 18:34:38,605 - page.home_test - INFO - [home_test.py:156] - 从 MORE 页面返回首页
+2026-03-03 18:34:38,868 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-03 18:34:38,868 - page.home_test - INFO - [home_test.py:161] - 成功通过返回按钮返回首页
+2026-03-03 18:34:40,886 - page.home_test - INFO - [home_test.py:247] - 测试定位器: bossy_ceo_first_drama, 值: div:nth-of-type(8) .gap-md > div:first-child img
+2026-03-03 18:34:41,155 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(8) .gap-md > div:first-child img
+2026-03-03 18:34:41,156 - page.home_test - INFO - [home_test.py:254] - 成功点击定位器: bossy_ceo_first_drama
+2026-03-03 18:34:44,179 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:34:44,397 - page.home_test - INFO - [home_test.py:329] - 成功进入播放器页面
+2026-03-03 18:34:47,915 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:34:47,915 - page.home_test - INFO - [home_test.py:339] - 通过后退按钮返回首页
+2026-03-03 18:34:49,940 - page.home_test - INFO - [home_test.py:247] - 测试定位器: bossy_ceo_more, 值: div:nth-of-type(8) span
+2026-03-03 18:34:50,231 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(8) span
+2026-03-03 18:34:50,231 - page.home_test - INFO - [home_test.py:254] - 成功点击定位器: bossy_ceo_more
+2026-03-03 18:34:53,237 - page.home_test - INFO - [home_test.py:261] - 等待 bossy_ceo_more 页面完全打开
+2026-03-03 18:34:55,255 - page.home_test - INFO - [home_test.py:275] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/bossy_ceo.html
+2026-03-03 18:34:55,276 - page.home_test - INFO - [home_test.py:284] - 为 bossy_ceo 提取到 4 个定位器
+2026-03-03 18:34:55,276 - page.home_test - INFO - [home_test.py:287] -   - script_7d119307: [data-checked-head='true']
+2026-03-03 18:34:55,276 - page.home_test - INFO - [home_test.py:287] -   - adsbygoogle_ins: .adsbygoogle.adsbygoogle-noablate
+2026-03-03 18:34:55,276 - page.home_test - INFO - [home_test.py:287] -   - __w______iframe: [data-google-container-id='a!1']
+2026-03-03 18:34:55,276 - page.home_test - INFO - [home_test.py:287] -   - bossy_ceotwins_of_fortune_lov_element: [data-v-app='']
+2026-03-03 18:34:55,277 - page.home_test - INFO - [home_test.py:310] - 已将 bossy_ceo 的定位器添加到 locators.py
+2026-03-03 18:34:55,277 - page.home_test - INFO - [home_test.py:156] - 从 MORE 页面返回首页
+2026-03-03 18:34:55,545 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-03 18:34:55,545 - page.home_test - INFO - [home_test.py:161] - 成功通过返回按钮返回首页
+2026-03-03 18:34:57,556 - page.home_test - INFO - [home_test.py:247] - 测试定位器: return_of_god_of_war_first_drama, 值: div:nth-of-type(9) .gap-md > div:first-child img
+2026-03-03 18:34:57,855 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(9) .gap-md > div:first-child img
+2026-03-03 18:34:57,855 - page.home_test - INFO - [home_test.py:254] - 成功点击定位器: return_of_god_of_war_first_drama
+2026-03-03 18:35:00,875 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:35:01,093 - page.home_test - INFO - [home_test.py:329] - 成功进入播放器页面
+2026-03-03 18:35:04,611 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:35:04,611 - page.home_test - INFO - [home_test.py:339] - 通过后退按钮返回首页
+2026-03-03 18:35:06,635 - page.home_test - INFO - [home_test.py:247] - 测试定位器: return_of_god_of_war_more, 值: div:nth-of-type(9) span
+2026-03-03 18:35:06,919 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(9) span
+2026-03-03 18:35:06,920 - page.home_test - INFO - [home_test.py:254] - 成功点击定位器: return_of_god_of_war_more
+2026-03-03 18:35:09,925 - page.home_test - INFO - [home_test.py:261] - 等待 return_of_god_of_war_more 页面完全打开
+2026-03-03 18:35:11,943 - page.home_test - INFO - [home_test.py:275] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/return_of_god_of_war.html
+2026-03-03 18:35:11,966 - page.home_test - INFO - [home_test.py:284] - 为 return_of_god_of_war 提取到 4 个定位器
+2026-03-03 18:35:11,967 - page.home_test - INFO - [home_test.py:287] -   - script_7d119307: [data-checked-head='true']
+2026-03-03 18:35:11,967 - page.home_test - INFO - [home_test.py:287] -   - adsbygoogle_ins: .adsbygoogle.adsbygoogle-noablate
+2026-03-03 18:35:11,967 - page.home_test - INFO - [home_test.py:287] -   - __w______iframe: [data-google-container-id='a!1']
+2026-03-03 18:35:11,967 - page.home_test - INFO - [home_test.py:287] -   - the_return_of_god_of_warlethal_element: [data-v-app='']
+2026-03-03 18:35:11,967 - page.home_test - INFO - [home_test.py:310] - 已将 return_of_god_of_war 的定位器添加到 locators.py
+2026-03-03 18:35:11,967 - page.home_test - INFO - [home_test.py:156] - 从 MORE 页面返回首页
+2026-03-03 18:35:12,194 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-03 18:35:12,194 - page.home_test - INFO - [home_test.py:161] - 成功通过返回按钮返回首页
+2026-03-03 18:35:14,217 - page.home_test - INFO - [home_test.py:362] - 首页所有定位器测试完成
+2026-03-03 18:35:14,247 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 18:35:14,309 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 29293, 名称: Python
+2026-03-03 18:40:18,413 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 18:40:18,451 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 29316, 名称: Google
+2026-03-03 18:40:18,452 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 29316
+2026-03-03 18:40:20,460 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 18:40:20,496 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 18:40:24,807 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 18:40:24,808 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 18:40:25,373 - page.home_test - INFO - [home_test.py:36] - 导航到首页: https://video.reelswave.net/
+2026-03-03 18:40:29,529 - page.home_test - INFO - [home_test.py:41] - 首页轮播图加载完成
+2026-03-03 18:40:29,531 - page.home_test - INFO - [home_test.py:299] - 开始测试首页所有定位器
+2026-03-03 18:40:29,531 - page.home_test - INFO - [home_test.py:315] - 测试定位器: continue_watching_first_drama, 值: div:nth-of-type(4) .gap-md > div:first-child img
+2026-03-03 18:40:29,773 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(4) .gap-md > div:first-child img
+2026-03-03 18:40:29,774 - page.home_test - INFO - [home_test.py:322] - 成功点击定位器: continue_watching_first_drama
+2026-03-03 18:40:32,796 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:40:33,020 - page.home_test - INFO - [home_test.py:414] - 成功进入播放器页面
+2026-03-03 18:40:36,531 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:40:36,531 - page.home_test - INFO - [home_test.py:424] - 通过后退按钮返回首页
+2026-03-03 18:40:38,555 - page.home_test - INFO - [home_test.py:315] - 测试定位器: continue_watching_more, 值: div:nth-of-type(4) span
+2026-03-03 18:40:38,796 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(4) span
+2026-03-03 18:40:38,796 - page.home_test - INFO - [home_test.py:322] - 成功点击定位器: continue_watching_more
+2026-03-03 18:40:41,800 - page.home_test - INFO - [home_test.py:329] - 等待 continue_watching_more 页面完全打开
+2026-03-03 18:40:43,820 - page.home_test - INFO - [home_test.py:343] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/continue_watching.html
+2026-03-03 18:40:43,820 - page.home_test - INFO - [home_test.py:347] - continue_watching 是动态 SPA 页面，将使用动态测试方法
+2026-03-03 18:40:43,828 - page.home_test - INFO - [home_test.py:357] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/continue_watching.html
+2026-03-03 18:40:43,847 - page.home_test - INFO - [home_test.py:366] - 为 continue_watching 提取到 4 个定位器
+2026-03-03 18:40:43,847 - page.home_test - INFO - [home_test.py:369] -   - script_7d119307: [data-checked-head='true']
+2026-03-03 18:40:43,847 - page.home_test - INFO - [home_test.py:369] -   - adsbygoogle_ins: .adsbygoogle.adsbygoogle-noablate
+2026-03-03 18:40:43,847 - page.home_test - INFO - [home_test.py:369] -   - __w______iframe: [data-google-container-id='a!1']
+2026-03-03 18:40:43,847 - page.home_test - INFO - [home_test.py:369] -   - continue_watchingbeware_miss_y_element: [data-v-app='']
+2026-03-03 18:40:43,848 - page.home_test - INFO - [home_test.py:88] - 开始测试 MORE 页面元素: continue_watching
+2026-03-03 18:40:43,855 - page.home_test - INFO - [home_test.py:95] - 找到 8 个剧集条目
+2026-03-03 18:40:43,856 - page.home_test - INFO - [home_test.py:104] - 测试剧集 1
+2026-03-03 18:40:44,121 - page.home_test - INFO - [home_test.py:108] - 成功点击剧集 1
+2026-03-03 18:40:47,132 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:40:47,346 - page.home_test - INFO - [home_test.py:116] - 成功进入播放器页面 (点击剧集 1 后)
+2026-03-03 18:40:50,859 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:40:50,859 - page.home_test - INFO - [home_test.py:126] - 从播放器返回到 MORE 页面
+2026-03-03 18:40:52,871 - page.home_test - INFO - [home_test.py:104] - 测试剧集 2
+2026-03-03 18:40:53,140 - page.home_test - INFO - [home_test.py:108] - 成功点击剧集 2
+2026-03-03 18:40:56,159 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:40:56,379 - page.home_test - INFO - [home_test.py:116] - 成功进入播放器页面 (点击剧集 2 后)
+2026-03-03 18:40:59,898 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:40:59,898 - page.home_test - INFO - [home_test.py:126] - 从播放器返回到 MORE 页面
+2026-03-03 18:41:01,911 - page.home_test - INFO - [home_test.py:104] - 测试剧集 3
+2026-03-03 18:41:02,181 - page.home_test - INFO - [home_test.py:108] - 成功点击剧集 3
+2026-03-03 18:41:05,203 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:41:05,422 - page.home_test - INFO - [home_test.py:116] - 成功进入播放器页面 (点击剧集 3 后)
+2026-03-03 18:41:08,954 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:41:08,955 - page.home_test - INFO - [home_test.py:126] - 从播放器返回到 MORE 页面
+2026-03-03 18:41:10,967 - page.home_test - INFO - [home_test.py:104] - 测试剧集 4
+2026-03-03 18:41:11,235 - page.home_test - INFO - [home_test.py:108] - 成功点击剧集 4
+2026-03-03 18:41:14,255 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:41:14,473 - page.home_test - INFO - [home_test.py:116] - 成功进入播放器页面 (点击剧集 4 后)
+2026-03-03 18:41:18,002 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:41:18,003 - page.home_test - INFO - [home_test.py:126] - 从播放器返回到 MORE 页面
+2026-03-03 18:41:20,016 - page.home_test - INFO - [home_test.py:104] - 测试剧集 5
+2026-03-03 18:41:20,287 - page.home_test - INFO - [home_test.py:108] - 成功点击剧集 5
+2026-03-03 18:41:23,305 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:41:23,526 - page.home_test - INFO - [home_test.py:116] - 成功进入播放器页面 (点击剧集 5 后)
+2026-03-03 18:41:27,050 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:41:27,050 - page.home_test - INFO - [home_test.py:126] - 从播放器返回到 MORE 页面
+2026-03-03 18:41:29,064 - page.home_test - INFO - [home_test.py:104] - 测试剧集 6
+2026-03-03 18:41:29,334 - page.home_test - INFO - [home_test.py:108] - 成功点击剧集 6
+2026-03-03 18:41:32,348 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:41:32,568 - page.home_test - INFO - [home_test.py:116] - 成功进入播放器页面 (点击剧集 6 后)
+2026-03-03 18:41:36,077 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:41:36,077 - page.home_test - INFO - [home_test.py:126] - 从播放器返回到 MORE 页面
+2026-03-03 18:41:38,089 - page.home_test - INFO - [home_test.py:104] - 测试剧集 7
+2026-03-03 18:41:38,360 - page.home_test - INFO - [home_test.py:108] - 成功点击剧集 7
+2026-03-03 18:41:41,380 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:41:41,600 - page.home_test - INFO - [home_test.py:116] - 成功进入播放器页面 (点击剧集 7 后)
+2026-03-03 18:41:45,139 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:41:45,139 - page.home_test - INFO - [home_test.py:126] - 从播放器返回到 MORE 页面
+2026-03-03 18:41:47,152 - page.home_test - INFO - [home_test.py:104] - 测试剧集 8
+2026-03-03 18:41:47,421 - page.home_test - INFO - [home_test.py:108] - 成功点击剧集 8
+2026-03-03 18:41:50,438 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:41:50,655 - page.home_test - INFO - [home_test.py:116] - 成功进入播放器页面 (点击剧集 8 后)
+2026-03-03 18:41:54,181 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:41:54,181 - page.home_test - INFO - [home_test.py:126] - 从播放器返回到 MORE 页面
+2026-03-03 18:41:56,181 - page.home_test - INFO - [home_test.py:150] - MORE 页面元素测试完成: continue_watching
+2026-03-03 18:41:56,182 - page.home_test - INFO - [home_test.py:157] - 开始测试 MORE 页面元素: continue_watching
+2026-03-03 18:41:56,275 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 18:41:56,348 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 29860, 名称: Python
+2026-03-03 18:50:36,230 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 18:50:36,272 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 29873, 名称: Google
+2026-03-03 18:50:36,272 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 29873
+2026-03-03 18:50:38,279 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 18:50:38,315 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-03 18:50:41,914 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-03 18:50:41,915 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-03 18:50:42,444 - page.home_test - INFO - [home_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-03 18:50:49,229 - page.home_test - INFO - [home_test.py:36] - 首页轮播图加载完成
+2026-03-03 18:50:49,232 - page.home_test - INFO - [home_test.py:168] - 开始测试首页所有定位器
+2026-03-03 18:50:49,232 - page.home_test - INFO - [home_test.py:176] - 测试定位器: continue_watching_first_drama, 值: div:nth-of-type(4) .gap-md > div:first-child img
+2026-03-03 18:50:49,496 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(4) .gap-md > div:first-child img
+2026-03-03 18:50:49,497 - page.home_test - INFO - [home_test.py:183] - 成功点击定位器: continue_watching_first_drama
+2026-03-03 18:50:52,522 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:50:52,739 - page.home_test - INFO - [home_test.py:215] - 成功进入播放器页面
+2026-03-03 18:50:56,267 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:50:56,267 - page.home_test - INFO - [home_test.py:222] - 通过后退按钮返回首页
+2026-03-03 18:50:58,294 - page.home_test - INFO - [home_test.py:176] - 测试定位器: continue_watching_more, 值: div:nth-of-type(4) span
+2026-03-03 18:50:58,538 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(4) span
+2026-03-03 18:50:58,539 - page.home_test - INFO - [home_test.py:183] - 成功点击定位器: continue_watching_more
+2026-03-03 18:51:01,544 - page.home_test - INFO - [home_test.py:190] - 等待 continue_watching_more 页面完全打开
+2026-03-03 18:51:03,562 - page.home_test - INFO - [home_test.py:203] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/continue_watching.html
+2026-03-03 18:51:03,562 - page.home_test - INFO - [home_test.py:43] - 开始测试 MORE 页面元素: continue_watching
+2026-03-03 18:51:03,575 - page.home_test - INFO - [home_test.py:49] - 找到 8 个剧集条目
+2026-03-03 18:51:03,578 - page.home_test - INFO - [home_test.py:58] - 测试剧集 1
+2026-03-03 18:51:03,854 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 1
+2026-03-03 18:51:07,448 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:51:07,662 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 1 后)
+2026-03-03 18:51:11,183 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:51:11,183 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:51:13,197 - page.home_test - INFO - [home_test.py:58] - 测试剧集 2
+2026-03-03 18:51:13,472 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 2
+2026-03-03 18:51:16,494 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:51:16,716 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 2 后)
+2026-03-03 18:51:20,239 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:51:20,240 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:51:22,256 - page.home_test - INFO - [home_test.py:58] - 测试剧集 3
+2026-03-03 18:51:22,528 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 3
+2026-03-03 18:51:25,548 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:51:25,765 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 3 后)
+2026-03-03 18:51:29,293 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:51:29,293 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:51:31,307 - page.home_test - INFO - [home_test.py:58] - 测试剧集 4
+2026-03-03 18:51:31,572 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 4
+2026-03-03 18:51:34,593 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:51:34,811 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 4 后)
+2026-03-03 18:51:38,337 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:51:38,338 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:51:40,353 - page.home_test - INFO - [home_test.py:58] - 测试剧集 5
+2026-03-03 18:51:40,619 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 5
+2026-03-03 18:51:43,639 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:51:43,857 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 5 后)
+2026-03-03 18:51:47,382 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:51:47,382 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:51:49,395 - page.home_test - INFO - [home_test.py:58] - 测试剧集 6
+2026-03-03 18:51:49,660 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 6
+2026-03-03 18:51:52,681 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:51:52,901 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 6 后)
+2026-03-03 18:51:56,408 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:51:56,408 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:51:58,422 - page.home_test - INFO - [home_test.py:58] - 测试剧集 7
+2026-03-03 18:51:58,688 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 7
+2026-03-03 18:52:01,698 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:52:01,907 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 7 后)
+2026-03-03 18:52:05,437 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:52:05,438 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:52:07,451 - page.home_test - INFO - [home_test.py:58] - 测试剧集 8
+2026-03-03 18:52:07,718 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 8
+2026-03-03 18:52:10,739 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:52:10,959 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 8 后)
+2026-03-03 18:52:14,485 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:52:14,485 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:52:16,486 - page.home_test - INFO - [home_test.py:102] - MORE 页面元素测试完成: continue_watching
+2026-03-03 18:52:16,486 - page.home_test - INFO - [home_test.py:106] - 从 MORE 页面返回首页
+2026-03-03 18:52:16,762 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-03 18:52:16,762 - page.home_test - INFO - [home_test.py:111] - 成功通过返回按钮返回首页
+2026-03-03 18:52:18,788 - page.home_test - INFO - [home_test.py:176] - 测试定位器: best_first_drama, 值: div:nth-of-type(5) .gap-md > div:first-child img
+2026-03-03 18:52:19,083 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(5) .gap-md > div:first-child img
+2026-03-03 18:52:19,083 - page.home_test - INFO - [home_test.py:183] - 成功点击定位器: best_first_drama
+2026-03-03 18:52:22,102 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:52:22,321 - page.home_test - INFO - [home_test.py:215] - 成功进入播放器页面
+2026-03-03 18:52:25,851 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:52:25,851 - page.home_test - INFO - [home_test.py:222] - 通过后退按钮返回首页
+2026-03-03 18:52:27,875 - page.home_test - INFO - [home_test.py:176] - 测试定位器: eastern_legends_first_drama, 值: div:nth-of-type(6) .gap-md > div:first-child img
+2026-03-03 18:52:28,153 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(6) .gap-md > div:first-child img
+2026-03-03 18:52:28,154 - page.home_test - INFO - [home_test.py:183] - 成功点击定位器: eastern_legends_first_drama
+2026-03-03 18:52:31,176 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:52:31,391 - page.home_test - INFO - [home_test.py:215] - 成功进入播放器页面
+2026-03-03 18:52:34,923 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:52:34,923 - page.home_test - INFO - [home_test.py:222] - 通过后退按钮返回首页
+2026-03-03 18:52:36,945 - page.home_test - INFO - [home_test.py:176] - 测试定位器: eastern_legends_more, 值: div:nth-of-type(6) span
+2026-03-03 18:52:37,228 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(6) span
+2026-03-03 18:52:37,228 - page.home_test - INFO - [home_test.py:183] - 成功点击定位器: eastern_legends_more
+2026-03-03 18:52:40,233 - page.home_test - INFO - [home_test.py:190] - 等待 eastern_legends_more 页面完全打开
+2026-03-03 18:52:42,254 - page.home_test - INFO - [home_test.py:203] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/eastern_legends.html
+2026-03-03 18:52:42,254 - page.home_test - INFO - [home_test.py:43] - 开始测试 MORE 页面元素: eastern_legends
+2026-03-03 18:52:42,268 - page.home_test - INFO - [home_test.py:49] - 找到 12 个剧集条目
+2026-03-03 18:52:42,271 - page.home_test - INFO - [home_test.py:58] - 测试剧集 1
+2026-03-03 18:52:42,537 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 1
+2026-03-03 18:52:45,556 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:52:45,776 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 1 后)
+2026-03-03 18:52:49,297 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:52:49,297 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:52:51,311 - page.home_test - INFO - [home_test.py:58] - 测试剧集 2
+2026-03-03 18:52:51,584 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 2
+2026-03-03 18:52:54,612 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:52:54,835 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 2 后)
+2026-03-03 18:52:58,373 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:52:58,373 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:53:00,388 - page.home_test - INFO - [home_test.py:58] - 测试剧集 3
+2026-03-03 18:53:00,658 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 3
+2026-03-03 18:53:03,664 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:53:03,879 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 3 后)
+2026-03-03 18:53:07,408 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:53:07,408 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:53:09,424 - page.home_test - INFO - [home_test.py:58] - 测试剧集 4
+2026-03-03 18:53:09,691 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 4
+2026-03-03 18:53:12,696 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:53:12,904 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 4 后)
+2026-03-03 18:53:16,437 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:53:16,437 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:53:18,452 - page.home_test - INFO - [home_test.py:58] - 测试剧集 5
+2026-03-03 18:53:18,718 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 5
+2026-03-03 18:53:21,727 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:53:21,943 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 5 后)
+2026-03-03 18:53:25,463 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:53:25,463 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:53:27,477 - page.home_test - INFO - [home_test.py:58] - 测试剧集 6
+2026-03-03 18:53:27,750 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 6
+2026-03-03 18:53:30,760 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:53:30,975 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 6 后)
+2026-03-03 18:53:34,486 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:53:34,486 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:53:36,500 - page.home_test - INFO - [home_test.py:58] - 测试剧集 7
+2026-03-03 18:53:36,772 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 7
+2026-03-03 18:53:39,792 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:53:40,011 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 7 后)
+2026-03-03 18:53:43,488 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:53:43,489 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:53:45,504 - page.home_test - INFO - [home_test.py:58] - 测试剧集 8
+2026-03-03 18:53:45,778 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 8
+2026-03-03 18:53:48,800 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:53:49,023 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 8 后)
+2026-03-03 18:53:52,534 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:53:52,534 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:53:54,547 - page.home_test - INFO - [home_test.py:58] - 测试剧集 9
+2026-03-03 18:53:54,812 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 9
+2026-03-03 18:53:57,828 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:53:58,042 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 9 后)
+2026-03-03 18:54:01,565 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:54:01,565 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:54:03,580 - page.home_test - INFO - [home_test.py:58] - 测试剧集 10
+2026-03-03 18:54:03,861 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 10
+2026-03-03 18:54:06,881 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:54:07,097 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 10 后)
+2026-03-03 18:54:10,617 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:54:10,617 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:54:12,632 - page.home_test - INFO - [home_test.py:58] - 测试剧集 11
+2026-03-03 18:54:12,905 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 11
+2026-03-03 18:54:15,921 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:54:16,139 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 11 后)
+2026-03-03 18:54:19,650 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:54:19,651 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:54:21,664 - page.home_test - INFO - [home_test.py:58] - 测试剧集 12
+2026-03-03 18:54:21,933 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 12
+2026-03-03 18:54:24,950 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:54:25,166 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 12 后)
+2026-03-03 18:54:28,687 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:54:28,687 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:54:30,692 - page.home_test - INFO - [home_test.py:102] - MORE 页面元素测试完成: eastern_legends
+2026-03-03 18:54:30,693 - page.home_test - INFO - [home_test.py:106] - 从 MORE 页面返回首页
+2026-03-03 18:54:30,969 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-03 18:54:30,969 - page.home_test - INFO - [home_test.py:111] - 成功通过返回按钮返回首页
+2026-03-03 18:54:32,998 - page.home_test - INFO - [home_test.py:176] - 测试定位器: queens_revenge_first_drama, 值: div:nth-of-type(7) .gap-md > div:first-child img
+2026-03-03 18:54:33,300 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(7) .gap-md > div:first-child img
+2026-03-03 18:54:33,300 - page.home_test - INFO - [home_test.py:183] - 成功点击定位器: queens_revenge_first_drama
+2026-03-03 18:54:36,319 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:54:36,540 - page.home_test - INFO - [home_test.py:215] - 成功进入播放器页面
+2026-03-03 18:54:40,066 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:54:40,066 - page.home_test - INFO - [home_test.py:222] - 通过后退按钮返回首页
+2026-03-03 18:54:42,089 - page.home_test - INFO - [home_test.py:176] - 测试定位器: queens_revenge_more, 值: div:nth-of-type(7) span
+2026-03-03 18:54:42,375 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(7) span
+2026-03-03 18:54:42,375 - page.home_test - INFO - [home_test.py:183] - 成功点击定位器: queens_revenge_more
+2026-03-03 18:54:45,380 - page.home_test - INFO - [home_test.py:190] - 等待 queens_revenge_more 页面完全打开
+2026-03-03 18:54:47,398 - page.home_test - INFO - [home_test.py:203] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/queens_revenge.html
+2026-03-03 18:54:47,399 - page.home_test - INFO - [home_test.py:43] - 开始测试 MORE 页面元素: queens_revenge
+2026-03-03 18:54:47,411 - page.home_test - INFO - [home_test.py:49] - 找到 8 个剧集条目
+2026-03-03 18:54:47,414 - page.home_test - INFO - [home_test.py:58] - 测试剧集 1
+2026-03-03 18:54:47,675 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 1
+2026-03-03 18:54:50,696 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:54:50,916 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 1 后)
+2026-03-03 18:54:54,434 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:54:54,434 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:54:56,449 - page.home_test - INFO - [home_test.py:58] - 测试剧集 2
+2026-03-03 18:54:56,726 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 2
+2026-03-03 18:54:59,732 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:54:59,941 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 2 后)
+2026-03-03 18:55:03,464 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:55:03,465 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:55:05,477 - page.home_test - INFO - [home_test.py:58] - 测试剧集 3
+2026-03-03 18:55:05,751 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 3
+2026-03-03 18:55:08,771 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:55:08,989 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 3 后)
+2026-03-03 18:55:12,507 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:55:12,507 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:55:14,520 - page.home_test - INFO - [home_test.py:58] - 测试剧集 4
+2026-03-03 18:55:14,793 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 4
+2026-03-03 18:55:17,804 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:55:18,013 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 4 后)
+2026-03-03 18:55:21,524 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:55:21,524 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:55:23,542 - page.home_test - INFO - [home_test.py:58] - 测试剧集 5
+2026-03-03 18:55:23,813 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 5
+2026-03-03 18:55:26,830 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:55:27,046 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 5 后)
+2026-03-03 18:55:30,566 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:55:30,566 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:55:32,580 - page.home_test - INFO - [home_test.py:58] - 测试剧集 6
+2026-03-03 18:55:32,848 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 6
+2026-03-03 18:55:35,867 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:55:36,088 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 6 后)
+2026-03-03 18:55:39,549 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:55:39,549 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:55:41,562 - page.home_test - INFO - [home_test.py:58] - 测试剧集 7
+2026-03-03 18:55:41,835 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 7
+2026-03-03 18:55:44,848 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:55:45,066 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 7 后)
+2026-03-03 18:55:48,615 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:55:48,615 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:55:50,635 - page.home_test - INFO - [home_test.py:58] - 测试剧集 8
+2026-03-03 18:55:50,922 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 8
+2026-03-03 18:55:53,946 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:55:54,178 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 8 后)
+2026-03-03 18:55:57,721 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:55:57,722 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:55:59,732 - page.home_test - INFO - [home_test.py:102] - MORE 页面元素测试完成: queens_revenge
+2026-03-03 18:55:59,733 - page.home_test - INFO - [home_test.py:106] - 从 MORE 页面返回首页
+2026-03-03 18:55:59,967 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-03 18:55:59,967 - page.home_test - INFO - [home_test.py:111] - 成功通过返回按钮返回首页
+2026-03-03 18:56:01,997 - page.home_test - INFO - [home_test.py:176] - 测试定位器: bossy_ceo_first_drama, 值: div:nth-of-type(8) .gap-md > div:first-child img
+2026-03-03 18:56:02,311 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(8) .gap-md > div:first-child img
+2026-03-03 18:56:02,311 - page.home_test - INFO - [home_test.py:183] - 成功点击定位器: bossy_ceo_first_drama
+2026-03-03 18:56:05,335 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:56:05,556 - page.home_test - INFO - [home_test.py:215] - 成功进入播放器页面
+2026-03-03 18:56:09,102 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:56:09,102 - page.home_test - INFO - [home_test.py:222] - 通过后退按钮返回首页
+2026-03-03 18:56:11,137 - page.home_test - INFO - [home_test.py:176] - 测试定位器: bossy_ceo_more, 值: div:nth-of-type(8) span
+2026-03-03 18:56:11,432 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(8) span
+2026-03-03 18:56:11,433 - page.home_test - INFO - [home_test.py:183] - 成功点击定位器: bossy_ceo_more
+2026-03-03 18:56:14,443 - page.home_test - INFO - [home_test.py:190] - 等待 bossy_ceo_more 页面完全打开
+2026-03-03 18:56:16,458 - page.home_test - INFO - [home_test.py:203] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/bossy_ceo.html
+2026-03-03 18:56:16,459 - page.home_test - INFO - [home_test.py:43] - 开始测试 MORE 页面元素: bossy_ceo
+2026-03-03 18:56:16,474 - page.home_test - INFO - [home_test.py:49] - 找到 12 个剧集条目
+2026-03-03 18:56:16,477 - page.home_test - INFO - [home_test.py:58] - 测试剧集 1
+2026-03-03 18:56:16,761 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 1
+2026-03-03 18:56:19,784 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:56:20,007 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 1 后)
+2026-03-03 18:56:23,508 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:56:23,508 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:56:25,523 - page.home_test - INFO - [home_test.py:58] - 测试剧集 2
+2026-03-03 18:56:25,802 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 2
+2026-03-03 18:56:28,820 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:56:29,047 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 2 后)
+2026-03-03 18:56:32,590 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:56:32,590 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:56:34,609 - page.home_test - INFO - [home_test.py:58] - 测试剧集 3
+2026-03-03 18:56:34,875 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 3
+2026-03-03 18:56:37,893 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:56:38,117 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 3 后)
+2026-03-03 18:56:41,662 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:56:41,663 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:56:43,681 - page.home_test - INFO - [home_test.py:58] - 测试剧集 4
+2026-03-03 18:56:43,961 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 4
+2026-03-03 18:56:46,985 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:56:47,208 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 4 后)
+2026-03-03 18:56:50,760 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:56:50,760 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:56:52,776 - page.home_test - INFO - [home_test.py:58] - 测试剧集 5
+2026-03-03 18:56:53,059 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 5
+2026-03-03 18:56:56,259 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:56:56,484 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 5 后)
+2026-03-03 18:57:00,016 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:57:00,017 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:57:02,029 - page.home_test - INFO - [home_test.py:58] - 测试剧集 6
+2026-03-03 18:57:02,307 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 6
+2026-03-03 18:57:05,329 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:57:05,546 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 6 后)
+2026-03-03 18:57:09,091 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:57:09,092 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:57:11,111 - page.home_test - INFO - [home_test.py:58] - 测试剧集 7
+2026-03-03 18:57:11,388 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 7
+2026-03-03 18:57:14,412 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:57:14,635 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 7 后)
+2026-03-03 18:57:18,169 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:57:18,169 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:57:20,189 - page.home_test - INFO - [home_test.py:58] - 测试剧集 8
+2026-03-03 18:57:20,468 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 8
+2026-03-03 18:57:23,478 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:57:23,694 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 8 后)
+2026-03-03 18:57:27,238 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:57:27,238 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:57:29,258 - page.home_test - INFO - [home_test.py:58] - 测试剧集 9
+2026-03-03 18:57:29,532 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 9
+2026-03-03 18:57:32,556 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:57:32,779 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 9 后)
+2026-03-03 18:57:36,325 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:57:36,325 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:57:38,344 - page.home_test - INFO - [home_test.py:58] - 测试剧集 10
+2026-03-03 18:57:38,623 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 10
+2026-03-03 18:57:41,639 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:57:41,857 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 10 后)
+2026-03-03 18:57:45,391 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:57:45,391 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:57:47,406 - page.home_test - INFO - [home_test.py:58] - 测试剧集 11
+2026-03-03 18:57:47,689 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 11
+2026-03-03 18:57:51,409 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:57:51,631 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 11 后)
+2026-03-03 18:57:55,169 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:57:55,169 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:57:57,189 - page.home_test - INFO - [home_test.py:58] - 测试剧集 12
+2026-03-03 18:57:57,469 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 12
+2026-03-03 18:58:00,496 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:58:00,720 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 12 后)
+2026-03-03 18:58:04,265 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:58:04,265 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:58:06,276 - page.home_test - INFO - [home_test.py:102] - MORE 页面元素测试完成: bossy_ceo
+2026-03-03 18:58:06,276 - page.home_test - INFO - [home_test.py:106] - 从 MORE 页面返回首页
+2026-03-03 18:58:06,552 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-03 18:58:06,552 - page.home_test - INFO - [home_test.py:111] - 成功通过返回按钮返回首页
+2026-03-03 18:58:08,580 - page.home_test - INFO - [home_test.py:176] - 测试定位器: return_of_god_of_war_first_drama, 值: div:nth-of-type(9) .gap-md > div:first-child img
+2026-03-03 18:58:08,892 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(9) .gap-md > div:first-child img
+2026-03-03 18:58:08,892 - page.home_test - INFO - [home_test.py:183] - 成功点击定位器: return_of_god_of_war_first_drama
+2026-03-03 18:58:11,918 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:58:12,148 - page.home_test - INFO - [home_test.py:215] - 成功进入播放器页面
+2026-03-03 18:58:15,694 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:58:15,694 - page.home_test - INFO - [home_test.py:222] - 通过后退按钮返回首页
+2026-03-03 18:58:17,727 - page.home_test - INFO - [home_test.py:176] - 测试定位器: return_of_god_of_war_more, 值: div:nth-of-type(9) span
+2026-03-03 18:58:18,022 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(9) span
+2026-03-03 18:58:18,022 - page.home_test - INFO - [home_test.py:183] - 成功点击定位器: return_of_god_of_war_more
+2026-03-03 18:58:21,033 - page.home_test - INFO - [home_test.py:190] - 等待 return_of_god_of_war_more 页面完全打开
+2026-03-03 18:58:23,054 - page.home_test - INFO - [home_test.py:203] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/return_of_god_of_war.html
+2026-03-03 18:58:23,054 - page.home_test - INFO - [home_test.py:43] - 开始测试 MORE 页面元素: return_of_god_of_war
+2026-03-03 18:58:23,070 - page.home_test - INFO - [home_test.py:49] - 找到 12 个剧集条目
+2026-03-03 18:58:23,073 - page.home_test - INFO - [home_test.py:58] - 测试剧集 1
+2026-03-03 18:58:23,341 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 1
+2026-03-03 18:58:26,351 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:58:26,566 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 1 后)
+2026-03-03 18:58:30,100 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:58:30,100 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:58:32,118 - page.home_test - INFO - [home_test.py:58] - 测试剧集 2
+2026-03-03 18:58:32,403 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 2
+2026-03-03 18:58:35,416 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:58:35,638 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 2 后)
+2026-03-03 18:58:39,174 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:58:39,174 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:58:41,187 - page.home_test - INFO - [home_test.py:58] - 测试剧集 3
+2026-03-03 18:58:41,470 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 3
+2026-03-03 18:58:44,492 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:58:44,721 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 3 后)
+2026-03-03 18:58:48,253 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:58:48,253 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:58:50,272 - page.home_test - INFO - [home_test.py:58] - 测试剧集 4
+2026-03-03 18:58:50,548 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 4
+2026-03-03 18:58:53,568 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:58:53,779 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 4 后)
+2026-03-03 18:58:57,310 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:58:57,311 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:58:59,330 - page.home_test - INFO - [home_test.py:58] - 测试剧集 5
+2026-03-03 18:58:59,605 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 5
+2026-03-03 18:59:03,006 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:59:03,227 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 5 后)
+2026-03-03 18:59:06,760 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:59:06,761 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:59:08,777 - page.home_test - INFO - [home_test.py:58] - 测试剧集 6
+2026-03-03 18:59:09,058 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 6
+2026-03-03 18:59:12,085 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:59:12,316 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 6 后)
+2026-03-03 18:59:15,814 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:59:15,815 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:59:17,834 - page.home_test - INFO - [home_test.py:58] - 测试剧集 7
+2026-03-03 18:59:18,111 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 7
+2026-03-03 18:59:21,128 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:59:21,348 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 7 后)
+2026-03-03 18:59:24,871 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:59:24,871 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:59:26,891 - page.home_test - INFO - [home_test.py:58] - 测试剧集 8
+2026-03-03 18:59:27,167 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 8
+2026-03-03 18:59:30,185 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:59:30,407 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 8 后)
+2026-03-03 18:59:33,945 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:59:33,946 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:59:35,965 - page.home_test - INFO - [home_test.py:58] - 测试剧集 9
+2026-03-03 18:59:36,251 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 9
+2026-03-03 18:59:39,271 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:59:39,499 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 9 后)
+2026-03-03 18:59:43,049 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:59:43,050 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:59:45,069 - page.home_test - INFO - [home_test.py:58] - 测试剧集 10
+2026-03-03 18:59:45,341 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 10
+2026-03-03 18:59:48,363 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:59:48,577 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 10 后)
+2026-03-03 18:59:52,109 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 18:59:52,109 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 18:59:54,128 - page.home_test - INFO - [home_test.py:58] - 测试剧集 11
+2026-03-03 18:59:54,414 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 11
+2026-03-03 18:59:57,426 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 18:59:57,644 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 11 后)
+2026-03-03 19:00:01,192 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 19:00:01,193 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 19:00:03,213 - page.home_test - INFO - [home_test.py:58] - 测试剧集 12
+2026-03-03 19:00:03,498 - page.home_test - INFO - [home_test.py:62] - 成功点击剧集 12
+2026-03-03 19:00:06,523 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-03 19:00:06,749 - page.home_test - INFO - [home_test.py:70] - 成功进入播放器页面 (点击剧集 12 后)
+2026-03-03 19:00:10,285 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-03 19:00:10,285 - page.home_test - INFO - [home_test.py:79] - 从播放器返回到 MORE 页面
+2026-03-03 19:00:12,295 - page.home_test - INFO - [home_test.py:102] - MORE 页面元素测试完成: return_of_god_of_war
+2026-03-03 19:00:12,296 - page.home_test - INFO - [home_test.py:106] - 从 MORE 页面返回首页
+2026-03-03 19:00:12,531 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-03 19:00:12,531 - page.home_test - INFO - [home_test.py:111] - 成功通过返回按钮返回首页
+2026-03-03 19:00:14,564 - page.home_test - INFO - [home_test.py:241] - 首页所有定位器测试完成
+2026-03-03 19:00:14,613 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-03 19:00:14,667 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 31075, 名称: Python

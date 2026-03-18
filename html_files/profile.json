@@ -1,0 +1,86 @@
+{
+    "title": "2026/2/25 09:41:22 录制的内容",
+    "steps": [
+        {
+            "type": "emulateNetworkConditions",
+            "download": 180000,
+            "upload": 84375,
+            "latency": 562.5
+        },
+        {
+            "type": "setViewport",
+            "width": 1182,
+            "height": 1200,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.relative > div > div.gap-xl img"
+                ]
+            ],
+            "offsetY": 13.265625,
+            "offsetX": 19.5234375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.px-xl > div:nth-of-type(2) > div"
+                ]
+            ],
+            "offsetY": 32.90625,
+            "offsetX": 55.5
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(1) > span"
+                ]
+            ],
+            "offsetY": 29.84375,
+            "offsetX": 184.9375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.items-stretch > div:nth-of-type(2) > span"
+                ]
+            ],
+            "offsetY": 26.4453125,
+            "offsetX": 68.9375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(3) > span"
+                ]
+            ],
+            "offsetY": 36.046875,
+            "offsetX": 119.9375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(4) > span"
+                ]
+            ],
+            "offsetY": 7.6484375,
+            "offsetX": 31.9375
+        }
+    ]
+}

@@ -1,0 +1,895 @@
+2026-02-28 10:08:41,611 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 10:08:41,656 - page.base - INFO - 发现占用端口 9223 的进程: PID 4794, 名称: Google
+2026-02-28 10:08:41,656 - page.base - INFO - 已发送SIGTERM信号给进程 PID 4794
+2026-02-28 10:08:43,663 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 10:08:43,699 - page.base - INFO - 端口 9223 未被占用
+2026-02-28 10:08:54,982 - page.base - INFO - 启动为移动端模拟模式
+2026-02-28 10:08:54,984 - page.base - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 10:08:56,014 - page.player_pytest - INFO - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 10:08:58,044 - components.DramaHomeComponent - INFO - 所有关键元素加载完成
+2026-02-28 10:08:59,048 - page.player_pytest - INFO - 剧首页元素加载完成
+2026-02-28 10:09:00,219 - utils.page_actions - INFO - 成功点击元素: div.button-primary
+2026-02-28 10:09:00,220 - page.player_pytest - INFO - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 10:09:05,226 - page.player_pytest - INFO - 播放器加载完成
+2026-02-28 10:09:05,228 - page.base - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 10:09:05,230 - page.player_pytest - INFO - 测试暂停和播放功能
+2026-02-28 10:09:05,253 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:09:06,197 - page.player_pytest - INFO - 唤起播放器菜单操作成功
+2026-02-28 10:09:06,700 - page.player_pytest - INFO - 播放器菜单未打开，尝试打开菜单
+2026-02-28 10:09:06,714 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:09:07,170 - page.player_pytest - INFO - 播放器菜单打开成功
+2026-02-28 10:09:07,183 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:09:08,157 - page.player_pytest - INFO - 执行暂停操作操作成功
+2026-02-28 10:09:13,173 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:09:14,139 - page.player_pytest - INFO - 继续播放操作操作成功
+2026-02-28 10:09:24,656 - page.player_pytest - INFO - 播放器菜单未打开，尝试打开菜单
+2026-02-28 10:09:24,670 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:09:25,137 - page.player_pytest - INFO - 播放器菜单打开成功
+2026-02-28 10:09:25,143 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:09:26,103 - page.player_pytest - INFO - 再次执行暂停操作操作成功
+2026-02-28 10:09:31,153 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 10:09:31,208 - page.base - INFO - 发现占用端口 9223 的进程: PID 15285, 名称: Python
+2026-02-28 10:15:34,036 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 10:15:34,080 - page.base - INFO - 发现占用端口 9223 的进程: PID 15295, 名称: Google
+2026-02-28 10:15:34,081 - page.base - INFO - 已发送SIGTERM信号给进程 PID 15295
+2026-02-28 10:15:36,089 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 10:15:36,199 - page.base - INFO - 端口 9223 未被占用
+2026-02-28 10:15:42,093 - page.base - INFO - 启动为移动端模拟模式
+2026-02-28 10:15:42,098 - page.base - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 10:15:42,702 - page.player_pytest - INFO - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 10:15:45,252 - components.DramaHomeComponent - INFO - 所有关键元素加载完成
+2026-02-28 10:15:46,254 - page.player_pytest - INFO - 剧首页元素加载完成
+2026-02-28 10:15:46,510 - utils.page_actions - INFO - 成功点击元素: div.button-primary
+2026-02-28 10:15:46,510 - page.player_pytest - INFO - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 10:15:51,511 - page.player_pytest - INFO - 播放器加载完成
+2026-02-28 10:15:51,514 - page.base - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 10:15:51,517 - page.player_pytest - INFO - 测试暂停和播放功能
+2026-02-28 10:15:51,545 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:15:52,513 - page.player_pytest - INFO - 唤起播放器菜单操作成功
+2026-02-28 10:15:53,020 - page.player_pytest - INFO - 播放器菜单未打开，尝试打开菜单
+2026-02-28 10:15:53,034 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:15:53,490 - page.player_pytest - INFO - 播放器菜单打开成功
+2026-02-28 10:15:53,506 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:15:54,487 - page.player_pytest - INFO - 执行暂停操作操作成功
+2026-02-28 10:15:59,504 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:16:00,468 - page.player_pytest - INFO - 继续播放操作操作成功
+2026-02-28 10:16:10,975 - page.player_pytest - INFO - 播放器菜单未打开，尝试打开菜单
+2026-02-28 10:16:10,986 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:16:11,450 - page.player_pytest - INFO - 播放器菜单打开成功
+2026-02-28 10:16:11,454 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:16:12,407 - page.player_pytest - INFO - 再次执行暂停操作操作成功
+2026-02-28 10:16:17,449 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 10:16:17,544 - page.base - INFO - 发现占用端口 9223 的进程: PID 15575, 名称: Python
+2026-02-28 10:18:05,515 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 10:18:05,563 - page.base - INFO - 发现占用端口 9223 的进程: PID 15584, 名称: Google
+2026-02-28 10:18:05,564 - page.base - INFO - 已发送SIGTERM信号给进程 PID 15584
+2026-02-28 10:18:07,574 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 10:18:07,838 - page.base - INFO - 端口 9223 未被占用
+2026-02-28 10:18:14,275 - page.base - INFO - 启动为移动端模拟模式
+2026-02-28 10:18:14,278 - page.base - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 10:18:14,907 - page.player_pytest - INFO - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 10:18:17,208 - components.DramaHomeComponent - INFO - 所有关键元素加载完成
+2026-02-28 10:18:18,213 - page.player_pytest - INFO - 剧首页元素加载完成
+2026-02-28 10:18:18,470 - utils.page_actions - INFO - 成功点击元素: div.button-primary
+2026-02-28 10:18:18,471 - page.player_pytest - INFO - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 10:18:23,476 - page.player_pytest - INFO - 播放器加载完成
+2026-02-28 10:18:23,478 - page.base - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 10:18:23,481 - page.player_pytest - INFO - 测试暂停和播放功能
+2026-02-28 10:18:23,502 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:18:24,479 - page.player_pytest - INFO - 唤起播放器菜单操作成功
+2026-02-28 10:18:24,985 - page.player_pytest - INFO - 播放器菜单未打开，尝试打开菜单
+2026-02-28 10:18:24,998 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:18:25,450 - page.player_pytest - INFO - 播放器菜单打开成功
+2026-02-28 10:18:25,478 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:18:26,450 - page.player_pytest - INFO - 执行暂停操作操作成功
+2026-02-28 10:18:31,466 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:18:32,437 - page.player_pytest - INFO - 继续播放操作操作成功
+2026-02-28 10:18:42,940 - page.player_pytest - INFO - 播放器菜单未打开，尝试打开菜单
+2026-02-28 10:18:42,953 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:18:43,409 - page.player_pytest - INFO - 播放器菜单打开成功
+2026-02-28 10:18:43,415 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:18:44,383 - page.player_pytest - INFO - 再次执行暂停操作操作成功
+2026-02-28 10:18:49,431 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 10:18:49,544 - page.base - INFO - 发现占用端口 9223 的进程: PID 15684, 名称: Python
+2026-02-28 10:35:20,691 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 10:35:20,741 - page.base - INFO - 发现占用端口 9223 的进程: PID 15694, 名称: Google
+2026-02-28 10:35:20,742 - page.base - INFO - 已发送SIGTERM信号给进程 PID 15694
+2026-02-28 10:35:22,745 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 10:35:22,782 - page.base - INFO - 端口 9223 未被占用
+2026-02-28 10:35:28,007 - page.base - INFO - 启动为移动端模拟模式
+2026-02-28 10:35:28,010 - page.base - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 10:35:28,588 - page.player_pytest - INFO - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 10:35:31,428 - components.DramaHomeComponent - INFO - 所有关键元素加载完成
+2026-02-28 10:35:32,434 - page.player_pytest - INFO - 剧首页元素加载完成
+2026-02-28 10:35:32,693 - utils.page_actions - INFO - 成功点击元素: div.button-primary
+2026-02-28 10:35:32,694 - page.player_pytest - INFO - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 10:35:37,699 - page.player_pytest - INFO - 播放器加载完成
+2026-02-28 10:35:37,701 - page.base - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 10:35:37,703 - page.player_pytest - INFO - 测试暂停和播放功能
+2026-02-28 10:35:37,724 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:35:38,682 - page.player_pytest - INFO - 唤起播放器菜单操作成功
+2026-02-28 10:35:39,183 - page.player_pytest - INFO - 播放器菜单未打开，尝试打开菜单
+2026-02-28 10:35:39,194 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:35:39,654 - page.player_pytest - INFO - 播放器菜单打开成功
+2026-02-28 10:35:39,672 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:35:40,646 - page.player_pytest - INFO - 执行暂停操作操作成功
+2026-02-28 10:35:45,660 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:35:46,628 - page.player_pytest - INFO - 继续播放操作操作成功
+2026-02-28 10:35:57,135 - page.player_pytest - INFO - 播放器菜单未打开，尝试打开菜单
+2026-02-28 10:35:57,139 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:35:57,593 - page.player_pytest - INFO - 播放器菜单打开成功
+2026-02-28 10:35:57,597 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:35:58,558 - page.player_pytest - INFO - 再次执行暂停操作操作成功
+2026-02-28 10:36:03,565 - page.player_pytest - INFO - 测试完成，执行清理操作
+2026-02-28 10:36:03,595 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 10:36:03,662 - page.base - INFO - 发现占用端口 9223 的进程: PID 15953, 名称: Python
+2026-02-28 10:39:02,608 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 10:39:02,646 - page.base - INFO - 发现占用端口 9223 的进程: PID 15965, 名称: Google
+2026-02-28 10:39:02,647 - page.base - INFO - 已发送SIGTERM信号给进程 PID 15965
+2026-02-28 10:39:04,792 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 10:39:04,824 - page.base - INFO - 端口 9223 未被占用
+2026-02-28 10:45:03,763 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 10:45:03,795 - page.base - INFO - 端口 9223 未被占用
+2026-02-28 10:45:03,796 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 10:45:03,815 - page.base - INFO - 端口 9223 未被占用
+2026-02-28 10:45:10,260 - page.base - INFO - 启动为移动端模拟模式
+2026-02-28 10:45:10,262 - page.base - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 10:45:10,986 - page.player_pytest - INFO - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 10:45:13,013 - components.DramaHomeComponent - INFO - 所有关键元素加载完成
+2026-02-28 10:45:14,018 - page.player_pytest - INFO - 剧首页元素加载完成
+2026-02-28 10:45:14,763 - utils.page_actions - INFO - 成功点击元素: div.button-primary
+2026-02-28 10:45:14,764 - page.player_pytest - INFO - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 10:45:19,768 - page.player_pytest - INFO - 播放器加载完成
+2026-02-28 10:45:19,771 - page.base - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 10:45:19,774 - page.player_pytest - INFO - 测试暂停和播放功能
+2026-02-28 10:45:19,792 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:45:20,744 - page.player_pytest - INFO - 唤起播放器菜单操作成功
+2026-02-28 10:45:21,254 - page.player_pytest - INFO - 播放器菜单未打开，尝试打开菜单
+2026-02-28 10:45:21,265 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:45:21,722 - page.player_pytest - INFO - 播放器菜单打开成功
+2026-02-28 10:45:21,732 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:45:22,699 - page.player_pytest - INFO - 执行暂停操作操作成功
+2026-02-28 10:45:27,714 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:45:28,674 - page.player_pytest - INFO - 继续播放操作操作成功
+2026-02-28 10:45:39,179 - page.player_pytest - INFO - 播放器菜单未打开，尝试打开菜单
+2026-02-28 10:45:39,192 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:45:39,660 - page.player_pytest - INFO - 播放器菜单打开成功
+2026-02-28 10:45:39,665 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:45:40,624 - page.player_pytest - INFO - 再次执行暂停操作操作成功
+2026-02-28 10:45:45,634 - page.player_pytest - INFO - 测试完成，执行清理操作
+2026-02-28 10:45:45,674 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 10:45:45,751 - page.base - INFO - 发现占用端口 9223 的进程: PID 16251, 名称: Python
+2026-02-28 10:50:38,042 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 10:50:38,082 - page.base - INFO - 发现占用端口 9223 的进程: PID 16259, 名称: Google
+2026-02-28 10:50:38,082 - page.base - INFO - 已发送SIGTERM信号给进程 PID 16259
+2026-02-28 10:50:40,090 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 10:50:40,117 - page.base - INFO - 端口 9223 未被占用
+2026-02-28 10:50:44,259 - page.base - INFO - 启动为移动端模拟模式
+2026-02-28 10:50:44,265 - page.base - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 10:50:45,817 - page.player_pytest - INFO - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 10:50:48,258 - components.DramaHomeComponent - INFO - 所有关键元素加载完成
+2026-02-28 10:50:49,260 - page.player_pytest - INFO - 剧首页元素加载完成
+2026-02-28 10:50:49,526 - utils.page_actions - INFO - 成功点击元素: div.button-primary
+2026-02-28 10:50:49,527 - page.player_pytest - INFO - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 10:50:54,532 - page.player_pytest - INFO - 播放器加载完成
+2026-02-28 10:50:54,534 - page.base - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 10:50:54,536 - page.player_pytest - INFO - 测试暂停和播放功能
+2026-02-28 10:50:54,554 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:50:55,516 - page.player_pytest - INFO - 唤起播放器菜单操作成功
+2026-02-28 10:50:56,021 - page.player_pytest - INFO - 播放器菜单未打开，尝试打开菜单
+2026-02-28 10:50:56,034 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:50:56,489 - page.player_pytest - INFO - 播放器菜单打开成功
+2026-02-28 10:50:56,502 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:50:57,471 - page.player_pytest - INFO - 执行暂停操作操作成功
+2026-02-28 10:51:02,486 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:51:03,454 - page.player_pytest - INFO - 继续播放操作操作成功
+2026-02-28 10:51:13,970 - page.player_pytest - INFO - 播放器菜单未打开，尝试打开菜单
+2026-02-28 10:51:13,986 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:51:14,455 - page.player_pytest - INFO - 播放器菜单打开成功
+2026-02-28 10:51:14,463 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:51:15,424 - page.player_pytest - INFO - 再次执行暂停操作操作成功
+2026-02-28 10:51:20,464 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 10:51:20,557 - page.base - INFO - 发现占用端口 9223 的进程: PID 16456, 名称: Python
+2026-02-28 10:52:12,337 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 10:52:12,376 - page.base - INFO - 发现占用端口 9223 的进程: PID 16471, 名称: Google
+2026-02-28 10:52:12,376 - page.base - INFO - 已发送SIGTERM信号给进程 PID 16471
+2026-02-28 10:52:14,385 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 10:52:14,430 - page.base - INFO - 端口 9223 未被占用
+2026-02-28 10:52:19,049 - page.base - INFO - 启动为移动端模拟模式
+2026-02-28 10:52:19,051 - page.base - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 10:52:19,628 - page.player_pytest - INFO - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 10:52:21,918 - components.DramaHomeComponent - INFO - 所有关键元素加载完成
+2026-02-28 10:52:22,923 - page.player_pytest - INFO - 剧首页元素加载完成
+2026-02-28 10:52:23,183 - utils.page_actions - INFO - 成功点击元素: div.button-primary
+2026-02-28 10:52:23,184 - page.player_pytest - INFO - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 10:52:28,185 - page.player_pytest - INFO - 播放器加载完成
+2026-02-28 10:52:28,188 - page.base - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 10:52:28,192 - page.player_pytest - INFO - 测试暂停和播放功能
+2026-02-28 10:52:28,214 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:52:29,174 - page.player_pytest - INFO - 唤起播放器菜单操作成功
+2026-02-28 10:52:29,676 - page.player_pytest - INFO - 播放器菜单未打开，尝试打开菜单
+2026-02-28 10:52:29,686 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:52:30,148 - page.player_pytest - INFO - 播放器菜单打开成功
+2026-02-28 10:52:30,163 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:52:31,143 - page.player_pytest - INFO - 执行暂停操作操作成功
+2026-02-28 10:52:36,164 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:52:37,129 - page.player_pytest - INFO - 继续播放操作操作成功
+2026-02-28 10:52:47,637 - page.player_pytest - INFO - 播放器菜单未打开，尝试打开菜单
+2026-02-28 10:52:47,651 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:52:48,110 - page.player_pytest - INFO - 播放器菜单打开成功
+2026-02-28 10:52:48,116 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 10:52:49,078 - page.player_pytest - INFO - 再次执行暂停操作操作成功
+2026-02-28 10:52:54,111 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 10:52:54,162 - page.base - INFO - 发现占用端口 9223 的进程: PID 16557, 名称: Python
+2026-02-28 13:43:24,488 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 13:43:24,527 - page.base - INFO - 发现占用端口 9223 的进程: PID 16566, 名称: Google
+2026-02-28 13:43:24,527 - page.base - INFO - 已发送SIGTERM信号给进程 PID 16566
+2026-02-28 13:43:26,533 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 13:43:26,570 - page.base - INFO - 端口 9223 未被占用
+2026-02-28 13:43:34,079 - page.base - INFO - 启动为移动端模拟模式
+2026-02-28 13:43:34,081 - page.base - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 13:43:35,205 - page.player_pytest - INFO - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 13:43:37,260 - components.DramaHomeComponent - INFO - 所有关键元素加载完成
+2026-02-28 13:43:38,266 - page.player_pytest - INFO - 剧首页元素加载完成
+2026-02-28 13:43:39,432 - utils.page_actions - INFO - 成功点击元素: div.button-primary
+2026-02-28 13:43:39,433 - page.player_pytest - INFO - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 13:43:44,438 - page.player_pytest - INFO - 播放器加载完成
+2026-02-28 13:43:44,440 - page.base - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 13:43:44,442 - page.player_pytest - INFO - 测试暂停和播放功能
+2026-02-28 13:43:44,463 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 13:43:45,435 - page.player_pytest - INFO - 唤起播放器菜单操作成功
+2026-02-28 13:43:45,942 - page.player_pytest - INFO - 播放器菜单未打开，尝试打开菜单
+2026-02-28 13:43:45,954 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 13:43:46,414 - page.player_pytest - INFO - 播放器菜单打开成功
+2026-02-28 13:43:46,427 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 13:43:47,402 - page.player_pytest - INFO - 执行暂停操作操作成功
+2026-02-28 13:43:52,418 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 13:43:53,387 - page.player_pytest - INFO - 继续播放操作操作成功
+2026-02-28 13:44:03,897 - page.player_pytest - INFO - 播放器菜单未打开，尝试打开菜单
+2026-02-28 13:44:03,908 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 13:44:04,361 - page.player_pytest - INFO - 播放器菜单打开成功
+2026-02-28 13:44:04,370 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 13:44:05,340 - page.player_pytest - INFO - 再次执行暂停操作操作成功
+2026-02-28 13:44:10,373 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 13:44:10,441 - page.base - INFO - 发现占用端口 9223 的进程: PID 18785, 名称: Python
+2026-02-28 13:45:46,188 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 13:45:46,223 - page.base - INFO - 发现占用端口 9223 的进程: PID 18797, 名称: Google
+2026-02-28 13:45:46,224 - page.base - INFO - 已发送SIGTERM信号给进程 PID 18797
+2026-02-28 13:45:48,268 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 13:45:48,297 - page.base - INFO - 端口 9223 未被占用
+2026-02-28 13:47:50,581 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 13:47:50,607 - page.base - INFO - 端口 9223 未被占用
+2026-02-28 13:47:50,621 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 13:47:50,641 - page.base - INFO - 端口 9223 未被占用
+2026-02-28 13:50:09,939 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 13:50:09,967 - page.base - INFO - 端口 9223 未被占用
+2026-02-28 13:50:09,968 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 13:50:09,986 - page.base - INFO - 端口 9223 未被占用
+2026-02-28 13:50:15,236 - page.base - INFO - 启动为移动端模拟模式
+2026-02-28 13:50:15,239 - page.base - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 13:50:15,800 - page.player_pytest - INFO - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 13:50:17,813 - components.DramaHomeComponent - INFO - 所有关键元素加载完成
+2026-02-28 13:50:18,818 - page.player_pytest - INFO - 剧首页元素加载完成
+2026-02-28 13:50:19,072 - utils.page_actions - INFO - 成功点击元素: div.button-primary
+2026-02-28 13:50:19,072 - page.player_pytest - INFO - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 13:50:24,072 - page.player_pytest - INFO - 播放器加载完成
+2026-02-28 13:50:24,074 - page.base - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 13:50:24,231 - page.player_pytest - INFO - 所有测试完成，执行清理操作
+2026-02-28 13:50:24,255 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 13:50:24,334 - page.base - INFO - 发现占用端口 9223 的进程: PID 19008, 名称: Python
+2026-02-28 13:51:20,937 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 13:51:20,975 - page.base - INFO - 发现占用端口 9223 的进程: PID 19016, 名称: Google
+2026-02-28 13:51:20,975 - page.base - INFO - 已发送SIGTERM信号给进程 PID 19016
+2026-02-28 13:51:22,988 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 13:51:23,026 - page.base - INFO - 端口 9223 未被占用
+2026-02-28 13:51:27,529 - page.base - INFO - 启动为移动端模拟模式
+2026-02-28 13:51:27,531 - page.base - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 13:51:28,099 - page.player_pytest - INFO - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 13:51:30,350 - components.DramaHomeComponent - INFO - 所有关键元素加载完成
+2026-02-28 13:51:31,354 - page.player_pytest - INFO - 剧首页元素加载完成
+2026-02-28 13:51:31,616 - utils.page_actions - INFO - 成功点击元素: div.button-primary
+2026-02-28 13:51:31,617 - page.player_pytest - INFO - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 13:51:36,622 - page.player_pytest - INFO - 播放器加载完成
+2026-02-28 13:51:36,624 - page.base - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 13:51:36,742 - page.player_pytest - INFO - 所有测试完成，执行清理操作
+2026-02-28 13:51:36,755 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 13:51:36,821 - page.base - INFO - 发现占用端口 9223 的进程: PID 19138, 名称: Python
+2026-02-28 13:53:29,629 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 13:53:29,675 - page.base - INFO - 发现占用端口 9223 的进程: PID 19149, 名称: Google
+2026-02-28 13:53:29,675 - page.base - INFO - 已发送SIGTERM信号给进程 PID 19149
+2026-02-28 13:53:31,795 - page.player_pytest - INFO - 所有测试完成，执行清理操作
+2026-02-28 13:53:31,795 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 13:53:31,819 - page.base - INFO - 端口 9223 未被占用
+2026-02-28 13:57:58,528 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 13:57:58,560 - page.base - INFO - 端口 9223 未被占用
+2026-02-28 13:57:58,561 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 13:57:58,581 - page.base - INFO - 端口 9223 未被占用
+2026-02-28 13:58:02,627 - page.base - INFO - 启动为移动端模拟模式
+2026-02-28 13:58:03,036 - page.base - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 13:58:04,591 - page.player_pytest - INFO - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 13:58:07,394 - components.DramaHomeComponent - INFO - 所有关键元素加载完成
+2026-02-28 13:58:08,395 - page.player_pytest - INFO - 剧首页元素加载完成
+2026-02-28 13:58:08,649 - utils.page_actions - INFO - 成功点击元素: div.button-primary
+2026-02-28 13:58:08,650 - page.player_pytest - INFO - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 13:58:13,652 - page.player_pytest - INFO - 播放器加载完成
+2026-02-28 13:58:13,653 - page.base - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 13:58:13,835 - page.player_pytest - INFO - 所有测试完成，执行清理操作
+2026-02-28 13:58:13,849 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 13:58:13,928 - page.base - INFO - 发现占用端口 9223 的进程: PID 19320, 名称: Python
+2026-02-28 14:01:01,213 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 14:01:01,252 - page.base - INFO - 发现占用端口 9223 的进程: PID 19328, 名称: Google
+2026-02-28 14:01:01,253 - page.base - INFO - 已发送SIGTERM信号给进程 PID 19328
+2026-02-28 14:01:03,396 - page.player_pytest - INFO - 所有测试完成，执行清理操作
+2026-02-28 14:01:03,396 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 14:01:03,423 - page.base - INFO - 端口 9223 未被占用
+2026-02-28 14:04:52,851 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 14:04:52,882 - page.base - INFO - 端口 9223 未被占用
+2026-02-28 14:04:52,882 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 14:04:52,902 - page.base - INFO - 端口 9223 未被占用
+2026-02-28 14:04:58,249 - page.base - INFO - 启动为移动端模拟模式
+2026-02-28 14:04:58,255 - page.base - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 14:04:59,514 - page.player_pytest - INFO - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 14:05:02,740 - components.DramaHomeComponent - INFO - 所有关键元素加载完成
+2026-02-28 14:05:03,745 - page.player_pytest - INFO - 剧首页元素加载完成
+2026-02-28 14:05:04,003 - utils.page_actions - INFO - 成功点击元素: div.button-primary
+2026-02-28 14:05:04,004 - page.player_pytest - INFO - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 14:05:09,009 - page.player_pytest - INFO - 播放器加载完成
+2026-02-28 14:05:09,010 - page.base - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 14:05:09,012 - page.player_pytest - INFO - 测试暂停和播放功能
+2026-02-28 14:05:09,028 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 14:05:09,972 - page.player_pytest - INFO - 唤起播放器菜单操作成功
+2026-02-28 14:05:10,477 - page.player_pytest - INFO - 播放器菜单未打开，尝试打开菜单
+2026-02-28 14:05:10,488 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 14:05:10,942 - page.player_pytest - INFO - 播放器菜单打开成功
+2026-02-28 14:05:10,958 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 14:05:11,937 - page.player_pytest - INFO - 执行暂停操作操作成功
+2026-02-28 14:05:16,981 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 14:05:17,939 - page.player_pytest - INFO - 继续播放操作操作成功
+2026-02-28 14:05:28,446 - page.player_pytest - INFO - 播放器菜单未打开，尝试打开菜单
+2026-02-28 14:05:28,458 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 14:05:28,917 - page.player_pytest - INFO - 播放器菜单打开成功
+2026-02-28 14:05:28,923 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 14:05:29,865 - page.player_pytest - INFO - 再次执行暂停操作操作成功
+2026-02-28 14:05:36,287 - page.player_pytest - INFO - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 14:05:38,314 - components.DramaHomeComponent - INFO - 所有关键元素加载完成
+2026-02-28 14:05:39,319 - page.player_pytest - INFO - 剧首页元素加载完成
+2026-02-28 14:05:39,569 - utils.page_actions - INFO - 成功点击元素: div.button-primary
+2026-02-28 14:05:39,570 - page.player_pytest - INFO - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 14:05:44,570 - page.player_pytest - INFO - 播放器加载完成
+2026-02-28 14:05:44,572 - page.base - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 14:05:44,573 - page.player_pytest - INFO - 测试打开首页功能
+2026-02-28 14:05:44,589 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 14:05:45,544 - page.player_pytest - INFO - 播放器菜单未打开，尝试打开菜单
+2026-02-28 14:05:45,553 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 14:05:46,006 - page.player_pytest - INFO - 播放器菜单打开成功
+2026-02-28 14:06:06,010 - utils.page_actions - WARNING - 元素等待超时：css:.line-clamp-1.flex-1.text-xxl
+2026-02-28 14:06:06,010 - components.PlayerIconComponent - WARNING - 方法未找到元素，返回 None
+2026-02-28 14:06:07,438 - page.player_pytest - INFO - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 14:06:09,460 - components.DramaHomeComponent - INFO - 所有关键元素加载完成
+2026-02-28 14:06:10,465 - page.player_pytest - INFO - 剧首页元素加载完成
+2026-02-28 14:06:10,706 - utils.page_actions - INFO - 成功点击元素: div.button-primary
+2026-02-28 14:06:10,707 - page.player_pytest - INFO - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 14:06:15,708 - page.player_pytest - INFO - 播放器加载完成
+2026-02-28 14:06:15,710 - page.base - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 14:06:15,710 - page.player_pytest - INFO - 测试打开聚合页-简介功能
+2026-02-28 14:06:16,214 - page.player_pytest - INFO - 播放器菜单未打开，尝试打开菜单
+2026-02-28 14:06:16,231 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 14:06:16,680 - page.player_pytest - INFO - 播放器菜单打开成功
+2026-02-28 14:06:16,681 - page.player_pytest - INFO - 尝试打开聚合页-简介
+2026-02-28 14:06:17,148 - page.player_pytest - INFO - 播放器聚合页打开成功
+2026-02-28 14:06:17,589 - page.player_pytest - INFO - 检查并处理可能的浮层
+2026-02-28 14:06:17,590 - page.player_pytest - INFO - 发现浮层，尝试点击关闭
+2026-02-28 14:06:17,592 - utils.page_actions - INFO - 成功点击坐标(250, 161.2265625)
+2026-02-28 14:06:17,592 - utils.page_actions - INFO - 点击浮层顶部向上40像素位置(250, 161.2265625)关闭浮层
+2026-02-28 14:06:28,604 - page.player_pytest - ERROR - 等待浮层关闭超时
+2026-02-28 14:06:29,949 - page.player_pytest - INFO - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 14:06:31,968 - components.DramaHomeComponent - INFO - 所有关键元素加载完成
+2026-02-28 14:06:32,972 - page.player_pytest - INFO - 剧首页元素加载完成
+2026-02-28 14:06:33,220 - utils.page_actions - INFO - 成功点击元素: div.button-primary
+2026-02-28 14:06:33,220 - page.player_pytest - INFO - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 14:06:38,222 - page.player_pytest - INFO - 播放器加载完成
+2026-02-28 14:06:38,223 - page.base - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 14:06:38,224 - page.player_pytest - INFO - 测试打开聚合页-目录功能
+2026-02-28 14:06:38,242 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 14:06:39,195 - page.player_pytest - INFO - 播放器菜单未打开，尝试打开菜单
+2026-02-28 14:06:39,205 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 14:06:39,659 - page.player_pytest - INFO - 播放器菜单打开成功
+2026-02-28 14:06:59,674 - utils.page_actions - WARNING - 元素等待超时：css:.px-xl.flex.justify-between.items-center.line-height-3em.gap-sm.rounded-md.text-lg
+2026-02-28 14:06:59,676 - components.PlayerIconComponent - WARNING - 方法未找到元素，返回 None
+2026-02-28 14:07:01,242 - page.player_pytest - INFO - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 14:07:03,268 - components.DramaHomeComponent - INFO - 所有关键元素加载完成
+2026-02-28 14:07:04,273 - page.player_pytest - INFO - 剧首页元素加载完成
+2026-02-28 14:07:04,520 - utils.page_actions - INFO - 成功点击元素: div.button-primary
+2026-02-28 14:07:04,520 - page.player_pytest - INFO - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 14:07:09,525 - page.player_pytest - INFO - 播放器加载完成
+2026-02-28 14:07:09,527 - page.base - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 14:07:09,528 - page.player_pytest - INFO - 测试静音和恢复静音功能
+2026-02-28 14:07:10,034 - page.player_pytest - INFO - 播放器菜单未打开，尝试打开菜单
+2026-02-28 14:07:10,053 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 14:07:10,505 - page.player_pytest - INFO - 播放器菜单打开成功
+2026-02-28 14:07:10,506 - page.player_pytest - INFO - 检查当前静音状态
+2026-02-28 14:07:30,740 - utils.page_actions - WARNING - 元素等待超时：css:.flex-1.text-xxl .icon-svg.color-danger
+2026-02-28 14:07:30,741 - components.PlayerIconComponent - WARNING - 方法未找到元素，返回 None
+2026-02-28 14:07:30,741 - page.player_pytest - INFO - 当前为未静音状态，将先执行静音操作
+2026-02-28 14:07:30,741 - page.player_pytest - INFO - 执行静音操作
+2026-02-28 14:07:30,980 - page.player_pytest - INFO - 静音成功，等待5秒
+2026-02-28 14:07:31,714 - page.player_pytest - INFO - 播放器菜单未打开，尝试打开菜单
+2026-02-28 14:07:31,726 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 14:07:32,182 - page.player_pytest - INFO - 播放器菜单打开成功
+2026-02-28 14:07:32,182 - page.player_pytest - INFO - 执行取消静音操作
+2026-02-28 14:07:52,192 - utils.page_actions - WARNING - 元素等待超时：css:.flex-1.text-xxl .icon-svg.color-danger
+2026-02-28 14:07:52,192 - components.PlayerIconComponent - WARNING - 方法未找到元素，返回 None
+2026-02-28 14:07:55,146 - page.player_pytest - INFO - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 14:07:57,175 - components.DramaHomeComponent - INFO - 所有关键元素加载完成
+2026-02-28 14:07:58,180 - page.player_pytest - INFO - 剧首页元素加载完成
+2026-02-28 14:07:58,427 - utils.page_actions - INFO - 成功点击元素: div.button-primary
+2026-02-28 14:07:58,427 - page.player_pytest - INFO - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 14:08:03,433 - page.player_pytest - INFO - 播放器加载完成
+2026-02-28 14:08:03,435 - page.base - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 14:08:03,435 - page.player_pytest - INFO - 测试收藏和取消收藏功能
+2026-02-28 14:08:03,936 - page.player_pytest - INFO - 播放器菜单未打开，尝试打开菜单
+2026-02-28 14:08:03,958 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 14:08:04,413 - page.player_pytest - INFO - 播放器菜单打开成功
+2026-02-28 14:08:04,413 - page.player_pytest - INFO - 检查当前收藏状态
+2026-02-28 14:08:24,661 - utils.page_actions - WARNING - 元素等待超时：css:.flex-1.text-xxl svg.icon-svg.color-primary:not(.icon)[fill]
+2026-02-28 14:08:24,661 - components.PlayerIconComponent - WARNING - 方法未找到元素，返回 None
+2026-02-28 14:08:24,661 - page.player_pytest - INFO - 当前为未收藏状态，将先执行收藏操作
+2026-02-28 14:08:24,662 - page.player_pytest - INFO - 执行收藏操作
+2026-02-28 14:08:24,900 - page.player_pytest - INFO - 收藏成功，等待3秒
+2026-02-28 14:08:26,356 - page.player_pytest - INFO - 播放器菜单未打开，尝试打开菜单
+2026-02-28 14:08:26,367 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 14:08:26,820 - page.player_pytest - INFO - 播放器菜单打开成功
+2026-02-28 14:08:26,820 - page.player_pytest - INFO - 执行取消收藏操作
+2026-02-28 14:08:27,276 - page.player_pytest - INFO - 取消收藏成功
+2026-02-28 14:08:27,496 - page.player_pytest - INFO - 收藏功能测试完成
+2026-02-28 14:08:29,718 - page.player_pytest - INFO - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 14:08:31,743 - components.DramaHomeComponent - INFO - 所有关键元素加载完成
+2026-02-28 14:08:32,747 - page.player_pytest - INFO - 剧首页元素加载完成
+2026-02-28 14:08:32,988 - utils.page_actions - INFO - 成功点击元素: div.button-primary
+2026-02-28 14:08:32,988 - page.player_pytest - INFO - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 14:08:37,994 - page.player_pytest - INFO - 播放器加载完成
+2026-02-28 14:08:37,995 - page.base - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 14:08:37,996 - page.player_pytest - INFO - 测试视频质量和播放速度切换功能
+2026-02-28 14:08:38,016 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 14:08:38,979 - page.player_pytest - INFO - 播放器菜单未打开，尝试打开菜单
+2026-02-28 14:08:38,989 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 14:08:39,444 - page.player_pytest - INFO - 播放器菜单打开成功
+2026-02-28 14:08:59,460 - utils.page_actions - WARNING - 元素等待超时：css:.flex-1.text-xxl svg.icon-svg.icon[fill]
+2026-02-28 14:08:59,462 - components.PlayerIconComponent - ERROR - 无法定位播放器菜单元素
+2026-02-28 14:08:59,462 - components.PlayerIconComponent - ERROR - 播放器菜单元素未找到
+2026-02-28 14:08:59,462 - components.PlayerIconComponent - ERROR - 元素等待失败：
+播放器菜单元素未找到
+Version: 4.1.1.2
+2026-02-28 14:09:00,891 - page.player_pytest - INFO - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 14:09:02,919 - components.DramaHomeComponent - INFO - 所有关键元素加载完成
+2026-02-28 14:09:03,920 - page.player_pytest - INFO - 剧首页元素加载完成
+2026-02-28 14:09:04,165 - utils.page_actions - INFO - 成功点击元素: div.button-primary
+2026-02-28 14:09:04,166 - page.player_pytest - INFO - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 14:09:09,170 - page.player_pytest - INFO - 播放器加载完成
+2026-02-28 14:09:09,172 - page.base - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 14:09:09,176 - page.player_pytest - INFO - 测试退出播放器功能
+2026-02-28 14:09:09,677 - page.player_pytest - INFO - 播放器菜单未打开，尝试打开菜单
+2026-02-28 14:09:09,696 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 14:09:10,144 - page.player_pytest - INFO - 播放器菜单打开成功
+2026-02-28 14:09:10,145 - page.player_pytest - INFO - 执行退出播放器
+2026-02-28 14:09:30,629 - utils.page_actions - WARNING - 元素等待超时：css:.flex.items-center.justify-start.gap-sm >.icon-svg
+2026-02-28 14:09:30,632 - components.PlayerIconComponent - WARNING - 方法未找到元素，返回 None
+2026-02-28 14:09:30,633 - page.player_pytest - INFO - 执行退出播放器成功
+2026-02-28 14:09:30,679 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 14:09:30,741 - page.base - INFO - 发现占用端口 9223 的进程: PID 19507, 名称: Python
+2026-02-28 14:25:57,965 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 14:25:58,007 - page.base - INFO - 发现占用端口 9223 的进程: PID 19515, 名称: Google
+2026-02-28 14:25:58,007 - page.base - INFO - 已发送SIGTERM信号给进程 PID 19515
+2026-02-28 14:26:00,011 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 14:26:00,050 - page.base - INFO - 端口 9223 未被占用
+2026-02-28 14:26:06,625 - page.base - INFO - 启动为移动端模拟模式
+2026-02-28 14:26:06,627 - page.base - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 14:26:08,174 - page.player_pytest - INFO - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 14:26:10,722 - components.DramaHomeComponent - INFO - 所有关键元素加载完成
+2026-02-28 14:26:11,726 - page.player_pytest - INFO - 剧首页元素加载完成
+2026-02-28 14:26:11,989 - utils.page_actions - INFO - 成功点击元素: div.button-primary
+2026-02-28 14:26:11,990 - page.player_pytest - INFO - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 14:26:16,993 - page.player_pytest - INFO - 播放器加载完成
+2026-02-28 14:26:16,995 - page.base - INFO - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 14:26:16,997 - page.player_pytest - INFO - 测试打开首页功能
+2026-02-28 14:26:17,015 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 14:26:17,985 - page.player_pytest - INFO - 播放器菜单未打开，尝试打开菜单
+2026-02-28 14:26:17,995 - components.PlayerIconComponent - INFO - 成功定位当前激活slide的播放器
+2026-02-28 14:26:18,459 - page.player_pytest - INFO - 播放器菜单打开成功
+2026-02-28 14:26:38,466 - utils.page_actions - WARNING - 元素等待超时：css:.line-clamp-1.flex-1.text-xxl
+2026-02-28 14:26:38,467 - components.PlayerIconComponent - WARNING - 方法未找到元素，返回 None
+2026-02-28 14:26:38,550 - page.base - INFO - 检查并清理端口 9223...
+2026-02-28 14:26:38,686 - page.base - INFO - 发现占用端口 9223 的进程: PID 19944, 名称: Python
+2026-02-28 14:32:21,369 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 14:32:21,408 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 19954, 名称: Google
+2026-02-28 14:32:21,408 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 19954
+2026-02-28 14:32:23,416 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 14:32:23,463 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-02-28 14:32:28,159 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-02-28 14:32:28,160 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 14:32:28,801 - page.player_pytest - INFO - [player_pytest.py:31] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 14:32:31,722 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-02-28 14:32:32,723 - page.player_pytest - INFO - [player_pytest.py:36] - 剧首页元素加载完成
+2026-02-28 14:32:32,982 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-02-28 14:32:32,983 - page.player_pytest - INFO - [player_pytest.py:40] - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 14:32:37,988 - page.player_pytest - INFO - [player_pytest.py:44] - 播放器加载完成
+2026-02-28 14:32:37,990 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 14:32:37,992 - page.player_pytest - INFO - [player_pytest.py:178] - 测试打开首页功能
+2026-02-28 14:32:38,010 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-02-28 14:32:38,983 - page.player_pytest - INFO - [player_pytest.py:78] - 播放器菜单未打开，尝试打开菜单
+2026-02-28 14:32:38,998 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-02-28 14:32:39,457 - page.player_pytest - INFO - [player_pytest.py:82] - 播放器菜单打开成功
+2026-02-28 14:32:51,583 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 14:32:51,607 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-02-28 14:37:07,868 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 14:37:07,903 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-02-28 14:37:07,904 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 14:37:07,929 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-02-28 14:37:14,223 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-02-28 14:37:14,225 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 14:37:15,513 - page.player_pytest - INFO - [player_pytest.py:31] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 14:37:18,625 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-02-28 14:37:19,629 - page.player_pytest - INFO - [player_pytest.py:36] - 剧首页元素加载完成
+2026-02-28 14:37:19,887 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-02-28 14:37:19,889 - page.player_pytest - INFO - [player_pytest.py:40] - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 14:37:24,892 - page.player_pytest - INFO - [player_pytest.py:44] - 播放器加载完成
+2026-02-28 14:37:24,894 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 14:37:24,897 - page.player_pytest - INFO - [player_pytest.py:178] - 测试打开首页功能
+2026-02-28 14:37:24,915 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-02-28 14:37:25,852 - page.player_pytest - INFO - [player_pytest.py:192] - 打开首页成功
+2026-02-28 14:37:26,762 - components.PlayerIconComponent - ERROR - [decorators.py:139] - 元素等待异常: 
+The element object is invalid. This may be an overall refresh of the page, or a partial js refresh to replace or remove elements.
+Version: 4.1.1.2
+2026-02-28 14:37:26,762 - page.player_pytest - INFO - [player_pytest.py:210] - 退出首页成功
+2026-02-28 14:37:26,789 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 14:37:26,865 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 20215, 名称: Python
+2026-02-28 14:43:51,740 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 14:43:51,779 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 20230, 名称: Google
+2026-02-28 14:43:51,780 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 20230
+2026-02-28 14:43:53,787 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 14:43:53,823 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-02-28 14:44:09,208 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-02-28 14:44:09,210 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 14:44:10,455 - page.player_pytest - INFO - [player_pytest.py:31] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 14:44:12,680 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-02-28 14:44:13,685 - page.player_pytest - INFO - [player_pytest.py:36] - 剧首页元素加载完成
+2026-02-28 14:44:13,936 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-02-28 14:44:13,937 - page.player_pytest - INFO - [player_pytest.py:40] - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 14:44:18,942 - page.player_pytest - INFO - [player_pytest.py:44] - 播放器加载完成
+2026-02-28 14:44:18,944 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 14:44:18,946 - page.player_pytest - INFO - [player_pytest.py:180] - 测试打开首页功能
+2026-02-28 14:44:18,966 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-02-28 14:44:22,959 - page.player_pytest - INFO - [player_pytest.py:196] - 打开首页成功
+2026-02-28 14:44:23,851 - components.PlayerIconComponent - ERROR - [decorators.py:139] - 元素等待异常: 
+The element object is invalid. This may be an overall refresh of the page, or a partial js refresh to replace or remove elements.
+Version: 4.1.1.2
+2026-02-28 14:44:23,851 - page.player_pytest - INFO - [player_pytest.py:214] - 退出首页成功
+2026-02-28 14:44:23,864 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 14:44:23,923 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 20451, 名称: Python
+2026-02-28 14:45:11,380 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 14:45:11,412 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 20462, 名称: Google
+2026-02-28 14:45:11,412 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 20462
+2026-02-28 14:45:13,422 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 14:45:13,458 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-02-28 14:45:18,528 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-02-28 14:45:18,529 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 14:45:19,660 - page.player_pytest - INFO - [player_pytest.py:31] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 14:45:22,013 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-02-28 14:45:23,019 - page.player_pytest - INFO - [player_pytest.py:36] - 剧首页元素加载完成
+2026-02-28 14:45:23,277 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-02-28 14:45:23,278 - page.player_pytest - INFO - [player_pytest.py:40] - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 14:45:28,279 - page.player_pytest - INFO - [player_pytest.py:44] - 播放器加载完成
+2026-02-28 14:45:28,280 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 14:45:28,283 - page.player_pytest - INFO - [player_pytest.py:180] - 测试打开首页功能
+2026-02-28 14:45:28,300 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-02-28 14:45:32,277 - page.player_pytest - INFO - [player_pytest.py:196] - 打开首页成功
+2026-02-28 14:45:33,146 - components.PlayerIconComponent - ERROR - [decorators.py:139] - 元素等待异常: 
+The element object is invalid. This may be an overall refresh of the page, or a partial js refresh to replace or remove elements.
+Version: 4.1.1.2
+2026-02-28 14:45:33,146 - page.player_pytest - INFO - [player_pytest.py:214] - 退出首页成功
+2026-02-28 14:45:33,160 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 14:45:33,219 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 20533, 名称: Python
+2026-02-28 14:47:02,371 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 14:47:02,409 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 20542, 名称: Google
+2026-02-28 14:47:02,410 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 20542
+2026-02-28 14:47:04,415 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 14:47:04,459 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-02-28 14:47:09,259 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-02-28 14:47:09,264 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 14:47:09,872 - page.player_pytest - INFO - [player_pytest.py:31] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 14:47:12,782 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-02-28 14:47:13,787 - page.player_pytest - INFO - [player_pytest.py:36] - 剧首页元素加载完成
+2026-02-28 14:47:14,036 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-02-28 14:47:14,037 - page.player_pytest - INFO - [player_pytest.py:40] - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 14:47:19,042 - page.player_pytest - INFO - [player_pytest.py:44] - 播放器加载完成
+2026-02-28 14:47:19,044 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 14:47:19,046 - page.player_pytest - INFO - [player_pytest.py:180] - 测试打开首页功能
+2026-02-28 14:47:19,067 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-02-28 14:47:23,048 - page.player_pytest - INFO - [player_pytest.py:80] - 播放器菜单未打开，尝试打开菜单
+2026-02-28 14:47:23,059 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-02-28 14:47:23,512 - page.player_pytest - INFO - [player_pytest.py:84] - 播放器菜单打开成功
+2026-02-28 14:47:35,912 - page.player_pytest - INFO - [player_pytest.py:196] - 打开首页成功
+2026-02-28 14:47:39,772 - components.PlayerIconComponent - ERROR - [decorators.py:139] - 元素等待异常: 
+The element object is invalid. This may be an overall refresh of the page, or a partial js refresh to replace or remove elements.
+Version: 4.1.1.2
+2026-02-28 14:47:39,772 - page.player_pytest - INFO - [player_pytest.py:217] - 退出首页成功
+2026-02-28 14:47:39,799 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 14:47:39,869 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 20635, 名称: Python
+2026-02-28 14:49:00,464 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 14:49:00,503 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 20651, 名称: Google
+2026-02-28 14:49:00,504 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 20651
+2026-02-28 14:49:02,512 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 14:49:02,552 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-02-28 14:49:07,613 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-02-28 14:49:07,616 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 14:49:08,260 - page.player_pytest - INFO - [player_pytest.py:31] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 14:49:10,566 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-02-28 14:49:11,570 - page.player_pytest - INFO - [player_pytest.py:36] - 剧首页元素加载完成
+2026-02-28 14:49:11,834 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-02-28 14:49:11,835 - page.player_pytest - INFO - [player_pytest.py:40] - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 14:49:16,835 - page.player_pytest - INFO - [player_pytest.py:44] - 播放器加载完成
+2026-02-28 14:49:16,837 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 14:49:16,840 - page.player_pytest - INFO - [player_pytest.py:180] - 测试打开首页功能
+2026-02-28 14:49:16,859 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-02-28 14:49:25,830 - page.player_pytest - INFO - [player_pytest.py:80] - 播放器菜单未打开，尝试打开菜单
+2026-02-28 14:49:25,839 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-02-28 14:49:26,302 - page.player_pytest - INFO - [player_pytest.py:84] - 播放器菜单打开成功
+2026-02-28 14:49:46,317 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.line-clamp-1.flex-1.text-xxl
+2026-02-28 14:49:46,318 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-02-28 14:49:46,406 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 14:49:46,527 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 20741, 名称: Python
+2026-02-28 14:49:51,425 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 14:49:51,452 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 20756, 名称: Google
+2026-02-28 14:49:51,452 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 20756
+2026-02-28 14:49:53,459 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 14:49:53,493 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-02-28 14:49:57,373 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-02-28 14:49:57,376 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 14:49:58,658 - page.player_pytest - INFO - [player_pytest.py:31] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 14:50:00,909 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-02-28 14:50:01,915 - page.player_pytest - INFO - [player_pytest.py:36] - 剧首页元素加载完成
+2026-02-28 14:50:02,182 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-02-28 14:50:02,182 - page.player_pytest - INFO - [player_pytest.py:40] - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 14:50:07,188 - page.player_pytest - INFO - [player_pytest.py:44] - 播放器加载完成
+2026-02-28 14:50:07,190 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 14:50:07,192 - page.player_pytest - INFO - [player_pytest.py:180] - 测试打开首页功能
+2026-02-28 14:50:07,213 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-02-28 14:50:16,182 - page.player_pytest - INFO - [player_pytest.py:80] - 播放器菜单未打开，尝试打开菜单
+2026-02-28 14:50:16,192 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-02-28 14:50:16,665 - page.player_pytest - INFO - [player_pytest.py:84] - 播放器菜单打开成功
+2026-02-28 14:50:36,673 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.line-clamp-1.flex-1.text-xxl
+2026-02-28 14:50:36,674 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-02-28 14:50:36,774 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 14:50:36,823 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 20816, 名称: Python
+2026-02-28 14:51:42,034 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 14:51:42,070 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 20825, 名称: Google
+2026-02-28 14:51:42,070 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 20825
+2026-02-28 14:51:44,079 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 14:51:44,174 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-02-28 14:51:47,088 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-02-28 14:51:47,254 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 14:51:48,758 - page.player_pytest - INFO - [player_pytest.py:31] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 14:51:49,612 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 14:51:49,634 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-02-28 18:37:19,946 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 18:37:19,986 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-02-28 18:37:19,987 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 18:37:20,011 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-02-28 18:37:24,801 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-02-28 18:37:24,803 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 18:37:25,106 - page.player_pytest - INFO - [player_pytest.py:31] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 18:37:27,324 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-02-28 18:37:28,328 - page.player_pytest - INFO - [player_pytest.py:36] - 剧首页元素加载完成
+2026-02-28 18:37:28,559 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-02-28 18:37:28,560 - page.player_pytest - INFO - [player_pytest.py:40] - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 18:37:33,565 - page.player_pytest - INFO - [player_pytest.py:44] - 播放器加载完成
+2026-02-28 18:37:33,567 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 18:37:33,570 - page.player_pytest - INFO - [player_pytest.py:182] - 测试打开首页功能
+2026-02-28 18:37:33,593 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-02-28 18:37:42,557 - page.player_pytest - INFO - [player_pytest.py:82] - 播放器菜单未打开，尝试打开菜单
+2026-02-28 18:37:42,566 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-02-28 18:37:42,996 - page.player_pytest - INFO - [player_pytest.py:86] - 播放器菜单打开成功
+2026-02-28 18:38:03,004 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.line-clamp-1.flex-1.text-xxl
+2026-02-28 18:38:03,006 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-02-28 18:38:03,093 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 18:38:03,188 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 25037, 名称: Python
+2026-02-28 18:39:07,156 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 18:39:07,202 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 25052, 名称: Google
+2026-02-28 18:39:07,202 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 25052
+2026-02-28 18:39:09,205 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 18:39:09,226 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-02-28 18:39:12,448 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-02-28 18:39:12,449 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 18:39:12,782 - page.player_pytest - INFO - [player_pytest.py:31] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 18:39:14,814 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-02-28 18:39:15,817 - page.player_pytest - INFO - [player_pytest.py:36] - 剧首页元素加载完成
+2026-02-28 18:39:16,072 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-02-28 18:39:16,073 - page.player_pytest - INFO - [player_pytest.py:40] - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 18:39:21,079 - page.player_pytest - INFO - [player_pytest.py:44] - 播放器加载完成
+2026-02-28 18:39:21,082 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 18:39:21,085 - page.player_pytest - INFO - [player_pytest.py:183] - 测试打开首页功能
+2026-02-28 18:39:21,110 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-02-28 18:39:40,057 - page.player_pytest - INFO - [player_pytest.py:83] - 播放器菜单未打开，尝试打开菜单
+2026-02-28 18:39:40,063 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-02-28 18:39:40,362 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 18:39:40,388 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-02-28 18:47:52,899 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 18:47:52,927 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-02-28 18:47:52,928 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 18:47:52,947 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-02-28 18:47:58,145 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-02-28 18:47:58,147 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 18:47:58,486 - page.player_pytest - INFO - [player_pytest.py:31] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 18:48:00,521 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-02-28 18:48:01,526 - page.player_pytest - INFO - [player_pytest.py:36] - 剧首页元素加载完成
+2026-02-28 18:48:01,782 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-02-28 18:48:01,783 - page.player_pytest - INFO - [player_pytest.py:40] - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 18:48:06,785 - page.player_pytest - INFO - [player_pytest.py:44] - 播放器加载完成
+2026-02-28 18:48:06,786 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 18:48:06,787 - page.player_pytest - INFO - [player_pytest.py:184] - 测试打开首页功能
+2026-02-28 18:48:06,808 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:69] - 成功定位当前激活slide的播放器
+2026-02-28 18:48:26,316 - page.player_pytest - INFO - [player_pytest.py:84] - 播放器菜单未打开，尝试打开菜单
+2026-02-28 18:48:26,332 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:69] - 成功定位当前激活slide的播放器
+2026-02-28 18:48:26,777 - page.player_pytest - INFO - [player_pytest.py:88] - 播放器菜单打开成功
+2026-02-28 18:48:34,324 - page.player_pytest - INFO - [player_pytest.py:200] - 打开首页成功
+2026-02-28 18:48:37,342 - utils.page_actions - ERROR - [decorators.py:94] - 等待元素出现失败: 
+The connection to the page has been disconnected.
+Version: 4.1.1.2
+2026-02-28 18:48:37,343 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-02-28 18:48:37,860 - utils.page_actions - ERROR - [decorators.py:94] - 等待元素出现失败: 
+The connection to the page has been disconnected.
+Version: 4.1.1.2
+2026-02-28 18:48:37,860 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-02-28 18:48:38,376 - utils.page_actions - ERROR - [decorators.py:94] - 等待元素出现失败: 
+The connection to the page has been disconnected.
+Version: 4.1.1.2
+2026-02-28 18:48:38,376 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-02-28 18:48:38,891 - utils.page_actions - ERROR - [decorators.py:94] - 等待元素出现失败: 
+The connection to the page has been disconnected.
+Version: 4.1.1.2
+2026-02-28 18:48:38,891 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-02-28 18:48:39,408 - utils.page_actions - ERROR - [decorators.py:94] - 等待元素出现失败: 
+The connection to the page has been disconnected.
+Version: 4.1.1.2
+2026-02-28 18:48:39,408 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-02-28 18:48:39,923 - utils.page_actions - ERROR - [decorators.py:94] - 等待元素出现失败: 
+The connection to the page has been disconnected.
+Version: 4.1.1.2
+2026-02-28 18:48:39,924 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-02-28 18:48:40,437 - utils.page_actions - ERROR - [decorators.py:94] - 等待元素出现失败: 
+The connection to the page has been disconnected.
+Version: 4.1.1.2
+2026-02-28 18:48:40,437 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-02-28 18:48:40,954 - utils.page_actions - ERROR - [decorators.py:94] - 等待元素出现失败: 
+The connection to the page has been disconnected.
+Version: 4.1.1.2
+2026-02-28 18:48:40,954 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-02-28 18:48:41,471 - utils.page_actions - ERROR - [decorators.py:94] - 等待元素出现失败: 
+The connection to the page has been disconnected.
+Version: 4.1.1.2
+2026-02-28 18:48:41,472 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-02-28 18:48:41,989 - utils.page_actions - ERROR - [decorators.py:94] - 等待元素出现失败: 
+The connection to the page has been disconnected.
+Version: 4.1.1.2
+2026-02-28 18:48:41,989 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-02-28 18:48:42,234 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 18:48:42,262 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-02-28 18:49:39,038 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 18:49:39,069 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-02-28 18:49:39,070 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 18:49:39,089 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-02-28 18:49:43,563 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-02-28 18:49:43,564 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 18:49:43,892 - page.player_pytest - INFO - [player_pytest.py:31] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 18:49:45,905 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-02-28 18:49:46,909 - page.player_pytest - INFO - [player_pytest.py:36] - 剧首页元素加载完成
+2026-02-28 18:49:47,157 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-02-28 18:49:47,158 - page.player_pytest - INFO - [player_pytest.py:40] - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 18:49:52,163 - page.player_pytest - INFO - [player_pytest.py:44] - 播放器加载完成
+2026-02-28 18:49:52,164 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 18:49:52,166 - page.player_pytest - INFO - [player_pytest.py:184] - 测试打开首页功能
+2026-02-28 18:49:52,177 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:68] - 成功定位当前激活slide的播放器
+2026-02-28 18:50:11,648 - page.player_pytest - INFO - [player_pytest.py:84] - 播放器菜单未打开，尝试打开菜单
+2026-02-28 18:50:11,662 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:68] - 成功定位当前激活slide的播放器
+2026-02-28 18:50:12,122 - page.player_pytest - INFO - [player_pytest.py:88] - 播放器菜单打开成功
+2026-02-28 18:50:16,503 - page.player_pytest - INFO - [player_pytest.py:200] - 打开首页成功
+2026-02-28 18:50:20,345 - components.PlayerIconComponent - ERROR - [decorators.py:139] - 元素等待异常: 
+The element object is invalid. This may be an overall refresh of the page, or a partial js refresh to replace or remove elements.
+Version: 4.1.1.2
+2026-02-28 18:50:20,345 - page.player_pytest - INFO - [player_pytest.py:221] - 退出首页成功
+2026-02-28 18:50:20,365 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 18:50:20,449 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 25582, 名称: Python
+2026-02-28 18:52:33,293 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 18:52:33,338 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 25596, 名称: Google
+2026-02-28 18:52:33,338 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 25596
+2026-02-28 18:52:35,342 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 18:52:35,388 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-02-28 18:52:39,549 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-02-28 18:52:39,550 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 18:52:39,837 - page.player_pytest - INFO - [player_pytest.py:31] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 18:52:42,745 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-02-28 18:52:43,751 - page.player_pytest - INFO - [player_pytest.py:36] - 剧首页元素加载完成
+2026-02-28 18:52:44,004 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-02-28 18:52:44,004 - page.player_pytest - INFO - [player_pytest.py:40] - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 18:52:49,005 - page.player_pytest - INFO - [player_pytest.py:44] - 播放器加载完成
+2026-02-28 18:52:49,007 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 18:52:49,009 - page.player_pytest - INFO - [player_pytest.py:184] - 测试打开首页功能
+2026-02-28 18:52:49,030 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:69] - 成功定位当前激活slide的播放器
+2026-02-28 18:53:08,503 - page.player_pytest - INFO - [player_pytest.py:84] - 播放器菜单未打开，尝试打开菜单
+2026-02-28 18:53:08,520 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:69] - 成功定位当前激活slide的播放器
+2026-02-28 18:53:09,015 - page.player_pytest - INFO - [player_pytest.py:88] - 播放器菜单打开成功
+2026-02-28 18:53:29,021 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.line-clamp-1.flex-1.text-xxl
+2026-02-28 18:53:29,022 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-02-28 18:53:29,120 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 18:53:29,172 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 25675, 名称: Python
+2026-02-28 18:54:38,915 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 18:54:38,950 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 25690, 名称: Google
+2026-02-28 18:54:38,950 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 25690
+2026-02-28 18:54:40,957 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 18:54:40,991 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-02-28 18:54:43,291 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-02-28 18:54:43,295 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 18:54:43,686 - page.player_pytest - INFO - [player_pytest.py:31] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 18:54:45,700 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-02-28 18:54:46,701 - page.player_pytest - INFO - [player_pytest.py:36] - 剧首页元素加载完成
+2026-02-28 18:54:46,961 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-02-28 18:54:46,961 - page.player_pytest - INFO - [player_pytest.py:40] - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 18:54:51,965 - page.player_pytest - INFO - [player_pytest.py:44] - 播放器加载完成
+2026-02-28 18:54:51,967 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 18:54:51,969 - page.player_pytest - INFO - [player_pytest.py:184] - 测试打开首页功能
+2026-02-28 18:54:51,988 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-02-28 18:55:20,455 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：.flex.items-center.justify-start.gap-sm >.icon-svg
+2026-02-28 18:55:40,465 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：.flex.items-center.justify-start.gap-sm >.icon-svg
+2026-02-28 18:55:50,468 - page.player_pytest - INFO - [player_pytest.py:84] - 播放器菜单未打开，尝试打开菜单
+2026-02-28 18:55:50,481 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-02-28 18:55:50,934 - page.player_pytest - INFO - [player_pytest.py:88] - 播放器菜单打开成功
+2026-02-28 18:56:10,953 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.line-clamp-1.flex-1.text-xxl
+2026-02-28 18:56:10,957 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-02-28 18:56:11,094 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 18:56:11,152 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 25773, 名称: Python
+2026-02-28 18:56:49,106 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 18:56:49,138 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 25794, 名称: Google
+2026-02-28 18:56:49,138 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 25794
+2026-02-28 18:56:51,146 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 18:56:51,181 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-02-28 18:56:54,156 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-02-28 18:56:54,157 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 18:56:54,442 - page.player_pytest - INFO - [player_pytest.py:31] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 18:56:56,455 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-02-28 18:56:57,457 - page.player_pytest - INFO - [player_pytest.py:36] - 剧首页元素加载完成
+2026-02-28 18:56:57,703 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-02-28 18:56:57,703 - page.player_pytest - INFO - [player_pytest.py:40] - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 18:57:02,709 - page.player_pytest - INFO - [player_pytest.py:44] - 播放器加载完成
+2026-02-28 18:57:02,711 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 18:57:02,714 - page.player_pytest - INFO - [player_pytest.py:184] - 测试打开首页功能
+2026-02-28 18:57:02,736 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-02-28 18:57:11,693 - page.player_pytest - INFO - [player_pytest.py:200] - 打开首页成功
+2026-02-28 18:57:15,563 - components.PlayerIconComponent - ERROR - [decorators.py:139] - 元素等待异常: 
+The element object is invalid. This may be an overall refresh of the page, or a partial js refresh to replace or remove elements.
+Version: 4.1.1.2
+2026-02-28 18:57:15,563 - page.player_pytest - INFO - [player_pytest.py:221] - 退出首页成功
+2026-02-28 18:57:15,577 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 18:57:15,624 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 25881, 名称: Python
+2026-02-28 18:58:12,357 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 18:58:12,402 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 25896, 名称: Google
+2026-02-28 18:58:12,402 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 25896
+2026-02-28 18:58:14,409 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 18:58:14,445 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-02-28 18:58:18,371 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-02-28 18:58:18,374 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-28 18:58:18,647 - page.player_pytest - INFO - [player_pytest.py:31] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-02-28 18:58:20,678 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-02-28 18:58:21,681 - page.player_pytest - INFO - [player_pytest.py:36] - 剧首页元素加载完成
+2026-02-28 18:58:21,939 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-02-28 18:58:21,939 - page.player_pytest - INFO - [player_pytest.py:40] - 成功点击'去看剧'按钮，打开播放器
+2026-02-28 18:58:26,945 - page.player_pytest - INFO - [player_pytest.py:44] - 播放器加载完成
+2026-02-28 18:58:26,947 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607511654010880&from=content-detail&chapterIndex=8&free=1&pay=0
+2026-02-28 18:58:26,951 - page.player_pytest - INFO - [player_pytest.py:180] - 测试打开首页功能
+2026-02-28 18:58:26,971 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-02-28 18:58:35,935 - page.player_pytest - INFO - [player_pytest.py:196] - 打开首页成功
+2026-02-28 18:58:39,785 - components.PlayerIconComponent - ERROR - [decorators.py:139] - 元素等待异常: 
+The element object is invalid. This may be an overall refresh of the page, or a partial js refresh to replace or remove elements.
+Version: 4.1.1.2
+2026-02-28 18:58:39,785 - page.player_pytest - INFO - [player_pytest.py:217] - 退出首页成功
+2026-02-28 18:58:39,800 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-02-28 18:58:39,864 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 25969, 名称: Python

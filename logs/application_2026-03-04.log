@@ -1,0 +1,1170 @@
+2026-03-04 09:44:09,499 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 09:44:09,537 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 31089, 名称: Google
+2026-03-04 09:44:09,537 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 31089
+2026-03-04 09:44:11,543 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 09:44:11,582 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-04 09:44:15,112 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-04 09:44:15,112 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-04 09:44:15,936 - page.home_test - INFO - [home_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-04 09:44:20,844 - page.home_test - INFO - [home_test.py:36] - 首页轮播图加载完成
+2026-03-04 09:44:20,848 - page.home_test - INFO - [home_test.py:171] - 开始测试首页所有定位器
+2026-03-04 09:44:20,848 - page.home_test - INFO - [home_test.py:179] - 测试定位器: continue_watching_first_drama, 值: div:nth-of-type(4) .gap-md > div:first-child img
+2026-03-04 09:44:21,093 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(4) .gap-md > div:first-child img
+2026-03-04 09:44:21,093 - page.home_test - INFO - [home_test.py:186] - 成功点击定位器: continue_watching_first_drama
+2026-03-04 09:44:24,109 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:44:24,329 - page.home_test - INFO - [home_test.py:218] - 成功进入播放器页面
+2026-03-04 09:44:27,852 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:44:27,852 - page.home_test - INFO - [home_test.py:225] - 通过后退按钮返回首页
+2026-03-04 09:44:29,867 - page.home_test - INFO - [home_test.py:179] - 测试定位器: continue_watching_more, 值: div:nth-of-type(4) span
+2026-03-04 09:44:30,109 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(4) span
+2026-03-04 09:44:30,110 - page.home_test - INFO - [home_test.py:186] - 成功点击定位器: continue_watching_more
+2026-03-04 09:44:33,115 - page.home_test - INFO - [home_test.py:193] - 等待 continue_watching_more 页面完全打开
+2026-03-04 09:44:35,132 - page.home_test - INFO - [home_test.py:206] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/continue_watching.html
+2026-03-04 09:44:35,133 - page.home_test - INFO - [home_test.py:43] - 开始测试 MORE 页面元素: continue_watching
+2026-03-04 09:44:35,146 - page.home_test - INFO - [home_test.py:52] - 找到 8 个剧集条目
+2026-03-04 09:44:35,149 - page.home_test - INFO - [home_test.py:61] - 测试剧集 1
+2026-03-04 09:44:35,433 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 1
+2026-03-04 09:44:38,455 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:44:38,673 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 1 后)
+2026-03-04 09:44:42,197 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:44:42,198 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:44:44,212 - page.home_test - INFO - [home_test.py:61] - 测试剧集 2
+2026-03-04 09:44:44,474 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 2
+2026-03-04 09:44:47,496 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:44:47,715 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 2 后)
+2026-03-04 09:44:51,213 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:44:51,213 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:44:53,228 - page.home_test - INFO - [home_test.py:61] - 测试剧集 3
+2026-03-04 09:44:53,494 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 3
+2026-03-04 09:44:56,515 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:44:56,736 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 3 后)
+2026-03-04 09:45:00,252 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:45:00,252 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:45:02,265 - page.home_test - INFO - [home_test.py:61] - 测试剧集 4
+2026-03-04 09:45:02,536 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 4
+2026-03-04 09:45:05,558 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:45:05,776 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 4 后)
+2026-03-04 09:45:09,300 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:45:09,300 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:45:11,313 - page.home_test - INFO - [home_test.py:61] - 测试剧集 5
+2026-03-04 09:45:11,581 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 5
+2026-03-04 09:45:14,600 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:45:14,819 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 5 后)
+2026-03-04 09:45:18,352 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:45:18,352 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:45:20,366 - page.home_test - INFO - [home_test.py:61] - 测试剧集 6
+2026-03-04 09:45:20,633 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 6
+2026-03-04 09:45:23,653 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:45:23,871 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 6 后)
+2026-03-04 09:45:27,396 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:45:27,396 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:45:29,409 - page.home_test - INFO - [home_test.py:61] - 测试剧集 7
+2026-03-04 09:45:29,675 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 7
+2026-03-04 09:45:32,696 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:45:32,914 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 7 后)
+2026-03-04 09:45:36,436 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:45:36,436 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:45:38,450 - page.home_test - INFO - [home_test.py:61] - 测试剧集 8
+2026-03-04 09:45:38,721 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 8
+2026-03-04 09:45:41,738 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:45:41,960 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 8 后)
+2026-03-04 09:45:45,488 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:45:45,488 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:45:47,493 - page.home_test - INFO - [home_test.py:105] - MORE 页面元素测试完成: continue_watching
+2026-03-04 09:45:47,494 - page.home_test - INFO - [home_test.py:109] - 从 MORE 页面返回首页
+2026-03-04 09:45:47,730 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-04 09:45:47,730 - page.home_test - INFO - [home_test.py:114] - 成功通过返回按钮返回首页
+2026-03-04 09:45:49,753 - page.home_test - INFO - [home_test.py:179] - 测试定位器: best_first_drama, 值: div:nth-of-type(5) .gap-md > div:first-child img
+2026-03-04 09:45:50,045 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(5) .gap-md > div:first-child img
+2026-03-04 09:45:50,045 - page.home_test - INFO - [home_test.py:186] - 成功点击定位器: best_first_drama
+2026-03-04 09:45:53,066 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:45:53,286 - page.home_test - INFO - [home_test.py:218] - 成功进入播放器页面
+2026-03-04 09:45:56,817 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:45:56,817 - page.home_test - INFO - [home_test.py:225] - 通过后退按钮返回首页
+2026-03-04 09:45:58,838 - page.home_test - INFO - [home_test.py:179] - 测试定位器: eastern_legends_first_drama, 值: div:nth-of-type(6) .gap-md > div:first-child img
+2026-03-04 09:45:59,120 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(6) .gap-md > div:first-child img
+2026-03-04 09:45:59,120 - page.home_test - INFO - [home_test.py:186] - 成功点击定位器: eastern_legends_first_drama
+2026-03-04 09:46:02,141 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:46:02,361 - page.home_test - INFO - [home_test.py:218] - 成功进入播放器页面
+2026-03-04 09:46:05,883 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:46:05,883 - page.home_test - INFO - [home_test.py:225] - 通过后退按钮返回首页
+2026-03-04 09:46:07,911 - page.home_test - INFO - [home_test.py:179] - 测试定位器: eastern_legends_more, 值: div:nth-of-type(6) span
+2026-03-04 09:46:08,205 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(6) span
+2026-03-04 09:46:08,205 - page.home_test - INFO - [home_test.py:186] - 成功点击定位器: eastern_legends_more
+2026-03-04 09:46:11,210 - page.home_test - INFO - [home_test.py:193] - 等待 eastern_legends_more 页面完全打开
+2026-03-04 09:46:13,228 - page.home_test - INFO - [home_test.py:206] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/eastern_legends.html
+2026-03-04 09:46:13,228 - page.home_test - INFO - [home_test.py:43] - 开始测试 MORE 页面元素: eastern_legends
+2026-03-04 09:46:13,244 - page.home_test - INFO - [home_test.py:52] - 找到 12 个剧集条目
+2026-03-04 09:46:13,247 - page.home_test - INFO - [home_test.py:61] - 测试剧集 1
+2026-03-04 09:46:13,511 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 1
+2026-03-04 09:46:16,532 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:46:16,753 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 1 后)
+2026-03-04 09:46:20,279 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:46:20,279 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:46:22,292 - page.home_test - INFO - [home_test.py:61] - 测试剧集 2
+2026-03-04 09:46:22,563 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 2
+2026-03-04 09:46:25,585 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:46:25,805 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 2 后)
+2026-03-04 09:46:29,315 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:46:29,316 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:46:31,329 - page.home_test - INFO - [home_test.py:61] - 测试剧集 3
+2026-03-04 09:46:31,596 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 3
+2026-03-04 09:46:34,618 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:46:34,834 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 3 后)
+2026-03-04 09:46:38,362 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:46:38,362 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:46:40,374 - page.home_test - INFO - [home_test.py:61] - 测试剧集 4
+2026-03-04 09:46:40,641 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 4
+2026-03-04 09:46:43,658 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:46:43,875 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 4 后)
+2026-03-04 09:46:47,394 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:46:47,394 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:46:49,408 - page.home_test - INFO - [home_test.py:61] - 测试剧集 5
+2026-03-04 09:46:49,678 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 5
+2026-03-04 09:46:52,697 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:46:52,918 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 5 后)
+2026-03-04 09:46:56,401 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:46:56,402 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:46:58,417 - page.home_test - INFO - [home_test.py:61] - 测试剧集 6
+2026-03-04 09:46:58,696 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 6
+2026-03-04 09:47:01,711 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:47:01,925 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 6 后)
+2026-03-04 09:47:05,447 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:47:05,447 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:47:07,461 - page.home_test - INFO - [home_test.py:61] - 测试剧集 7
+2026-03-04 09:47:07,728 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 7
+2026-03-04 09:47:10,748 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:47:10,968 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 7 后)
+2026-03-04 09:47:14,501 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:47:14,501 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:47:16,516 - page.home_test - INFO - [home_test.py:61] - 测试剧集 8
+2026-03-04 09:47:16,783 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 8
+2026-03-04 09:47:19,800 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:47:20,020 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 8 后)
+2026-03-04 09:47:23,551 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:47:23,552 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:47:25,567 - page.home_test - INFO - [home_test.py:61] - 测试剧集 9
+2026-03-04 09:47:25,845 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 9
+2026-03-04 09:47:28,867 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:47:29,082 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 9 后)
+2026-03-04 09:47:32,606 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:47:32,607 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:47:34,619 - page.home_test - INFO - [home_test.py:61] - 测试剧集 10
+2026-03-04 09:47:34,886 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 10
+2026-03-04 09:47:37,908 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:47:38,127 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 10 后)
+2026-03-04 09:47:41,649 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:47:41,649 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:47:43,661 - page.home_test - INFO - [home_test.py:61] - 测试剧集 11
+2026-03-04 09:47:43,925 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 11
+2026-03-04 09:47:46,949 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:47:47,169 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 11 后)
+2026-03-04 09:47:50,688 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:47:50,688 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:47:52,703 - page.home_test - INFO - [home_test.py:61] - 测试剧集 12
+2026-03-04 09:47:52,971 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 12
+2026-03-04 09:47:55,993 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:47:56,211 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 12 后)
+2026-03-04 09:47:59,719 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:47:59,720 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:48:01,722 - page.home_test - INFO - [home_test.py:105] - MORE 页面元素测试完成: eastern_legends
+2026-03-04 09:48:01,722 - page.home_test - INFO - [home_test.py:109] - 从 MORE 页面返回首页
+2026-03-04 09:48:01,994 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-04 09:48:01,994 - page.home_test - INFO - [home_test.py:114] - 成功通过返回按钮返回首页
+2026-03-04 09:48:04,019 - page.home_test - INFO - [home_test.py:179] - 测试定位器: queens_revenge_first_drama, 值: div:nth-of-type(7) .gap-md > div:first-child img
+2026-03-04 09:48:04,310 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(7) .gap-md > div:first-child img
+2026-03-04 09:48:04,310 - page.home_test - INFO - [home_test.py:186] - 成功点击定位器: queens_revenge_first_drama
+2026-03-04 09:48:07,331 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:48:07,550 - page.home_test - INFO - [home_test.py:218] - 成功进入播放器页面
+2026-03-04 09:48:11,065 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:48:11,065 - page.home_test - INFO - [home_test.py:225] - 通过后退按钮返回首页
+2026-03-04 09:48:13,088 - page.home_test - INFO - [home_test.py:179] - 测试定位器: queens_revenge_more, 值: div:nth-of-type(7) span
+2026-03-04 09:48:13,361 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(7) span
+2026-03-04 09:48:13,362 - page.home_test - INFO - [home_test.py:186] - 成功点击定位器: queens_revenge_more
+2026-03-04 09:48:16,367 - page.home_test - INFO - [home_test.py:193] - 等待 queens_revenge_more 页面完全打开
+2026-03-04 09:48:18,384 - page.home_test - INFO - [home_test.py:206] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/queens_revenge.html
+2026-03-04 09:48:18,384 - page.home_test - INFO - [home_test.py:43] - 开始测试 MORE 页面元素: queens_revenge
+2026-03-04 09:48:18,397 - page.home_test - INFO - [home_test.py:52] - 找到 8 个剧集条目
+2026-03-04 09:48:18,399 - page.home_test - INFO - [home_test.py:61] - 测试剧集 1
+2026-03-04 09:48:18,652 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 1
+2026-03-04 09:48:21,672 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:48:21,891 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 1 后)
+2026-03-04 09:48:25,418 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:48:25,418 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:48:27,430 - page.home_test - INFO - [home_test.py:61] - 测试剧集 2
+2026-03-04 09:48:27,706 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 2
+2026-03-04 09:48:30,727 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:48:30,945 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 2 后)
+2026-03-04 09:48:34,427 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:48:34,427 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:48:36,441 - page.home_test - INFO - [home_test.py:61] - 测试剧集 3
+2026-03-04 09:48:36,715 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 3
+2026-03-04 09:48:39,736 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:48:39,956 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 3 后)
+2026-03-04 09:48:43,486 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:48:43,486 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:48:45,500 - page.home_test - INFO - [home_test.py:61] - 测试剧集 4
+2026-03-04 09:48:45,775 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 4
+2026-03-04 09:48:48,798 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:48:49,018 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 4 后)
+2026-03-04 09:48:52,534 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:48:52,535 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:48:54,548 - page.home_test - INFO - [home_test.py:61] - 测试剧集 5
+2026-03-04 09:48:54,826 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 5
+2026-03-04 09:48:57,846 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:48:58,063 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 5 后)
+2026-03-04 09:49:01,586 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:49:01,586 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:49:03,600 - page.home_test - INFO - [home_test.py:61] - 测试剧集 6
+2026-03-04 09:49:03,874 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 6
+2026-03-04 09:49:06,896 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:49:07,114 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 6 后)
+2026-03-04 09:49:10,638 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:49:10,638 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:49:12,649 - page.home_test - INFO - [home_test.py:61] - 测试剧集 7
+2026-03-04 09:49:12,917 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 7
+2026-03-04 09:49:15,940 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:49:16,157 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 7 后)
+2026-03-04 09:49:19,681 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:49:19,681 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:49:21,694 - page.home_test - INFO - [home_test.py:61] - 测试剧集 8
+2026-03-04 09:49:21,963 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 8
+2026-03-04 09:49:24,985 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:49:25,208 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 8 后)
+2026-03-04 09:49:28,734 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:49:28,734 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:49:30,739 - page.home_test - INFO - [home_test.py:105] - MORE 页面元素测试完成: queens_revenge
+2026-03-04 09:49:30,740 - page.home_test - INFO - [home_test.py:109] - 从 MORE 页面返回首页
+2026-03-04 09:49:30,970 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-04 09:49:30,970 - page.home_test - INFO - [home_test.py:114] - 成功通过返回按钮返回首页
+2026-03-04 09:49:32,995 - page.home_test - INFO - [home_test.py:179] - 测试定位器: bossy_ceo_first_drama, 值: div:nth-of-type(8) .gap-md > div:first-child img
+2026-03-04 09:49:33,301 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(8) .gap-md > div:first-child img
+2026-03-04 09:49:33,301 - page.home_test - INFO - [home_test.py:186] - 成功点击定位器: bossy_ceo_first_drama
+2026-03-04 09:49:36,322 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:49:36,540 - page.home_test - INFO - [home_test.py:218] - 成功进入播放器页面
+2026-03-04 09:49:40,053 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:49:40,053 - page.home_test - INFO - [home_test.py:225] - 通过后退按钮返回首页
+2026-03-04 09:49:42,079 - page.home_test - INFO - [home_test.py:179] - 测试定位器: bossy_ceo_more, 值: div:nth-of-type(8) span
+2026-03-04 09:49:42,371 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(8) span
+2026-03-04 09:49:42,371 - page.home_test - INFO - [home_test.py:186] - 成功点击定位器: bossy_ceo_more
+2026-03-04 09:49:45,377 - page.home_test - INFO - [home_test.py:193] - 等待 bossy_ceo_more 页面完全打开
+2026-03-04 09:49:47,393 - page.home_test - INFO - [home_test.py:206] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/bossy_ceo.html
+2026-03-04 09:49:47,394 - page.home_test - INFO - [home_test.py:43] - 开始测试 MORE 页面元素: bossy_ceo
+2026-03-04 09:49:47,410 - page.home_test - INFO - [home_test.py:52] - 找到 12 个剧集条目
+2026-03-04 09:49:47,412 - page.home_test - INFO - [home_test.py:61] - 测试剧集 1
+2026-03-04 09:49:47,672 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 1
+2026-03-04 09:49:50,692 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:49:50,910 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 1 后)
+2026-03-04 09:49:54,436 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:49:54,437 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:49:56,451 - page.home_test - INFO - [home_test.py:61] - 测试剧集 2
+2026-03-04 09:49:56,721 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 2
+2026-03-04 09:49:59,741 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:49:59,957 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 2 后)
+2026-03-04 09:50:03,487 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:50:03,487 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:50:05,499 - page.home_test - INFO - [home_test.py:61] - 测试剧集 3
+2026-03-04 09:50:05,770 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 3
+2026-03-04 09:50:08,791 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:50:09,012 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 3 后)
+2026-03-04 09:50:12,535 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:50:12,535 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:50:14,548 - page.home_test - INFO - [home_test.py:61] - 测试剧集 4
+2026-03-04 09:50:14,820 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 4
+2026-03-04 09:50:17,843 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:50:18,065 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 4 后)
+2026-03-04 09:50:21,577 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:50:21,578 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:50:23,592 - page.home_test - INFO - [home_test.py:61] - 测试剧集 5
+2026-03-04 09:50:23,858 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 5
+2026-03-04 09:50:26,882 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:50:27,103 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 5 后)
+2026-03-04 09:50:30,599 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:50:30,599 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:50:32,613 - page.home_test - INFO - [home_test.py:61] - 测试剧集 6
+2026-03-04 09:50:32,891 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 6
+2026-03-04 09:50:35,914 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:50:36,136 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 6 后)
+2026-03-04 09:50:39,658 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:50:39,659 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:50:41,672 - page.home_test - INFO - [home_test.py:61] - 测试剧集 7
+2026-03-04 09:50:41,939 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 7
+2026-03-04 09:50:44,959 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:50:45,182 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 7 后)
+2026-03-04 09:50:48,705 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:50:48,705 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:50:50,718 - page.home_test - INFO - [home_test.py:61] - 测试剧集 8
+2026-03-04 09:50:50,991 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 8
+2026-03-04 09:50:54,009 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:50:54,221 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 8 后)
+2026-03-04 09:50:57,742 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:50:57,742 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:50:59,757 - page.home_test - INFO - [home_test.py:61] - 测试剧集 9
+2026-03-04 09:51:00,025 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 9
+2026-03-04 09:51:03,042 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:51:03,257 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 9 后)
+2026-03-04 09:51:06,799 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:51:06,799 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:51:08,811 - page.home_test - INFO - [home_test.py:61] - 测试剧集 10
+2026-03-04 09:51:09,093 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 10
+2026-03-04 09:51:12,121 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:51:12,350 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 10 后)
+2026-03-04 09:51:15,894 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:51:15,894 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:51:17,916 - page.home_test - INFO - [home_test.py:61] - 测试剧集 11
+2026-03-04 09:51:18,194 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 11
+2026-03-04 09:51:21,208 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:51:21,423 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 11 后)
+2026-03-04 09:51:24,952 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:51:24,952 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:51:26,964 - page.home_test - INFO - [home_test.py:61] - 测试剧集 12
+2026-03-04 09:51:27,240 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 12
+2026-03-04 09:51:30,265 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:51:30,497 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 12 后)
+2026-03-04 09:51:34,049 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:51:34,049 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:51:36,051 - page.home_test - INFO - [home_test.py:105] - MORE 页面元素测试完成: bossy_ceo
+2026-03-04 09:51:36,051 - page.home_test - INFO - [home_test.py:109] - 从 MORE 页面返回首页
+2026-03-04 09:51:36,300 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-04 09:51:36,300 - page.home_test - INFO - [home_test.py:114] - 成功通过返回按钮返回首页
+2026-03-04 09:51:38,333 - page.home_test - INFO - [home_test.py:179] - 测试定位器: return_of_god_of_war_first_drama, 值: div:nth-of-type(9) .gap-md > div:first-child img
+2026-03-04 09:51:38,637 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(9) .gap-md > div:first-child img
+2026-03-04 09:51:38,637 - page.home_test - INFO - [home_test.py:186] - 成功点击定位器: return_of_god_of_war_first_drama
+2026-03-04 09:51:41,666 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:51:41,893 - page.home_test - INFO - [home_test.py:218] - 成功进入播放器页面
+2026-03-04 09:51:45,438 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:51:45,438 - page.home_test - INFO - [home_test.py:225] - 通过后退按钮返回首页
+2026-03-04 09:51:47,472 - page.home_test - INFO - [home_test.py:179] - 测试定位器: return_of_god_of_war_more, 值: div:nth-of-type(9) span
+2026-03-04 09:51:47,759 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(9) span
+2026-03-04 09:51:47,759 - page.home_test - INFO - [home_test.py:186] - 成功点击定位器: return_of_god_of_war_more
+2026-03-04 09:51:50,769 - page.home_test - INFO - [home_test.py:193] - 等待 return_of_god_of_war_more 页面完全打开
+2026-03-04 09:51:52,787 - page.home_test - INFO - [home_test.py:206] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/return_of_god_of_war.html
+2026-03-04 09:51:52,788 - page.home_test - INFO - [home_test.py:43] - 开始测试 MORE 页面元素: return_of_god_of_war
+2026-03-04 09:51:52,801 - page.home_test - INFO - [home_test.py:52] - 找到 12 个剧集条目
+2026-03-04 09:51:52,804 - page.home_test - INFO - [home_test.py:61] - 测试剧集 1
+2026-03-04 09:51:53,087 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 1
+2026-03-04 09:51:56,112 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:51:56,340 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 1 后)
+2026-03-04 09:51:59,879 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:51:59,879 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:52:01,894 - page.home_test - INFO - [home_test.py:61] - 测试剧集 2
+2026-03-04 09:52:02,178 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 2
+2026-03-04 09:52:05,205 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:52:05,437 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 2 后)
+2026-03-04 09:52:08,983 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:52:08,984 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:52:11,003 - page.home_test - INFO - [home_test.py:61] - 测试剧集 3
+2026-03-04 09:52:11,278 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 3
+2026-03-04 09:52:14,304 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:52:14,536 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 3 后)
+2026-03-04 09:52:18,067 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:52:18,067 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:52:20,082 - page.home_test - INFO - [home_test.py:61] - 测试剧集 4
+2026-03-04 09:52:20,353 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 4
+2026-03-04 09:52:23,380 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:52:23,603 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 4 后)
+2026-03-04 09:52:27,133 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:52:27,133 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:52:29,146 - page.home_test - INFO - [home_test.py:61] - 测试剧集 5
+2026-03-04 09:52:29,427 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 5
+2026-03-04 09:52:32,445 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:52:32,661 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 5 后)
+2026-03-04 09:52:36,154 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:52:36,154 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:52:38,172 - page.home_test - INFO - [home_test.py:61] - 测试剧集 6
+2026-03-04 09:52:38,456 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 6
+2026-03-04 09:52:41,483 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:52:41,704 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 6 后)
+2026-03-04 09:52:45,244 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:52:45,245 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:52:47,263 - page.home_test - INFO - [home_test.py:61] - 测试剧集 7
+2026-03-04 09:52:47,543 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 7
+2026-03-04 09:52:50,564 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:52:50,794 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 7 后)
+2026-03-04 09:52:54,312 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:52:54,312 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:52:56,333 - page.home_test - INFO - [home_test.py:61] - 测试剧集 8
+2026-03-04 09:52:56,609 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 8
+2026-03-04 09:52:59,627 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:52:59,855 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 8 后)
+2026-03-04 09:53:03,397 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:53:03,397 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:53:05,409 - page.home_test - INFO - [home_test.py:61] - 测试剧集 9
+2026-03-04 09:53:05,685 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 9
+2026-03-04 09:53:08,705 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:53:08,924 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 9 后)
+2026-03-04 09:53:12,438 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:53:12,438 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:53:14,458 - page.home_test - INFO - [home_test.py:61] - 测试剧集 10
+2026-03-04 09:53:14,738 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 10
+2026-03-04 09:53:17,763 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:53:17,991 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 10 后)
+2026-03-04 09:53:21,534 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:53:21,534 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:53:23,552 - page.home_test - INFO - [home_test.py:61] - 测试剧集 11
+2026-03-04 09:53:23,827 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 11
+2026-03-04 09:53:26,851 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:53:27,065 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 11 后)
+2026-03-04 09:53:30,610 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:53:30,610 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:53:32,622 - page.home_test - INFO - [home_test.py:61] - 测试剧集 12
+2026-03-04 09:53:32,893 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 12
+2026-03-04 09:53:35,920 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 09:53:36,143 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 12 后)
+2026-03-04 09:53:39,667 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 09:53:39,667 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 09:53:41,671 - page.home_test - INFO - [home_test.py:105] - MORE 页面元素测试完成: return_of_god_of_war
+2026-03-04 09:53:41,671 - page.home_test - INFO - [home_test.py:109] - 从 MORE 页面返回首页
+2026-03-04 09:53:41,913 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.gap-sm > svg
+2026-03-04 09:53:41,913 - page.home_test - INFO - [home_test.py:114] - 成功通过返回按钮返回首页
+2026-03-04 09:53:43,944 - page.home_test - INFO - [home_test.py:244] - 首页所有定位器测试完成
+2026-03-04 09:53:43,982 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 09:53:44,033 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 44737, 名称: Python
+2026-03-04 10:50:16,971 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 10:50:17,007 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 44771, 名称: Google
+2026-03-04 10:50:17,007 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 44771
+2026-03-04 10:50:19,014 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 10:50:19,053 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-04 10:50:23,673 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-04 10:50:23,675 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-04 10:50:24,200 - page.home_test - INFO - [home_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-04 10:50:28,393 - page.home_test - INFO - [home_test.py:36] - 首页轮播图加载完成
+2026-03-04 10:50:28,397 - page.home_test - INFO - [home_test.py:171] - 开始测试首页所有定位器
+2026-03-04 10:50:28,398 - page.home_test - INFO - [home_test.py:179] - 测试定位器: continue_watching_first_drama, 值: div:nth-of-type(4) .gap-md > div:first-child img
+2026-03-04 10:50:28,643 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(4) .gap-md > div:first-child img
+2026-03-04 10:50:28,643 - page.home_test - INFO - [home_test.py:186] - 成功点击定位器: continue_watching_first_drama
+2026-03-04 10:50:31,672 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 10:50:31,893 - page.home_test - INFO - [home_test.py:218] - 成功进入播放器页面
+2026-03-04 10:50:35,408 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 10:50:35,409 - page.home_test - INFO - [home_test.py:225] - 通过后退按钮返回首页
+2026-03-04 10:50:37,437 - page.home_test - INFO - [home_test.py:179] - 测试定位器: continue_watching_more, 值: div:nth-of-type(4) span
+2026-03-04 10:50:37,680 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div:nth-of-type(4) span
+2026-03-04 10:50:37,681 - page.home_test - INFO - [home_test.py:186] - 成功点击定位器: continue_watching_more
+2026-03-04 10:50:40,686 - page.home_test - INFO - [home_test.py:193] - 等待 continue_watching_more 页面完全打开
+2026-03-04 10:50:42,705 - page.home_test - INFO - [home_test.py:206] - 已保存 HTML 文件: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/continue_watching.html
+2026-03-04 10:50:42,705 - page.home_test - INFO - [home_test.py:43] - 开始测试 MORE 页面元素: continue_watching
+2026-03-04 10:50:42,717 - page.home_test - INFO - [home_test.py:52] - 找到 8 个剧集条目
+2026-03-04 10:50:42,720 - page.home_test - INFO - [home_test.py:61] - 测试剧集 1
+2026-03-04 10:50:42,996 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 1
+2026-03-04 10:50:46,018 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 10:50:46,238 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 1 后)
+2026-03-04 10:50:49,762 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 10:50:49,763 - page.home_test - INFO - [home_test.py:82] - 从播放器返回到 MORE 页面
+2026-03-04 10:50:51,774 - page.home_test - INFO - [home_test.py:61] - 测试剧集 2
+2026-03-04 10:50:52,056 - page.home_test - INFO - [home_test.py:65] - 成功点击剧集 2
+2026-03-04 10:50:55,078 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 10:50:55,290 - page.home_test - INFO - [home_test.py:73] - 成功进入播放器页面 (点击剧集 2 后)
+2026-03-04 10:50:56,979 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 10:50:57,004 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-04 11:07:52,748 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 11:07:52,770 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-04 11:07:52,771 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 11:07:52,788 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-04 11:07:56,147 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-04 11:07:56,148 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-04 11:07:56,681 - page.search_test - INFO - [search_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-04 11:08:00,982 - page.search_test - INFO - [search_test.py:36] - 首页轮播图加载完成
+2026-03-04 11:08:00,984 - page.search_test - INFO - [search_test.py:170] - 开始测试搜索功能
+2026-03-04 11:08:00,984 - page.search_test - INFO - [search_test.py:43] - 打开搜索页面
+2026-03-04 11:08:01,227 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.text-xxl
+2026-03-04 11:08:01,227 - page.search_test - INFO - [search_test.py:47] - 成功点击搜索图标
+2026-03-04 11:08:03,238 - page.search_test - INFO - [search_test.py:182] - 已保存搜索页面 HTML: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/search.html
+2026-03-04 11:08:03,263 - page.search_test - INFO - [search_test.py:193] - 为搜索页面提取到 9 个定位器
+2026-03-04 11:08:03,264 - page.search_test - INFO - [search_test.py:195] -   - script_7d119307: [data-checked-head='true']
+2026-03-04 11:08:03,264 - page.search_test - INFO - [search_test.py:195] -   - adsbygoogle_ins: .adsbygoogle.adsbygoogle-noablate
+2026-03-04 11:08:03,264 - page.search_test - INFO - [search_test.py:195] -   - __w______iframe: [data-google-container-id='a!1']
+2026-03-04 11:08:03,264 - page.search_test - INFO - [search_test.py:195] -   - cancelhot_search占位图1the_thief_element: .flex.justify-start.flex-col.items-stretch.gap-xl.box-border.float-box.pt-xl
+2026-03-04 11:08:03,264 - page.search_test - INFO - [search_test.py:195] -   - cancel_element: text=Cancel
+2026-03-04 11:08:03,264 - page.search_test - INFO - [search_test.py:195] -   - flex_div: .flex.justify-start.items-center.box-border.bg-bgoverlay.gap-xxs.px-lg.b-none.h-64.flex-1.flex-1.rd-xl
+2026-03-04 11:08:03,264 - page.search_test - INFO - [search_test.py:195] -   - icon_svg_svg: .icon-svg.color-info
+2026-03-04 11:08:03,264 - page.search_test - INFO - [search_test.py:195] -   - search_input: .color-info.b-none.w-full.bg-transparent.block.appearance-none.p-0.text-md
+2026-03-04 11:08:03,264 - page.search_test - INFO - [search_test.py:195] -   - hot_search占位图1the_thief_lovera_element: .flex.flex-col.justify-start.items-stretch.gap-xl.p-xl.mt-lg
+2026-03-04 11:08:03,264 - page.search_test - INFO - [search_test.py:103] - 开始测试热门搜索视频元素
+2026-03-04 11:08:03,272 - page.search_test - INFO - [search_test.py:112] - 找到 10 个热门搜索视频条目
+2026-03-04 11:08:03,273 - page.search_test - INFO - [search_test.py:121] - 测试热门搜索视频 1
+2026-03-04 11:08:03,490 - page.search_test - INFO - [search_test.py:125] - 成功点击热门搜索视频 1
+2026-03-04 11:08:06,515 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 11:08:06,736 - page.search_test - INFO - [search_test.py:133] - 成功进入播放器页面 (点击热门搜索视频 1 后)
+2026-03-04 11:08:10,244 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 11:08:10,245 - page.search_test - INFO - [search_test.py:142] - 从播放器返回到搜索页面
+2026-03-04 11:08:22,252 - page.search_test - INFO - [search_test.py:165] - 热门搜索视频元素测试完成
+2026-03-04 11:08:22,254 - page.search_test - INFO - [search_test.py:203] - 搜索 'alibaba'
+2026-03-04 11:08:22,254 - page.search_test - INFO - [search_test.py:70] - 搜索关键词: alibaba
+2026-03-04 11:08:22,498 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: input
+2026-03-04 11:08:22,499 - page.search_test - INFO - [search_test.py:74] - 成功点击搜索输入框
+2026-03-04 11:08:22,506 - utils.page_actions - INFO - [page_actions.py:134] - 获取元素文本: 
+2026-03-04 11:08:32,593 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 11:08:32,667 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 46987, 名称: Python
+2026-03-04 11:10:50,369 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 11:10:50,400 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 46995, 名称: Google
+2026-03-04 11:10:50,400 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 46995
+2026-03-04 11:10:52,407 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 11:10:52,444 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-04 11:10:55,295 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-04 11:10:55,295 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-04 11:10:55,849 - page.search_test - INFO - [search_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-04 11:11:01,797 - page.search_test - INFO - [search_test.py:36] - 首页轮播图加载完成
+2026-03-04 11:11:01,798 - page.search_test - INFO - [search_test.py:192] - 开始测试搜索功能
+2026-03-04 11:11:01,798 - page.search_test - INFO - [search_test.py:43] - 打开搜索页面
+2026-03-04 11:11:02,041 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.text-xxl
+2026-03-04 11:11:02,041 - page.search_test - INFO - [search_test.py:47] - 成功点击搜索图标
+2026-03-04 11:11:04,060 - page.search_test - INFO - [search_test.py:204] - 已保存搜索页面 HTML: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/search.html
+2026-03-04 11:11:04,097 - page.search_test - INFO - [search_test.py:215] - 为搜索页面提取到 9 个定位器
+2026-03-04 11:11:04,097 - page.search_test - INFO - [search_test.py:217] -   - script_7d119307: [data-checked-head='true']
+2026-03-04 11:11:04,097 - page.search_test - INFO - [search_test.py:217] -   - adsbygoogle_ins: .adsbygoogle.adsbygoogle-noablate
+2026-03-04 11:11:04,097 - page.search_test - INFO - [search_test.py:217] -   - __w______iframe: [data-google-container-id='a!1']
+2026-03-04 11:11:04,097 - page.search_test - INFO - [search_test.py:217] -   - cancelhot_search1the_thief_lov_element: .flex.justify-start.flex-col.items-stretch.gap-xl.box-border.float-box.pt-xl
+2026-03-04 11:11:04,097 - page.search_test - INFO - [search_test.py:217] -   - cancel_element: text=Cancel
+2026-03-04 11:11:04,097 - page.search_test - INFO - [search_test.py:217] -   - flex_div: .flex.justify-start.items-center.box-border.bg-bgoverlay.gap-xxs.px-lg.b-none.h-64.flex-1.flex-1.rd-xl
+2026-03-04 11:11:04,097 - page.search_test - INFO - [search_test.py:217] -   - icon_svg_svg: .icon-svg.color-info
+2026-03-04 11:11:04,097 - page.search_test - INFO - [search_test.py:217] -   - search_input: .color-info.b-none.w-full.bg-transparent.block.appearance-none.p-0.text-md
+2026-03-04 11:11:04,098 - page.search_test - INFO - [search_test.py:217] -   - hot_search1the_thief_loverall_element: .flex.flex-col.justify-start.items-stretch.gap-xl.p-xl.mt-lg
+2026-03-04 11:11:04,098 - page.search_test - INFO - [search_test.py:125] - 开始测试热门搜索视频元素
+2026-03-04 11:11:04,106 - page.search_test - INFO - [search_test.py:134] - 找到 10 个热门搜索视频条目
+2026-03-04 11:11:04,107 - page.search_test - INFO - [search_test.py:143] - 测试热门搜索视频 1
+2026-03-04 11:11:04,329 - page.search_test - INFO - [search_test.py:147] - 成功点击热门搜索视频 1
+2026-03-04 11:11:07,352 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 11:11:07,573 - page.search_test - INFO - [search_test.py:155] - 成功进入播放器页面 (点击热门搜索视频 1 后)
+2026-03-04 11:11:11,103 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 11:11:11,103 - page.search_test - INFO - [search_test.py:164] - 从播放器返回到搜索页面
+2026-03-04 11:11:23,114 - page.search_test - INFO - [search_test.py:187] - 热门搜索视频元素测试完成
+2026-03-04 11:11:23,115 - page.search_test - INFO - [search_test.py:225] - 搜索 'alibaba'
+2026-03-04 11:11:23,116 - page.search_test - INFO - [search_test.py:70] - 搜索关键词: alibaba
+2026-03-04 11:11:23,353 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: input
+2026-03-04 11:11:23,354 - page.search_test - INFO - [search_test.py:74] - 成功点击搜索输入框
+2026-03-04 11:11:23,363 - page.search_test - INFO - [search_test.py:80] - 已输入关键词: alibaba
+2026-03-04 11:11:47,381 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:span.text-placeholder.text-lg
+2026-03-04 11:11:47,382 - page.search_test - WARNING - [search_test.py:237] - 未找到 'No results found' 提示
+2026-03-04 11:11:47,382 - page.search_test - INFO - [search_test.py:112] - 清空搜索内容
+2026-03-04 11:11:47,675 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.color-\#6C6E6F > path
+2026-03-04 11:11:47,675 - page.search_test - INFO - [search_test.py:116] - 成功点击清空按钮
+2026-03-04 11:11:49,682 - page.search_test - INFO - [search_test.py:244] - 搜索 'love'
+2026-03-04 11:11:49,682 - page.search_test - INFO - [search_test.py:70] - 搜索关键词: love
+2026-03-04 11:11:49,919 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: input
+2026-03-04 11:11:49,919 - page.search_test - INFO - [search_test.py:74] - 成功点击搜索输入框
+2026-03-04 11:11:49,928 - page.search_test - INFO - [search_test.py:80] - 已输入关键词: love
+2026-03-04 11:11:53,936 - page.search_test - INFO - [search_test.py:125] - 开始测试热门搜索视频元素
+2026-03-04 11:11:53,952 - page.search_test - INFO - [search_test.py:134] - 找到 10 个热门搜索视频条目
+2026-03-04 11:11:53,955 - page.search_test - INFO - [search_test.py:143] - 测试热门搜索视频 1
+2026-03-04 11:11:54,250 - page.search_test - INFO - [search_test.py:147] - 成功点击热门搜索视频 1
+2026-03-04 11:11:57,272 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 11:11:57,487 - page.search_test - INFO - [search_test.py:155] - 成功进入播放器页面 (点击热门搜索视频 1 后)
+2026-03-04 11:12:01,018 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 11:12:01,018 - page.search_test - INFO - [search_test.py:164] - 从播放器返回到搜索页面
+2026-03-04 11:12:13,035 - page.search_test - INFO - [search_test.py:187] - 热门搜索视频元素测试完成
+2026-03-04 11:12:13,036 - page.search_test - INFO - [search_test.py:112] - 清空搜索内容
+2026-03-04 11:12:13,322 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.color-\#6C6E6F > path
+2026-03-04 11:12:13,322 - page.search_test - INFO - [search_test.py:116] - 成功点击清空按钮
+2026-03-04 11:12:15,330 - page.search_test - INFO - [search_test.py:56] - 关闭搜索页面
+2026-03-04 11:12:15,614 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: #app > div > div > div > div.justify-between > div.text-lg
+2026-03-04 11:12:15,614 - page.search_test - INFO - [search_test.py:60] - 成功点击取消按钮
+2026-03-04 11:12:19,645 - page.search_test - INFO - [search_test.py:258] - 搜索功能测试完成
+2026-03-04 11:12:19,684 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 11:12:19,747 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 47173, 名称: Python
+2026-03-04 11:16:51,623 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 11:16:51,660 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 47184, 名称: Google
+2026-03-04 11:16:51,660 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 47184
+2026-03-04 11:16:53,667 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 11:16:53,703 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-04 11:16:57,485 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-04 11:16:57,487 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-04 11:16:58,364 - page.search_test - INFO - [search_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-04 11:17:01,261 - page.search_test - INFO - [search_test.py:36] - 首页轮播图加载完成
+2026-03-04 11:17:01,264 - page.search_test - INFO - [search_test.py:220] - 开始测试搜索功能
+2026-03-04 11:17:01,264 - page.search_test - INFO - [search_test.py:43] - 打开搜索页面
+2026-03-04 11:17:01,508 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.text-xxl
+2026-03-04 11:17:01,509 - page.search_test - INFO - [search_test.py:47] - 成功点击搜索图标
+2026-03-04 11:17:03,530 - page.search_test - INFO - [search_test.py:232] - 已保存搜索页面 HTML: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/search.html
+2026-03-04 11:17:03,571 - page.search_test - INFO - [search_test.py:243] - 为搜索页面提取到 9 个定位器
+2026-03-04 11:17:03,571 - page.search_test - INFO - [search_test.py:245] -   - script_7d119307: [data-checked-head='true']
+2026-03-04 11:17:03,571 - page.search_test - INFO - [search_test.py:245] -   - adsbygoogle_ins: .adsbygoogle.adsbygoogle-noablate
+2026-03-04 11:17:03,571 - page.search_test - INFO - [search_test.py:245] -   - __w______iframe: [data-google-container-id='a!1']
+2026-03-04 11:17:03,571 - page.search_test - INFO - [search_test.py:245] -   - cancelhot_search占位图1the_thief_element: .flex.justify-start.flex-col.items-stretch.gap-xl.box-border.float-box.pt-xl
+2026-03-04 11:17:03,571 - page.search_test - INFO - [search_test.py:245] -   - cancel_element: text=Cancel
+2026-03-04 11:17:03,572 - page.search_test - INFO - [search_test.py:245] -   - flex_div: .flex.justify-start.items-center.box-border.bg-bgoverlay.gap-xxs.px-lg.b-none.h-64.flex-1.flex-1.rd-xl
+2026-03-04 11:17:03,572 - page.search_test - INFO - [search_test.py:245] -   - icon_svg_svg: .icon-svg.color-info
+2026-03-04 11:17:03,572 - page.search_test - INFO - [search_test.py:245] -   - search_input: .color-info.b-none.w-full.bg-transparent.block.appearance-none.p-0.text-md
+2026-03-04 11:17:03,572 - page.search_test - INFO - [search_test.py:245] -   - hot_search占位图1the_thief_lovera_element: .flex.flex-col.justify-start.items-stretch.gap-xl.p-xl.mt-lg
+2026-03-04 11:17:03,572 - page.search_test - INFO - [search_test.py:153] - 开始测试热门搜索视频元素
+2026-03-04 11:17:03,580 - page.search_test - INFO - [search_test.py:162] - 找到 10 个热门搜索视频条目
+2026-03-04 11:17:03,581 - page.search_test - INFO - [search_test.py:171] - 测试热门搜索视频 1
+2026-03-04 11:17:03,805 - page.search_test - INFO - [search_test.py:175] - 成功点击热门搜索视频 1
+2026-03-04 11:17:06,826 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 11:17:07,042 - page.search_test - INFO - [search_test.py:183] - 成功进入播放器页面 (点击热门搜索视频 1 后)
+2026-03-04 11:17:10,566 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 11:17:10,567 - page.search_test - INFO - [search_test.py:192] - 从播放器返回到搜索页面
+2026-03-04 11:17:22,577 - page.search_test - INFO - [search_test.py:215] - 热门搜索视频元素测试完成
+2026-03-04 11:17:22,578 - page.search_test - INFO - [search_test.py:253] - 搜索 'alibaba'
+2026-03-04 11:17:22,578 - page.search_test - INFO - [search_test.py:70] - 搜索关键词: alibaba
+2026-03-04 11:17:22,821 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: input
+2026-03-04 11:17:22,821 - page.search_test - INFO - [search_test.py:74] - 成功点击搜索输入框
+2026-03-04 11:17:22,829 - page.search_test - INFO - [search_test.py:80] - 已输入关键词: alibaba
+2026-03-04 11:17:22,918 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 11:17:22,961 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 47396, 名称: Python
+2026-03-04 11:20:21,996 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 11:20:22,033 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 47413, 名称: Google
+2026-03-04 11:20:22,033 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 47413
+2026-03-04 11:20:24,040 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 11:20:24,078 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-04 11:20:26,920 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-04 11:20:26,921 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-04 11:20:27,424 - page.search_test - INFO - [search_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-04 11:20:31,848 - page.search_test - INFO - [search_test.py:36] - 首页轮播图加载完成
+2026-03-04 11:20:31,850 - page.search_test - INFO - [search_test.py:246] - 开始测试搜索功能
+2026-03-04 11:20:31,850 - page.search_test - INFO - [search_test.py:43] - 打开搜索页面
+2026-03-04 11:20:32,088 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.text-xxl
+2026-03-04 11:20:32,089 - page.search_test - INFO - [search_test.py:47] - 成功点击搜索图标
+2026-03-04 11:20:34,108 - page.search_test - INFO - [search_test.py:258] - 已保存搜索页面 HTML: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/search.html
+2026-03-04 11:20:34,148 - page.search_test - INFO - [search_test.py:269] - 为搜索页面提取到 9 个定位器
+2026-03-04 11:20:34,148 - page.search_test - INFO - [search_test.py:271] -   - script_7d119307: [data-checked-head='true']
+2026-03-04 11:20:34,148 - page.search_test - INFO - [search_test.py:271] -   - adsbygoogle_ins: .adsbygoogle.adsbygoogle-noablate
+2026-03-04 11:20:34,148 - page.search_test - INFO - [search_test.py:271] -   - __w______iframe: [data-google-container-id='a!1']
+2026-03-04 11:20:34,148 - page.search_test - INFO - [search_test.py:271] -   - cancelhot_search占位图1the_thief_element: .flex.justify-start.flex-col.items-stretch.gap-xl.box-border.float-box.pt-xl
+2026-03-04 11:20:34,148 - page.search_test - INFO - [search_test.py:271] -   - cancel_element: text=Cancel
+2026-03-04 11:20:34,148 - page.search_test - INFO - [search_test.py:271] -   - flex_div: .flex.justify-start.items-center.box-border.bg-bgoverlay.gap-xxs.px-lg.b-none.h-64.flex-1.flex-1.rd-xl
+2026-03-04 11:20:34,148 - page.search_test - INFO - [search_test.py:271] -   - icon_svg_svg: .icon-svg.color-info
+2026-03-04 11:20:34,148 - page.search_test - INFO - [search_test.py:271] -   - search_input: .color-info.b-none.w-full.bg-transparent.block.appearance-none.p-0.text-md
+2026-03-04 11:20:34,148 - page.search_test - INFO - [search_test.py:271] -   - hot_search占位图1the_thief_lovera_element: .flex.flex-col.justify-start.items-stretch.gap-xl.p-xl.mt-lg
+2026-03-04 11:20:34,148 - page.search_test - INFO - [search_test.py:179] - 开始测试热门搜索视频元素
+2026-03-04 11:20:34,156 - page.search_test - INFO - [search_test.py:188] - 找到 10 个热门搜索视频条目
+2026-03-04 11:20:34,157 - page.search_test - INFO - [search_test.py:197] - 测试热门搜索视频 1
+2026-03-04 11:20:34,374 - page.search_test - INFO - [search_test.py:201] - 成功点击热门搜索视频 1
+2026-03-04 11:20:37,385 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 11:20:37,595 - page.search_test - INFO - [search_test.py:209] - 成功进入播放器页面 (点击热门搜索视频 1 后)
+2026-03-04 11:20:41,119 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 11:20:41,120 - page.search_test - INFO - [search_test.py:218] - 从播放器返回到搜索页面
+2026-03-04 11:20:53,138 - page.search_test - INFO - [search_test.py:241] - 热门搜索视频元素测试完成
+2026-03-04 11:20:53,138 - page.search_test - INFO - [search_test.py:279] - 搜索 'alibaba'
+2026-03-04 11:20:53,138 - page.search_test - INFO - [search_test.py:70] - 搜索关键词: alibaba
+2026-03-04 11:20:53,375 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: input
+2026-03-04 11:20:53,375 - page.search_test - INFO - [search_test.py:74] - 成功点击搜索输入框
+2026-03-04 11:20:53,382 - page.search_test - INFO - [search_test.py:80] - 已输入关键词: alibaba
+2026-03-04 11:20:53,455 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 11:20:53,516 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 47580, 名称: Python
+2026-03-04 11:23:58,134 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 11:23:58,164 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 47591, 名称: Google
+2026-03-04 11:23:58,164 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 47591
+2026-03-04 11:24:00,171 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 11:24:00,212 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-04 11:24:03,663 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-04 11:24:03,664 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-04 11:24:04,300 - page.search_test - INFO - [search_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-04 11:24:08,800 - page.search_test - INFO - [search_test.py:36] - 首页轮播图加载完成
+2026-03-04 11:24:08,802 - page.search_test - INFO - [search_test.py:284] - 开始测试搜索功能
+2026-03-04 11:24:08,802 - page.search_test - INFO - [search_test.py:43] - 打开搜索页面
+2026-03-04 11:24:09,045 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.text-xxl
+2026-03-04 11:24:09,045 - page.search_test - INFO - [search_test.py:47] - 成功点击搜索图标
+2026-03-04 11:24:11,062 - page.search_test - INFO - [search_test.py:296] - 已保存搜索页面 HTML: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/search.html
+2026-03-04 11:24:11,100 - page.search_test - INFO - [search_test.py:307] - 为搜索页面提取到 9 个定位器
+2026-03-04 11:24:11,100 - page.search_test - INFO - [search_test.py:309] -   - script_7d119307: [data-checked-head='true']
+2026-03-04 11:24:11,100 - page.search_test - INFO - [search_test.py:309] -   - adsbygoogle_ins: .adsbygoogle.adsbygoogle-noablate
+2026-03-04 11:24:11,100 - page.search_test - INFO - [search_test.py:309] -   - __w______iframe: [data-google-container-id='a!1']
+2026-03-04 11:24:11,100 - page.search_test - INFO - [search_test.py:309] -   - cancelhot_search1the_thief_lov_element: .flex.justify-start.flex-col.items-stretch.gap-xl.box-border.float-box.pt-xl
+2026-03-04 11:24:11,100 - page.search_test - INFO - [search_test.py:309] -   - cancel_element: text=Cancel
+2026-03-04 11:24:11,100 - page.search_test - INFO - [search_test.py:309] -   - flex_div: .flex.justify-start.items-center.box-border.bg-bgoverlay.gap-xxs.px-lg.b-none.h-64.flex-1.flex-1.rd-xl
+2026-03-04 11:24:11,100 - page.search_test - INFO - [search_test.py:309] -   - icon_svg_svg: .icon-svg.color-info
+2026-03-04 11:24:11,100 - page.search_test - INFO - [search_test.py:309] -   - search_input: .color-info.b-none.w-full.bg-transparent.block.appearance-none.p-0.text-md
+2026-03-04 11:24:11,100 - page.search_test - INFO - [search_test.py:309] -   - hot_search1the_thief_loverall_element: .flex.flex-col.justify-start.items-stretch.gap-xl.p-xl.mt-lg
+2026-03-04 11:24:11,100 - page.search_test - INFO - [search_test.py:217] - 开始测试热门搜索视频元素
+2026-03-04 11:24:11,109 - page.search_test - INFO - [search_test.py:226] - 找到 10 个热门搜索视频条目
+2026-03-04 11:24:11,111 - page.search_test - INFO - [search_test.py:235] - 测试热门搜索视频 1
+2026-03-04 11:24:11,334 - page.search_test - INFO - [search_test.py:239] - 成功点击热门搜索视频 1
+2026-03-04 11:24:14,345 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 11:24:14,563 - page.search_test - INFO - [search_test.py:247] - 成功进入播放器页面 (点击热门搜索视频 1 后)
+2026-03-04 11:24:18,092 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 11:24:18,095 - page.search_test - INFO - [search_test.py:256] - 从播放器返回到搜索页面
+2026-03-04 11:24:30,104 - page.search_test - INFO - [search_test.py:279] - 热门搜索视频元素测试完成
+2026-03-04 11:24:30,104 - page.search_test - INFO - [search_test.py:317] - 搜索 'alibaba'
+2026-03-04 11:24:30,104 - page.search_test - INFO - [search_test.py:70] - 搜索关键词: alibaba
+2026-03-04 11:24:30,348 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: input
+2026-03-04 11:24:30,348 - page.search_test - INFO - [search_test.py:74] - 成功点击搜索输入框
+2026-03-04 11:24:30,356 - page.search_test - INFO - [search_test.py:84] - 已输入关键词: alibaba
+2026-03-04 11:24:30,951 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 11:24:30,991 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 47778, 名称: Python
+2026-03-04 12:43:13,572 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 12:43:13,607 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 47789, 名称: Google
+2026-03-04 12:43:13,607 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 47789
+2026-03-04 12:43:15,614 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 12:43:15,642 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-04 12:43:20,490 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-04 12:43:20,492 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-04 12:43:21,198 - page.search_test - INFO - [search_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-04 12:43:25,003 - page.search_test - INFO - [search_test.py:36] - 首页轮播图加载完成
+2026-03-04 12:43:25,004 - page.search_test - INFO - [search_test.py:284] - 开始测试搜索功能
+2026-03-04 12:43:25,004 - page.search_test - INFO - [search_test.py:43] - 打开搜索页面
+2026-03-04 12:43:25,252 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.text-xxl
+2026-03-04 12:43:25,253 - page.search_test - INFO - [search_test.py:47] - 成功点击搜索图标
+2026-03-04 12:43:27,271 - page.search_test - INFO - [search_test.py:296] - 已保存搜索页面 HTML: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/search.html
+2026-03-04 12:43:27,314 - page.search_test - INFO - [search_test.py:307] - 为搜索页面提取到 9 个定位器
+2026-03-04 12:43:27,314 - page.search_test - INFO - [search_test.py:309] -   - script_7d119307: [data-checked-head='true']
+2026-03-04 12:43:27,314 - page.search_test - INFO - [search_test.py:309] -   - adsbygoogle_ins: .adsbygoogle.adsbygoogle-noablate
+2026-03-04 12:43:27,315 - page.search_test - INFO - [search_test.py:309] -   - __w______iframe: [data-google-container-id='a!1']
+2026-03-04 12:43:27,315 - page.search_test - INFO - [search_test.py:309] -   - cancelhot_search1the_thief_lov_element: .flex.justify-start.flex-col.items-stretch.gap-xl.box-border.float-box.pt-xl
+2026-03-04 12:43:27,315 - page.search_test - INFO - [search_test.py:309] -   - cancel_element: text=Cancel
+2026-03-04 12:43:27,315 - page.search_test - INFO - [search_test.py:309] -   - flex_div: .flex.justify-start.items-center.box-border.bg-bgoverlay.gap-xxs.px-lg.b-none.h-64.flex-1.flex-1.rd-xl
+2026-03-04 12:43:27,315 - page.search_test - INFO - [search_test.py:309] -   - icon_svg_svg: .icon-svg.color-info
+2026-03-04 12:43:27,315 - page.search_test - INFO - [search_test.py:309] -   - search_input: .color-info.b-none.w-full.bg-transparent.block.appearance-none.p-0.text-md
+2026-03-04 12:43:27,315 - page.search_test - INFO - [search_test.py:309] -   - hot_search1the_thief_loverall_element: .flex.flex-col.justify-start.items-stretch.gap-xl.p-xl.mt-lg
+2026-03-04 12:43:27,315 - page.search_test - INFO - [search_test.py:217] - 开始测试热门搜索视频元素
+2026-03-04 12:43:27,328 - page.search_test - INFO - [search_test.py:226] - 找到 10 个热门搜索视频条目
+2026-03-04 12:43:27,330 - page.search_test - INFO - [search_test.py:235] - 测试热门搜索视频 1
+2026-03-04 12:43:27,552 - page.search_test - INFO - [search_test.py:239] - 成功点击热门搜索视频 1
+2026-03-04 12:43:30,574 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 12:43:30,793 - page.search_test - INFO - [search_test.py:247] - 成功进入播放器页面 (点击热门搜索视频 1 后)
+2026-03-04 12:43:34,322 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 12:43:34,322 - page.search_test - INFO - [search_test.py:256] - 从播放器返回到搜索页面
+2026-03-04 12:43:46,339 - page.search_test - INFO - [search_test.py:279] - 热门搜索视频元素测试完成
+2026-03-04 12:43:46,340 - page.search_test - INFO - [search_test.py:317] - 搜索 'alibaba'
+2026-03-04 12:43:46,340 - page.search_test - INFO - [search_test.py:70] - 搜索关键词: alibaba
+2026-03-04 12:43:46,580 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: input
+2026-03-04 12:43:46,580 - page.search_test - INFO - [search_test.py:74] - 成功点击搜索输入框
+2026-03-04 12:43:46,588 - page.search_test - INFO - [search_test.py:84] - 已输入关键词: alibaba
+2026-03-04 12:43:47,186 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 12:43:47,255 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 48981, 名称: Python
+2026-03-04 12:45:36,381 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 12:45:36,419 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 48992, 名称: Google
+2026-03-04 12:45:36,419 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 48992
+2026-03-04 12:45:38,426 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 12:45:38,466 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-04 12:45:41,121 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-04 12:45:41,122 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-04 12:45:41,668 - page.search_test - INFO - [search_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-04 12:45:46,115 - page.search_test - INFO - [search_test.py:36] - 首页轮播图加载完成
+2026-03-04 12:45:46,118 - page.search_test - INFO - [search_test.py:284] - 开始测试搜索功能
+2026-03-04 12:45:46,118 - page.search_test - INFO - [search_test.py:43] - 打开搜索页面
+2026-03-04 12:45:46,360 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.text-xxl
+2026-03-04 12:45:46,361 - page.search_test - INFO - [search_test.py:47] - 成功点击搜索图标
+2026-03-04 12:45:48,378 - page.search_test - INFO - [search_test.py:296] - 已保存搜索页面 HTML: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/search.html
+2026-03-04 12:45:48,415 - page.search_test - INFO - [search_test.py:307] - 为搜索页面提取到 9 个定位器
+2026-03-04 12:45:48,415 - page.search_test - INFO - [search_test.py:309] -   - script_7d119307: [data-checked-head='true']
+2026-03-04 12:45:48,415 - page.search_test - INFO - [search_test.py:309] -   - adsbygoogle_ins: .adsbygoogle.adsbygoogle-noablate
+2026-03-04 12:45:48,415 - page.search_test - INFO - [search_test.py:309] -   - __w______iframe: [data-google-container-id='a!1']
+2026-03-04 12:45:48,415 - page.search_test - INFO - [search_test.py:309] -   - cancelhot_search1the_thief_lov_element: .flex.justify-start.flex-col.items-stretch.gap-xl.box-border.float-box.pt-xl
+2026-03-04 12:45:48,415 - page.search_test - INFO - [search_test.py:309] -   - cancel_element: text=Cancel
+2026-03-04 12:45:48,415 - page.search_test - INFO - [search_test.py:309] -   - flex_div: .flex.justify-start.items-center.box-border.bg-bgoverlay.gap-xxs.px-lg.b-none.h-64.flex-1.flex-1.rd-xl
+2026-03-04 12:45:48,415 - page.search_test - INFO - [search_test.py:309] -   - icon_svg_svg: .icon-svg.color-info
+2026-03-04 12:45:48,415 - page.search_test - INFO - [search_test.py:309] -   - search_input: .color-info.b-none.w-full.bg-transparent.block.appearance-none.p-0.text-md
+2026-03-04 12:45:48,415 - page.search_test - INFO - [search_test.py:309] -   - hot_search1the_thief_loverall_element: .flex.flex-col.justify-start.items-stretch.gap-xl.p-xl.mt-lg
+2026-03-04 12:45:48,415 - page.search_test - INFO - [search_test.py:217] - 开始测试热门搜索视频元素
+2026-03-04 12:45:48,424 - page.search_test - INFO - [search_test.py:226] - 找到 10 个热门搜索视频条目
+2026-03-04 12:45:48,426 - page.search_test - INFO - [search_test.py:235] - 测试热门搜索视频 1
+2026-03-04 12:45:48,648 - page.search_test - INFO - [search_test.py:239] - 成功点击热门搜索视频 1
+2026-03-04 12:45:51,853 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 12:45:52,066 - page.search_test - INFO - [search_test.py:247] - 成功进入播放器页面 (点击热门搜索视频 1 后)
+2026-03-04 12:45:55,556 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 12:45:55,557 - page.search_test - INFO - [search_test.py:256] - 从播放器返回到搜索页面
+2026-03-04 12:46:07,567 - page.search_test - INFO - [search_test.py:279] - 热门搜索视频元素测试完成
+2026-03-04 12:46:07,569 - page.search_test - INFO - [search_test.py:317] - 搜索 'alibaba'
+2026-03-04 12:46:07,569 - page.search_test - INFO - [search_test.py:70] - 搜索关键词: alibaba
+2026-03-04 12:46:07,807 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: input
+2026-03-04 12:46:07,807 - page.search_test - INFO - [search_test.py:74] - 成功点击搜索输入框
+2026-03-04 12:46:07,815 - page.search_test - INFO - [search_test.py:84] - 已输入关键词: alibaba
+2026-03-04 12:46:08,412 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 12:46:08,470 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 49104, 名称: Python
+2026-03-04 12:47:24,537 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 12:47:24,568 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 49115, 名称: Google
+2026-03-04 12:47:24,569 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 49115
+2026-03-04 12:47:26,576 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 12:47:26,612 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-04 12:47:30,232 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-04 12:47:30,234 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-04 12:47:30,737 - page.search_test - INFO - [search_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-04 12:47:36,938 - page.search_test - INFO - [search_test.py:36] - 首页轮播图加载完成
+2026-03-04 12:47:36,940 - page.search_test - INFO - [search_test.py:284] - 开始测试搜索功能
+2026-03-04 12:47:36,941 - page.search_test - INFO - [search_test.py:43] - 打开搜索页面
+2026-03-04 12:47:37,189 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.text-xxl
+2026-03-04 12:47:37,189 - page.search_test - INFO - [search_test.py:47] - 成功点击搜索图标
+2026-03-04 12:47:39,209 - page.search_test - INFO - [search_test.py:296] - 已保存搜索页面 HTML: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/search.html
+2026-03-04 12:47:39,245 - page.search_test - INFO - [search_test.py:307] - 为搜索页面提取到 9 个定位器
+2026-03-04 12:47:39,245 - page.search_test - INFO - [search_test.py:309] -   - script_7d119307: [data-checked-head='true']
+2026-03-04 12:47:39,245 - page.search_test - INFO - [search_test.py:309] -   - adsbygoogle_ins: .adsbygoogle.adsbygoogle-noablate
+2026-03-04 12:47:39,245 - page.search_test - INFO - [search_test.py:309] -   - __w______iframe: [data-google-container-id='a!1']
+2026-03-04 12:47:39,245 - page.search_test - INFO - [search_test.py:309] -   - cancelhot_search1the_thief_lov_element: .flex.justify-start.flex-col.items-stretch.gap-xl.box-border.float-box.pt-xl
+2026-03-04 12:47:39,245 - page.search_test - INFO - [search_test.py:309] -   - cancel_element: text=Cancel
+2026-03-04 12:47:39,245 - page.search_test - INFO - [search_test.py:309] -   - flex_div: .flex.justify-start.items-center.box-border.bg-bgoverlay.gap-xxs.px-lg.b-none.h-64.flex-1.flex-1.rd-xl
+2026-03-04 12:47:39,245 - page.search_test - INFO - [search_test.py:309] -   - icon_svg_svg: .icon-svg.color-info
+2026-03-04 12:47:39,245 - page.search_test - INFO - [search_test.py:309] -   - search_input: .color-info.b-none.w-full.bg-transparent.block.appearance-none.p-0.text-md
+2026-03-04 12:47:39,245 - page.search_test - INFO - [search_test.py:309] -   - hot_search1the_thief_loverall_element: .flex.flex-col.justify-start.items-stretch.gap-xl.p-xl.mt-lg
+2026-03-04 12:47:39,245 - page.search_test - INFO - [search_test.py:217] - 开始测试热门搜索视频元素
+2026-03-04 12:47:39,255 - page.search_test - INFO - [search_test.py:226] - 找到 10 个热门搜索视频条目
+2026-03-04 12:47:39,256 - page.search_test - INFO - [search_test.py:235] - 测试热门搜索视频 1
+2026-03-04 12:47:39,478 - page.search_test - INFO - [search_test.py:239] - 成功点击热门搜索视频 1
+2026-03-04 12:47:42,490 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 12:47:42,705 - page.search_test - INFO - [search_test.py:247] - 成功进入播放器页面 (点击热门搜索视频 1 后)
+2026-03-04 12:47:46,219 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 12:47:46,220 - page.search_test - INFO - [search_test.py:256] - 从播放器返回到搜索页面
+2026-03-04 12:47:58,236 - page.search_test - INFO - [search_test.py:279] - 热门搜索视频元素测试完成
+2026-03-04 12:47:58,238 - page.search_test - INFO - [search_test.py:317] - 搜索 'alibaba'
+2026-03-04 12:47:58,238 - page.search_test - INFO - [search_test.py:70] - 搜索关键词: alibaba
+2026-03-04 12:47:58,475 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: input
+2026-03-04 12:47:58,476 - page.search_test - INFO - [search_test.py:74] - 成功点击搜索输入框
+2026-03-04 12:47:58,484 - page.search_test - INFO - [search_test.py:84] - 已输入关键词: alibaba
+2026-03-04 12:47:58,992 - page.search_test - INFO - [search_test.py:91] - 已按回车键执行搜索
+2026-03-04 12:48:01,996 - page.search_test - INFO - [search_test.py:98] - 当前 URL: https://video.reelswave.net/search
+2026-03-04 12:48:15,764 - page.search_test - INFO - [search_test.py:327] - 找到 'No results found' 提示，搜索功能正常
+2026-03-04 12:48:15,765 - page.search_test - INFO - [search_test.py:204] - 清空搜索内容
+2026-03-04 12:48:16,038 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.color-\#6C6E6F > path
+2026-03-04 12:48:16,039 - page.search_test - INFO - [search_test.py:208] - 成功点击清空按钮
+2026-03-04 12:48:18,049 - page.search_test - INFO - [search_test.py:336] - 搜索 'love'
+2026-03-04 12:48:18,049 - page.search_test - INFO - [search_test.py:70] - 搜索关键词: love
+2026-03-04 12:48:18,285 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: input
+2026-03-04 12:48:18,285 - page.search_test - INFO - [search_test.py:74] - 成功点击搜索输入框
+2026-03-04 12:48:18,294 - page.search_test - INFO - [search_test.py:84] - 已输入关键词: love
+2026-03-04 12:48:18,801 - page.search_test - INFO - [search_test.py:91] - 已按回车键执行搜索
+2026-03-04 12:48:21,806 - page.search_test - INFO - [search_test.py:98] - 当前 URL: https://video.reelswave.net/search?keyword=
+2026-03-04 12:48:23,812 - page.search_test - INFO - [search_test.py:217] - 开始测试热门搜索视频元素
+2026-03-04 12:48:23,831 - page.search_test - INFO - [search_test.py:226] - 找到 10 个热门搜索视频条目
+2026-03-04 12:48:23,835 - page.search_test - INFO - [search_test.py:235] - 测试热门搜索视频 1
+2026-03-04 12:48:24,106 - page.search_test - INFO - [search_test.py:239] - 成功点击热门搜索视频 1
+2026-03-04 12:48:27,129 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 12:48:27,353 - page.search_test - INFO - [search_test.py:247] - 成功进入播放器页面 (点击热门搜索视频 1 后)
+2026-03-04 12:48:30,870 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 12:48:30,870 - page.search_test - INFO - [search_test.py:256] - 从播放器返回到搜索页面
+2026-03-04 12:48:42,877 - page.search_test - INFO - [search_test.py:279] - 热门搜索视频元素测试完成
+2026-03-04 12:48:42,878 - page.search_test - INFO - [search_test.py:204] - 清空搜索内容
+2026-03-04 12:48:43,156 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.color-\#6C6E6F > path
+2026-03-04 12:48:43,157 - page.search_test - INFO - [search_test.py:208] - 成功点击清空按钮
+2026-03-04 12:48:43,352 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 12:54:23,821 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 12:54:23,848 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-04 12:54:23,848 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 12:54:23,868 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-04 12:54:26,906 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-04 12:54:26,908 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-04 12:54:27,414 - page.search_test - INFO - [search_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-04 12:54:31,405 - page.search_test - INFO - [search_test.py:36] - 首页轮播图加载完成
+2026-03-04 12:54:31,407 - page.search_test - INFO - [search_test.py:284] - 开始测试搜索功能
+2026-03-04 12:54:31,407 - page.search_test - INFO - [search_test.py:43] - 打开搜索页面
+2026-03-04 12:54:31,658 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.text-xxl
+2026-03-04 12:54:31,659 - page.search_test - INFO - [search_test.py:47] - 成功点击搜索图标
+2026-03-04 12:54:33,674 - page.search_test - INFO - [search_test.py:296] - 已保存搜索页面 HTML: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/search.html
+2026-03-04 12:54:33,709 - page.search_test - INFO - [search_test.py:307] - 为搜索页面提取到 10 个定位器
+2026-03-04 12:54:33,709 - page.search_test - INFO - [search_test.py:309] -   - script_7d119307: [data-checked-head='true']
+2026-03-04 12:54:33,709 - page.search_test - INFO - [search_test.py:309] -   - adsbygoogle_ins: .adsbygoogle.adsbygoogle-noablate
+2026-03-04 12:54:33,709 - page.search_test - INFO - [search_test.py:309] -   - __w______iframe: [data-google-container-id='a!1']
+2026-03-04 12:54:33,709 - page.search_test - INFO - [search_test.py:309] -   - cancelsearch_historyalibabahot_element: .flex.justify-start.flex-col.items-stretch.gap-xl.box-border.float-box.pt-xl
+2026-03-04 12:54:33,709 - page.search_test - INFO - [search_test.py:309] -   - cancel_element: text=Cancel
+2026-03-04 12:54:33,709 - page.search_test - INFO - [search_test.py:309] -   - flex_div: .flex.justify-start.items-center.box-border.bg-bgoverlay.gap-xxs.px-lg.b-none.h-64.flex-1.flex-1.rd-xl
+2026-03-04 12:54:33,709 - page.search_test - INFO - [search_test.py:309] -   - icon_svg_svg: .icon-svg.color-placeholder
+2026-03-04 12:54:33,709 - page.search_test - INFO - [search_test.py:309] -   - search_input: .color-info.b-none.w-full.bg-transparent.block.appearance-none.p-0.text-md
+2026-03-04 12:54:33,709 - page.search_test - INFO - [search_test.py:309] -   - search_historyalibabahot_searc_element: .flex.flex-col.justify-start.items-stretch.gap-xl.p-xl.mt-lg
+2026-03-04 12:54:33,709 - page.search_test - INFO - [search_test.py:309] -   - alibaba_element: text=alibaba
+2026-03-04 12:54:33,709 - page.search_test - INFO - [search_test.py:217] - 开始测试热门搜索视频元素
+2026-03-04 12:54:33,717 - page.search_test - INFO - [search_test.py:226] - 找到 10 个热门搜索视频条目
+2026-03-04 12:54:33,719 - page.search_test - INFO - [search_test.py:235] - 测试热门搜索视频 1
+2026-03-04 12:54:33,939 - page.search_test - INFO - [search_test.py:239] - 成功点击热门搜索视频 1
+2026-03-04 12:54:37,128 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 12:54:37,341 - page.search_test - INFO - [search_test.py:247] - 成功进入播放器页面 (点击热门搜索视频 1 后)
+2026-03-04 12:54:40,849 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 12:54:40,849 - page.search_test - INFO - [search_test.py:256] - 从播放器返回到搜索页面
+2026-03-04 12:54:52,858 - page.search_test - INFO - [search_test.py:279] - 热门搜索视频元素测试完成
+2026-03-04 12:54:52,858 - page.search_test - INFO - [search_test.py:317] - 搜索 'alibaba'
+2026-03-04 12:54:52,859 - page.search_test - INFO - [search_test.py:70] - 搜索关键词: alibaba
+
+2026-03-04 12:54:53,095 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: input
+2026-03-04 12:54:53,095 - page.search_test - INFO - [search_test.py:74] - 成功点击搜索输入框
+2026-03-04 12:54:53,105 - page.search_test - INFO - [search_test.py:84] - 已输入关键词: alibaba
+
+2026-03-04 12:54:53,613 - page.search_test - INFO - [search_test.py:91] - 已按回车键执行搜索
+2026-03-04 12:54:56,618 - page.search_test - INFO - [search_test.py:98] - 当前 URL: https://video.reelswave.net/search
+2026-03-04 12:54:58,626 - page.search_test - INFO - [search_test.py:327] - 找到 'No results found' 提示，搜索功能正常
+2026-03-04 12:54:59,631 - page.search_test - INFO - [search_test.py:335] - 搜索 'love'
+2026-03-04 12:54:59,632 - page.search_test - INFO - [search_test.py:70] - 搜索关键词: love
+
+2026-03-04 12:54:59,867 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: input
+2026-03-04 12:54:59,867 - page.search_test - INFO - [search_test.py:74] - 成功点击搜索输入框
+2026-03-04 12:54:59,877 - page.search_test - INFO - [search_test.py:84] - 已输入关键词: love
+
+2026-03-04 12:55:00,384 - page.search_test - INFO - [search_test.py:91] - 已按回车键执行搜索
+2026-03-04 12:55:03,390 - page.search_test - INFO - [search_test.py:98] - 当前 URL: https://video.reelswave.net/search?keyword=love
+2026-03-04 12:55:05,394 - page.search_test - INFO - [search_test.py:217] - 开始测试热门搜索视频元素
+2026-03-04 12:55:05,403 - page.search_test - INFO - [search_test.py:226] - 找到 2 个热门搜索视频条目
+2026-03-04 12:55:05,407 - page.search_test - INFO - [search_test.py:235] - 测试热门搜索视频 1
+2026-03-04 12:55:05,677 - page.search_test - INFO - [search_test.py:239] - 成功点击热门搜索视频 1
+2026-03-04 12:55:08,698 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 12:55:08,919 - page.search_test - INFO - [search_test.py:247] - 成功进入播放器页面 (点击热门搜索视频 1 后)
+2026-03-04 12:55:12,433 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 12:55:12,433 - page.search_test - INFO - [search_test.py:256] - 从播放器返回到搜索页面
+2026-03-04 12:55:24,448 - page.search_test - INFO - [search_test.py:279] - 热门搜索视频元素测试完成
+2026-03-04 12:55:24,449 - page.search_test - INFO - [search_test.py:204] - 清空搜索内容
+2026-03-04 12:55:24,736 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.color-\#6C6E6F > path
+2026-03-04 12:55:24,737 - page.search_test - INFO - [search_test.py:208] - 成功点击清空按钮
+2026-03-04 12:55:26,743 - page.search_test - INFO - [search_test.py:56] - 关闭搜索页面
+2026-03-04 12:55:27,026 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: #app > div > div > div > div.justify-between > div.text-lg
+2026-03-04 12:55:27,026 - page.search_test - INFO - [search_test.py:60] - 成功点击取消按钮
+2026-03-04 12:55:31,052 - page.search_test - INFO - [search_test.py:349] - 搜索功能测试完成
+2026-03-04 12:55:31,086 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 12:55:31,157 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 49449, 名称: Python
+2026-03-04 13:26:14,863 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 13:26:14,902 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 49459, 名称: Google
+2026-03-04 13:26:14,902 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 49459
+2026-03-04 13:26:16,909 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 13:26:16,945 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-04 13:26:20,343 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-04 13:26:20,345 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-04 13:26:22,158 - page.search_test - INFO - [search_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-04 13:26:30,703 - page.search_test - INFO - [search_test.py:36] - 首页轮播图加载完成
+2026-03-04 13:26:30,706 - page.search_test - INFO - [search_test.py:277] - 开始测试搜索功能
+2026-03-04 13:26:30,706 - page.search_test - INFO - [search_test.py:43] - 打开搜索页面
+2026-03-04 13:26:30,961 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.text-xxl
+2026-03-04 13:26:30,962 - page.search_test - INFO - [search_test.py:47] - 成功点击搜索图标
+2026-03-04 13:26:32,978 - page.search_test - INFO - [search_test.py:289] - 已保存搜索页面 HTML: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/search.html
+2026-03-04 13:26:33,021 - page.search_test - INFO - [search_test.py:300] - 为搜索页面提取到 10 个定位器
+2026-03-04 13:26:33,021 - page.search_test - INFO - [search_test.py:302] -   - script_7d119307: [data-checked-head='true']
+2026-03-04 13:26:33,021 - page.search_test - INFO - [search_test.py:302] -   - adsbygoogle_ins: .adsbygoogle.adsbygoogle-noablate
+2026-03-04 13:26:33,021 - page.search_test - INFO - [search_test.py:302] -   - __w______iframe: [data-google-container-id='a!1']
+2026-03-04 13:26:33,021 - page.search_test - INFO - [search_test.py:302] -   - cancelsearch_historylovealibab_element: .flex.justify-start.flex-col.items-stretch.gap-xl.box-border.float-box.pt-xl
+2026-03-04 13:26:33,021 - page.search_test - INFO - [search_test.py:302] -   - cancel_element: text=Cancel
+2026-03-04 13:26:33,021 - page.search_test - INFO - [search_test.py:302] -   - flex_div: .flex.justify-start.items-center.box-border.bg-bgoverlay.gap-xxs.px-lg.b-none.h-64.flex-1.flex-1.rd-xl
+2026-03-04 13:26:33,021 - page.search_test - INFO - [search_test.py:302] -   - icon_svg_svg: .icon-svg.color-placeholder
+2026-03-04 13:26:33,021 - page.search_test - INFO - [search_test.py:302] -   - search_input: .color-info.b-none.w-full.bg-transparent.block.appearance-none.p-0.text-md
+2026-03-04 13:26:33,021 - page.search_test - INFO - [search_test.py:302] -   - search_historylovealibabahot_s_element: .flex.flex-col.justify-start.items-stretch.gap-xl.p-xl.mt-lg
+2026-03-04 13:26:33,021 - page.search_test - INFO - [search_test.py:302] -   - lovealibaba_element: .flex.justify-start.gap-lg.flex-wrap.mt-xl
+2026-03-04 13:26:33,021 - page.search_test - INFO - [search_test.py:210] - 开始测试热门搜索视频元素
+2026-03-04 13:26:33,030 - page.search_test - INFO - [search_test.py:219] - 找到 10 个热门搜索视频条目
+2026-03-04 13:26:33,032 - page.search_test - INFO - [search_test.py:228] - 测试热门搜索视频 1
+2026-03-04 13:26:33,248 - page.search_test - INFO - [search_test.py:232] - 成功点击热门搜索视频 1
+2026-03-04 13:26:36,268 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 13:26:36,489 - page.search_test - INFO - [search_test.py:240] - 成功进入播放器页面 (点击热门搜索视频 1 后)
+2026-03-04 13:26:40,004 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 13:26:40,004 - page.search_test - INFO - [search_test.py:249] - 从播放器返回到搜索页面
+2026-03-04 13:26:52,008 - page.search_test - INFO - [search_test.py:272] - 热门搜索视频元素测试完成
+2026-03-04 13:26:52,009 - page.search_test - INFO - [search_test.py:310] - 搜索 'alibaba'
+2026-03-04 13:26:52,009 - page.search_test - INFO - [search_test.py:70] - 搜索关键词: alibaba
+
+2026-03-04 13:26:52,253 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: input
+2026-03-04 13:26:52,253 - page.search_test - INFO - [search_test.py:74] - 成功点击搜索输入框
+2026-03-04 13:26:52,265 - page.search_test - INFO - [search_test.py:84] - 已输入关键词并搜索: alibaba
+
+2026-03-04 13:26:55,272 - page.search_test - INFO - [search_test.py:91] - 当前 URL: https://video.reelswave.net/search
+2026-03-04 13:26:57,282 - page.search_test - INFO - [search_test.py:320] - 找到 'No results found' 提示，搜索功能正常
+2026-03-04 13:26:58,287 - page.search_test - INFO - [search_test.py:328] - 搜索 'love'
+2026-03-04 13:26:58,287 - page.search_test - INFO - [search_test.py:70] - 搜索关键词: love
+
+2026-03-04 13:26:58,523 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: input
+2026-03-04 13:26:58,524 - page.search_test - INFO - [search_test.py:74] - 成功点击搜索输入框
+2026-03-04 13:26:58,535 - page.search_test - INFO - [search_test.py:84] - 已输入关键词并搜索: love
+
+2026-03-04 13:27:01,541 - page.search_test - INFO - [search_test.py:91] - 当前 URL: https://video.reelswave.net/search?keyword=love
+2026-03-04 13:27:03,546 - page.search_test - INFO - [search_test.py:210] - 开始测试热门搜索视频元素
+2026-03-04 13:27:03,554 - page.search_test - INFO - [search_test.py:219] - 找到 2 个热门搜索视频条目
+2026-03-04 13:27:03,557 - page.search_test - INFO - [search_test.py:228] - 测试热门搜索视频 1
+2026-03-04 13:27:03,829 - page.search_test - INFO - [search_test.py:232] - 成功点击热门搜索视频 1
+2026-03-04 13:27:07,235 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 13:27:07,447 - page.search_test - INFO - [search_test.py:240] - 成功进入播放器页面 (点击热门搜索视频 1 后)
+2026-03-04 13:27:10,976 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 13:27:10,976 - page.search_test - INFO - [search_test.py:249] - 从播放器返回到搜索页面
+2026-03-04 13:27:22,989 - page.search_test - INFO - [search_test.py:272] - 热门搜索视频元素测试完成
+2026-03-04 13:27:22,990 - page.search_test - INFO - [search_test.py:197] - 清空搜索内容
+2026-03-04 13:27:23,265 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.color-\#6C6E6F > path
+2026-03-04 13:27:23,266 - page.search_test - INFO - [search_test.py:201] - 成功点击清空按钮
+2026-03-04 13:27:25,272 - page.search_test - INFO - [search_test.py:56] - 关闭搜索页面
+2026-03-04 13:27:25,557 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: #app > div > div > div > div.justify-between > div.text-lg
+2026-03-04 13:27:25,557 - page.search_test - INFO - [search_test.py:60] - 成功点击取消按钮
+2026-03-04 13:27:29,585 - page.search_test - INFO - [search_test.py:342] - 搜索功能测试完成
+2026-03-04 13:27:29,618 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 13:27:29,674 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 49979, 名称: Python
+2026-03-04 13:59:58,519 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 13:59:58,561 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 49990, 名称: Google
+2026-03-04 13:59:58,561 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 49990
+2026-03-04 14:00:00,564 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 14:00:00,600 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-04 14:00:06,280 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-04 14:00:06,283 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-04 14:00:06,781 - page.search_test - INFO - [search_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-04 14:00:11,027 - page.search_test - INFO - [search_test.py:36] - 首页轮播图加载完成
+2026-03-04 14:00:11,029 - page.search_test - INFO - [search_test.py:44] - 开始测试搜索功能
+2026-03-04 14:00:11,029 - components.SearchComponent - INFO - [SearchComponent.py:16] - 打开搜索页面
+2026-03-04 14:00:11,282 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.text-xxl
+2026-03-04 14:00:11,282 - components.SearchComponent - INFO - [SearchComponent.py:20] - 成功点击搜索图标
+2026-03-04 14:00:13,300 - page.search_test - INFO - [search_test.py:56] - 已保存搜索页面 HTML: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/search.html
+2026-03-04 14:00:13,342 - page.search_test - INFO - [search_test.py:67] - 为搜索页面提取到 10 个定位器
+2026-03-04 14:00:13,342 - page.search_test - INFO - [search_test.py:69] -   - script_7d119307: [data-checked-head='true']
+2026-03-04 14:00:13,342 - page.search_test - INFO - [search_test.py:69] -   - adsbygoogle_ins: .adsbygoogle.adsbygoogle-noablate
+2026-03-04 14:00:13,342 - page.search_test - INFO - [search_test.py:69] -   - __w______iframe: [data-google-container-id='a!1']
+2026-03-04 14:00:13,342 - page.search_test - INFO - [search_test.py:69] -   - cancelsearch_historylovealibab_element: .flex.justify-start.flex-col.items-stretch.gap-xl.box-border.float-box.pt-xl
+2026-03-04 14:00:13,342 - page.search_test - INFO - [search_test.py:69] -   - cancel_element: text=Cancel
+2026-03-04 14:00:13,342 - page.search_test - INFO - [search_test.py:69] -   - flex_div: .flex.justify-start.items-center.box-border.bg-bgoverlay.gap-xxs.px-lg.b-none.h-64.flex-1.flex-1.rd-xl
+2026-03-04 14:00:13,342 - page.search_test - INFO - [search_test.py:69] -   - icon_svg_svg: .icon-svg.color-placeholder
+2026-03-04 14:00:13,342 - page.search_test - INFO - [search_test.py:69] -   - search_input: .color-info.b-none.w-full.bg-transparent.block.appearance-none.p-0.text-md
+2026-03-04 14:00:13,342 - page.search_test - INFO - [search_test.py:69] -   - search_historylovealibabahot_s_element: .flex.flex-col.justify-start.items-stretch.gap-xl.p-xl.mt-lg
+2026-03-04 14:00:13,342 - page.search_test - INFO - [search_test.py:69] -   - lovealibaba_element: .flex.justify-start.gap-lg.flex-wrap.mt-xl
+2026-03-04 14:00:13,343 - components.SearchComponent - INFO - [SearchComponent.py:89] - 开始测试热门搜索视频元素
+2026-03-04 14:00:13,351 - components.SearchComponent - INFO - [SearchComponent.py:98] - 找到 10 个热门搜索视频条目
+2026-03-04 14:00:13,353 - components.SearchComponent - INFO - [SearchComponent.py:107] - 测试热门搜索视频 1
+2026-03-04 14:00:13,566 - components.SearchComponent - INFO - [SearchComponent.py:111] - 成功点击热门搜索视频 1
+2026-03-04 14:00:16,942 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 14:00:17,157 - components.SearchComponent - INFO - [SearchComponent.py:119] - 成功进入播放器页面 (点击热门搜索视频 1 后)
+2026-03-04 14:00:20,650 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 14:00:20,651 - components.SearchComponent - INFO - [SearchComponent.py:128] - 从播放器返回到搜索页面
+2026-03-04 14:00:32,662 - components.SearchComponent - INFO - [SearchComponent.py:151] - 热门搜索视频元素测试完成
+2026-03-04 14:00:32,663 - page.search_test - INFO - [search_test.py:77] - 搜索 'alibaba'
+2026-03-04 14:00:32,663 - components.SearchComponent - INFO - [SearchComponent.py:43] - 搜索关键词: alibaba
+2026-03-04 14:00:32,897 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: input
+2026-03-04 14:00:32,897 - components.SearchComponent - INFO - [SearchComponent.py:47] - 成功点击搜索输入框
+2026-03-04 14:00:32,905 - components.SearchComponent - INFO - [SearchComponent.py:57] - 已输入关键词并搜索: alibaba
+2026-03-04 14:00:35,912 - components.SearchComponent - INFO - [SearchComponent.py:64] - 当前 URL: https://video.reelswave.net/search
+2026-03-04 14:00:57,920 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:span.text-placeholder.text-lg
+2026-03-04 14:00:57,920 - page.search_test - WARNING - [search_test.py:89] - 未找到 'No results found' 提示
+2026-03-04 14:00:58,924 - page.search_test - INFO - [search_test.py:95] - 搜索 'love'
+2026-03-04 14:00:58,924 - components.SearchComponent - INFO - [SearchComponent.py:43] - 搜索关键词: love
+2026-03-04 14:00:59,162 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: input
+2026-03-04 14:00:59,163 - components.SearchComponent - INFO - [SearchComponent.py:47] - 成功点击搜索输入框
+2026-03-04 14:00:59,170 - components.SearchComponent - INFO - [SearchComponent.py:57] - 已输入关键词并搜索: love
+2026-03-04 14:01:02,176 - components.SearchComponent - INFO - [SearchComponent.py:64] - 当前 URL: https://video.reelswave.net/search
+2026-03-04 14:01:04,181 - components.SearchComponent - INFO - [SearchComponent.py:89] - 开始测试热门搜索视频元素
+2026-03-04 14:01:04,199 - components.SearchComponent - INFO - [SearchComponent.py:98] - 找到 10 个热门搜索视频条目
+2026-03-04 14:01:04,202 - components.SearchComponent - INFO - [SearchComponent.py:107] - 测试热门搜索视频 1
+2026-03-04 14:01:04,488 - components.SearchComponent - INFO - [SearchComponent.py:111] - 成功点击热门搜索视频 1
+2026-03-04 14:01:07,508 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 14:01:07,728 - components.SearchComponent - INFO - [SearchComponent.py:119] - 成功进入播放器页面 (点击热门搜索视频 1 后)
+2026-03-04 14:01:11,239 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 14:01:11,239 - components.SearchComponent - INFO - [SearchComponent.py:128] - 从播放器返回到搜索页面
+2026-03-04 14:01:23,246 - components.SearchComponent - INFO - [SearchComponent.py:151] - 热门搜索视频元素测试完成
+2026-03-04 14:01:23,246 - components.SearchComponent - INFO - [SearchComponent.py:76] - 清空搜索内容
+2026-03-04 14:01:23,521 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.color-\#6C6E6F > path
+2026-03-04 14:01:23,521 - components.SearchComponent - INFO - [SearchComponent.py:80] - 成功点击清空按钮
+2026-03-04 14:01:25,529 - components.SearchComponent - INFO - [SearchComponent.py:29] - 关闭搜索页面
+2026-03-04 14:01:25,769 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: #app > div > div > div > div.justify-between > div.text-lg
+2026-03-04 14:01:25,769 - components.SearchComponent - INFO - [SearchComponent.py:33] - 成功点击取消按钮
+2026-03-04 14:01:29,798 - page.search_test - INFO - [search_test.py:109] - 搜索功能测试完成
+2026-03-04 14:01:29,831 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 14:01:29,897 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 50595, 名称: Python
+2026-03-04 14:03:33,137 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 14:03:33,179 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 50612, 名称: Google
+2026-03-04 14:03:33,179 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 50612
+2026-03-04 14:03:35,187 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 14:03:35,225 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-04 14:03:39,093 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-04 14:03:39,093 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-04 14:03:39,448 - page.search_test - INFO - [search_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-04 14:03:42,919 - page.search_test - INFO - [search_test.py:36] - 首页轮播图加载完成
+2026-03-04 14:03:42,921 - page.search_test - INFO - [search_test.py:44] - 开始测试搜索功能
+2026-03-04 14:03:42,922 - components.SearchComponent - INFO - [SearchComponent.py:16] - 打开搜索页面
+2026-03-04 14:03:43,166 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.text-xxl
+2026-03-04 14:03:43,167 - components.SearchComponent - INFO - [SearchComponent.py:20] - 成功点击搜索图标
+2026-03-04 14:03:45,186 - page.search_test - INFO - [search_test.py:56] - 已保存搜索页面 HTML: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/search.html
+2026-03-04 14:03:45,227 - page.search_test - INFO - [search_test.py:67] - 为搜索页面提取到 10 个定位器
+2026-03-04 14:03:45,227 - page.search_test - INFO - [search_test.py:69] -   - script_7d119307: [data-checked-head='true']
+2026-03-04 14:03:45,227 - page.search_test - INFO - [search_test.py:69] -   - adsbygoogle_ins: .adsbygoogle.adsbygoogle-noablate
+2026-03-04 14:03:45,227 - page.search_test - INFO - [search_test.py:69] -   - __w______iframe: [data-google-container-id='a!1']
+2026-03-04 14:03:45,227 - page.search_test - INFO - [search_test.py:69] -   - cancelsearch_historylovealibab_element: .flex.justify-start.flex-col.items-stretch.gap-xl.box-border.float-box.pt-xl
+2026-03-04 14:03:45,227 - page.search_test - INFO - [search_test.py:69] -   - cancel_element: text=Cancel
+2026-03-04 14:03:45,227 - page.search_test - INFO - [search_test.py:69] -   - flex_div: .flex.justify-start.items-center.box-border.bg-bgoverlay.gap-xxs.px-lg.b-none.h-64.flex-1.flex-1.rd-xl
+2026-03-04 14:03:45,227 - page.search_test - INFO - [search_test.py:69] -   - icon_svg_svg: .icon-svg.color-placeholder
+2026-03-04 14:03:45,227 - page.search_test - INFO - [search_test.py:69] -   - search_input: .color-info.b-none.w-full.bg-transparent.block.appearance-none.p-0.text-md
+2026-03-04 14:03:45,227 - page.search_test - INFO - [search_test.py:69] -   - search_historylovealibabahot_s_element: .flex.flex-col.justify-start.items-stretch.gap-xl.p-xl.mt-lg
+2026-03-04 14:03:45,227 - page.search_test - INFO - [search_test.py:69] -   - lovealibaba_element: .flex.justify-start.gap-lg.flex-wrap.mt-xl
+2026-03-04 14:03:45,227 - components.SearchComponent - INFO - [SearchComponent.py:89] - 开始测试热门搜索视频元素
+2026-03-04 14:03:45,236 - components.SearchComponent - INFO - [SearchComponent.py:98] - 找到 10 个热门搜索视频条目
+2026-03-04 14:03:45,237 - components.SearchComponent - INFO - [SearchComponent.py:107] - 测试热门搜索视频 1
+2026-03-04 14:03:45,461 - components.SearchComponent - INFO - [SearchComponent.py:111] - 成功点击热门搜索视频 1
+2026-03-04 14:03:48,480 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 14:03:48,702 - components.SearchComponent - INFO - [SearchComponent.py:119] - 成功进入播放器页面 (点击热门搜索视频 1 后)
+2026-03-04 14:03:52,189 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 14:03:52,189 - components.SearchComponent - INFO - [SearchComponent.py:128] - 从播放器返回到搜索页面
+2026-03-04 14:04:04,203 - components.SearchComponent - INFO - [SearchComponent.py:151] - 热门搜索视频元素测试完成
+2026-03-04 14:04:04,205 - page.search_test - INFO - [search_test.py:77] - 搜索 'alibaba'
+2026-03-04 14:04:04,205 - components.SearchComponent - INFO - [SearchComponent.py:43] - 搜索关键词: alibaba
+
+2026-03-04 14:04:04,440 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: input
+2026-03-04 14:04:04,440 - components.SearchComponent - INFO - [SearchComponent.py:47] - 成功点击搜索输入框
+2026-03-04 14:04:04,454 - components.SearchComponent - INFO - [SearchComponent.py:57] - 已输入关键词并搜索: alibaba
+
+2026-03-04 14:04:07,461 - components.SearchComponent - INFO - [SearchComponent.py:64] - 当前 URL: https://video.reelswave.net/search
+2026-03-04 14:04:09,471 - page.search_test - INFO - [search_test.py:87] - 找到 'No results found' 提示，搜索功能正常
+2026-03-04 14:04:10,473 - page.search_test - INFO - [search_test.py:95] - 搜索 'love'
+2026-03-04 14:04:10,473 - components.SearchComponent - INFO - [SearchComponent.py:43] - 搜索关键词: love
+
+2026-03-04 14:04:10,691 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: input
+2026-03-04 14:04:10,691 - components.SearchComponent - INFO - [SearchComponent.py:47] - 成功点击搜索输入框
+2026-03-04 14:04:10,697 - components.SearchComponent - INFO - [SearchComponent.py:57] - 已输入关键词并搜索: love
+
+2026-03-04 14:04:13,702 - components.SearchComponent - INFO - [SearchComponent.py:64] - 当前 URL: https://video.reelswave.net/search?keyword=love
+2026-03-04 14:04:15,703 - components.SearchComponent - INFO - [SearchComponent.py:89] - 开始测试热门搜索视频元素
+2026-03-04 14:04:15,709 - components.SearchComponent - INFO - [SearchComponent.py:98] - 找到 2 个热门搜索视频条目
+2026-03-04 14:04:15,710 - components.SearchComponent - INFO - [SearchComponent.py:107] - 测试热门搜索视频 1
+2026-03-04 14:04:16,024 - components.SearchComponent - INFO - [SearchComponent.py:111] - 成功点击热门搜索视频 1
+2026-03-04 14:04:19,047 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 14:04:19,268 - components.SearchComponent - INFO - [SearchComponent.py:119] - 成功进入播放器页面 (点击热门搜索视频 1 后)
+2026-03-04 14:04:22,792 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 14:04:22,792 - components.SearchComponent - INFO - [SearchComponent.py:128] - 从播放器返回到搜索页面
+2026-03-04 14:04:34,799 - components.SearchComponent - INFO - [SearchComponent.py:151] - 热门搜索视频元素测试完成
+2026-03-04 14:04:34,799 - components.SearchComponent - INFO - [SearchComponent.py:76] - 清空搜索内容
+2026-03-04 14:04:35,084 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.color-\#6C6E6F > path
+2026-03-04 14:04:35,084 - components.SearchComponent - INFO - [SearchComponent.py:80] - 成功点击清空按钮
+2026-03-04 14:04:37,091 - components.SearchComponent - INFO - [SearchComponent.py:29] - 关闭搜索页面
+2026-03-04 14:04:37,376 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: #app > div > div > div > div.justify-between > div.text-lg
+2026-03-04 14:04:37,376 - components.SearchComponent - INFO - [SearchComponent.py:33] - 成功点击取消按钮
+2026-03-04 14:04:41,395 - page.search_test - INFO - [search_test.py:109] - 搜索功能测试完成
+2026-03-04 14:04:41,428 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 14:04:41,487 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 50758, 名称: Python
+2026-03-04 14:06:00,730 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 14:06:00,765 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 50770, 名称: Google
+2026-03-04 14:06:00,765 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 50770
+2026-03-04 14:06:02,777 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 14:06:02,804 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-04 14:06:05,374 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-04 14:06:05,375 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-04 14:06:05,756 - page.search_test - INFO - [search_test.py:31] - 导航到首页: https://video.reelswave.net/
+2026-03-04 14:06:09,502 - page.search_test - INFO - [search_test.py:36] - 首页轮播图加载完成
+2026-03-04 14:06:09,504 - page.search_test - INFO - [search_test.py:44] - 开始测试搜索功能
+2026-03-04 14:06:09,505 - components.SearchComponent - INFO - [SearchComponent.py:16] - 打开搜索页面
+2026-03-04 14:06:09,764 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.text-xxl
+2026-03-04 14:06:09,764 - components.SearchComponent - INFO - [SearchComponent.py:20] - 成功点击搜索图标
+2026-03-04 14:06:11,788 - page.search_test - INFO - [search_test.py:56] - 已保存搜索页面 HTML: /Users/zhangxu/work/script-test/reelswave_web_test/html_files/search.html
+2026-03-04 14:06:11,832 - page.search_test - INFO - [search_test.py:67] - 为搜索页面提取到 10 个定位器
+2026-03-04 14:06:11,832 - page.search_test - INFO - [search_test.py:69] -   - script_7d119307: [data-checked-head='true']
+2026-03-04 14:06:11,833 - page.search_test - INFO - [search_test.py:69] -   - adsbygoogle_ins: .adsbygoogle.adsbygoogle-noablate
+2026-03-04 14:06:11,833 - page.search_test - INFO - [search_test.py:69] -   - __w______iframe: [data-google-container-id='a!1']
+2026-03-04 14:06:11,833 - page.search_test - INFO - [search_test.py:69] -   - cancelsearch_historylovealibab_element: .flex.justify-start.flex-col.items-stretch.gap-xl.box-border.float-box.pt-xl
+2026-03-04 14:06:11,833 - page.search_test - INFO - [search_test.py:69] -   - cancel_element: text=Cancel
+2026-03-04 14:06:11,833 - page.search_test - INFO - [search_test.py:69] -   - flex_div: .flex.justify-start.items-center.box-border.bg-bgoverlay.gap-xxs.px-lg.b-none.h-64.flex-1.flex-1.rd-xl
+2026-03-04 14:06:11,833 - page.search_test - INFO - [search_test.py:69] -   - icon_svg_svg: .icon-svg.color-info
+2026-03-04 14:06:11,833 - page.search_test - INFO - [search_test.py:69] -   - search_input: .color-info.b-none.w-full.bg-transparent.block.appearance-none.p-0.text-md
+2026-03-04 14:06:11,833 - page.search_test - INFO - [search_test.py:69] -   - search_historylovealibabahot_s_element: .flex.flex-col.justify-start.items-stretch.gap-xl.p-xl.mt-lg
+2026-03-04 14:06:11,833 - page.search_test - INFO - [search_test.py:69] -   - lovealibaba_element: .flex.justify-start.gap-lg.flex-wrap.mt-xl
+2026-03-04 14:06:11,833 - components.SearchComponent - INFO - [SearchComponent.py:89] - 开始测试热门搜索视频元素
+2026-03-04 14:06:11,841 - components.SearchComponent - INFO - [SearchComponent.py:98] - 找到 10 个热门搜索视频条目
+2026-03-04 14:06:11,842 - components.SearchComponent - INFO - [SearchComponent.py:107] - 测试热门搜索视频 1
+2026-03-04 14:06:12,063 - components.SearchComponent - INFO - [SearchComponent.py:111] - 成功点击热门搜索视频 1
+2026-03-04 14:06:15,080 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 14:06:15,292 - components.SearchComponent - INFO - [SearchComponent.py:119] - 成功进入播放器页面 (点击热门搜索视频 1 后)
+2026-03-04 14:06:18,816 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 14:06:18,816 - components.SearchComponent - INFO - [SearchComponent.py:128] - 从播放器返回到搜索页面
+2026-03-04 14:06:30,832 - components.SearchComponent - INFO - [SearchComponent.py:151] - 热门搜索视频元素测试完成
+2026-03-04 14:06:30,833 - page.search_test - INFO - [search_test.py:77] - 搜索 'alibaba'
+2026-03-04 14:06:30,834 - components.SearchComponent - INFO - [SearchComponent.py:43] - 搜索关键词: alibaba
+
+2026-03-04 14:06:31,067 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: input
+2026-03-04 14:06:31,068 - components.SearchComponent - INFO - [SearchComponent.py:47] - 成功点击搜索输入框
+2026-03-04 14:06:31,080 - components.SearchComponent - INFO - [SearchComponent.py:57] - 已输入关键词并搜索: alibaba
+
+2026-03-04 14:06:34,087 - components.SearchComponent - INFO - [SearchComponent.py:64] - 当前 URL: https://video.reelswave.net/search
+2026-03-04 14:06:36,098 - page.search_test - INFO - [search_test.py:87] - 找到 'No results found' 提示，搜索功能正常
+2026-03-04 14:06:37,102 - page.search_test - INFO - [search_test.py:95] - 搜索 'love'
+2026-03-04 14:06:37,102 - components.SearchComponent - INFO - [SearchComponent.py:43] - 搜索关键词: love
+
+2026-03-04 14:06:37,338 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: input
+2026-03-04 14:06:37,338 - components.SearchComponent - INFO - [SearchComponent.py:47] - 成功点击搜索输入框
+2026-03-04 14:06:37,348 - components.SearchComponent - INFO - [SearchComponent.py:57] - 已输入关键词并搜索: love
+
+2026-03-04 14:06:40,355 - components.SearchComponent - INFO - [SearchComponent.py:64] - 当前 URL: https://video.reelswave.net/search?keyword=love
+2026-03-04 14:06:42,357 - components.SearchComponent - INFO - [SearchComponent.py:89] - 开始测试热门搜索视频元素
+2026-03-04 14:06:42,366 - components.SearchComponent - INFO - [SearchComponent.py:98] - 找到 2 个热门搜索视频条目
+2026-03-04 14:06:42,370 - components.SearchComponent - INFO - [SearchComponent.py:107] - 测试热门搜索视频 1
+2026-03-04 14:06:42,644 - components.SearchComponent - INFO - [SearchComponent.py:111] - 成功点击热门搜索视频 1
+2026-03-04 14:06:45,665 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-04 14:06:45,881 - components.SearchComponent - INFO - [SearchComponent.py:119] - 成功进入播放器页面 (点击热门搜索视频 1 后)
+2026-03-04 14:06:49,383 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-04 14:06:49,383 - components.SearchComponent - INFO - [SearchComponent.py:128] - 从播放器返回到搜索页面
+2026-03-04 14:07:01,394 - components.SearchComponent - INFO - [SearchComponent.py:151] - 热门搜索视频元素测试完成
+2026-03-04 14:07:01,395 - components.SearchComponent - INFO - [SearchComponent.py:76] - 清空搜索内容
+2026-03-04 14:07:01,674 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: svg.color-\#6C6E6F > path
+2026-03-04 14:07:01,675 - components.SearchComponent - INFO - [SearchComponent.py:80] - 成功点击清空按钮
+2026-03-04 14:07:03,685 - components.SearchComponent - INFO - [SearchComponent.py:29] - 关闭搜索页面
+2026-03-04 14:07:03,954 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: #app > div > div > div > div.justify-between > div.text-lg
+2026-03-04 14:07:03,954 - components.SearchComponent - INFO - [SearchComponent.py:33] - 成功点击取消按钮
+2026-03-04 14:07:07,982 - page.search_test - INFO - [search_test.py:109] - 搜索功能测试完成
+2026-03-04 14:07:08,015 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-04 14:07:08,057 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 50884, 名称: Python

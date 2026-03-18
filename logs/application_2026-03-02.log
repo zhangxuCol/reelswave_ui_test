@@ -1,0 +1,781 @@
+2026-03-02 09:37:14,898 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 09:37:14,951 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 25985, 名称: Google
+2026-03-02 09:37:14,951 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 25985
+2026-03-02 09:37:16,955 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 09:37:16,993 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 09:44:24,459 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 09:44:24,489 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 09:44:24,490 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 09:44:24,511 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 09:44:32,282 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 09:44:32,284 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 09:44:33,640 - page.player_pytest - INFO - [player_pytest.py:32] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-02 09:44:36,559 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-02 09:44:37,563 - page.player_pytest - INFO - [player_pytest.py:37] - 剧首页元素加载完成
+2026-03-02 09:44:37,828 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-02 09:44:37,828 - page.player_pytest - INFO - [player_pytest.py:41] - 成功点击'去看剧'按钮，打开播放器
+2026-03-02 09:44:42,829 - page.player_pytest - INFO - [player_pytest.py:45] - 播放器加载完成
+2026-03-02 09:44:42,830 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607313343123456&from=content-detail&chapterIndex=1&free=1&pay=0
+2026-03-02 09:44:42,832 - page.player_pytest - INFO - [player_pytest.py:181] - 测试打开首页功能
+2026-03-02 09:44:42,844 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-02 09:45:11,304 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-02 09:45:11,305 - page.player_pytest - INFO - [player_pytest.py:81] - 播放器菜单未打开，尝试打开菜单
+2026-03-02 09:45:11,318 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-02 09:45:11,782 - page.player_pytest - INFO - [player_pytest.py:85] - 播放器菜单打开成功
+2026-03-02 09:45:12,281 - page.player_pytest - INFO - [player_pytest.py:197] - 打开首页成功
+2026-03-02 09:45:16,145 - components.PlayerIconComponent - ERROR - [decorators.py:139] - 元素等待异常: 
+The element object is invalid. This may be an overall refresh of the page, or a partial js refresh to replace or remove elements.
+Version: 4.1.1.2
+2026-03-02 09:45:16,145 - page.player_pytest - INFO - [player_pytest.py:218] - 退出首页成功
+2026-03-02 09:45:16,170 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 09:45:16,248 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 51388, 名称: Python
+2026-03-02 09:46:07,886 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 09:46:07,922 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 51396, 名称: Google
+2026-03-02 09:46:07,922 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 51396
+2026-03-02 09:46:09,926 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 09:46:09,963 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 09:46:13,245 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 09:46:13,247 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 09:46:13,672 - page.player_pytest - INFO - [player_pytest.py:32] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-02 09:46:15,681 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-02 09:46:16,682 - page.player_pytest - INFO - [player_pytest.py:37] - 剧首页元素加载完成
+2026-03-02 09:46:16,927 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-02 09:46:16,928 - page.player_pytest - INFO - [player_pytest.py:41] - 成功点击'去看剧'按钮，打开播放器
+2026-03-02 09:46:21,933 - page.player_pytest - INFO - [player_pytest.py:45] - 播放器加载完成
+2026-03-02 09:46:21,935 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607313343123456&from=content-detail&chapterIndex=1&free=1&pay=0
+2026-03-02 09:46:21,938 - page.player_pytest - INFO - [player_pytest.py:181] - 测试打开首页功能
+2026-03-02 09:46:21,956 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-02 09:46:30,933 - page.player_pytest - INFO - [player_pytest.py:197] - 打开首页成功
+2026-03-02 09:46:34,766 - components.PlayerIconComponent - ERROR - [decorators.py:139] - 元素等待异常: 
+The element object is invalid. This may be an overall refresh of the page, or a partial js refresh to replace or remove elements.
+Version: 4.1.1.2
+2026-03-02 09:46:34,767 - page.player_pytest - INFO - [player_pytest.py:218] - 退出首页成功
+2026-03-02 09:46:34,780 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 09:46:34,837 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 51490, 名称: Python
+2026-03-02 09:46:53,132 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 09:46:53,165 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 51499, 名称: Google
+2026-03-02 09:46:53,165 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 51499
+2026-03-02 09:46:55,176 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 09:46:55,211 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 09:46:58,094 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 09:46:58,095 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 09:46:58,472 - page.player_pytest - INFO - [player_pytest.py:32] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-02 09:47:00,720 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-02 09:47:01,725 - page.player_pytest - INFO - [player_pytest.py:37] - 剧首页元素加载完成
+2026-03-02 09:47:01,996 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-02 09:47:01,996 - page.player_pytest - INFO - [player_pytest.py:41] - 成功点击'去看剧'按钮，打开播放器
+2026-03-02 09:47:06,997 - page.player_pytest - INFO - [player_pytest.py:45] - 播放器加载完成
+2026-03-02 09:47:07,000 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607313343123456&from=content-detail&chapterIndex=1&free=1&pay=0
+2026-03-02 09:47:07,002 - page.player_pytest - INFO - [player_pytest.py:223] - 测试打开聚合页-简介功能
+2026-03-02 09:47:07,015 - page.player_pytest - INFO - [player_pytest.py:229] - 尝试打开聚合页-简介
+2026-03-02 09:47:07,479 - page.player_pytest - INFO - [player_pytest.py:234] - 播放器聚合页打开成功
+2026-03-02 09:47:08,389 - page.player_pytest - INFO - [player_pytest.py:243] - 检查并处理可能的浮层
+2026-03-02 09:47:08,394 - page.player_pytest - INFO - [player_pytest.py:247] - 发现浮层，尝试点击关闭
+2026-03-02 09:47:08,400 - utils.page_actions - INFO - [page_actions.py:194] - 成功点击坐标(250, 161.2265625)
+2026-03-02 09:47:08,400 - utils.page_actions - INFO - [page_actions.py:225] - 点击浮层顶部向上40像素位置(250, 161.2265625)关闭浮层
+2026-03-02 09:47:28,919 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.flex.justify-start.absolute.flex-col.items-stretch.box-border
+2026-03-02 09:47:28,919 - page.player_pytest - INFO - [player_pytest.py:259] - 等待页面加载完成
+2026-03-02 09:47:48,927 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.line-clamp-1.flex-1.text-xl
+2026-03-02 09:47:48,928 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-03-02 09:48:09,441 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.line-clamp-1.flex-1.text-xl
+2026-03-02 09:48:09,442 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-03-02 09:48:09,946 - page.player_pytest - ERROR - [player_pytest.py:68] - 等待页面加载完成超时
+2026-03-02 09:48:10,024 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 09:48:10,088 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 51550, 名称: Python
+2026-03-02 10:00:39,103 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 10:00:39,142 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 51559, 名称: Google
+2026-03-02 10:00:39,142 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 51559
+2026-03-02 10:00:41,152 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 10:00:41,186 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 10:00:45,294 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 10:00:45,296 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 10:00:45,851 - page.player_pytest - INFO - [player_pytest.py:32] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-02 10:00:47,870 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-02 10:00:48,875 - page.player_pytest - INFO - [player_pytest.py:37] - 剧首页元素加载完成
+2026-03-02 10:00:49,171 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-02 10:00:49,172 - page.player_pytest - INFO - [player_pytest.py:41] - 成功点击'去看剧'按钮，打开播放器
+2026-03-02 10:00:54,172 - page.player_pytest - INFO - [player_pytest.py:45] - 播放器加载完成
+2026-03-02 10:00:54,174 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607313343123456&from=content-detail&chapterIndex=1&free=1&pay=0
+2026-03-02 10:00:54,176 - page.player_pytest - INFO - [player_pytest.py:223] - 测试打开聚合页-简介功能
+2026-03-02 10:00:54,186 - page.player_pytest - INFO - [player_pytest.py:229] - 尝试打开聚合页-简介
+2026-03-02 10:00:54,653 - page.player_pytest - INFO - [player_pytest.py:234] - 播放器聚合页打开成功
+2026-03-02 10:00:55,351 - page.player_pytest - INFO - [player_pytest.py:243] - 检查并处理可能的浮层
+2026-03-02 10:00:55,356 - page.player_pytest - INFO - [player_pytest.py:247] - 发现浮层，尝试点击关闭
+2026-03-02 10:00:55,361 - utils.page_actions - INFO - [page_actions.py:194] - 成功点击坐标(250, 161.2265625)
+2026-03-02 10:00:55,362 - utils.page_actions - INFO - [page_actions.py:225] - 点击浮层顶部向上40像素位置(250, 161.2265625)关闭浮层
+2026-03-02 10:01:09,552 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 10:01:09,577 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 10:11:01,294 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 10:11:01,321 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 10:11:01,322 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 10:11:01,345 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 10:11:07,449 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 10:11:07,451 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 10:11:07,870 - page.player_pytest - INFO - [player_pytest.py:32] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-02 10:11:09,891 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-02 10:11:10,893 - page.player_pytest - INFO - [player_pytest.py:37] - 剧首页元素加载完成
+2026-03-02 10:11:11,147 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-02 10:11:11,147 - page.player_pytest - INFO - [player_pytest.py:41] - 成功点击'去看剧'按钮，打开播放器
+2026-03-02 10:11:16,151 - page.player_pytest - INFO - [player_pytest.py:45] - 播放器加载完成
+2026-03-02 10:11:16,152 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607313343123456&from=content-detail&chapterIndex=1&free=1&pay=0
+2026-03-02 10:11:16,154 - page.player_pytest - INFO - [player_pytest.py:223] - 测试打开聚合页-简介功能
+2026-03-02 10:11:16,158 - page.player_pytest - INFO - [player_pytest.py:229] - 尝试打开聚合页-简介
+2026-03-02 10:11:17,052 - page.player_pytest - INFO - [player_pytest.py:240] - 播放器聚合页打开成功
+2026-03-02 10:11:17,052 - page.player_pytest - INFO - [player_pytest.py:243] - 检查并处理可能的浮层
+2026-03-02 10:11:17,055 - page.player_pytest - INFO - [player_pytest.py:247] - 发现浮层，尝试点击关闭
+2026-03-02 10:11:17,059 - utils.page_actions - INFO - [page_actions.py:194] - 成功点击坐标(250, 161.2265625)
+2026-03-02 10:11:17,059 - utils.page_actions - INFO - [page_actions.py:225] - 点击浮层顶部向上40像素位置(250, 161.2265625)关闭浮层
+2026-03-02 10:11:37,570 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.flex.justify-start.absolute.flex-col.items-stretch.box-border
+2026-03-02 10:11:37,571 - page.player_pytest - INFO - [player_pytest.py:259] - 等待页面加载完成
+2026-03-02 10:11:57,583 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.line-clamp-1.flex-1.text-xl
+2026-03-02 10:11:57,584 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-03-02 10:12:18,101 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.line-clamp-1.flex-1.text-xl
+2026-03-02 10:12:18,102 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-03-02 10:12:18,607 - page.player_pytest - ERROR - [player_pytest.py:68] - 等待页面加载完成超时
+2026-03-02 10:12:18,735 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 10:12:18,791 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 52064, 名称: Python
+2026-03-02 10:13:40,381 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 10:13:40,424 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 52079, 名称: Google
+2026-03-02 10:13:40,424 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 52079
+2026-03-02 10:13:42,430 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 10:13:42,467 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 10:13:46,369 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 10:13:46,373 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 10:13:46,922 - page.player_pytest - INFO - [player_pytest.py:32] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-02 10:13:48,944 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-02 10:13:49,950 - page.player_pytest - INFO - [player_pytest.py:37] - 剧首页元素加载完成
+2026-03-02 10:13:50,218 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-02 10:13:50,220 - page.player_pytest - INFO - [player_pytest.py:41] - 成功点击'去看剧'按钮，打开播放器
+2026-03-02 10:13:55,220 - page.player_pytest - INFO - [player_pytest.py:45] - 播放器加载完成
+2026-03-02 10:13:55,222 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607313343123456&from=content-detail&chapterIndex=1&free=1&pay=0
+2026-03-02 10:13:55,224 - page.player_pytest - INFO - [player_pytest.py:223] - 测试打开聚合页-简介功能
+2026-03-02 10:13:55,236 - page.player_pytest - INFO - [player_pytest.py:229] - 尝试打开聚合页-简介
+2026-03-02 10:13:58,923 - page.player_pytest - INFO - [player_pytest.py:242] - 播放器聚合页打开成功
+2026-03-02 10:13:58,923 - page.player_pytest - INFO - [player_pytest.py:245] - 检查并处理可能的浮层
+2026-03-02 10:13:58,926 - page.player_pytest - INFO - [player_pytest.py:249] - 发现浮层，尝试点击关闭
+2026-03-02 10:13:58,931 - utils.page_actions - INFO - [page_actions.py:194] - 成功点击坐标(250, 161.2265625)
+2026-03-02 10:13:58,931 - utils.page_actions - INFO - [page_actions.py:225] - 点击浮层顶部向上40像素位置(250, 161.2265625)关闭浮层
+2026-03-02 10:14:19,457 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.flex.justify-start.absolute.flex-col.items-stretch.box-border
+2026-03-02 10:14:19,458 - page.player_pytest - INFO - [player_pytest.py:261] - 等待页面加载完成
+2026-03-02 10:14:39,469 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.line-clamp-1.flex-1.text-xl
+2026-03-02 10:14:39,470 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-03-02 10:14:59,981 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.line-clamp-1.flex-1.text-xl
+2026-03-02 10:14:59,981 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-03-02 10:15:00,486 - page.player_pytest - ERROR - [player_pytest.py:68] - 等待页面加载完成超时
+2026-03-02 10:15:00,582 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 10:15:00,701 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 52202, 名称: Python
+2026-03-02 10:21:37,555 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 10:21:37,597 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 52219, 名称: Google
+2026-03-02 10:21:37,597 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 52219
+2026-03-02 10:21:39,608 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 10:21:39,754 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 10:21:43,569 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 10:21:43,571 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 10:21:43,969 - page.player_pytest - INFO - [player_pytest.py:32] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-02 10:21:46,001 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-02 10:21:47,004 - page.player_pytest - INFO - [player_pytest.py:37] - 剧首页元素加载完成
+2026-03-02 10:21:47,560 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-02 10:21:47,560 - page.player_pytest - INFO - [player_pytest.py:41] - 成功点击'去看剧'按钮，打开播放器
+2026-03-02 10:21:52,565 - page.player_pytest - INFO - [player_pytest.py:45] - 播放器加载完成
+2026-03-02 10:21:52,566 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607313343123456&from=content-detail&chapterIndex=1&free=1&pay=0
+2026-03-02 10:21:52,570 - page.player_pytest - INFO - [player_pytest.py:223] - 测试打开聚合页-简介功能
+2026-03-02 10:21:52,580 - page.player_pytest - INFO - [player_pytest.py:229] - 尝试打开聚合页-简介
+2026-03-02 10:21:56,268 - page.player_pytest - INFO - [player_pytest.py:242] - 播放器聚合页打开成功
+2026-03-02 10:21:56,269 - page.player_pytest - INFO - [player_pytest.py:261] - 等待页面加载完成
+2026-03-02 10:22:16,500 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-02 10:22:16,502 - page.player_pytest - INFO - [player_pytest.py:81] - 播放器菜单未打开，尝试打开菜单
+2026-03-02 10:22:16,521 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-02 10:22:16,976 - page.player_pytest - INFO - [player_pytest.py:85] - 播放器菜单打开成功
+2026-03-02 10:22:16,976 - page.player_pytest - INFO - [player_pytest.py:273] - 定位标题并关闭聚合页
+2026-03-02 10:22:19,216 - utils.page_actions - INFO - [page_actions.py:194] - 成功点击坐标(274.99609375, 196.7890625)
+2026-03-02 10:22:19,216 - utils.page_actions - INFO - [page_actions.py:225] - 点击浮层顶部向上30像素位置(274.99609375, 196.7890625)关闭浮层
+2026-03-02 10:22:19,439 - components.PlayerIconComponent - ERROR - [decorators.py:139] - 元素等待异常: 
+The element object is invalid. This may be an overall refresh of the page, or a partial js refresh to replace or remove elements.
+Version: 4.1.1.2
+2026-03-02 10:22:19,440 - page.player_pytest - INFO - [player_pytest.py:322] - 聚合页关闭成功
+2026-03-02 10:22:19,440 - page.player_pytest - INFO - [player_pytest.py:324] - 简介功能测试完成
+2026-03-02 10:22:19,471 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 10:22:19,543 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 52508, 名称: Python
+2026-03-02 10:30:49,387 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 10:30:49,426 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 52519, 名称: Google
+2026-03-02 10:30:49,426 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 52519
+2026-03-02 10:30:51,431 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 10:30:51,464 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 10:30:55,800 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 10:30:55,801 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 10:30:56,464 - page.player_pytest - INFO - [player_pytest.py:32] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-02 10:30:58,488 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-02 10:30:59,493 - page.player_pytest - INFO - [player_pytest.py:37] - 剧首页元素加载完成
+2026-03-02 10:30:59,745 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-02 10:30:59,747 - page.player_pytest - INFO - [player_pytest.py:41] - 成功点击'去看剧'按钮，打开播放器
+2026-03-02 10:31:04,753 - page.player_pytest - INFO - [player_pytest.py:45] - 播放器加载完成
+2026-03-02 10:31:04,756 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607313343123456&from=content-detail&chapterIndex=1&free=1&pay=0
+2026-03-02 10:31:04,758 - page.player_pytest - INFO - [player_pytest.py:223] - 测试打开聚合页-简介功能
+2026-03-02 10:31:04,769 - page.player_pytest - INFO - [player_pytest.py:229] - 尝试打开聚合页-简介
+2026-03-02 10:31:08,244 - page.player_pytest - INFO - [player_pytest.py:237] - 等待聚合页打开和页面加载完成
+2026-03-02 10:31:08,480 - page.player_pytest - INFO - [player_pytest.py:244] - 播放器聚合页打开成功
+2026-03-02 10:31:08,484 - page.player_pytest - INFO - [player_pytest.py:250] - 定位标题并关闭聚合页/浮层
+2026-03-02 10:31:10,719 - utils.page_actions - INFO - [page_actions.py:194] - 成功点击坐标(274.99609375, 196.7890625)
+2026-03-02 10:31:10,719 - utils.page_actions - INFO - [page_actions.py:225] - 点击浮层顶部向上30像素位置(274.99609375, 196.7890625)关闭浮层
+2026-03-02 10:31:10,719 - page.player_pytest - INFO - [player_pytest.py:261] - 使用 close_float_layer 方法关闭聚合页成功
+2026-03-02 10:31:10,944 - components.PlayerIconComponent - ERROR - [decorators.py:139] - 元素等待异常: 
+The element object is invalid. This may be an overall refresh of the page, or a partial js refresh to replace or remove elements.
+Version: 4.1.1.2
+2026-03-02 10:31:10,944 - page.player_pytest - INFO - [player_pytest.py:284] - 聚合页/浮层关闭成功
+2026-03-02 10:31:10,944 - page.player_pytest - INFO - [player_pytest.py:286] - 简介功能测试完成
+2026-03-02 10:31:10,972 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 10:31:11,026 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 52815, 名称: Python
+2026-03-02 16:58:56,909 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 16:58:56,932 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 16:58:56,932 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 16:58:56,950 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 16:59:03,997 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 16:59:03,998 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 16:59:06,142 - page.player_pytest - INFO - [player_pytest.py:32] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-02 16:59:08,168 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-02 16:59:09,174 - page.player_pytest - INFO - [player_pytest.py:37] - 剧首页元素加载完成
+2026-03-02 16:59:09,411 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-02 16:59:09,411 - page.player_pytest - INFO - [player_pytest.py:41] - 成功点击'去看剧'按钮，打开播放器
+2026-03-02 16:59:14,412 - page.player_pytest - INFO - [player_pytest.py:45] - 播放器加载完成
+2026-03-02 16:59:14,413 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607313343123456&from=content-detail&chapterIndex=1&free=1&pay=0
+2026-03-02 16:59:14,416 - page.player_pytest - INFO - [player_pytest.py:289] - 测试打开聚合页-目录功能
+2026-03-02 16:59:14,432 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-02 16:59:15,320 - page.player_pytest - INFO - [player_pytest.py:303] - 目录打开成功
+2026-03-02 16:59:16,221 - page.player_pytest - INFO - [player_pytest.py:313] - 目录标签: ['', "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80", 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', '', 'RefreshDiagnose', 'code: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', 'OKCancel', '', 'OKCancel', '', '', '', '占位图', '', '', '', '占位图', '', '', '', 'EP.1', 'EP.1', 'EP.1', 'EP.1', "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", 'CEO baby', 'CEO baby', "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.", 'More', '', '', '', 'EP.1 / EP.80', 'EP.1 / EP.80', 'CEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80', 'CEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80', 'CEO baby\nAll 80 Episodes', '', '', '', 'CEO baby\nAll 80 Episodes', 'CEO baby', 'CEO baby', 'All 80 Episodes', 'Introduction\nEpisodes', 'Introduction', 'Episodes', '1-30\n31-60\n61-80', '1-30\n31-60\n61-80', '1-30\n31-60\n61-80', '1-30\n31-60\n61-80', '1-30', '31-60', '61-80', '', '']
+2026-03-02 16:59:16,221 - page.player_pytest - INFO - [player_pytest.py:314] - 目录内容: ['', "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', '', 'RefreshDiagnose', 'code: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', 'OKCancel', '', 'OKCancel', '', '', '', '占位图', '', '', '', '占位图', '', '', '', 'EP.1', 'EP.1', 'EP.1', 'EP.1', "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", 'CEO baby', 'CEO baby', "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.", 'More', '', '', '', 'EP.1 / EP.80', 'EP.1 / EP.80', 'CEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', 'CEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', 'CEO baby\nAll 80 Episodes', '', '', '', 'CEO baby\nAll 80 Episodes', 'CEO baby', 'CEO baby', 'All 80 Episodes', 'Introduction\nEpisodes', 'Introduction', 'Episodes', '1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1-30\n31-60\n61-80', '1-30', '31-60', '61-80', '1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1', '1', '2', '2', '3', '3', '4', '4', '5', '5', '6', '6', '7', '7', '8', '8', '9', '9', '10', '10', '11', '11', '12', '12', '13', '13', '14', '14', '15', '15', '16', '16', '17', '17', '18', '18', '19', '19', '20', '20', '21', '21', '22', '22', '23', '23', '24', '24', '25', '25', '26', '26', '27', '27', '28', '28', '29', '29', '30', '30']
+2026-03-02 16:59:16,224 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-02 16:59:36,661 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-02 16:59:36,662 - page.player_pytest - INFO - [player_pytest.py:107] - 播放器菜单关闭成功
+2026-03-02 16:59:36,662 - page.player_pytest - INFO - [player_pytest.py:318] - 目录关闭成功
+2026-03-02 16:59:36,691 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 16:59:36,726 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 3907, 名称: Python
+2026-03-02 17:00:26,549 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:00:26,577 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 3922, 名称: Google
+2026-03-02 17:00:26,577 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 3922
+2026-03-02 17:00:28,583 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:00:28,611 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 17:00:31,654 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 17:00:31,655 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 17:00:32,158 - page.player_pytest - INFO - [player_pytest.py:32] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-02 17:00:34,173 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-02 17:00:35,178 - page.player_pytest - INFO - [player_pytest.py:37] - 剧首页元素加载完成
+2026-03-02 17:00:35,414 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-02 17:00:35,415 - page.player_pytest - INFO - [player_pytest.py:41] - 成功点击'去看剧'按钮，打开播放器
+2026-03-02 17:00:40,418 - page.player_pytest - INFO - [player_pytest.py:45] - 播放器加载完成
+2026-03-02 17:00:40,419 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607313343123456&from=content-detail&chapterIndex=1&free=1&pay=0
+2026-03-02 17:00:40,421 - page.player_pytest - INFO - [player_pytest.py:289] - 测试打开聚合页-目录功能
+2026-03-02 17:00:40,436 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-02 17:00:41,343 - page.player_pytest - INFO - [player_pytest.py:303] - 目录打开成功
+2026-03-02 17:00:42,418 - page.player_pytest - INFO - [player_pytest.py:313] - 目录标签: ['', "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80", 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', '', 'RefreshDiagnose', 'code: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', 'OKCancel', '', 'OKCancel', '', '', '', '占位图', '', '', '', '占位图', '', '', '', 'EP.1', 'EP.1', 'EP.1', 'EP.1', "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", 'CEO baby', 'CEO baby', "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.", 'More', '', '', '', 'EP.1 / EP.80', 'EP.1 / EP.80', 'CEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80', 'CEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80', 'CEO baby\nAll 80 Episodes', '', '', '', 'CEO baby\nAll 80 Episodes', 'CEO baby', 'CEO baby', 'All 80 Episodes', 'Introduction\nEpisodes', 'Introduction', 'Episodes', '1-30\n31-60\n61-80', '1-30\n31-60\n61-80', '1-30\n31-60\n61-80', '1-30\n31-60\n61-80', '1-30', '31-60', '61-80', '', '']
+2026-03-02 17:00:42,418 - page.player_pytest - INFO - [player_pytest.py:314] - 目录内容: ['', "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', '', 'RefreshDiagnose', 'code: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', 'OKCancel', '', 'OKCancel', '', '', '', '占位图', '', '', '', '占位图', '', '', '', 'EP.1', 'EP.1', 'EP.1', 'EP.1', "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", 'CEO baby', 'CEO baby', "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.", 'More', '', '', '', 'EP.1 / EP.80', 'EP.1 / EP.80', 'CEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', 'CEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', 'CEO baby\nAll 80 Episodes', '', '', '', 'CEO baby\nAll 80 Episodes', 'CEO baby', 'CEO baby', 'All 80 Episodes', 'Introduction\nEpisodes', 'Introduction', 'Episodes', '1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1-30\n31-60\n61-80', '1-30', '31-60', '61-80', '1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1', '1', '2', '2', '3', '3', '4', '4', '5', '5', '6', '6', '7', '7', '8', '8', '9', '9', '10', '10', '11', '11', '12', '12', '13', '13', '14', '14', '15', '15', '16', '16', '17', '17', '18', '18', '19', '19', '20', '20', '21', '21', '22', '22', '23', '23', '24', '24', '25', '25', '26', '26', '27', '27', '28', '28', '29', '29', '30', '30']
+2026-03-02 17:00:42,420 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-02 17:00:43,868 - page.player_pytest - ERROR - [player_pytest.py:68] - 等待播放器菜单关闭超时
+2026-03-02 17:00:43,869 - page.player_pytest - WARNING - [player_pytest.py:110] - 播放器菜单关闭超时
+2026-03-02 17:00:43,941 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:00:43,981 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 4070, 名称: Python
+2026-03-02 17:00:57,121 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:00:57,149 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 4082, 名称: Google
+2026-03-02 17:00:57,149 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 4082
+2026-03-02 17:00:59,156 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:00:59,184 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 17:01:40,830 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 17:01:40,832 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 17:01:42,409 - page.player_pytest - INFO - [player_pytest.py:32] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-02 17:01:44,429 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-02 17:01:45,435 - page.player_pytest - INFO - [player_pytest.py:37] - 剧首页元素加载完成
+2026-03-02 17:01:45,680 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-02 17:01:45,681 - page.player_pytest - INFO - [player_pytest.py:41] - 成功点击'去看剧'按钮，打开播放器
+2026-03-02 17:01:50,687 - page.player_pytest - INFO - [player_pytest.py:45] - 播放器加载完成
+2026-03-02 17:01:50,689 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607313343123456&from=content-detail&chapterIndex=1&free=1&pay=0
+2026-03-02 17:01:50,691 - page.player_pytest - INFO - [player_pytest.py:289] - 测试打开聚合页-目录功能
+2026-03-02 17:01:50,705 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-02 17:01:51,622 - page.player_pytest - INFO - [player_pytest.py:303] - 目录打开成功
+2026-03-02 17:01:52,740 - page.player_pytest - INFO - [player_pytest.py:313] - 目录标签: ['', "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80", 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', '', 'RefreshDiagnose', 'code: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', 'OKCancel', '', 'OKCancel', '', '', '', '占位图', '', '', '', '占位图', '', '', '', 'EP.1', 'EP.1', 'EP.1', 'EP.1', "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", 'CEO baby', 'CEO baby', "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.", 'More', '', '', '', 'EP.1 / EP.80', 'EP.1 / EP.80', 'CEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80', 'CEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80', 'CEO baby\nAll 80 Episodes', '', '', '', 'CEO baby\nAll 80 Episodes', 'CEO baby', 'CEO baby', 'All 80 Episodes', 'Introduction\nEpisodes', 'Introduction', 'Episodes', '1-30\n31-60\n61-80', '1-30\n31-60\n61-80', '1-30\n31-60\n61-80', '1-30\n31-60\n61-80', '1-30', '31-60', '61-80', '', '']
+2026-03-02 17:01:52,741 - page.player_pytest - INFO - [player_pytest.py:314] - 目录内容: ['', "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', '', 'RefreshDiagnose', 'code: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', 'OKCancel', '', 'OKCancel', '', '', '', '占位图', '', '', '', '占位图', '', '', '', 'EP.1', 'EP.1', 'EP.1', 'EP.1', "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", 'CEO baby', 'CEO baby', "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.", 'More', '', '', '', 'EP.1 / EP.80', 'EP.1 / EP.80', 'CEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', 'CEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', 'CEO baby\nAll 80 Episodes', '', '', '', 'CEO baby\nAll 80 Episodes', 'CEO baby', 'CEO baby', 'All 80 Episodes', 'Introduction\nEpisodes', 'Introduction', 'Episodes', '1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1-30\n31-60\n61-80', '1-30', '31-60', '61-80', '1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1', '1', '2', '2', '3', '3', '4', '4', '5', '5', '6', '6', '7', '7', '8', '8', '9', '9', '10', '10', '11', '11', '12', '12', '13', '13', '14', '14', '15', '15', '16', '16', '17', '17', '18', '18', '19', '19', '20', '20', '21', '21', '22', '22', '23', '23', '24', '24', '25', '25', '26', '26', '27', '27', '28', '28', '29', '29', '30', '30']
+2026-03-02 17:01:52,743 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-02 17:01:54,191 - page.player_pytest - ERROR - [player_pytest.py:68] - 等待播放器菜单关闭超时
+2026-03-02 17:01:54,191 - page.player_pytest - WARNING - [player_pytest.py:110] - 播放器菜单关闭超时
+2026-03-02 17:01:54,256 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:01:54,307 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 4129, 名称: Python
+2026-03-02 17:11:13,797 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:11:13,831 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 4139, 名称: Google
+2026-03-02 17:11:13,831 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 4139
+2026-03-02 17:11:15,838 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:11:15,868 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 17:11:20,049 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 17:11:20,050 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 17:11:21,215 - page.player_pytest - INFO - [player_pytest.py:32] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-02 17:11:23,446 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-02 17:11:24,451 - page.player_pytest - INFO - [player_pytest.py:37] - 剧首页元素加载完成
+2026-03-02 17:11:24,725 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-02 17:11:24,726 - page.player_pytest - INFO - [player_pytest.py:41] - 成功点击'去看剧'按钮，打开播放器
+2026-03-02 17:11:29,730 - page.player_pytest - INFO - [player_pytest.py:45] - 播放器加载完成
+2026-03-02 17:11:29,732 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607313343123456&from=content-detail&chapterIndex=1&free=1&pay=0
+2026-03-02 17:11:29,733 - page.player_pytest - INFO - [player_pytest.py:306] - 测试打开聚合页-目录功能
+2026-03-02 17:11:29,738 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-02 17:11:30,655 - page.player_pytest - INFO - [player_pytest.py:320] - 目录打开成功
+2026-03-02 17:11:31,465 - page.player_pytest - INFO - [player_pytest.py:330] - 目录标签: ['', "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80", 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', '', 'RefreshDiagnose', 'code: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', 'OKCancel', '', 'OKCancel', '', '', '', '占位图', '', '', '', '占位图', '', '', '', 'EP.1', 'EP.1', 'EP.1', 'EP.1', "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", 'CEO baby', 'CEO baby', "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.", 'More', '', '', '', 'EP.1 / EP.80', 'EP.1 / EP.80', 'CEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80', 'CEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80', 'CEO baby\nAll 80 Episodes', '', '', '', 'CEO baby\nAll 80 Episodes', 'CEO baby', 'CEO baby', 'All 80 Episodes', 'Introduction\nEpisodes', 'Introduction', 'Episodes', '1-30\n31-60\n61-80', '1-30\n31-60\n61-80', '1-30\n31-60\n61-80', '1-30\n31-60\n61-80', '1-30', '31-60', '61-80', '', '']
+2026-03-02 17:11:31,465 - page.player_pytest - INFO - [player_pytest.py:331] - 目录内容: ['', "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', '', 'RefreshDiagnose', 'code: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', 'OKCancel', '', 'OKCancel', '', '', '', '占位图', '', '', '', '占位图', '', '', '', 'EP.1', 'EP.1', 'EP.1', 'EP.1', "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", 'CEO baby', 'CEO baby', "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.", 'More', '', '', '', 'EP.1 / EP.80', 'EP.1 / EP.80', 'CEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', 'CEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', 'CEO baby\nAll 80 Episodes', '', '', '', 'CEO baby\nAll 80 Episodes', 'CEO baby', 'CEO baby', 'All 80 Episodes', 'Introduction\nEpisodes', 'Introduction', 'Episodes', '1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1-30\n31-60\n61-80', '1-30', '31-60', '61-80', '1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1', '1', '2', '2', '3', '3', '4', '4', '5', '5', '6', '6', '7', '7', '8', '8', '9', '9', '10', '10', '11', '11', '12', '12', '13', '13', '14', '14', '15', '15', '16', '16', '17', '17', '18', '18', '19', '19', '20', '20', '21', '21', '22', '22', '23', '23', '24', '24', '25', '25', '26', '26', '27', '27', '28', '28', '29', '29', '30', '30']
+2026-03-02 17:11:31,466 - page.player_pytest - INFO - [player_pytest.py:105] - 发现浮层，尝试使用 close_float_layer 方法关闭
+2026-03-02 17:11:31,468 - utils.page_actions - INFO - [page_actions.py:194] - 成功点击坐标(250, 161.2265625)
+2026-03-02 17:11:31,468 - utils.page_actions - INFO - [page_actions.py:225] - 点击浮层顶部向上40像素位置(250, 161.2265625)关闭浮层
+2026-03-02 17:11:31,468 - page.player_pytest - INFO - [player_pytest.py:107] - 使用 close_float_layer 方法关闭浮层成功
+2026-03-02 17:11:36,471 - page.player_pytest - INFO - [player_pytest.py:336] - 目录关闭成功
+2026-03-02 17:11:36,499 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:11:36,533 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 4987, 名称: Python
+2026-03-02 17:15:11,128 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:15:11,164 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 4996, 名称: Google
+2026-03-02 17:15:11,165 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 4996
+2026-03-02 17:15:13,169 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:15:13,187 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 17:15:16,248 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 17:15:16,248 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 17:15:16,728 - page.player_pytest - INFO - [player_pytest.py:32] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-02 17:15:18,754 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-02 17:15:19,760 - page.player_pytest - INFO - [player_pytest.py:37] - 剧首页元素加载完成
+2026-03-02 17:15:20,008 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-02 17:15:20,009 - page.player_pytest - INFO - [player_pytest.py:41] - 成功点击'去看剧'按钮，打开播放器
+2026-03-02 17:15:25,014 - page.player_pytest - INFO - [player_pytest.py:45] - 播放器加载完成
+2026-03-02 17:15:25,016 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607313343123456&from=content-detail&chapterIndex=1&free=1&pay=0
+2026-03-02 17:15:25,018 - page.player_pytest - INFO - [player_pytest.py:306] - 测试打开聚合页-目录功能
+2026-03-02 17:15:25,033 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-02 17:15:25,950 - page.player_pytest - INFO - [player_pytest.py:320] - 目录打开成功
+2026-03-02 17:15:26,847 - page.player_pytest - INFO - [player_pytest.py:330] - 目录标签: ['', "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80", 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', '', 'RefreshDiagnose', 'code: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', 'OKCancel', '', 'OKCancel', '', '', '', '占位图', '', '', '', '占位图', '', '', '', 'EP.1', 'EP.1', 'EP.1', 'EP.1', "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", 'CEO baby', 'CEO baby', "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.", 'More', '', '', '', 'EP.1 / EP.80', 'EP.1 / EP.80', 'CEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80', 'CEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80', 'CEO baby\nAll 80 Episodes', '', '', '', 'CEO baby\nAll 80 Episodes', 'CEO baby', 'CEO baby', 'All 80 Episodes', 'Introduction\nEpisodes', 'Introduction', 'Episodes', '1-30\n31-60\n61-80', '1-30\n31-60\n61-80', '1-30\n31-60\n61-80', '1-30\n31-60\n61-80', '1-30', '31-60', '61-80', '', '']
+2026-03-02 17:15:26,848 - page.player_pytest - INFO - [player_pytest.py:331] - 目录内容: ['', "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", "RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图\nEP.1\nCEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80\nCEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30", 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图\n占位图\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel\n占位图', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime: \nOKCancel', 'RefreshDiagnose\ncode: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', '', 'RefreshDiagnose', 'code: \nvid: \nmediaAuth: \nuuid: \nrequestId(player): \nrequestId(vod): \nver: \nTime:', '', 'OKCancel', '', 'OKCancel', '', '', '', '占位图', '', '', '', '占位图', '', '', '', 'EP.1', 'EP.1', 'EP.1', 'EP.1', "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More \nEP.1 / EP.80", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "CEO baby\nSix years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", 'CEO baby', 'CEO baby', "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.\n More", "Six years ago, Shirley was drugged and framed at her promotion party, leading to a scandal. Returning to her hometown with her illegitimate son, she seeks the truth. Working at her sister's fiancé Neil's company, she and Neil form a bond, and her son feels a strange connection to him. Shirley is determined to find out who the man was that night and unveil the truth.", 'More', '', '', '', 'EP.1 / EP.80', 'EP.1 / EP.80', 'CEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', 'CEO baby\nAll 80 Episodes\nIntroduction\nEpisodes\n1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', 'CEO baby\nAll 80 Episodes', '', '', '', 'CEO baby\nAll 80 Episodes', 'CEO baby', 'CEO baby', 'All 80 Episodes', 'Introduction\nEpisodes', 'Introduction', 'Episodes', '1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1-30\n31-60\n61-80\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1-30\n31-60\n61-80', '1-30', '31-60', '61-80', '1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30', '1', '1', '2', '2', '3', '3', '4', '4', '5', '5', '6', '6', '7', '7', '8', '8', '9', '9', '10', '10', '11', '11', '12', '12', '13', '13', '14', '14', '15', '15', '16', '16', '17', '17', '18', '18', '19', '19', '20', '20', '21', '21', '22', '22', '23', '23', '24', '24', '25', '25', '26', '26', '27', '27', '28', '28', '29', '29', '30', '30']
+2026-03-02 17:15:26,849 - page.player_pytest - INFO - [player_pytest.py:105] - 发现浮层，尝试使用 close_float_layer 方法关闭
+2026-03-02 17:15:26,850 - utils.page_actions - INFO - [page_actions.py:194] - 成功点击坐标(250, 161.2265625)
+2026-03-02 17:15:26,851 - utils.page_actions - INFO - [page_actions.py:225] - 点击浮层顶部向上40像素位置(250, 161.2265625)关闭浮层
+2026-03-02 17:15:26,851 - page.player_pytest - INFO - [player_pytest.py:107] - 使用 close_float_layer 方法关闭浮层成功
+2026-03-02 17:15:31,855 - page.player_pytest - INFO - [player_pytest.py:336] - 目录关闭成功
+2026-03-02 17:15:31,881 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:15:31,938 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 5132, 名称: Python
+2026-03-02 17:17:40,494 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:17:40,526 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 5141, 名称: Google
+2026-03-02 17:17:40,526 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 5141
+2026-03-02 17:17:42,533 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:17:42,561 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 17:17:45,721 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 17:17:45,721 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 17:17:46,220 - page.player_pytest - INFO - [player_pytest.py:32] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-02 17:17:48,239 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-02 17:17:49,245 - page.player_pytest - INFO - [player_pytest.py:37] - 剧首页元素加载完成
+2026-03-02 17:17:49,496 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-02 17:17:49,496 - page.player_pytest - INFO - [player_pytest.py:41] - 成功点击'去看剧'按钮，打开播放器
+2026-03-02 17:17:54,500 - page.player_pytest - INFO - [player_pytest.py:45] - 播放器加载完成
+2026-03-02 17:17:54,503 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607313343123456&from=content-detail&chapterIndex=1&free=1&pay=0
+2026-03-02 17:17:54,503 - page.player_pytest - INFO - [player_pytest.py:240] - 测试打开聚合页-简介功能
+2026-03-02 17:17:54,513 - page.player_pytest - INFO - [player_pytest.py:246] - 尝试打开聚合页-简介
+2026-03-02 17:17:58,194 - page.player_pytest - INFO - [player_pytest.py:259] - 播放器聚合页打开成功
+2026-03-02 17:18:18,195 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-02 17:18:18,195 - page.player_pytest - INFO - [player_pytest.py:81] - 播放器菜单未打开，尝试打开菜单
+2026-03-02 17:18:18,209 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-02 17:18:18,660 - page.player_pytest - INFO - [player_pytest.py:85] - 播放器菜单打开成功
+2026-03-02 17:18:18,661 - page.player_pytest - INFO - [player_pytest.py:265] - 定位标题并关闭聚合页/浮层
+2026-03-02 17:18:20,886 - utils.page_actions - INFO - [page_actions.py:194] - 成功点击坐标(274.99609375, 196.7890625)
+2026-03-02 17:18:20,886 - utils.page_actions - INFO - [page_actions.py:225] - 点击浮层顶部向上30像素位置(274.99609375, 196.7890625)关闭浮层
+2026-03-02 17:18:20,886 - page.player_pytest - INFO - [player_pytest.py:276] - 使用 close_float_layer 方法关闭聚合页成功
+2026-03-02 17:18:21,104 - components.PlayerIconComponent - ERROR - [decorators.py:139] - 元素等待异常: 
+The element object is invalid. This may be an overall refresh of the page, or a partial js refresh to replace or remove elements.
+Version: 4.1.1.2
+2026-03-02 17:18:21,104 - page.player_pytest - INFO - [player_pytest.py:299] - 聚合页/浮层关闭成功
+2026-03-02 17:18:21,105 - page.player_pytest - INFO - [player_pytest.py:301] - 简介功能测试完成
+2026-03-02 17:18:21,130 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:18:21,175 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 5244, 名称: Python
+2026-03-02 17:19:07,125 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:19:07,186 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 5255, 名称: Google
+2026-03-02 17:19:07,186 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 5255
+2026-03-02 17:19:09,192 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:19:09,221 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 17:19:11,821 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 17:19:11,822 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 17:19:12,329 - page.player_pytest - INFO - [player_pytest.py:32] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-02 17:19:14,352 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-02 17:19:15,357 - page.player_pytest - INFO - [player_pytest.py:37] - 剧首页元素加载完成
+2026-03-02 17:19:15,602 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-02 17:19:15,602 - page.player_pytest - INFO - [player_pytest.py:41] - 成功点击'去看剧'按钮，打开播放器
+2026-03-02 17:19:20,607 - page.player_pytest - INFO - [player_pytest.py:45] - 播放器加载完成
+2026-03-02 17:19:20,609 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607313343123456&from=content-detail&chapterIndex=1&free=1&pay=0
+2026-03-02 17:19:20,610 - page.player_pytest - INFO - [player_pytest.py:240] - 测试打开聚合页-简介功能
+2026-03-02 17:19:20,617 - page.player_pytest - INFO - [player_pytest.py:246] - 尝试打开聚合页-简介
+2026-03-02 17:19:24,301 - page.player_pytest - INFO - [player_pytest.py:259] - 播放器聚合页打开成功
+2026-03-02 17:19:44,312 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-02 17:19:44,312 - page.player_pytest - INFO - [player_pytest.py:81] - 播放器菜单未打开，尝试打开菜单
+2026-03-02 17:19:44,325 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-02 17:19:44,772 - page.player_pytest - INFO - [player_pytest.py:85] - 播放器菜单打开成功
+2026-03-02 17:19:44,772 - page.player_pytest - INFO - [player_pytest.py:265] - 定位标题并关闭聚合页/浮层
+2026-03-02 17:19:47,003 - utils.page_actions - INFO - [page_actions.py:194] - 成功点击坐标(274.99609375, 196.7890625)
+2026-03-02 17:19:47,004 - utils.page_actions - INFO - [page_actions.py:225] - 点击浮层顶部向上30像素位置(274.99609375, 196.7890625)关闭浮层
+2026-03-02 17:19:47,004 - page.player_pytest - INFO - [player_pytest.py:276] - 使用 close_float_layer 方法关闭聚合页成功
+2026-03-02 17:19:47,220 - components.PlayerIconComponent - ERROR - [decorators.py:139] - 元素等待异常: 
+The element object is invalid. This may be an overall refresh of the page, or a partial js refresh to replace or remove elements.
+Version: 4.1.1.2
+2026-03-02 17:19:47,220 - page.player_pytest - INFO - [player_pytest.py:299] - 聚合页/浮层关闭成功
+2026-03-02 17:19:47,221 - page.player_pytest - INFO - [player_pytest.py:301] - 简介功能测试完成
+2026-03-02 17:19:47,235 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:19:47,277 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 5326, 名称: Python
+2026-03-02 17:34:33,829 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:34:33,863 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 5335, 名称: Google
+2026-03-02 17:34:33,864 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 5335
+2026-03-02 17:34:35,870 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:34:35,898 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 17:34:39,500 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 17:34:39,501 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 17:34:40,077 - page.player_pytest - INFO - [player_pytest.py:32] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-02 17:34:42,339 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-02 17:34:43,344 - page.player_pytest - INFO - [player_pytest.py:37] - 剧首页元素加载完成
+2026-03-02 17:34:43,627 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-02 17:34:43,628 - page.player_pytest - INFO - [player_pytest.py:41] - 成功点击'去看剧'按钮，打开播放器
+2026-03-02 17:34:48,628 - page.player_pytest - INFO - [player_pytest.py:45] - 播放器加载完成
+2026-03-02 17:34:48,630 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607313343123456&from=content-detail&chapterIndex=1&free=1&pay=0
+2026-03-02 17:34:48,631 - page.player_pytest - INFO - [player_pytest.py:341] - 测试静音和恢复静音功能
+2026-03-02 17:34:48,642 - page.player_pytest - INFO - [player_pytest.py:347] - 检查当前静音状态
+2026-03-02 17:35:08,868 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.flex-1.text-xxl .icon-svg.color-danger
+2026-03-02 17:35:08,869 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-03-02 17:35:08,869 - page.player_pytest - INFO - [player_pytest.py:357] - 当前为未静音状态，将先执行静音操作
+2026-03-02 17:35:08,869 - page.player_pytest - INFO - [player_pytest.py:387] - 执行静音操作
+2026-03-02 17:35:10,488 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:35:10,594 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 5664, 名称: Python
+2026-03-02 17:37:57,755 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:37:57,800 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 5673, 名称: Google
+2026-03-02 17:37:57,800 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 5673
+2026-03-02 17:37:59,806 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:37:59,835 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 17:38:02,343 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 17:38:02,344 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 17:38:02,999 - page.player_pytest - INFO - [player_pytest.py:32] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-02 17:38:05,022 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-02 17:38:06,026 - page.player_pytest - INFO - [player_pytest.py:37] - 剧首页元素加载完成
+2026-03-02 17:38:06,271 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-02 17:38:06,271 - page.player_pytest - INFO - [player_pytest.py:41] - 成功点击'去看剧'按钮，打开播放器
+2026-03-02 17:38:11,276 - page.player_pytest - INFO - [player_pytest.py:45] - 播放器加载完成
+2026-03-02 17:38:11,279 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607313343123456&from=content-detail&chapterIndex=1&free=1&pay=0
+2026-03-02 17:38:11,282 - page.player_pytest - INFO - [player_pytest.py:341] - 测试静音和恢复静音功能
+2026-03-02 17:38:11,298 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-02 17:38:11,521 - page.player_pytest - INFO - [player_pytest.py:147] - 播放器菜单已打开，跳过执行暂停操作操作
+2026-03-02 17:38:11,521 - page.player_pytest - INFO - [player_pytest.py:351] - 检查当前静音状态
+2026-03-02 17:38:31,741 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.flex-1.text-xxl .icon-svg.color-danger
+2026-03-02 17:38:31,741 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-03-02 17:38:31,741 - page.player_pytest - INFO - [player_pytest.py:361] - 当前为未静音状态，将先执行静音操作
+2026-03-02 17:38:31,741 - page.player_pytest - INFO - [player_pytest.py:391] - 执行静音操作
+2026-03-02 17:38:33,332 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:38:33,384 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 5783, 名称: Python
+2026-03-02 17:43:32,284 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:43:32,334 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 5799, 名称: Google
+2026-03-02 17:43:32,334 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 5799
+2026-03-02 17:43:34,342 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:43:34,369 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 17:43:37,375 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 17:43:37,375 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 17:43:37,859 - page.player_pytest - INFO - [player_pytest.py:32] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-02 17:43:39,883 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-02 17:43:40,889 - page.player_pytest - INFO - [player_pytest.py:37] - 剧首页元素加载完成
+2026-03-02 17:43:41,134 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-02 17:43:41,135 - page.player_pytest - INFO - [player_pytest.py:41] - 成功点击'去看剧'按钮，打开播放器
+2026-03-02 17:43:46,141 - page.player_pytest - INFO - [player_pytest.py:45] - 播放器加载完成
+2026-03-02 17:43:46,143 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607313343123456&from=content-detail&chapterIndex=1&free=1&pay=0
+2026-03-02 17:43:46,144 - page.player_pytest - INFO - [player_pytest.py:341] - 测试静音和恢复静音功能
+2026-03-02 17:43:46,164 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-02 17:43:46,612 - page.player_pytest - INFO - [player_pytest.py:352] - 检查当前静音状态
+2026-03-02 17:44:06,852 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.flex-1.text-xxl .icon-svg.color-danger
+2026-03-02 17:44:06,853 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-03-02 17:44:06,853 - page.player_pytest - INFO - [player_pytest.py:362] - 当前为未静音状态，将先执行静音操作
+2026-03-02 17:44:06,853 - page.player_pytest - INFO - [player_pytest.py:392] - 执行静音操作
+2026-03-02 17:44:07,085 - page.player_pytest - INFO - [player_pytest.py:394] - 静音成功，等待5秒
+2026-03-02 17:44:07,318 - page.player_pytest - INFO - [player_pytest.py:406] - 执行取消静音操作
+2026-03-02 17:44:07,770 - page.player_pytest - INFO - [player_pytest.py:410] - 取消静音成功
+2026-03-02 17:44:07,770 - page.player_pytest - INFO - [player_pytest.py:412] - 静音功能测试完成
+2026-03-02 17:44:07,785 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:44:07,824 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 5943, 名称: Python
+2026-03-02 17:49:48,038 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:49:48,073 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 5958, 名称: Google
+2026-03-02 17:49:48,073 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 5958
+2026-03-02 17:49:50,080 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:49:50,109 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 17:49:52,347 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 17:49:52,348 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 17:49:52,694 - page.player_pytest - INFO - [player_pytest.py:32] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-02 17:49:54,720 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-02 17:49:55,726 - page.player_pytest - INFO - [player_pytest.py:37] - 剧首页元素加载完成
+2026-03-02 17:49:55,968 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-02 17:49:55,968 - page.player_pytest - INFO - [player_pytest.py:41] - 成功点击'去看剧'按钮，打开播放器
+2026-03-02 17:50:00,973 - page.player_pytest - INFO - [player_pytest.py:45] - 播放器加载完成
+2026-03-02 17:50:00,975 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607313343123456&from=content-detail&chapterIndex=1&free=1&pay=0
+2026-03-02 17:50:00,977 - page.player_pytest - INFO - [player_pytest.py:341] - 测试静音和恢复静音功能
+2026-03-02 17:50:00,996 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-02 17:50:01,446 - page.player_pytest - INFO - [player_pytest.py:351] - 检查当前静音状态
+2026-03-02 17:50:21,673 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.flex-1.text-xxl .icon-svg.color-danger
+2026-03-02 17:50:21,674 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-03-02 17:50:21,674 - page.player_pytest - INFO - [player_pytest.py:361] - 当前为未静音状态，将先执行静音操作
+2026-03-02 17:50:21,674 - page.player_pytest - INFO - [player_pytest.py:391] - 执行静音操作
+2026-03-02 17:50:21,908 - page.player_pytest - INFO - [player_pytest.py:393] - 静音成功，等待5秒
+2026-03-02 17:50:22,123 - page.player_pytest - INFO - [player_pytest.py:405] - 执行取消静音操作
+2026-03-02 17:50:27,576 - page.player_pytest - INFO - [player_pytest.py:411] - 取消静音成功
+2026-03-02 17:50:27,577 - page.player_pytest - INFO - [player_pytest.py:413] - 静音功能测试完成
+2026-03-02 17:50:27,589 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:50:27,646 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 6068, 名称: Python
+2026-03-02 17:52:01,682 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:52:01,730 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 6077, 名称: Google
+2026-03-02 17:52:01,730 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 6077
+2026-03-02 17:52:03,737 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:52:03,765 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 17:52:07,089 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 17:52:07,090 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 17:52:07,623 - page.player_pytest - INFO - [player_pytest.py:32] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-02 17:52:09,637 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-02 17:52:10,643 - page.player_pytest - INFO - [player_pytest.py:37] - 剧首页元素加载完成
+2026-03-02 17:52:10,890 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-02 17:52:10,891 - page.player_pytest - INFO - [player_pytest.py:41] - 成功点击'去看剧'按钮，打开播放器
+2026-03-02 17:52:15,894 - page.player_pytest - INFO - [player_pytest.py:45] - 播放器加载完成
+2026-03-02 17:52:15,896 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607313343123456&from=content-detail&chapterIndex=1&free=1&pay=0
+2026-03-02 17:52:15,899 - page.player_pytest - INFO - [player_pytest.py:341] - 测试静音和恢复静音功能
+2026-03-02 17:52:15,915 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-02 17:52:16,365 - page.player_pytest - INFO - [player_pytest.py:351] - 检查当前静音状态
+2026-03-02 17:52:36,594 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.flex-1.text-xxl .icon-svg.color-danger
+2026-03-02 17:52:36,594 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-03-02 17:52:36,594 - page.player_pytest - INFO - [player_pytest.py:361] - 当前为未静音状态，将先执行静音操作
+2026-03-02 17:52:36,594 - page.player_pytest - INFO - [player_pytest.py:391] - 执行静音操作
+2026-03-02 17:52:36,826 - page.player_pytest - INFO - [player_pytest.py:393] - 静音成功，等待5秒
+2026-03-02 17:52:37,049 - page.player_pytest - INFO - [player_pytest.py:405] - 执行取消静音操作
+2026-03-02 17:52:42,504 - page.player_pytest - INFO - [player_pytest.py:411] - 取消静音成功
+2026-03-02 17:52:45,508 - page.player_pytest - INFO - [player_pytest.py:415] - 静音功能测试完成
+2026-03-02 17:52:45,538 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:52:45,587 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 6177, 名称: Python
+2026-03-02 17:53:11,795 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:53:11,824 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 6187, 名称: Google
+2026-03-02 17:53:11,824 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 6187
+2026-03-02 17:53:13,831 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:53:13,858 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 17:53:17,843 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 17:53:17,886 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 17:53:18,504 - page.player_pytest - INFO - [player_pytest.py:32] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-02 17:53:20,527 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-02 17:53:21,532 - page.player_pytest - INFO - [player_pytest.py:37] - 剧首页元素加载完成
+2026-03-02 17:53:21,774 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-02 17:53:21,774 - page.player_pytest - INFO - [player_pytest.py:41] - 成功点击'去看剧'按钮，打开播放器
+2026-03-02 17:53:26,779 - page.player_pytest - INFO - [player_pytest.py:45] - 播放器加载完成
+2026-03-02 17:53:26,782 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607313343123456&from=content-detail&chapterIndex=1&free=1&pay=0
+2026-03-02 17:53:26,783 - page.player_pytest - INFO - [player_pytest.py:420] - 测试收藏和取消收藏功能
+2026-03-02 17:53:26,792 - page.player_pytest - INFO - [player_pytest.py:426] - 检查当前收藏状态
+2026-03-02 17:53:47,018 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.flex-1.text-xxl svg.icon-svg.color-primary:not(.icon)[fill]
+2026-03-02 17:53:47,018 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-03-02 17:53:47,019 - page.player_pytest - INFO - [player_pytest.py:436] - 当前为未收藏状态，将先执行收藏操作
+2026-03-02 17:53:47,019 - page.player_pytest - INFO - [player_pytest.py:466] - 执行收藏操作
+2026-03-02 17:53:48,594 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:53:48,627 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 6250, 名称: Python
+2026-03-02 17:54:15,257 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:54:15,283 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 6259, 名称: Google
+2026-03-02 17:54:15,283 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 6259
+2026-03-02 17:54:17,290 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:54:17,320 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 17:54:20,587 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 17:54:20,588 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 17:54:20,952 - page.player_pytest - INFO - [player_pytest.py:32] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-02 17:54:22,970 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-02 17:54:23,976 - page.player_pytest - INFO - [player_pytest.py:37] - 剧首页元素加载完成
+2026-03-02 17:54:24,218 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-02 17:54:24,218 - page.player_pytest - INFO - [player_pytest.py:41] - 成功点击'去看剧'按钮，打开播放器
+2026-03-02 17:54:29,223 - page.player_pytest - INFO - [player_pytest.py:45] - 播放器加载完成
+2026-03-02 17:54:29,225 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607313343123456&from=content-detail&chapterIndex=1&free=1&pay=0
+2026-03-02 17:54:29,226 - page.player_pytest - INFO - [player_pytest.py:420] - 测试收藏和取消收藏功能
+2026-03-02 17:54:29,243 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-02 17:54:29,699 - page.player_pytest - INFO - [player_pytest.py:429] - 检查当前收藏状态
+2026-03-02 17:54:49,921 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.flex-1.text-xxl svg.icon-svg.color-primary:not(.icon)[fill]
+2026-03-02 17:54:49,921 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-03-02 17:54:49,921 - page.player_pytest - INFO - [player_pytest.py:439] - 当前为未收藏状态，将先执行收藏操作
+2026-03-02 17:54:49,922 - page.player_pytest - INFO - [player_pytest.py:469] - 执行收藏操作
+2026-03-02 17:54:50,151 - page.player_pytest - INFO - [player_pytest.py:471] - 收藏成功，等待3秒
+2026-03-02 17:54:51,105 - page.player_pytest - INFO - [player_pytest.py:483] - 执行取消收藏操作
+2026-03-02 17:54:51,562 - page.player_pytest - INFO - [player_pytest.py:487] - 取消收藏成功
+2026-03-02 17:54:51,785 - page.player_pytest - INFO - [player_pytest.py:495] - 收藏功能测试完成
+2026-03-02 17:54:51,810 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:54:51,842 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 6335, 名称: Python
+2026-03-02 17:55:59,615 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:55:59,652 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 6344, 名称: Google
+2026-03-02 17:55:59,653 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 6344
+2026-03-02 17:56:01,660 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:56:01,688 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 17:56:06,439 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 17:56:06,441 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 17:56:06,810 - page.player_pytest - INFO - [player_pytest.py:32] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-02 17:56:08,831 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-02 17:56:09,835 - page.player_pytest - INFO - [player_pytest.py:37] - 剧首页元素加载完成
+2026-03-02 17:56:10,073 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-02 17:56:10,074 - page.player_pytest - INFO - [player_pytest.py:41] - 成功点击'去看剧'按钮，打开播放器
+2026-03-02 17:56:15,079 - page.player_pytest - INFO - [player_pytest.py:45] - 播放器加载完成
+2026-03-02 17:56:15,081 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607313343123456&from=content-detail&chapterIndex=1&free=1&pay=0
+2026-03-02 17:56:15,082 - page.player_pytest - INFO - [player_pytest.py:420] - 测试收藏和取消收藏功能
+2026-03-02 17:56:15,099 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-02 17:56:15,554 - page.player_pytest - INFO - [player_pytest.py:429] - 检查当前收藏状态
+2026-03-02 17:56:35,795 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.flex-1.text-xxl svg.icon-svg.color-primary:not(.icon)[fill]
+2026-03-02 17:56:35,796 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-03-02 17:56:35,796 - page.player_pytest - INFO - [player_pytest.py:439] - 当前为未收藏状态，将先执行收藏操作
+2026-03-02 17:56:35,796 - page.player_pytest - INFO - [player_pytest.py:471] - 执行收藏操作
+2026-03-02 17:56:36,026 - page.player_pytest - INFO - [player_pytest.py:473] - 收藏成功，等待3秒
+2026-03-02 17:56:36,957 - page.player_pytest - INFO - [player_pytest.py:485] - 执行取消收藏操作
+2026-03-02 17:56:37,407 - page.player_pytest - INFO - [player_pytest.py:489] - 取消收藏成功
+2026-03-02 17:56:40,636 - page.player_pytest - INFO - [player_pytest.py:499] - 收藏功能测试完成
+2026-03-02 17:56:40,662 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:56:40,714 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 6426, 名称: Python
+2026-03-02 17:58:07,386 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:58:07,424 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 6435, 名称: Google
+2026-03-02 17:58:07,424 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 6435
+2026-03-02 17:58:09,430 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 17:58:09,461 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 17:58:13,254 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 17:58:13,256 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 17:58:13,750 - page.player_pytest - INFO - [player_pytest.py:32] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-02 17:58:15,774 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-02 17:58:16,777 - page.player_pytest - INFO - [player_pytest.py:37] - 剧首页元素加载完成
+2026-03-02 17:58:17,015 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-02 17:58:17,016 - page.player_pytest - INFO - [player_pytest.py:41] - 成功点击'去看剧'按钮，打开播放器
+2026-03-02 17:58:22,021 - page.player_pytest - INFO - [player_pytest.py:45] - 播放器加载完成
+2026-03-02 17:58:22,023 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607313343123456&from=content-detail&chapterIndex=1&free=1&pay=0
+2026-03-02 17:58:22,024 - page.player_pytest - INFO - [player_pytest.py:504] - 测试视频质量和播放速度切换功能
+2026-03-02 17:58:22,037 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-02 17:58:22,718 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:125] - 成功定位播放器菜单元素
+2026-03-02 17:58:23,173 - page.player_pytest - INFO - [player_pytest.py:518] - 打开菜单
+2026-03-02 17:58:23,177 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:214] - 找到 3 个播放质量选项: ['480P', '720P', '1080P']
+2026-03-02 17:58:23,180 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:214] - 找到 3 个播放质量选项: ['480P', '720P', '1080P']
+2026-03-02 17:58:23,183 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:174] - 找到 4 个播放速度选项: ['0.5x', '1.0x', '1.5x', '2.0x']
+2026-03-02 17:58:23,421 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-02 17:58:24,099 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:125] - 成功定位播放器菜单元素
+2026-03-02 17:58:24,630 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:196] - 找到匹配的播放质量: 480P
+2026-03-02 17:58:25,025 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:196] - 找到匹配的播放质量: 480P
+2026-03-02 17:58:25,465 - page.player_pytest - INFO - [player_pytest.py:561] - 切换480P成功
+2026-03-02 17:58:28,469 - page.player_pytest - INFO - [player_pytest.py:564] - 切换480P成功等待20秒
+2026-03-02 17:58:48,487 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-02 17:58:49,162 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:125] - 成功定位播放器菜单元素
+2026-03-02 17:58:49,681 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:196] - 找到匹配的播放质量: 720P
+2026-03-02 17:58:50,076 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:196] - 找到匹配的播放质量: 720P
+2026-03-02 17:58:50,516 - page.player_pytest - INFO - [player_pytest.py:561] - 切换720P成功
+2026-03-02 17:58:53,522 - page.player_pytest - INFO - [player_pytest.py:564] - 切换720P成功等待20秒
+2026-03-02 17:59:13,533 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-02 17:59:14,205 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:125] - 成功定位播放器菜单元素
+2026-03-02 17:59:14,735 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:196] - 找到匹配的播放质量: 1080P
+2026-03-02 17:59:15,130 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:196] - 找到匹配的播放质量: 1080P
+2026-03-02 17:59:15,571 - page.player_pytest - INFO - [player_pytest.py:561] - 切换1080P成功
+2026-03-02 17:59:18,576 - page.player_pytest - INFO - [player_pytest.py:564] - 切换1080P成功等待20秒
+2026-03-02 17:59:38,588 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-02 17:59:39,260 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:125] - 成功定位播放器菜单元素
+2026-03-02 17:59:39,786 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:156] - 找到匹配的播放速度: 0.5x
+2026-03-02 17:59:40,188 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:156] - 找到匹配的播放速度: 0.5x
+2026-03-02 17:59:40,629 - page.player_pytest - INFO - [player_pytest.py:598] - 切换0.5x成功
+2026-03-02 17:59:43,634 - page.player_pytest - INFO - [player_pytest.py:601] - 切换0.5x成功等待20秒
+2026-03-02 18:00:03,651 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-02 18:00:04,328 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:125] - 成功定位播放器菜单元素
+2026-03-02 18:00:04,844 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:156] - 找到匹配的播放速度: 1.0x
+2026-03-02 18:00:05,251 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:156] - 找到匹配的播放速度: 1.0x
+2026-03-02 18:00:05,689 - page.player_pytest - INFO - [player_pytest.py:598] - 切换1.0x成功
+2026-03-02 18:00:08,692 - page.player_pytest - INFO - [player_pytest.py:601] - 切换1.0x成功等待20秒
+2026-03-02 18:00:28,713 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-02 18:00:29,376 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:125] - 成功定位播放器菜单元素
+2026-03-02 18:00:29,907 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:156] - 找到匹配的播放速度: 1.5x
+2026-03-02 18:00:30,291 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:156] - 找到匹配的播放速度: 1.5x
+2026-03-02 18:00:30,727 - page.player_pytest - INFO - [player_pytest.py:598] - 切换1.5x成功
+2026-03-02 18:00:33,730 - page.player_pytest - INFO - [player_pytest.py:601] - 切换1.5x成功等待20秒
+2026-03-02 18:00:53,745 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:67] - 成功定位当前激活slide的播放器
+2026-03-02 18:00:54,415 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:125] - 成功定位播放器菜单元素
+2026-03-02 18:00:54,960 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:156] - 找到匹配的播放速度: 2.0x
+2026-03-02 18:00:55,359 - components.PlayerIconComponent - INFO - [PlayerIconComponent.py:156] - 找到匹配的播放速度: 2.0x
+2026-03-02 18:00:55,806 - page.player_pytest - INFO - [player_pytest.py:598] - 切换2.0x成功
+2026-03-02 18:00:58,811 - page.player_pytest - INFO - [player_pytest.py:601] - 切换2.0x成功等待20秒
+2026-03-02 18:01:18,846 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 18:01:18,907 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 6515, 名称: Python
+2026-03-02 18:01:27,019 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 18:01:27,046 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 6524, 名称: Google
+2026-03-02 18:01:27,046 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 6524
+2026-03-02 18:01:29,052 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 18:01:29,072 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 18:01:33,395 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 18:01:33,396 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 18:01:33,890 - page.player_pytest - INFO - [player_pytest.py:32] - 导航到剧首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-02 18:01:35,914 - components.DramaHomeComponent - INFO - [DramaHomeComponent.py:175] - 所有关键元素加载完成
+2026-03-02 18:01:36,919 - page.player_pytest - INFO - [player_pytest.py:37] - 剧首页元素加载完成
+2026-03-02 18:01:37,158 - utils.page_actions - INFO - [page_actions.py:112] - 成功点击元素: div.button-primary
+2026-03-02 18:01:37,158 - page.player_pytest - INFO - [player_pytest.py:41] - 成功点击'去看剧'按钮，打开播放器
+2026-03-02 18:01:42,163 - page.player_pytest - INFO - [player_pytest.py:45] - 播放器加载完成
+2026-03-02 18:01:42,166 - page.base - INFO - [base.py:90] - 当前页面URL: https://video.reelswave.net/player/286606456962772992?chapterId=286607378698768384&from=content-detail&chapterIndex=3&free=1&pay=0
+2026-03-02 18:01:42,167 - page.player_pytest - INFO - [player_pytest.py:608] - 测试退出播放器功能
+2026-03-02 18:01:42,178 - page.player_pytest - INFO - [player_pytest.py:614] - 执行退出播放器
+2026-03-02 18:02:03,350 - utils.page_actions - WARNING - [decorators.py:91] - 元素等待超时：css:.flex.items-center.justify-start.gap-sm >.icon-svg
+2026-03-02 18:02:03,351 - components.PlayerIconComponent - WARNING - [decorators.py:103] - 方法未找到元素，返回 None
+2026-03-02 18:02:03,351 - page.player_pytest - INFO - [player_pytest.py:624] - 执行退出播放器成功
+2026-03-02 18:02:03,366 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 18:02:03,421 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 6599, 名称: Python
+2026-03-02 18:10:38,805 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 18:10:38,843 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 6608, 名称: Google
+2026-03-02 18:10:38,843 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 6608
+2026-03-02 18:10:40,850 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 18:10:40,878 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 18:10:43,975 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 18:10:43,976 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 18:10:44,469 - page.Home - INFO - [Home.py:27] - 导航到首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-02 18:10:45,474 - page.Home - ERROR - [Home.py:34] - 等待首页轮播图加载时出错: 'PageScroller' object has no attribute 'to_ele'
+2026-03-02 18:10:45,570 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 18:10:45,612 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 6803, 名称: Python
+2026-03-02 18:37:51,540 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 18:37:51,568 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 6812, 名称: Google
+2026-03-02 18:37:51,568 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 6812
+2026-03-02 18:37:53,574 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 18:37:53,603 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 18:37:58,123 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 18:37:58,124 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 18:37:58,628 - page.home_test - INFO - [home_test.py:29] - 导航到首页: https://video.reelswave.net/content/286606456962772992?chapterIndex=1
+2026-03-02 18:37:59,633 - page.home_test - ERROR - [home_test.py:36] - 等待首页轮播图加载时出错: 'PageScroller' object has no attribute 'to_ele'
+2026-03-02 18:38:00,032 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 18:38:00,065 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 7873, 名称: Python
+2026-03-02 18:40:19,904 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 18:40:19,942 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 7882, 名称: Google
+2026-03-02 18:40:19,942 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 7882
+2026-03-02 18:40:21,949 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 18:40:21,975 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 18:40:24,276 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 18:40:24,277 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 18:40:24,644 - page.home_test - INFO - [home_test.py:29] - 导航到首页: https://video.reelswave.net/
+2026-03-02 18:40:25,649 - page.home_test - ERROR - [home_test.py:36] - 等待首页轮播图加载时出错: 'PageScroller' object has no attribute 'to_ele'
+2026-03-02 18:40:26,267 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 18:40:26,297 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 7983, 名称: Python
+2026-03-02 18:44:28,222 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 18:44:28,253 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 7992, 名称: Google
+2026-03-02 18:44:28,253 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 7992
+2026-03-02 18:44:30,259 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 18:44:30,286 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 18:44:32,892 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 18:44:32,893 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 18:44:33,494 - page.home_test - INFO - [home_test.py:29] - 导航到首页: https://video.reelswave.net/
+2026-03-02 18:44:41,485 - page.home_test - INFO - [home_test.py:34] - 首页轮播图加载完成
+2026-03-02 18:44:41,485 - page.home_test - INFO - [home_test.py:42] - 测试首页 banner 轮播图
+2026-03-02 18:44:41,495 - page.home_test - INFO - [home_test.py:47] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-02 18:44:41,495 - page.home_test - INFO - [home_test.py:51] - 当前轮播图标题: CEO baby
+2026-03-02 18:44:41,737 - page.home_test - INFO - [home_test.py:55] - 成功点击轮播图: CEO baby
+2026-03-02 18:44:45,350 - page.home_test - INFO - [home_test.py:63] - 返回首页，准备测试下一个轮播图
+2026-03-02 18:44:49,109 - page.home_test - INFO - [home_test.py:51] - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-03-02 18:44:49,358 - page.home_test - INFO - [home_test.py:55] - 成功点击轮播图: Wake Up Dad! Wedding Time
+2026-03-02 18:44:52,941 - page.home_test - INFO - [home_test.py:63] - 返回首页，准备测试下一个轮播图
+2026-03-02 18:44:56,269 - page.home_test - INFO - [home_test.py:51] - 当前轮播图标题: The Thief Lover
+2026-03-02 18:44:56,520 - page.home_test - INFO - [home_test.py:55] - 成功点击轮播图: The Thief Lover
+2026-03-02 18:44:59,525 - page.home_test - INFO - [home_test.py:66] - 首页 banner 轮播图测试完成
+2026-03-02 18:44:59,544 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 18:44:59,587 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 8116, 名称: Python
+2026-03-02 18:49:47,129 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 18:49:47,163 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 8125, 名称: Google
+2026-03-02 18:49:47,163 - page.base - INFO - [base.py:34] - 已发送SIGTERM信号给进程 PID 8125
+2026-03-02 18:49:49,170 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 18:49:49,199 - page.base - INFO - [base.py:50] - 端口 9223 未被占用
+2026-03-02 18:49:51,503 - page.base - INFO - [base.py:76] - 启动为移动端模拟模式
+2026-03-02 18:49:51,504 - page.base - INFO - [base.py:77] - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-03-02 18:49:52,556 - page.home_test - INFO - [home_test.py:29] - 导航到首页: https://video.reelswave.net/
+2026-03-02 18:49:56,112 - page.home_test - INFO - [home_test.py:34] - 首页轮播图加载完成
+2026-03-02 18:49:56,114 - page.home_test - INFO - [home_test.py:42] - 测试首页 banner 轮播图
+2026-03-02 18:49:56,130 - page.home_test - INFO - [home_test.py:47] - 轮播图标题: ['CEO baby', 'Wake Up Dad! Wedding Time', 'The Thief Lover']
+2026-03-02 18:49:56,130 - page.home_test - INFO - [home_test.py:51] - 当前轮播图标题: CEO baby
+2026-03-02 18:49:56,378 - page.home_test - INFO - [home_test.py:55] - 成功点击轮播图: CEO baby
+2026-03-02 18:50:01,033 - page.home_test - INFO - [home_test.py:63] - 返回首页，准备测试下一个轮播图
+2026-03-02 18:50:03,978 - page.home_test - INFO - [home_test.py:51] - 当前轮播图标题: Wake Up Dad! Wedding Time
+2026-03-02 18:50:04,232 - page.home_test - INFO - [home_test.py:55] - 成功点击轮播图: Wake Up Dad! Wedding Time
+2026-03-02 18:50:08,745 - page.home_test - INFO - [home_test.py:63] - 返回首页，准备测试下一个轮播图
+2026-03-02 18:50:12,008 - page.home_test - INFO - [home_test.py:51] - 当前轮播图标题: The Thief Lover
+2026-03-02 18:50:12,266 - page.home_test - INFO - [home_test.py:55] - 成功点击轮播图: The Thief Lover
+2026-03-02 18:50:15,271 - page.home_test - INFO - [home_test.py:66] - 首页 banner 轮播图测试完成
+2026-03-02 18:50:15,286 - page.base - INFO - [base.py:15] - 检查并清理端口 9223...
+2026-03-02 18:50:15,330 - page.base - INFO - [base.py:29] - 发现占用端口 9223 的进程: PID 8246, 名称: Python

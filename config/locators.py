@@ -55,13 +55,63 @@ VIDEO_PLAYER_PAGE = {
 
 # 个人中心页面元素定位器
 PROFILE_PAGE = {
-    "back_button": "div.h-50 > svg",
-    "user_avatar": "svg.text-112",
-    "top_up_button": "div.button-primary:contains('Top UP')",
-    "transaction_history_link": "div.p-xl:contains('Transaction History')",
-    "my_list_and_history_link": "div.p-xl:contains('My List & History')",
-    "contact_us_link": "div.p-xl:contains('Contact Us')",
-    "settings_link": "div.p-xl:contains('Setting')"
+    "profile_back_button": ".flex.items-center.justify-start.gap-sm >.icon-svg",
+    "vip_avatar": "div.relative > div > div.gap-xl img",
+    "top_up_button": "text=Top UP",
+    "transaction_history": "text=Transaction History",
+    "my_list_and_history_link": "text=My List & History",
+    "contact_us_link": "text=Contact Us",
+    "settings_link": "text=Setting"
 }
 
-# 可以继续添加其他页面的定位器...
+# 首页元素定位器
+HOME_PAGE = {
+    # Continue Watching
+    "continue_watching_first_drama": "div:nth-of-type(4) .gap-md > div:first-child img",
+    "continue_watching_more": "div:nth-of-type(4) span",
+
+    # Best 热门推荐
+    "best_first_drama": "div:nth-of-type(5) .gap-md > div:first-child img",
+
+    # Eastern Legends 东方传说
+    "eastern_legends_first_drama": "div:nth-of-type(6) .gap-md > div:first-child img",
+    "eastern_legends_more": "div:nth-of-type(6) span",
+
+    # Queens Revenge 女王复仇
+    "queens_revenge_first_drama": "div:nth-of-type(7) .gap-md > div:first-child img",
+    "queens_revenge_more": "div:nth-of-type(7) span",
+
+    # Bossy CEO 总裁
+    "bossy_ceo_first_drama": "div:nth-of-type(8) .gap-md > div:first-child img",
+    "bossy_ceo_more": "div:nth-of-type(8) span",
+
+    # Return of God of War 战神回归
+    "return_of_god_of_war_first_drama": "div:nth-of-type(9) .gap-md > div:first-child img",
+    "return_of_god_of_war_more": "div:nth-of-type(9) span",
+}
+
+# MORE 页面通用定位器
+HOME_MORE_PAGE = {
+    "drama_items_container": ".gap-md",
+    "drama_item": ".gap-md > div",
+    "drama_item_image": ".gap-md > div img",
+    "back_button": "div.gap-sm > svg",
+}
+
+# 搜索页面元素定位器
+SEARCH_PAGE = {
+    # 打开搜索页面
+    "search_icon": "svg.text-xxl",
+    # 搜索输入框
+    "search_input": "input",
+    # 清空搜索按钮
+    "clear_button": "svg.color-\\#6C6E6F > path",
+    # 取消按钮（关闭搜索页面）
+    "cancel_button": "#app > div > div > div > div.justify-between > div.text-lg",
+    # Hot Search 标题
+    "hot_search_title": "text=Hot Search",
+    # 搜索结果-无结果提示
+    "no_results": "span.text-placeholder.text-lg",
+    # 清空搜索历史
+    "clear_search_history": "#app > div > div > div > div.flex-col > div:nth-of-type(1) svg"
+}

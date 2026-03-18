@@ -1,0 +1,235 @@
+2026-02-25 18:27:49,249 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 18:27:49,283 - utils.logger_utils - INFO - 端口 9223 未被占用
+2026-02-25 18:27:49,283 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 18:27:49,304 - utils.logger_utils - INFO - 端口 9223 未被占用
+2026-02-25 18:28:03,764 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-02-25 18:28:03,765 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-25 18:28:03,767 - utils.logger_utils - INFO - 初始化个人中心页面组件
+2026-02-25 18:28:04,979 - utils.logger_utils - INFO - 导航到个人中心页面: https://video.reelswave.net/profile
+2026-02-25 18:28:04,980 - utils.logger_utils - INFO - 等待个人中心页面加载完成...
+2026-02-25 18:28:05,087 - utils.logger_utils - WARNING - 方法未找到元素，返回 None
+2026-02-25 18:28:25,202 - utils.logger_utils - WARNING - 方法未找到元素，返回 None
+2026-02-25 18:28:25,203 - utils.logger_utils - ERROR - 等待元素超时: div.button-primary:contains('Top UP')
+2026-02-25 18:28:25,204 - utils.logger_utils - ERROR - 等待个人中心页面加载时出错: 个人中心页面加载超时或'Top UP'按钮未找到
+2026-02-25 18:28:25,265 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 18:28:25,347 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 53579, 名称: Python
+2026-02-25 18:30:32,676 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 18:30:32,715 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 53617, 名称: Google
+2026-02-25 18:30:32,715 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 53617
+2026-02-25 18:30:34,724 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 18:30:34,758 - utils.logger_utils - INFO - 端口 9223 未被占用
+2026-02-25 18:30:39,434 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-02-25 18:30:39,435 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-25 18:30:39,437 - utils.logger_utils - INFO - 初始化个人中心页面组件
+2026-02-25 18:30:40,812 - utils.logger_utils - INFO - 导航到个人中心页面: https://video.reelswave.net/profile
+2026-02-25 18:30:40,812 - utils.logger_utils - INFO - 等待个人中心页面加载完成...
+2026-02-25 18:30:40,924 - utils.logger_utils - WARNING - 方法未找到元素，返回 None
+2026-02-25 18:31:01,027 - utils.logger_utils - WARNING - 方法未找到元素，返回 None
+2026-02-25 18:31:01,028 - utils.logger_utils - ERROR - 等待元素超时: div.button-primary:contains('Top UP')
+2026-02-25 18:31:01,028 - utils.logger_utils - ERROR - 等待个人中心页面加载时出错: 个人中心页面加载超时或'Top UP'按钮未找到
+2026-02-25 18:31:01,117 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 18:31:01,193 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 53774, 名称: Python
+2026-02-25 18:35:48,652 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 18:35:48,693 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 53784, 名称: Google
+2026-02-25 18:35:48,693 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 53784
+2026-02-25 18:35:50,701 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 18:35:50,730 - utils.logger_utils - INFO - 端口 9223 未被占用
+2026-02-25 18:35:56,291 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-02-25 18:35:56,292 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-25 18:35:56,293 - utils.logger_utils - INFO - 初始化个人中心页面组件
+2026-02-25 18:35:57,221 - utils.logger_utils - INFO - 导航到个人中心页面: https://video.reelswave.net/profile
+2026-02-25 18:35:57,222 - utils.logger_utils - INFO - 等待个人中心页面加载完成...
+2026-02-25 18:35:57,222 - utils.logger_utils - ERROR - 等待个人中心页面加载时出错: 'top_up_button'
+2026-02-25 18:35:57,301 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 18:35:57,405 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 53945, 名称: Python
+2026-02-25 18:36:37,638 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 18:36:37,671 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 53958, 名称: Google
+2026-02-25 18:36:37,671 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 53958
+2026-02-25 18:36:39,679 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 18:36:39,704 - utils.logger_utils - INFO - 端口 9223 未被占用
+2026-02-25 18:36:44,699 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-02-25 18:36:44,700 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-25 18:36:44,701 - utils.logger_utils - INFO - 初始化个人中心页面组件
+2026-02-25 18:36:45,498 - utils.logger_utils - INFO - 导航到个人中心页面: https://video.reelswave.net/profile
+2026-02-25 18:36:45,498 - utils.logger_utils - INFO - 等待个人中心页面加载完成...
+2026-02-25 18:36:45,498 - utils.logger_utils - ERROR - 等待个人中心页面加载时出错: 'top_up_button'
+2026-02-25 18:36:45,580 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 18:36:45,629 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 54032, 名称: Python
+2026-02-25 18:38:47,268 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 18:38:47,315 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 54041, 名称: Google
+2026-02-25 18:38:47,315 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 54041
+2026-02-25 18:38:49,316 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 18:38:49,335 - utils.logger_utils - INFO - 端口 9223 未被占用
+2026-02-25 18:38:54,158 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-02-25 18:38:54,159 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-25 18:38:54,159 - utils.logger_utils - INFO - 初始化个人中心页面组件
+2026-02-25 18:38:54,983 - utils.logger_utils - INFO - 导航到个人中心页面: https://video.reelswave.net/profile
+2026-02-25 18:38:54,984 - utils.logger_utils - INFO - 等待个人中心页面加载完成...
+2026-02-25 18:38:55,089 - utils.logger_utils - WARNING - 方法未找到元素，返回 None
+2026-02-25 18:38:55,663 - utils.logger_utils - INFO - 成功等待元素出现: text=Top UP
+2026-02-25 18:38:55,663 - utils.logger_utils - INFO - 个人中心页面加载完成
+2026-02-25 18:38:55,663 - utils.logger_utils - INFO - 个人中心页面加载完成
+2026-02-25 18:38:55,664 - utils.logger_utils - INFO - 测试充值按钮
+2026-02-25 18:38:55,664 - utils.logger_utils - INFO - 获取充值按钮
+2026-02-25 18:38:55,880 - utils.logger_utils - INFO - 充值按钮存在
+2026-02-25 18:38:55,903 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 18:38:55,974 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 54118, 名称: Python
+2026-02-25 18:42:38,188 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 18:42:38,234 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 54129, 名称: Google
+2026-02-25 18:42:38,235 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 54129
+2026-02-25 18:42:40,242 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 18:42:40,272 - utils.logger_utils - INFO - 端口 9223 未被占用
+2026-02-25 18:42:46,417 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-02-25 18:42:46,418 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-25 18:42:46,420 - utils.logger_utils - INFO - 初始化个人中心页面组件
+2026-02-25 18:42:47,219 - utils.logger_utils - INFO - 导航到个人中心页面: https://video.reelswave.net/profile
+2026-02-25 18:42:47,220 - utils.logger_utils - INFO - 等待个人中心页面加载完成...
+2026-02-25 18:42:47,322 - utils.logger_utils - WARNING - 方法未找到元素，返回 None
+2026-02-25 18:42:48,000 - utils.logger_utils - INFO - 成功等待元素出现: text=Top UP
+2026-02-25 18:42:48,000 - utils.logger_utils - INFO - 个人中心页面加载完成
+2026-02-25 18:42:48,000 - utils.logger_utils - INFO - 个人中心页面加载完成
+2026-02-25 18:42:48,003 - utils.logger_utils - INFO - 测试充值按钮
+2026-02-25 18:42:48,003 - utils.logger_utils - INFO - 获取充值按钮
+2026-02-25 18:42:48,218 - utils.logger_utils - INFO - 充值按钮存在
+2026-02-25 18:42:53,251 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 18:42:53,332 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 54286, 名称: Python
+2026-02-25 18:53:28,595 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 18:53:28,631 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 54298, 名称: Google
+2026-02-25 18:53:28,631 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 54298
+2026-02-25 18:53:30,636 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 18:53:30,665 - utils.logger_utils - INFO - 端口 9223 未被占用
+2026-02-25 18:53:36,647 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-02-25 18:53:36,649 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-25 18:53:36,653 - utils.logger_utils - INFO - 初始化个人中心页面组件
+2026-02-25 18:53:37,494 - utils.logger_utils - INFO - 导航到个人中心页面: https://video.reelswave.net/profile
+2026-02-25 18:53:37,495 - utils.logger_utils - INFO - 等待个人中心页面加载完成...
+2026-02-25 18:53:37,599 - utils.logger_utils - WARNING - 方法未找到元素，返回 None
+2026-02-25 18:53:38,017 - utils.logger_utils - INFO - 成功等待元素出现: text=Top UP
+2026-02-25 18:53:38,017 - utils.logger_utils - INFO - 个人中心页面加载完成
+2026-02-25 18:53:38,017 - utils.logger_utils - INFO - 个人中心页面加载完成
+2026-02-25 18:53:38,019 - utils.logger_utils - INFO - 测试充值按钮
+2026-02-25 18:53:38,019 - utils.logger_utils - INFO - 获取充值按钮
+2026-02-25 18:53:38,237 - utils.logger_utils - INFO - 充值按钮存在
+2026-02-25 18:53:38,476 - utils.logger_utils - INFO - 成功点击充值按钮
+2026-02-25 18:53:43,560 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 18:53:43,619 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 54753, 名称: Python
+2026-02-25 19:01:10,397 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 19:01:10,441 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 54763, 名称: Google
+2026-02-25 19:01:10,441 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 54763
+2026-02-25 19:01:12,449 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 19:01:12,476 - utils.logger_utils - INFO - 端口 9223 未被占用
+2026-02-25 19:01:19,297 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-02-25 19:01:19,299 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-25 19:01:19,300 - utils.logger_utils - INFO - 初始化个人中心页面组件
+2026-02-25 19:01:20,334 - utils.logger_utils - INFO - 导航到个人中心页面: https://video.reelswave.net/profile
+2026-02-25 19:01:20,334 - utils.logger_utils - INFO - 等待个人中心页面加载完成...
+2026-02-25 19:01:20,435 - utils.logger_utils - WARNING - 方法未找到元素，返回 None
+2026-02-25 19:01:21,081 - utils.logger_utils - INFO - 成功等待元素出现: text=Top UP
+2026-02-25 19:01:21,081 - utils.logger_utils - INFO - 个人中心页面加载完成
+2026-02-25 19:01:21,082 - utils.logger_utils - INFO - 个人中心页面加载完成
+2026-02-25 19:01:21,083 - utils.logger_utils - INFO - 测试充值按钮
+2026-02-25 19:01:21,083 - utils.logger_utils - INFO - 获取充值按钮
+2026-02-25 19:01:21,303 - utils.logger_utils - INFO - 充值按钮存在
+2026-02-25 19:01:21,548 - utils.logger_utils - INFO - 成功点击充值按钮
+2026-02-25 19:01:26,552 - utils.logger_utils - INFO - 点击返回按钮
+2026-02-25 19:01:26,552 - utils.logger_utils - INFO - 获取返回按钮
+2026-02-25 19:01:26,659 - utils.logger_utils - WARNING - 方法未找到元素，返回 None
+2026-02-25 19:01:26,659 - utils.logger_utils - ERROR - 元素等待失败：Element not found for locator: div.h-50 > svg
+2026-02-25 19:01:26,732 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 19:01:26,782 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 54976, 名称: Python
+2026-02-25 19:06:57,049 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 19:06:57,095 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 54987, 名称: Google
+2026-02-25 19:06:57,095 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 54987
+2026-02-25 19:06:59,100 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 19:06:59,128 - utils.logger_utils - INFO - 端口 9223 未被占用
+2026-02-25 19:07:04,679 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-02-25 19:07:04,681 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-25 19:07:04,682 - utils.logger_utils - INFO - 初始化个人中心页面组件
+2026-02-25 19:07:05,647 - utils.logger_utils - INFO - 导航到个人中心页面: https://video.reelswave.net/profile
+2026-02-25 19:07:05,647 - utils.logger_utils - INFO - 等待个人中心页面加载完成...
+2026-02-25 19:07:05,760 - utils.logger_utils - WARNING - 方法未找到元素，返回 None
+2026-02-25 19:07:06,200 - utils.logger_utils - INFO - 成功等待元素出现: text=Top UP
+2026-02-25 19:07:06,200 - utils.logger_utils - INFO - 个人中心页面加载完成
+2026-02-25 19:07:06,200 - utils.logger_utils - INFO - 个人中心页面加载完成
+2026-02-25 19:07:06,205 - utils.logger_utils - INFO - 测试充值按钮
+2026-02-25 19:07:06,205 - utils.logger_utils - INFO - 获取充值按钮
+2026-02-25 19:07:06,415 - utils.logger_utils - INFO - 充值按钮存在
+2026-02-25 19:07:07,440 - utils.logger_utils - INFO - 成功点击充值按钮
+2026-02-25 19:07:12,445 - utils.logger_utils - INFO - 点击返回按钮
+2026-02-25 19:07:12,446 - utils.logger_utils - INFO - 获取返回按钮
+2026-02-25 19:07:12,555 - utils.logger_utils - WARNING - 方法未找到元素，返回 None
+2026-02-25 19:07:12,555 - utils.logger_utils - ERROR - 元素等待失败：Element not found for locator: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-02-25 19:07:12,635 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 19:07:12,707 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 55149, 名称: Python
+2026-02-25 19:08:12,026 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 19:08:12,060 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 55162, 名称: Google
+2026-02-25 19:08:12,060 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 55162
+2026-02-25 19:08:14,066 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 19:08:14,106 - utils.logger_utils - INFO - 端口 9223 未被占用
+2026-02-25 19:08:19,089 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-02-25 19:08:19,091 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-25 19:08:19,092 - utils.logger_utils - INFO - 初始化个人中心页面组件
+2026-02-25 19:08:19,987 - utils.logger_utils - INFO - 导航到个人中心页面: https://video.reelswave.net/profile
+2026-02-25 19:08:19,988 - utils.logger_utils - INFO - 等待个人中心页面加载完成...
+2026-02-25 19:08:20,095 - utils.logger_utils - WARNING - 方法未找到元素，返回 None
+2026-02-25 19:08:20,428 - utils.logger_utils - INFO - 成功等待元素出现: text=Top UP
+2026-02-25 19:08:20,428 - utils.logger_utils - INFO - 个人中心页面加载完成
+2026-02-25 19:08:20,428 - utils.logger_utils - INFO - 个人中心页面加载完成
+2026-02-25 19:08:20,431 - utils.logger_utils - INFO - 测试充值按钮
+2026-02-25 19:08:20,431 - utils.logger_utils - INFO - 获取充值按钮
+2026-02-25 19:08:20,728 - utils.logger_utils - INFO - 充值按钮存在
+2026-02-25 19:08:21,761 - utils.logger_utils - INFO - 成功点击充值按钮
+2026-02-25 19:08:26,764 - utils.logger_utils - INFO - 点击返回按钮
+2026-02-25 19:08:26,764 - utils.logger_utils - INFO - 获取返回按钮
+2026-02-25 19:08:26,868 - utils.logger_utils - WARNING - 方法未找到元素，返回 None
+2026-02-25 19:08:26,869 - utils.logger_utils - ERROR - 元素等待失败：Element not found for locator: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-02-25 19:08:26,942 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 19:08:26,991 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 55230, 名称: Python
+2026-02-25 19:18:25,950 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 19:18:25,992 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 55241, 名称: Google
+2026-02-25 19:18:25,993 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 55241
+2026-02-25 19:18:28,002 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 19:18:28,030 - utils.logger_utils - INFO - 端口 9223 未被占用
+2026-02-25 19:18:32,587 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-02-25 19:18:32,588 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-25 19:18:32,589 - utils.logger_utils - INFO - 初始化个人中心页面组件
+2026-02-25 19:18:33,545 - utils.logger_utils - INFO - 导航到个人中心页面: https://video.reelswave.net/profile
+2026-02-25 19:18:33,545 - utils.logger_utils - INFO - 等待个人中心页面加载完成...
+2026-02-25 19:18:33,654 - utils.logger_utils - WARNING - 方法未找到元素，返回 None
+2026-02-25 19:18:34,144 - utils.logger_utils - INFO - 成功等待元素出现: text=Top UP
+2026-02-25 19:18:34,145 - utils.logger_utils - INFO - 个人中心页面加载完成
+2026-02-25 19:18:34,145 - utils.logger_utils - INFO - 个人中心页面加载完成
+2026-02-25 19:18:34,147 - utils.logger_utils - INFO - 测试充值按钮
+2026-02-25 19:18:34,147 - utils.logger_utils - INFO - 获取充值按钮
+2026-02-25 19:18:34,364 - utils.logger_utils - INFO - 充值按钮存在
+2026-02-25 19:18:34,603 - utils.logger_utils - INFO - 成功点击充值按钮
+2026-02-25 19:18:39,606 - utils.logger_utils - INFO - 点击返回按钮
+2026-02-25 19:18:39,607 - utils.logger_utils - INFO - 获取返回按钮
+2026-02-25 19:18:39,713 - utils.logger_utils - WARNING - 方法未找到元素，返回 None
+2026-02-25 19:18:39,714 - utils.logger_utils - ERROR - 元素等待失败：Element not found for locator: .flex.items-center.justify-start.gap-sm >.icon-svg
+2026-02-25 19:18:39,788 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 19:18:39,861 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 55460, 名称: Python
+2026-02-25 19:20:43,102 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 19:20:43,140 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 55469, 名称: Google
+2026-02-25 19:20:43,140 - utils.logger_utils - INFO - 已发送SIGTERM信号给进程 PID 55469
+2026-02-25 19:20:45,148 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 19:20:45,174 - utils.logger_utils - INFO - 端口 9223 未被占用
+2026-02-25 19:20:50,509 - utils.logger_utils - INFO - 启动为移动端模拟模式
+2026-02-25 19:20:50,511 - utils.logger_utils - INFO - User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1
+2026-02-25 19:20:50,514 - utils.logger_utils - INFO - 初始化个人中心页面组件
+2026-02-25 19:20:51,368 - utils.logger_utils - INFO - 导航到个人中心页面: https://video.reelswave.net/profile
+2026-02-25 19:20:51,368 - utils.logger_utils - INFO - 等待个人中心页面加载完成...
+2026-02-25 19:20:51,480 - utils.logger_utils - WARNING - 方法未找到元素，返回 None
+2026-02-25 19:20:52,017 - utils.logger_utils - INFO - 成功等待元素出现: text=Top UP
+2026-02-25 19:20:52,017 - utils.logger_utils - INFO - 个人中心页面加载完成
+2026-02-25 19:20:52,017 - utils.logger_utils - INFO - 个人中心页面加载完成
+2026-02-25 19:20:52,018 - utils.logger_utils - INFO - 测试充值按钮
+2026-02-25 19:20:52,018 - utils.logger_utils - INFO - 获取充值按钮
+2026-02-25 19:20:52,235 - utils.logger_utils - INFO - 充值按钮存在
+2026-02-25 19:20:53,276 - utils.logger_utils - INFO - 成功点击充值按钮
+2026-02-25 19:20:58,281 - utils.logger_utils - INFO - 点击返回按钮
+2026-02-25 19:20:58,282 - utils.logger_utils - INFO - 获取返回按钮
+2026-02-25 19:20:58,738 - utils.logger_utils - INFO - 成功点击返回按钮
+2026-02-25 19:20:58,738 - utils.logger_utils - INFO - 返回上一页
+2026-02-25 19:21:00,774 - utils.logger_utils - INFO - 检查并清理端口 9223...
+2026-02-25 19:21:00,828 - utils.logger_utils - INFO - 发现占用端口 9223 的进程: PID 55544, 名称: Python

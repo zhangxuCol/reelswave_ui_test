@@ -1,0 +1,125 @@
+{
+    "title": "2026/3/4 10:08:48 录制的内容",
+    "steps": [
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "svg.text-xxl"
+                ]
+            ],
+            "offsetY": 16.2734375,
+            "offsetX": 14.015625
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "input"
+                ]
+            ],
+            "offsetY": 15.109375,
+            "offsetX": 126.28125
+        },
+        {
+            "type": "change",
+            "value": "THE",
+            "selectors": [
+                [
+                    "input"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "svg.color-\\#6C6E6F > path"
+                ]
+            ],
+            "offsetY": 14.84375,
+            "offsetX": 10.40625
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#app > div > div > div > div.justify-between > div.text-lg"
+                ]
+            ],
+            "offsetY": 16.328125,
+            "offsetX": 32.8828125
+        },
+        {
+            "type": "navigate",
+            "url": "https://video.reelswave.net/?chapterId=317004975338708992&chapterIndex=1&free=1&pay=0",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://video.reelswave.net/?chapterId=317004975338708992&chapterIndex=1&free=1&pay=0",
+                    "title": "Home - Short Drama Selection"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "svg.text-xxl"
+                ]
+            ],
+            "offsetY": 10.2734375,
+            "offsetX": 11.015625
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#app > div > div > div > div.flex-col > div:nth-of-type(1) svg"
+                ]
+            ],
+            "offsetY": 12.40625,
+            "offsetX": 16.140625
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div > div > div > div.flex-col > div > div.flex-col > div:nth-of-type(1) div.color-placeholder"
+                ]
+            ],
+            "offsetY": 6.4609375,
+            "offsetX": 222.1484375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#playerPage > div.flex > svg"
+                ]
+            ],
+            "offsetY": 19.0390625,
+            "offsetX": 17.03125
+        },
+        {
+            "type": "navigate",
+            "url": "https://video.reelswave.net/search",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://video.reelswave.net/search",
+                    "title": "Search - Short Drama Selection"
+                }
+            ]
+        }
+    ]
+}

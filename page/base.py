@@ -110,3 +110,77 @@ def navigate_to_url(page, url):
     except Exception as e:
         logger.error(f"导航到URL {url} 时出错: {e}")
         return False
+
+
+class BaseTest:
+    """基础测试类，提供通用的测试方法和属性"""
+
+    def __init__(self, page=None):
+        """
+        初始化基础测试类
+        :param page: 可选，传入已打开的页面对象
+        """
+        self.logger = LoggerUtils.get_default_logger()
+        self.page = self._init_page(page)
+
+    def _init_page(self, page=None):
+        """
+        基础方法：如果没有传入页面对象，则打开新页面
+        :param page: 可选，传入已打开的页面对象
+        :return: 页面对象
+        """
+        # 如果没有传入页面对象，则打开新页面
+        if page is None:
+            page = open_mobile_browser()
+
+        return page
+
+    def _wait_for_condition(self, condition_func, timeout=10, interval=0.5, error_msg="等待条件超时"):
+        """
+        等待条件满足
+        :param condition_func: 条件函数，返回 True 表示条件满足
+        :param timeout: 超时时间（秒）
+        :param interval: 检查间隔（秒）
+        :param error_msg: 超时错误信息
+        :return: 是否成功等待
+        """
+        import time
+        start_time = time.time()
+        while time.time() - start_time < timeout:
+            if condition_func():
+                return True
+            time.sleep(interval)
+        self.logger.error(error_msg)
+        return False
+
+    def _wait_for_element_visible(self, element, timeout=10, error_msg=None):
+        """
+        等待元素可见
+        :param element: 元素对象
+        :param timeout: 超时时间（秒）
+        :param error_msg: 超时错误信息
+        :return: 是否成功等待
+        """
+        if error_msg is None:
+            error_msg = f"等待元素可见超时: {element}"
+        return self._wait_for_condition(
+            lambda: element.states.is_displayed if hasattr(element.states, 'is_displayed') else True,
+            timeout=timeout,
+            error_msg=error_msg
+        )
+
+    def _wait_for_element_hidden(self, element, timeout=10, error_msg=None):
+        """
+        等待元素隐藏
+        :param element: 元素对象
+        :param timeout: 超时时间（秒）
+        :param error_msg: 超时错误信息
+        :return: 是否成功等待
+        """
+        if error_msg is None:
+            error_msg = f"等待元素隐藏超时: {element}"
+        return self._wait_for_condition(
+            lambda: not (element.states.is_displayed if hasattr(element.states, 'is_displayed') else False),
+            timeout=timeout,
+            error_msg=error_msg
+        )

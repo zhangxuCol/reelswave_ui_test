@@ -1,0 +1,64 @@
+{
+    "title": "2026/3/3 13:40:11 录制的内容",
+    "steps": [
+        {
+            "type": "navigate",
+            "url": "https://video.reelswave.net/?chapterId=317004975338708992&chapterIndex=1&free=1&pay=0",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://video.reelswave.net/?chapterId=317004975338708992&chapterIndex=1&free=1&pay=0",
+                    "title": "Home - Short Drama Selection"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(4) div.gap-md > div:nth-of-type(1) img"
+                ]
+            ],
+            "offsetY": 56.375,
+            "offsetX": 58.328125,
+            "deviceType": "touch"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(4) div.gap-md > div:nth-of-type(2) img"
+                ]
+            ],
+            "offsetY": 66.375,
+            "offsetX": 56.15625,
+            "deviceType": "touch"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(4) div:nth-of-type(3) img"
+                ]
+            ],
+            "offsetY": 72.375,
+            "offsetX": 63.9765625,
+            "deviceType": "touch"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(4) span"
+                ]
+            ],
+            "offsetY": 6.3125,
+            "offsetX": 14.6171875,
+            "deviceType": "touch"
+        }
+    ]
+}

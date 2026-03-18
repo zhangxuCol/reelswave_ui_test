@@ -19,8 +19,19 @@ class LoggerUtils:
         if name is None:
             # 获取调用者的模块名
             import inspect
-            frame = inspect.currentframe().f_back
-            name = frame.f_globals.get('__name__', 'default')
+            # 遍历调用栈，找到第一个不是 logger_utils 的模块
+            frame = inspect.currentframe()
+            while frame:
+                frame = frame.f_back
+                if frame is None:
+                    break
+                module_name = frame.f_globals.get('__name__', '')
+                # 跳过 logger_utils 模块本身
+                if module_name and not module_name.startswith('utils.logger_utils'):
+                    name = module_name
+                    break
+            if name is None:
+                name = 'default'
 
         # 如果已存在相同名称的日志记录器，直接返回
         if name in cls._loggers:
@@ -33,7 +44,7 @@ class LoggerUtils:
         # 避免重复添加处理器
         if not logger.handlers:
             # 创建格式化器
-            formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+            formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s')
 
             # 添加控制台处理器
             console_handler = logging.StreamHandler()
