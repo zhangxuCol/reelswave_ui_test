@@ -47,16 +47,22 @@ class IconComponent:
 
     @element_wait_decorator(wait_type="clickable", timeout=25, raise_err=True)
     def play_pause(self):
-        """定位当前激活slide的播放器（修复wait语法+精准定位）"""
+        """定位播放器（支持两种场景：首页轮播图和播放器页面）"""
         try:
-            # 旧版本修复：用 page.ele() 直接带超时，替代 page.wait.ele()
-            # 精准定位：当前激活的slide → 里面的prism-player → 最终的video标签（播放/暂停核心元素）
+            # 方案1：尝试在当前激活的slide中查找播放器（首页轮播图场景）
             active_slide = self.page_actions.find_element(self.locators["active_slide"], "css")
-            if not active_slide:
-                raise DrissionPage.errors.ElementNotFoundError("无法定位当前激活的slide")
+            if active_slide:
+                self.logger.debug("找到激活的slide，尝试在其中查找播放器")
+                player_container = active_slide.ele(f'css:{self.locators["player_container"]}', timeout=5)
+                if player_container:
+                    video_player = player_container.ele(self.locators["video_element"], timeout=5)
+                    if video_player:
+                        self.logger.info("成功定位当前激活slide的播放器")
+                        return video_player
 
-            # 先找播放器容器，再找视频核心元素（优先定位video标签，点击更精准）
-            player_container = active_slide.ele(f'css:{self.locators["player_container"]}', timeout=5)
+            # 方案2：如果方案1失败，直接在页面中查找播放器（播放器页面场景）
+            self.logger.debug("未在激活slide中找到播放器，尝试在整个页面中查找")
+            player_container = self.page_actions.find_element(self.locators["player_container"], "css")
             if not player_container:
                 raise DrissionPage.errors.ElementNotFoundError("无法定位播放器容器")
 
@@ -64,8 +70,8 @@ class IconComponent:
             if not video_player:
                 raise DrissionPage.errors.ElementNotFoundError("无法定位视频元素")
 
-            self.logger.info("成功定位当前激活slide的播放器")
-            return video_player  # 返回video标签，点击即可播放/暂停
+            self.logger.info("成功定位播放器页面的播放器")
+            return video_player
 
         except Exception as e:
             # 处理定位播放器失败的情况

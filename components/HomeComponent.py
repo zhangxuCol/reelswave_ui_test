@@ -13,7 +13,8 @@ class HomeComponent:
         slides = self.page_actions.find_elements('.swiper-slide', selector_type='css')
         result = []
         for slide in slides:
-            title_ele = self.page_actions.find_element('.text-lg', selector_type='css')
+            # 在当前轮播图元素内查找标题
+            title_ele = slide.ele('css:.text-lg', timeout=0.1)
             title = title_ele.text if title_ele else None
             result.append({'title': title, 'element': slide})
         return result
@@ -35,8 +36,8 @@ class HomeComponent:
                 # 等待轮播图滚动到可见位置
                 self.page.wait(1)
 
-                # 再次确认轮播图标题是否正确
-                title_ele = self.page_actions.find_element('.text-lg', selector_type='css')
+                # 再次确认轮播图标题是否正确（在目标轮播图元素内查找）
+                title_ele = slide['element'].ele('css:.text-lg', timeout=0.1)
                 current_title = title_ele.text if title_ele else None
                 self.logger.info(f"滚动后轮播图标题: {current_title}")
 
@@ -52,8 +53,8 @@ class HomeComponent:
                 # 等待轮播图完全停下
                 self.page.wait(2)
 
-                # 尝试点击轮播图内部的标题元素
-                title_ele = self.page_actions.find_element('.text-lg', selector_type='css')
+                # 尝试点击轮播图内部的标题元素（在目标轮播图元素内查找）
+                title_ele = slide['element'].ele('css:.text-lg', timeout=0.1)
                 if title_ele:
                     title_ele.click()
                     self.logger.info(f"成功点击轮播图标题: {title}")
@@ -73,9 +74,24 @@ class HomeComponent:
 
     def wait_for_slide_to_load(self, index=0):
         """等待指定索引的轮播图加载（防止异步问题）"""
-        self.page.wait(1)
-        # 滚动到指定索引的轮播图
-        element = self.page_actions.find_element(f'div[@data-swiper-slide-index="{index}"]', selector_type='xpath')
-        if element:
-            self.page.scroll.to_see(element)
-        self.page.wait(1)
+        self.logger.debug(f"等待轮播图加载，目标索引: {index}")
+
+        # 等待轮播图容器出现
+        max_retries = 10
+        retry_count = 0
+
+        while retry_count < max_retries:
+            # 使用 CSS 选择器查找轮播图元素
+            slides = self.page_actions.find_elements('.swiper-slide', selector_type='css')
+
+            if slides and len(slides) > index:
+                self.logger.debug(f"找到 {len(slides)} 个轮播图，滚动到第 {index} 个")
+                self.page.scroll.to_see(slides[index])
+                self.page.wait(1)
+                return
+
+            self.logger.debug(f"第 {retry_count + 1} 次尝试：未找到足够的轮播图，当前找到 {len(slides) if slides else 0} 个")
+            self.page.wait(1)
+            retry_count += 1
+
+        self.logger.warning(f"等待轮播图加载超时，当前找到 {len(slides) if slides else 0} 个")
