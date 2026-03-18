@@ -1,31 +1,25 @@
-# 忽略上级目录的系统文件
-../.DS_Store
-        ../.gitignore
-        ../InterfaceAutoTest/
-        ../InterfaceTest/
-        ../NFT/
-        ../NFT_zsw/
-        ../djangoprojects/
-        ../exit
-        ../flask_study/
-        ../pyprojects/
-        ../qichacha/
-        ../re_17K/
-        ../readerAppium/
-        README.md
-        PROFILE_TRAVERSAL_GUIDE.md
-        components/
-        config/
-        html_files/
-        logs/
-        page/
-        recordjson/
-        retest/
-        utils/
-        ../restart/
-        ../study/
-        ../study_django/
-        ../yexiang.zip
-        ../yexiang/
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
 
-../*
+# 测试和日志文件
+html_files/
+logs/
+reports/
+screenshots/
+
+# IDE 和编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 其他临时文件
+recordjson/
+retest/
